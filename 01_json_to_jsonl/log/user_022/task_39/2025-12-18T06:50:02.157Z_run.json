@@ -1,0 +1,10 @@
+{
+  "timestamp": "2025-12-18T06:50:02.157Z",
+  "username": "user22",
+  "userId": "user_022",
+  "taskNumber": "39",
+  "event": "run",
+  "code": "#include <stdio.h>\nint yakusum1(int a);\n\nint main(void) {\n    /*入力:1つの整数x, 出力:入力値の約数の総和*/\n    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/\n    /*繰り返し文で、iが1~xまでの間、10%i==0のとき、10/iをカウント*/\n    \n    int x;\n    scanf(\"%d\",&x);\n    \n    int yakusum1(int x);\n    printf(\"%dの約数の総和は%d\",x,count);\n    \n    return 0;\n}\n\nint yakusum1(int a){\n    int count = 0;\n    for(int i=1;i<=a;i++){\n        if(10%i == 0){\n            int wari = 10/i;\n            count = count + wari;\n        }\n    }\n    return count;\n}",
+  "stdout": "",
+  "stderr": "file0.code.c: In function 'main':\nfile0.code.c:13:42: error: 'count' undeclared (first use in this function)\n   13 |     printf(\"%dの約数の総和は%d\",x,count);\n      |                                   ^~~~~\nfile0.code.c:13:42: note: each undeclared identifier is reported only once for each function it appears in\nchmod: cannot access 'a.out': No such file or directory\n"
+}

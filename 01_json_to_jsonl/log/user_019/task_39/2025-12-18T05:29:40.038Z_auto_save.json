@@ -1,0 +1,1 @@
+{"timestamp":"2025-12-18T05:29:40.038Z","username":"user19","userId":"user_019","taskNumber":"39","event":"auto_save","code":"#include <stdio.h>\n//yakusam1をつかう宣言\n\nint main(void) {\n    /*入力:1つの整数値, 出力:約数の総和(整数)*/\n    //1つの整数値を入力\n    //入力値の約数を考える\n    //1、2、3・・・一つずつ\n    \n    \n    return 0;\n}"}

@@ -1,0 +1,10 @@
+{
+  "timestamp": "2025-12-18T04:36:24.288Z",
+  "username": "user11",
+  "userId": "user_011",
+  "taskNumber": "75",
+  "event": "run",
+  "code": "#include <stdio.h>\n\nint pascal(int n){\n    int i,j;\n    int pas[10][11];\n    for (i==0;i<n;i++) { //縦\n        for (j==0;j<=i+1;j++) { //横\n            //列数j=0,または列数j=i+1のとき\n            if (j==0||j==i+1) {\n                pas[i][j]=1; //配列に数字を格納\n                printf(\"%3d\",pas[i][j]); //格納した値を表示\n                if (j==i+1) {\n                    printf(\"\\n\"); //改行\n                }\n            }\n            //その他のとき\n            else {\n                pas[i][j]=pas[i-1][j-1]+pas[i-1][j]; //配列に数字を格納\n                printf(\"%3d\\,pas[i][j]); //格納した値を表示\n            }\n        }\n    }\n}\n\nint main(void) {\n    /*入力:整数(三角形の高さ), 出力:パスカルの三角形(関数pascalを呼び出して表示)*/\n    int n;\n    scanf(\"%d\",&n);\n    pascal(n);\n    return 0;\n}",
+  "stdout": "",
+  "stderr": "file0.code.c: In function 'pascal':\nfile0.code.c:19:24: warning: missing terminating \" character\n   19 |                 printf(\"%3d\\,pas[i][j]); //格納した値を表示\n      |                        ^\nfile0.code.c:19:24: error: missing terminating \" character\n   19 |                 printf(\"%3d\\,pas[i][j]); //格納した値を表示\n      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nfile0.code.c:20:13: error: expected expression before '}' token\n   20 |             }\n      |             ^\nfile0.code.c:19:24: error: expected ';' before '}' token\n   19 |                 printf(\"%3d\\,pas[i][j]); //格納した値を表示\n      |                        ^\n      |                        ;\n   20 |             }\n      |             ~           \nchmod: cannot access 'a.out': No such file or directory\n"
+}

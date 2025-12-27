@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-11-18T07:15:01.158Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:, 出力:その行数までのパスカルの三角形*/\n    \n}\n\n\n",
+  "estimated_stage": "課題の理解",
+  "next_stage": "処理の大枠決定",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "#include 指令（stdio.h のインクルード）",
+      "status": "done"
+    },
+    {
+      "level": 1,
+      "text": "main 関数の雛形",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "コメント：入力:, 出力:その行数までのパスカルの三角形（課題要件の明記）",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "入力の読み取り（整数 n を取得）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "パスカルの三角形を作成する処理（pascal 関数や 2次元配列と繰り返し）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "出力（各値を %3d で整形して印字、最後に改行、余計な空白なし）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まず課題の条件をもう一度確認して下さい：入力は1〜10、関数名は pascal、2次元配列と繰り返しを使うこと、印字は%3dで右揃え。 "
+    },
+    {
+      "level": 2,
+      "text": "次に全体の流れをコメントで書き出しましょう：入力取得 → pascal関数で配列を作る → 配列を整形して出力、というように3〜4ステップで。 "
+    },
+    {
+      "level": 3,
+      "text": "各ステップを細かくコメント化してください：配列のサイズ決め、端の要素は1、内部は上の二つの和、印字ループで %3d を使う、と書いてからコード化を始めましょう。"
+    }
+  ]
+}

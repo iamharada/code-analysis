@@ -1,0 +1,10 @@
+{
+  "timestamp": "2025-12-18T05:06:57.080Z",
+  "username": "user13",
+  "userId": "user_013",
+  "taskNumber": "49",
+  "event": "run",
+  "code": "#include <stdio.h>\nvoid tri3(int n,int m); //tri関数\nvoid line3(int n,int m); //line関数\n\nint main(void) {\n    /*入力:1つの整数値を入力, 出力:二等辺三角形をアスタリスクで作るのとcountを出力*/\n    //入力をする\n    int a;\n    scanf(\"%d\",&a);\n    //整数n,m,countを定義する\n    int n;\n    int m;\n    //tri関数を再帰する\n    tri3(1,a);\n    //countの結果を出力する\n    printf(\"COUNT=%d\\n\",s);\n    return 0;\n}\n\nvoid tri3(int n,int m){\n    if(n<=m){\n        line3(1,n);\n        tri3(n+1,m);\n    }\n}\n\nvoid line3(int n,int m){\n    int s;\n    if(n<=m){\n        printf(\"*\");\n        s++;\n        line3(n+1,m);\n    }\n    printf(\"\\n\");\n}    ",
+  "stdout": "",
+  "stderr": "file0.code.c: In function 'main':\nfile0.code.c:16:25: error: 's' undeclared (first use in this function)\n   16 |     printf(\"COUNT=%d\\n\",s);\n      |                         ^\nfile0.code.c:16:25: note: each undeclared identifier is reported only once for each function it appears in\nchmod: cannot access 'a.out': No such file or directory\n"
+}

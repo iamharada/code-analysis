@@ -1,0 +1,60 @@
+{
+  "timestamp": "2025-11-02T01:02:48.556Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "64",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\nint main(void) {\n    /*入力:1つの整数, 出力:入力値の約数の総和*/\n    // 1. 入力を受けとる\n    int n;\n    scanf(\"%d\", &n);\n    // 2. 総和を0にする\n    \n    // 3. 1から入力値まで繰り返す\n        // 3-1. 割り切れるか調べる\n        // 3-2. 割り切れたら合計にたす\n    // 4. 合計を表示する\n\n}\n\n",
+  "estimated_stage": "処理の大枠決定",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main 関数の全体流れ（入力→計算→出力）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "1. 入力を受け取る（scanfで整数を読み取る）",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "2. 総和を0に初期化する",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "3. 1から入力値まで for で繰り返す",
+      "status": "todo"
+    },
+    {
+      "level": 3,
+      "text": "3-1. 各値が割り切れるか調べる",
+      "status": "todo"
+    },
+    {
+      "level": 3,
+      "text": "3-2. 割り切れたら合計に足す",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "4. 合計を表示して改行する",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題の要件をもう一度確認しましょう。\n出力は余計な文字や空白がないように、最後は改行で終える点を忘れずに。"
+    },
+    {
+      "level": 2,
+      "text": "コメントの各ステップをもう少し具体化しましょう。\n例えば「合計用の変数を0で初期化する」「何を繰り返すか」を明確に書いてください。"
+    },
+    {
+      "level": 3,
+      "text": "コメントに沿ってコード化を始めてください。\nforで1からnまで回し、余りが0かを調べて合計に足し、最後に合計を表示して改行する処理を書きましょう。"
+    }
+  ]
+}

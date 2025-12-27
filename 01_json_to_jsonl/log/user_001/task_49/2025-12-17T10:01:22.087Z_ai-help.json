@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-12-17T10:01:22.087Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, \n    出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n    // 1. 入力を受け取る\n    // 2. tri3を呼ぶ\n    return 0;\n}\n\n// tri3関数を作成する\n\n// line関数を作成する",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数: 整数を入力し、再帰関数tri3を呼ぶ（出力最後にCOUNTを表示）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "tri3関数: n行分の出力を再帰で制御する（各行はline3を使う）",
+      "status": "todo"
+    },
+    {
+      "level": 3,
+      "text": "line3関数: 1行分の'*'を出力し、出力ごとにカウンタを増やす処理を行う",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "今あるコメントのうち『tri3を呼ぶ』『COUNTを出す』が具体化対象だと気づいてください。"
+    },
+    {
+      "level": 2,
+      "text": "tri3は何を引数に取り、どの順で再帰を進めるかを決めてください。line3は1行をどう出力してカウントを増やすかを考えてください。"
+    },
+    {
+      "level": 3,
+      "text": "関数の形を決める例: void tri3(int n, int *cnt) と void line3(int n, int *cnt)。tri3は if(n==0) return; else { line3(n,cnt); tri3(n-1,cnt); }、line3はforで'*'をn回出力して毎回 (*cnt)++; 最後に改行とCOUNT出力をmainで行ってください。"
+    }
+  ]
+}

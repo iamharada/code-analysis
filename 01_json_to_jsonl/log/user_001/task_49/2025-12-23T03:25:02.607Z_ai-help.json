@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-12-23T03:25:02.607Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, \n    出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n    // 1. 入力を受け取る\n    // 2. tri3を呼ぶ\n    return 0;\n}\n\n// tri3関数を作成する\n//     1行目からn行目まで順に出力する\n//     行数はforみたいに1ずつ増やす\n//     各行でlineを呼ぶ\n\n// line関数を作成する\n//     *をn個出力する\n//     for文でn回*を出す\n",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：入力を受け取り、tri3を呼び、最後にCOUNTを出力する流れをコメントで書いている",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "tri3関数：1行目からn行目まで順に出力する（各行でlineを呼ぶ）という設計コメントがある",
+      "status": "in_progress"
+    },
+    {
+      "level": 3,
+      "text": "line関数：各行で'*'をn個出力する（for文で出すと書かれている）という設計コメントがある",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まず今のコメントを見直して、再帰で出すこととCOUNTの扱いが書かれているか確認しよう。"
+    },
+    {
+      "level": 2,
+      "text": "tri3は行を増やす処理、lineはその行の'*'を出す処理に分け、どこでカウントを増やすかを考えてみて。"
+    },
+    {
+      "level": 3,
+      "text": "関数の引数に現在の行や'*'の個数とCOUNTへの参照を渡す設計にして、tri3は行を進める再帰、lineは'*'を出す再帰で出力とcount++を行うよう詳細化しよう。"
+    }
+  ]
+}

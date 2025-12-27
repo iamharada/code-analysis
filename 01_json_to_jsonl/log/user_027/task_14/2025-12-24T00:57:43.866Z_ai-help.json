@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-12-24T00:57:43.866Z",
+  "username": "user27",
+  "userId": "user_027",
+  "taskNumber": "14",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:３つ実数, 出力:三角形の形状*/\n    \n    int a,b,c;\n    scanf(\"%f%f%f\",&a,&b,&c)//３つの実数入力\n    \n    if(a<b+c){//三角形が成立する\n        //三角形の形状判定\n        if(a*a==b*b+c*c){\n            printf(\"直角三角形\");//直角三角形\n        }else if(a*a<b*b+c*c){\n            printf(\"鋭角三角形\");//鋭角三角形\n        }else if(a*a>b*b+c*c){\n            printf(\"鈍角三角形\");//鈍角三角形\n        }\n    \n    }else{//三角形が成立しない\n        printf(\"error\");//error\n        }\n\n    return 0;\n}",
+  "estimated_stage": "コード化",
+  "next_stage": "コードの整合性確認",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：プログラム全体の開始と流れ（入力→判定→出力）",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "変数宣言と3つの実数の入力（scanfで読み取る）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "三角形成立判定（最大辺 < 他の2辺の和）",
+      "status": "in_progress"
+    },
+    {
+      "level": 3,
+      "text": "角の種類判定（最大辺^2 と他2辺の^2の比較で直角/鋭角/鈍角を判定）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "三角形が成立しない場合の出力（Error）",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まず全体を見直して、入力→判定→出力の流れが正しくあるか確認してください。"
+    },
+    {
+      "level": 2,
+      "text": "型と入出力書式、書き忘れのセミコロン、出力の大文字・改行など細かい点をチェックしましょう。"
+    },
+    {
+      "level": 3,
+      "text": "double型にし、scanfは\"%lf %lf %lf\"を使いセミコロンを付ける。比較は浮動小数点誤差へ配慮してfabsで差の絶対値を小さなepsと比較し、出力は指定通り\"Error\"や\"直角三角形\"など正確にする。"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "timestamp": "2025-12-16T04:20:25.853Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数のみの雛形がある（実際の処理は未実装）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "コメント /*入力:○○, 出力:△△*/ が残っている（入力・出力の具体化が未完）",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題の要件をもう一度確認しよう：1つの整数を読み取り、パスカルの三角形を出力すること。"
+    },
+    {
+      "level": 2,
+      "text": "入力と出力を具体例で考えてみよう：例えば入力4なら上から4行のパスカルの三角形を出す。"
+    },
+    {
+      "level": 3,
+      "text": "入力は1つの整数n(1〜10)、出力は1行目からn行目までを各要素を\"%3d\"で幅3右揃えで印字し最後に改行だけにすること。"
+    }
+  ]
+}

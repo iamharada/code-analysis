@@ -1,0 +1,36 @@
+{
+  "timestamp": "2025-12-09T08:11:06.145Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n    //入力をパスカルの三角形の段数として受け付ける。\n    //入力値（段数）をpascal関数に渡す。\n    return 0;\n}\n//入力された段数分のパスカルの三角形を出力するpascal関数を作る\n",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数で入力を受け取り、pascal関数に渡す（コメントはあるが実装なし）",
+      "status": "in_progress"
+    },
+    {
+      "level": 1,
+      "text": "pascal関数で二次元配列と繰り返しを使いパスカルの三角形を作り印字する（未作成）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "どのコメントを詳細化するか決めよう：入力、配列準備、計算、出力の4つに分けると整理しやすい。"
+    },
+    {
+      "level": 2,
+      "text": "各部分で使う変数とループを考えよう：配列のサイズ、外側ループ（行）、内側ループ（列）、出力整形の役割を明確にする。"
+    },
+    {
+      "level": 3,
+      "text": "配列をn×nとして宣言し、a[i][0]=a[i][i]=1、内側はa[i][j]=a[i-1][j-1]+a[i-1][j]で計算、出力はprintf(\"%3d\", ...)で行末に改行する実装にする。"
+    }
+  ]
+}

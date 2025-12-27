@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-12-18T06:59:22.077Z",
+  "username": "user25",
+  "userId": "user_025",
+  "taskNumber": "32",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    int a,b,c;\n    scanf(\"%d%d%d\",&a,&b,&c);\n    switch(num){\n        case 0:\n            printf(\"Error\");\n            break;\n        case 1:\n            printf(\"直角三角形\");\n            break;\n        case 2:\n            printf(\"鋭角三角性\");\n            break;\n        case 3:\n            printf(\"鈍角三角形\");\n            break;\n    }\n    /*入力:3つの実数, 出力:三角形の形状*/\n    //三角形の存在有無検証\n    //形状判定し、戻り値を割り当てる\n    \n\n    return 0;\n}",
+  "estimated_stage": "コード化",
+  "next_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：プログラムの流れを管理する",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力を読み取る（3つの実数）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "三角形の成立検証（コメントのみ）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "形状判定を行い戻り値を決める（コメントのみ）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "戻り値に応じて出力する(switch文)（実装途中）",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まずコメントに書いた順（入力→成立検証→形状判定→出力）で一つずつ実装しましょう。"
+    },
+    {
+      "level": 2,
+      "text": "数値は実数なので double を使い、scanf は %lf を使うことを意識してください。最初の入力が最大値と仮定して処理を組みます。"
+    },
+    {
+      "level": 3,
+      "text": "int checktri(double a,double b,double c) を作り、成立条件は a < b + c、角判定は a*a と b*b + c*c を比較（等しいなら1、小さいなら2、大きいなら3）して戻り値を返し、mainでその戻り値を switch して表示、最後に改行を出してください。"
+    }
+  ]
+}

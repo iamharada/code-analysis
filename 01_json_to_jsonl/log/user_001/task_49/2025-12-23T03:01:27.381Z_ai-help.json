@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-12-23T03:01:27.381Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数,\n    出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n    // 1. 入力を受け取る\n    // 2. tri3を呼ぶ\n    return 0;\n}\n\n// tri3関数を作成する\n// tri3(n):\n//   まずline(n)でn個の*を出す\n//   次にtri3(n-1)で残りを出す\n//   COUNTは line の戻り値を足していく\n\n// line関数を作成する\n// line(n):\n//   *を1個出してline(n-1)を呼ぶ\n//   最後に改行する",
+  "estimated_stage": "処理の詳細化",
+  "next_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main: 整数を読み取り、三角形出力用の再帰関数を呼び、合計を表示する",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "tri3(n): 各行について line(n) を呼び、tri3(n-1) で残りを出力し、line の戻り値を足して合計を得る",
+      "status": "todo"
+    },
+    {
+      "level": 3,
+      "text": "line(n): 再帰で '*' を n 回出力し、行末で改行して出力した '*' の個数を返す",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "今あるコメントのうち、どれがそのまま実装しやすいか確認してみてください。"
+    },
+    {
+      "level": 2,
+      "text": "関数の戻り値と引数を決めることを考えてください（例: line は出力した '*' の数を返す）。"
+    },
+    {
+      "level": 3,
+      "text": "line は int を返し n==0 を終端にして再帰で '*' を出力、tri3 は line の戻り値を足しつつ tri3(n-1) を呼び、main は scanf で n を読み tri3 を呼んで COUNT= を printf するよう実装してください。"
+    }
+  ]
+}

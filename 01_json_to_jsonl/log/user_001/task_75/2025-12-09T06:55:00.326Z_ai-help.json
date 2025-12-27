@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-12-09T06:55:00.326Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n// 詳細化したい。\nvoid pascal(int n); \n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n    //入力をパスカルの三角形の段数として受け付ける。\n    //入力値（段数）をpascal関数に渡す。\n    return 0;\n}\n//入力された段数分のパスカルの三角形を出力するpascal関数を作る",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数: プログラム開始、入力を受け取りpascal関数を呼ぶ役割",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main内の処理: 整数を読み取りpascal(n)を呼び出す",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "pascal関数: パスカルの三角形を二次元配列で作成して出力する処理（宣言のみ、未実装）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "pascal内の詳細: 二次元配列を用意し各要素を計算、%3dで整形して出力する",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まず優先する箇所を決めよう: mainの入力処理とpascalの内部処理の2つを明確に分けて考えると良い。"
+    },
+    {
+      "level": 2,
+      "text": "どの手順を細かくするか考えよう: mainはscanfでnを読みpascal(n)を呼ぶ。pascalは配列を用意し行ごとに値を計算していくイメージで。"
+    },
+    {
+      "level": 3,
+      "text": "具体的にはpascalで int a[10][10]; を用意し a[0][0]=1; 各行iで a[i][0]=a[i][i]=1, 1<=j<i なら a[i][j]=a[i-1][j-1]+a[i-1][j]; 出力は各要素を printf のフォーマット \"%3d\" で順に出し、各行の後に改行する。"
+    }
+  ]
+}

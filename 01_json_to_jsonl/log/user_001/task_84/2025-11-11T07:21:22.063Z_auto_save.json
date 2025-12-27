@@ -1,0 +1,1 @@
+{"timestamp":"2025-11-11T07:21:22.063Z","username":"user1","userId":"user_001","taskNumber":"84","event":"auto_save","code":"#include <stdio.h>\n\nint main(void) {\n    /*入力:２つの文字列（char型）, 出力:二つの合計（int型）*/\n    //入力を行う（文字列）\n    scanf(\"%s %s\",s1,)\n    //入力された文字列をint型の配列に一桁ずつ格納する\n    //配列同士を足し算し、繰り上げも考慮する\n    //合計を出力する\n    return 0;\n}"}

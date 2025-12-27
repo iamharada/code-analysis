@@ -1,0 +1,55 @@
+{
+  "timestamp": "2025-10-16T13:08:26.666Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "1",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*input:○○, output:○○, goal:○○*/\n    int no01;\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "ヘッダのインクルード（#include <stdio.h>）",
+      "status": "done"
+    },
+    {
+      "level": 1,
+      "text": "main関数の定義（int main(void)）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main内の計画コメント（input, output, goal のプレースホルダ）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "変数宣言（int no01;）",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "戻り値の記述（return 0;）",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "出力処理（printfを使って文字列を印字し改行する）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まず課題を整理しましょう。入力は特に無く、出力は正確に「Hello,world!ようこそ」と改行付きで表示することだけです。"
+    },
+    {
+      "level": 2,
+      "text": "main関数の中に出力処理を入れます。stdio.hは既にインクルードされているので、mainのreturn 0;の前に出力を行う位置を決めてください。不要な変数（int no01;）は使わないなら削除して構いません。"
+    },
+    {
+      "level": 3,
+      "text": "printf関数を使って、引数に出力したい文字列を渡します。文字列の末尾には改行を表すエスケープ（\\n）を付けることを忘れないでください。実行後はコンパイルして出力が課題と完全に一致するか（余分な空白や改行がないか）を確認してください。"
+    }
+  ]
+}

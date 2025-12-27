@@ -1,0 +1,10 @@
+{
+  "timestamp": "2025-12-18T06:45:38.304Z",
+  "username": "user23",
+  "userId": "user_023",
+  "taskNumber": "39",
+  "event": "run",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:約数の総和*/\n　　/*入力した整数の約数を求める*/\n    /*その約数の総和を求める*/\n    return 0;\n}",
+  "stdout": "",
+  "stderr": "file0.code.c: In function 'main':\nfile0.code.c:5:1: error: stray '\\343' in program\n    5 | 　　/*入力した整数の約数を求める*/\n      | ^~\nfile0.code.c:5:4: error: stray '\\343' in program\n    5 | 　　/*入力した整数の約数を求める*/\n      |   ^~\nchmod: cannot access 'a.out': No such file or directory\n"
+}

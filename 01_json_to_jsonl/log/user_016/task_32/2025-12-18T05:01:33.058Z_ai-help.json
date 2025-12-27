@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-12-18T05:01:33.058Z",
+  "username": "user16",
+  "userId": "user_016",
+  "taskNumber": "32",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint checktri()//関数の作成\n\nint main(void) {\n    /*入力:3つの実数, 出力:三角形の形状*/\n    scanf(\"%f %f %f\",&a,&b,&c);//入力する\n    \n    //関数から判定\n    \n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "処理の大枠決定",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：入力を受け取り、checktriを呼んで結果を出力する部分",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "scanfで3つの実数を読み取る処理（ただし変数宣言がない）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "checktri関数を呼び戻り値をswitchで出力する部分（コメントのみ、未実装）",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "checktri関数：三角形の成立と角度判定を行う関数（宣言のみ、定義がない）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まず全体の流れを整理しましょう：入力→判定→出力の順で考えてください。どの処理をmainで行い、どれを関数にするか決めてください。"
+    },
+    {
+      "level": 2,
+      "text": "必要なステップを具体化してください：変数宣言、入力、checktri呼び出し、switchで出力の順が必要です。mainとchecktriの役割を明確に分けると書きやすいです。"
+    },
+    {
+      "level": 3,
+      "text": "まずmainに3つの実数変数を宣言してscanfで読み取り、checktri(a,b,c)を呼ぶというコメントを3〜5行書いてください。checktriは最初の値が最大と仮定し、1/2/3/0を返す仕様にすると決めてください。"
+    }
+  ]
+}

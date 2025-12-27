@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-12-18T06:14:26.437Z",
+  "username": "user21",
+  "userId": "user_021",
+  "taskNumber": "14",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:3つの実数値, 出力:三角形の種類またはError*/\n    //入力を受け取る\n    //3角形が成立するか確かめる\n        //任意の1辺の長さが他の2辺の長さの和よりおおきい\n    //3角形の種類を確認する\n    　　//\n\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：入力→判定→出力の全体処理",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力を受け取る（3つの実数）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "3角形が成立するか確かめる",
+      "status": "in_progress"
+    },
+    {
+      "level": 3,
+      "text": "任意の1辺の長さが他の2辺の長さの和より大きいか確認（最初の入力が最大と仮定）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "3角形の種類を確認する（直角/鋭角/鈍角）",
+      "status": "todo"
+    },
+    {
+      "level": 3,
+      "text": "結果を出力する（Error または 三角形の種類）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まずはコメントどおりの順番で進めよう：入力→成立判定→種類判定→出力の流れを意識して。最初の入力が最大という仮定を忘れないで。"
+    },
+    {
+      "level": 2,
+      "text": "scanfで3つのdoubleを読み取り、最初をa、残りをb,cとして使おう。まずはa < b + cで三角形成立かをチェックしてみて。"
+    },
+    {
+      "level": 3,
+      "text": "成立なら a*a と b*b + c*c を比較して等しければ直角、小さければ鋭角、大きければ鈍角を出力し、成立しなければ \"Error\" と改行付きで出力して終える。"
+    }
+  ]
+}

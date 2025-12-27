@@ -1,0 +1,764 @@
+ts,user_id,username,task,event,code,stdout,stderr,estimated_stage,next_stage,processing_structure,advice
+2025-12-18T04:57:35.212Z,user_011,user11,39,auto_save,"#include <stdio.h>
+
+
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+
+    return 0;
+}",,,,,,
+2025-12-18T04:57:45.221Z,user_011,user11,39,auto_save,"#include <stdio.h>
+
+int yakusum1()
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+
+    return 0;
+}",,,,,,
+2025-12-18T04:57:55.225Z,user_011,user11,39,auto_save,"#include <stdio.h>
+
+int yakusum1(int n,int m) {
+    
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+
+    return 0;
+}",,,,,,
+2025-12-18T04:58:05.225Z,user_011,user11,39,auto_save,"#include <stdio.h>
+
+int yakusum1(int n,int m) {
+    
+}
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+
+    return 0;
+}",,,,,,
+2025-12-18T04:59:15.223Z,user_011,user11,39,auto_save,"#include <stdio.h>
+
+int yakusum1(int n,int m) {
+    i
+}
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+
+    return 0;
+}",,,,,,
+2025-12-18T04:59:25.219Z,user_011,user11,39,auto_save,"#include <stdio.h>
+
+int yakusum1(int n,int m) {
+    int 
+}
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+
+    return 0;
+}",,,,,,
+2025-12-18T04:59:55.227Z,user_011,user11,39,auto_save,"#include <stdio.h>
+
+int yakusum1(int n,int m) {
+    
+}
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+
+    return 0;
+}",,,,,,
+2025-12-18T05:00:05.227Z,user_011,user11,39,auto_save,"#include <stdio.h>
+
+int yakusum1(int n,int m) {
+    if ()
+}
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+
+    return 0;
+}",,,,,,
+2025-12-18T05:00:25.220Z,user_011,user11,39,auto_save,"#include <stdio.h>
+
+int yakusum1(int n,int m) {
+    if (n==)
+}
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+
+    return 0;
+}",,,,,,
+2025-12-18T05:00:35.222Z,user_011,user11,39,auto_save,"#include <stdio.h>
+
+int yakusum1(int n,int m) {
+    if (m<n)
+}
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+
+    return 0;
+}",,,,,,
+2025-12-18T05:00:45.218Z,user_011,user11,39,auto_save,"#include <stdio.h>
+
+int yakusum1(int n,int m) {
+    if (m<n) {
+        
+    }
+}
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+
+    return 0;
+}",,,,,,
+2025-12-18T05:00:55.219Z,user_011,user11,39,auto_save,"#include <stdio.h>
+
+int yakusum1(int n,int m) {
+    int s;
+    if (m<n) {
+        
+    }
+}
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+
+    return 0;
+}",,,,,,
+2025-12-18T05:01:05.225Z,user_011,user11,39,auto_save,"#include <stdio.h>
+
+int yakusum1(int n,int m) {
+    int s;
+    if (m<n) {
+        s 
+    }
+}
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+
+    return 0;
+}",,,,,,
+2025-12-18T05:01:35.222Z,user_011,user11,39,auto_save,"#include <stdio.h>
+
+int yakusum1(int n,int m) {
+    int s;
+    if (m<n) {
+        
+    }
+}
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+
+    return 0;
+}",,,,,,
+2025-12-18T05:02:05.227Z,user_011,user11,39,auto_save,"#include <stdio.h>
+
+int yakusum1(int n,int m) {
+    int s;
+    if (m < n) {
+        
+    }
+}
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+
+    return 0;
+}",,,,,,
+2025-12-18T05:02:15.226Z,user_011,user11,39,auto_save,"#include <stdio.h>
+
+int yakusum1(int n,int m) {
+    int s;
+    if (m < n) {
+        s = 
+    }
+}
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+
+    return 0;
+}",,,,,,
+2025-12-18T05:02:35.220Z,user_011,user11,39,auto_save,"#include <stdio.h>
+
+int yakusum1(int n,int m) {
+    int s;
+    if (m < n) {
+        s = 
+    }
+        return s;
+}
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+
+    return 0;
+}",,,,,,
+2025-12-18T05:02:55.216Z,user_011,user11,39,auto_save,"#include <stdio.h>
+
+int yakusum1(int n,int m) {
+    int s;
+    if (m < n) {
+        
+        s = 
+    }
+        return s;
+}
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+
+    return 0;
+}",,,,,,
+2025-12-18T05:03:05.213Z,user_011,user11,39,auto_save,"#include <stdio.h>
+
+int yakusum1(int n,int m) {
+    int s;
+    if (m < n) {
+        if 
+        s = 
+    }
+        return s;
+}
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+
+    return 0;
+}",,,,,,
+2025-12-18T05:03:15.213Z,user_011,user11,39,auto_save,"#include <stdio.h>
+
+int yakusum1(int n,int m) {
+    int s;
+    if (m < n) {
+        if (n )
+        s = 
+    }
+        return s;
+}
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+
+    return 0;
+}",,,,,,
+2025-12-18T05:03:25.226Z,user_011,user11,39,auto_save,"#include <stdio.h>
+
+int yakusum1(int n,int m) {
+    int s;
+    if (m < n) {
+        if (n % m == 0) {
+            
+        s = 
+    }
+        return s;
+}
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+
+    return 0;
+}",,,,,,
+2025-12-18T05:03:35.224Z,user_011,user11,39,auto_save,"#include <stdio.h>
+
+int yakusum1(int n,int m) {
+    int s;
+    if (m < n) {
+        if (n % m == 0) {
+            
+        }
+        s = s
+    }
+        return s;
+}
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+
+    return 0;
+}",,,,,,
+2025-12-18T05:03:45.218Z,user_011,user11,39,auto_save,"#include <stdio.h>
+
+int yakusum1(int n,int m) {
+    int s;
+    if (m < n) {
+        if (n % m == 0) {
+            
+        }
+        s = s + yakusum1();
+    }
+        return s;
+}
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+
+    return 0;
+}",,,,,,
+2025-12-18T05:03:55.213Z,user_011,user11,39,auto_save,"#include <stdio.h>
+
+int yakusum1(int n,int m) {
+    int s;
+    if (m < n) {
+        if (n % m == 0) {
+            
+        }
+        s = s + yakusum1(n,m+1);
+    }
+        return s;
+}
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+
+    return 0;
+}",,,,,,
+2025-12-18T05:04:05.213Z,user_011,user11,39,auto_save,"#include <stdio.h>
+
+int yakusum1(int n,int m) {
+    int s;
+    if (m < n) {
+        if (n % m == 0) {
+            s
+        }
+        s = s + yakusum1(n,m+1);
+    }
+        return s;
+}
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+
+    return 0;
+}",,,,,,
+2025-12-18T05:04:15.225Z,user_011,user11,39,auto_save,"#include <stdio.h>
+
+int yakusum1(int n,int m) {
+    int s;
+    if (m < n) {
+        if (n % m == 0) {
+            s = s + m;
+        }
+        s = s + yakusum1(n,m+1);
+    }
+        return s;
+}
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+
+    return 0;
+}",,,,,,
+2025-12-18T05:04:25.216Z,user_011,user11,39,auto_save,"#include <stdio.h>
+
+int yakusum1(int n,int m) {
+    int s;
+    if (m < n) {
+        if (n % m == 0) {
+            s = s + m;
+        }
+        s = s + yakusum1(n,m+1);
+    }
+        return s;
+}
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+    int n;
+    scanf
+    return 0;
+}",,,,,,
+2025-12-18T05:04:35.217Z,user_011,user11,39,auto_save,"#include <stdio.h>
+
+int yakusum1(int n,int m) {
+    int s;
+    if (m < n) {
+        if (n % m == 0) {
+            s = s + m;
+        }
+        s = s + yakusum1(n,m+1);
+    }
+        return s;
+}
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+    int n;
+    scanf(""%d"",&n);
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:04:45.225Z,user_011,user11,39,auto_save,"#include <stdio.h>
+
+int yakusum1(int n,int m) {
+    int s;
+    if (m < n) {
+        if (n % m == 0) {
+            s = s + m;
+        }
+        s = s + yakusum1(n,m+1);
+    }
+        return s;
+}
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+    int n;
+    scanf(""%d"",&n);
+    printf
+    return 0;
+}",,,,,,
+2025-12-18T05:04:55.223Z,user_011,user11,39,auto_save,"#include <stdio.h>
+
+int yakusum1(int n,int m) {
+    int s;
+    if (m < n) {
+        if (n % m == 0) {
+            s = s + m;
+        }
+        s = s + yakusum1(n,m+1);
+    }
+        return s;
+}
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+    int n;
+    scanf(""%d"",&n);
+    printf(""%dのやくそ%d
+    return 0;
+}",,,,,,
+2025-12-18T05:05:05.227Z,user_011,user11,39,auto_save,"#include <stdio.h>
+
+int yakusum1(int n,int m) {
+    int s;
+    if (m < n) {
+        if (n % m == 0) {
+            s = s + m;
+        }
+        s = s + yakusum1(n,m+1);
+    }
+        return s;
+}
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+    int n;
+    scanf(""%d"",&n);
+    printf(""%dの約数の総和は%d\n"",
+    return 0;
+}",,,,,,
+2025-12-18T05:05:15.221Z,user_011,user11,39,auto_save,"#include <stdio.h>
+
+int yakusum1(int n,int m) {
+    int s;
+    if (m < n) {
+        if (n % m == 0) {
+            s = s + m;
+        }
+        s = s + yakusum1(n,m+1);
+    }
+        return s;
+}
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+    int n;
+    scanf(""%d"",&n);
+    printf(""%dの約数の総和は%d\n"",n,yakusum1(m
+    return 0;
+}",,,,,,
+2025-12-18T05:05:25.218Z,user_011,user11,39,auto_save,"#include <stdio.h>
+
+int yakusum1(int n,int m) {
+    int s;
+    if (m < n) {
+        if (n % m == 0) {
+            s = s + m;
+        }
+        s = s + yakusum1(n,m+1);
+    }
+        return s;
+}
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+    int n;
+    scanf(""%d"",&n);
+    printf(""%dの約数の総和は%d\n"",n,yakusum1(n,1));
+    return 0;
+}",,,,,,
+2025-12-18T05:05:27.375Z,user_011,user11,39,run,"#include <stdio.h>
+
+int yakusum1(int n,int m) {
+    int s;
+    if (m < n) {
+        if (n % m == 0) {
+            s = s + m;
+        }
+        s = s + yakusum1(n,m+1);
+    }
+        return s;
+}
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+    int n;
+    scanf(""%d"",&n);
+    printf(""%dの約数の総和は%d\n"",n,yakusum1(n,1));
+    return 0;
+}","0の約数の総和は32610
+",,,,,
+2025-12-18T05:05:34.393Z,user_011,user11,39,run,"#include <stdio.h>
+
+int yakusum1(int n,int m) {
+    int s;
+    if (m < n) {
+        if (n % m == 0) {
+            s = s + m;
+        }
+        s = s + yakusum1(n,m+1);
+    }
+        return s;
+}
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+    int n;
+    scanf(""%d"",&n);
+    printf(""%dの約数の総和は%d\n"",n,yakusum1(n,1));
+    return 0;
+}","10の約数の総和は228909
+",,,,,
+2025-12-18T05:06:24.838Z,user_011,user11,39,ai-help,"#include <stdio.h>
+
+int yakusum1(int n,int m) {
+    int s;
+    if (m < n) {
+        if (n % m == 0) {
+            s = s + m;
+        }
+        s = s + yakusum1(n,m+1);
+    }
+        return s;
+}
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+    int n;
+    scanf(""%d"",&n);
+    printf(""%dの約数の総和は%d\n"",n,yakusum1(n,1));
+    return 0;
+}",,,課題の理解,課題の理解,"[{""level"": 1, ""text"": ""関数 yakusum1 の実装（n と m を受け取り再帰で約数の和を計算）"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""変数 s を宣言して合計を保持"", ""status"": ""done""}, {""level"": 2, ""text"": ""m < n のとき m が n の約数か判定して合計に加える処理"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""再帰呼び出しで次の m に進めて結果を足す処理"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""結果を return する"", ""status"": ""done""}, {""level"": 1, ""text"": ""main 関数で入力を受け取り yakusum1 を呼ぶ流れ"", ""status"": ""done""}, {""level"": 2, ""text"": ""整数 n を scanf で読み取る"", ""status"": ""done""}, {""level"": 2, ""text"": ""yakusum1(n,1) を呼んで printf で出力する"", ""status"": ""done""}, {""level"": 2, ""text"": ""冒頭の /*入力:○○, 出力:△△*/ コメントが未記入のまま残っている"", ""status"": ""todo""}]","[{""level"": 1, ""text"": ""課題の要件をもう一度確認しましょう：入力範囲と出力の書式を意識してください。""}, {""level"": 2, ""text"": ""具体例で考えてみてください：入力 10 のとき出力は「10の約数の総和は18」と改行することを確認。""}, {""level"": 3, ""text"": ""コード冒頭のコメントを実際の内容に置き換えてください。例: /*入力: 1以上1000以下の整数 n, 出力: nの約数の総和は%d\\n*/""}]"
+2025-12-18T05:07:02.871Z,user_011,user11,39,run,"#include <stdio.h>
+
+int yakusum1(int n,int m) {
+    int s;
+    if (m < n) {
+        if (n % m == 0) {
+            s = s + m;
+        }
+        s = s + yakusum1(n,m+1);
+    }
+        return s;
+}
+
+int main(void) {
+    /*入力: 1以上1000以下の整数 n, 出力: nの約数の総和は%d\n*/
+    int n;
+    scanf(""%d"",&n);
+    printf(""%dの約数の総和は%d\n"",n,yakusum1(n,1));
+    return 0;
+}","10の約数の総和は228907
+",,,,,
+2025-12-18T05:07:05.222Z,user_011,user11,39,auto_save,"#include <stdio.h>
+
+int yakusum1(int n,int m) {
+    int s;
+    if (m < n) {
+        if (n % m == 0) {
+            s = s + m;
+        }
+        s = s + yakusum1(n,m+1);
+    }
+        return s;
+}
+
+int main(void) {
+    /*入力: 1以上1000以下の整数 n, 出力: nの約数の総和は%d\n*/
+    int n;
+    scanf(""%d"",&n);
+    printf(""%dの約数の総和は%d\n"",n,yakusum1(n,1));
+    return 0;
+}",,,,,,
+2025-12-18T05:07:34.455Z,user_011,user11,39,ai-help,"#include <stdio.h>
+
+int yakusum1(int n,int m) {
+    int s;
+    if (m < n) {
+        if (n % m == 0) {
+            s = s + m;
+        }
+        s = s + yakusum1(n,m+1);
+    }
+        return s;
+}
+
+int main(void) {
+    /*入力: 1以上1000以下の整数 n, 出力: nの約数の総和は%d\n*/
+    int n;
+    scanf(""%d"",&n);
+    printf(""%dの約数の総和は%d\n"",n,yakusum1(n,1));
+    return 0;
+}",,,コード化,コードの整合性確認,"[{""level"": 1, ""text"": ""main: 入力を読み取り yakusum1 を呼んで結果を表示する"", ""status"": ""done""}, {""level"": 1, ""text"": ""yakusum1 関数: 再帰で約数の和を計算して返すことを目的とした関数"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""yakusum1 内での変数宣言 int s;（初期化がない）"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""yakusum1 の if (m < n) 判定ブロック（再帰呼び出しと加算を実行）"", ""status"": ""in_progress""}, {""level"": 3, ""text"": ""内側の if (n % m == 0) で m を加算する処理"", ""status"": ""in_progress""}, {""level"": 3, ""text"": ""再帰呼び出し yakusum1(n, m+1) を加算している処理"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""最後に return s; を返す部分（s が適切に設定されているか要確認）"", ""status"": ""in_progress""}]","[{""level"": 1, ""text"": ""出力結果が正しくなるか、戻り値と変数が正しく初期化されているか確認しよう。""}, {""level"": 2, ""text"": ""yakusum1 の終了条件（いつ再帰を止めるか）と s の初期値を具体的に考えてみてください。""}, {""level"": 3, ""text"": ""関数先頭で int s = 0; を追加し、終了条件として if (m > n) return 0; を入れてください。n%m==0 のとき s += m; を行い、最後に s += yakusum1(n, m+1); return s; とする。""}]"
+2025-12-18T05:08:15.219Z,user_011,user11,39,auto_save,"#include <stdio.h>
+
+int yakusum1(int n,int m) {
+    int s ;
+    if (m < n) {
+        if (n % m == 0) {
+            s = s + m;
+        }
+        s = s + yakusum1(n,m+1);
+    }
+        return s;
+}
+
+int main(void) {
+    /*入力: 1以上1000以下の整数 n, 出力: nの約数の総和は%d\n*/
+    int n;
+    scanf(""%d"",&n);
+    printf(""%dの約数の総和は%d\n"",n,yakusum1(n,1));
+    return 0;
+}",,,,,,
+2025-12-18T05:08:25.212Z,user_011,user11,39,auto_save,"#include <stdio.h>
+
+int yakusum1(int n,int m) {
+    int s = 0;
+    if (m < n) {
+        if (n % m == 0) {
+            s = s + m;
+        }
+        s = s + yakusum1(n,m+1);
+    }
+        return s;
+}
+
+int main(void) {
+    /*入力: 1以上1000以下の整数 n, 出力: nの約数の総和は%d\n*/
+    int n;
+    scanf(""%d"",&n);
+    printf(""%dの約数の総和は%d\n"",n,yakusum1(n,1));
+    return 0;
+}",,,,,,
+2025-12-18T05:08:33.162Z,user_011,user11,39,run,"#include <stdio.h>
+
+int yakusum1(int n,int m) {
+    int s = 0;
+    if (m < n) {
+        if (n % m == 0) {
+            s = s + m;
+        }
+        s = s + yakusum1(n,m+1);
+    }
+        return s;
+}
+
+int main(void) {
+    /*入力: 1以上1000以下の整数 n, 出力: nの約数の総和は%d\n*/
+    int n;
+    scanf(""%d"",&n);
+    printf(""%dの約数の総和は%d\n"",n,yakusum1(n,1));
+    return 0;
+}","10の約数の総和は8
+",,,,,
+2025-12-18T05:09:07.744Z,user_011,user11,39,ai-help,"#include <stdio.h>
+
+int yakusum1(int n,int m) {
+    int s = 0;
+    if (m < n) {
+        if (n % m == 0) {
+            s = s + m;
+        }
+        s = s + yakusum1(n,m+1);
+    }
+        return s;
+}
+
+int main(void) {
+    /*入力: 1以上1000以下の整数 n, 出力: nの約数の総和は%d\n*/
+    int n;
+    scanf(""%d"",&n);
+    printf(""%dの約数の総和は%d\n"",n,yakusum1(n,1));
+    return 0;
+}",,,コード化,コードの整合性確認,"[{""level"": 1, ""text"": ""yakusum1関数: nとmを受け取り再帰で約数の合計を計算する"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""sを0で初期化する"", ""status"": ""done""}, {""level"": 2, ""text"": ""条件判定: if (m < n) の場合に処理を行う（再帰と加算）"", ""status"": ""in_progress""}, {""level"": 3, ""text"": ""n % m == 0 のとき s に m を加える"", ""status"": ""done""}, {""level"": 3, ""text"": ""yakusum1(n, m+1) を呼んで結果を s に加える（再帰呼び出し）"", ""status"": ""done""}, {""level"": 2, ""text"": ""m >= n の場合は（現在は）0 を返す（ベースケース）"", ""status"": ""done""}, {""level"": 1, ""text"": ""main関数: 入力を読み yakusum1 を呼んで結果を出力する"", ""status"": ""done""}, {""level"": 2, ""text"": ""整数 n を scanf で読み込む"", ""status"": ""done""}, {""level"": 2, ""text"": ""yakusum1(n,1) を呼び printf で出力する"", ""status"": ""done""}]","[{""level"": 1, ""text"": ""実行例（入力10→出力18）や境界値（n=1）で実際の出力を確かめよう。""}, {""level"": 2, ""text"": ""再帰の終了条件が期待どおりか、n自身が合計に含まれているかを意識して確認しよう。""}, {""level"": 3, ""text"": ""条件 m < n が原因で n が含まれていないので、終了条件を見直し（例: m <= n にする）して再度実行・確認しよう。""}]"
+2025-12-18T05:09:12.653Z,user_011,user11,39,run,"#include <stdio.h>
+
+int yakusum1(int n,int m) {
+    int s = 0;
+    if (m < n) {
+        if (n % m == 0) {
+            s = s + m;
+        }
+        s = s + yakusum1(n,m+1);
+    }
+        return s;
+}
+
+int main(void) {
+    /*入力: 1以上1000以下の整数 n, 出力: nの約数の総和は%d\n*/
+    int n;
+    scanf(""%d"",&n);
+    printf(""%dの約数の総和は%d\n"",n,yakusum1(n,1));
+    return 0;
+}","10の約数の総和は8
+",,,,,
+2025-12-18T05:09:29.657Z,user_011,user11,39,run,"#include <stdio.h>
+
+int yakusum1(int n,int m) {
+    int s = 0;
+    if (m <= n) {
+        if (n % m == 0) {
+            s = s + m;
+        }
+        s = s + yakusum1(n,m+1);
+    }
+        return s;
+}
+
+int main(void) {
+    /*入力: 1以上1000以下の整数 n, 出力: nの約数の総和は%d\n*/
+    int n;
+    scanf(""%d"",&n);
+    printf(""%dの約数の総和は%d\n"",n,yakusum1(n,1));
+    return 0;
+}","10の約数の総和は18
+",,,,,
+2025-12-18T05:09:35.215Z,user_011,user11,39,auto_save,"#include <stdio.h>
+
+int yakusum1(int n,int m) {
+    int s = 0;
+    if (m <= n) {
+        if (n % m == 0) {
+            s = s + m;
+        }
+        s = s + yakusum1(n,m+1);
+    }
+        return s;
+}
+
+int main(void) {
+    /*入力: 1以上1000以下の整数 n, 出力: nの約数の総和は%d\n*/
+    int n;
+    scanf(""%d"",&n);
+    printf(""%dの約数の総和は%d\n"",n,yakusum1(n,1));
+    return 0;
+}",,,,,,

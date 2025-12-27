@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-12-09T07:00:30.304Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\nvoid pascal(int n); \n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n    //入力をパスカルの三角形の段数として受け付ける。\n    int n;\n    scanf(\"%d\", &n);\n    //入力値（段数）をpascal関数に渡す。\n    pascal(n); \n    return 0;\n}\n//入力された段数分のパスカルの三角形を出力するpascal関数を作る",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：整数nを読み取る",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "main関数：読み取ったnをpascal関数に渡す",
+      "status": "done"
+    },
+    {
+      "level": 1,
+      "text": "pascal関数：プロトタイプ宣言がある（関数本体は未実装）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "pascal関数：二次元配列を用意する（各行の要素数は十分）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "pascal関数：パスカルの三角形の各要素を計算して配列に格納する",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "pascal関数：配列の内容を%3dで整形して出力する（行末に改行）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "今のコメントは『pascal関数を作る』までで止まっていることに気づいてください。"
+    },
+    {
+      "level": 2,
+      "text": "関数内で何を順番にするか、配列作成→値の計算→出力、の順に分けて考えてみてください。"
+    },
+    {
+      "level": 3,
+      "text": "配列は例えば int a[10][10]; を用意し、端は1、内側は上の左と上の右の和で計算し、printf(\"%3d\", a[i][j])で行ごとに改行して出力します。"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "timestamp": "2025-12-17T10:39:36.617Z",
+  "username": "user2",
+  "userId": "user_002",
+  "taskNumber": "84",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:二つの文字列, 出力:文字列を数値とみなした和*/\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "処理の大枠決定",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数に課題の要約コメント（入力:二つの文字列、出力:和）がある",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main内の終了処理（return 0;）",
+      "status": "done"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まずプログラム全体の流れを頭に描いてください：入力→処理→出力の順です。"
+    },
+    {
+      "level": 2,
+      "text": "必要な大きな手順を考えよう：文字列を受け取る、桁ごとに配列に格納する、繰り上げを考えて足す、結果を出力する、です。"
+    },
+    {
+      "level": 3,
+      "text": "具体的には：1) 2つの文字列を受け取る 2) 末尾から1桁ずつint配列に入れる（短い方は0で埋める） 3) 末尾から繰り上げを処理しながら足す 4) 最後の繰り上げを出力に反映して結果を表示する。"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-12-17T07:28:38.441Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, \n    出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "処理の大枠決定",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：プログラムの入口。入力を受け取り、処理を呼び出して結果を出力する役割を持つ。",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力を読む：1つの整数nを読み込む",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "三角形の出力と'*'の個数を数える処理：各行を出力しながらカウンタを増やす（再帰で実現する想定）",
+      "status": "todo"
+    },
+    {
+      "level": 3,
+      "text": "各行の出力単位：その行に必要な'*'を出力する処理（1行ずつの仕事）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "最終出力：合計COUNT=合計個数を表示して改行する",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題の要件をもう一度見て、出力の形式（各行の'*'と最後のCOUNT=）を確認しよう。"
+    },
+    {
+      "level": 2,
+      "text": "全体の流れを決めよう：入力→三角形を出力しながら'*'を数える→COUNTを出力、という順に考えると整理しやすい。"
+    },
+    {
+      "level": 3,
+      "text": "まずmainでnを読み、三角形出力とカウントを行う再帰関数を呼び、最後に\"COUNT=%d\\n\"で合計を出力する、という3つのコメントを書いてみよう。"
+    }
+  ]
+}

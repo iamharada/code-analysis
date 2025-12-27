@@ -1,0 +1,14 @@
+ts,user_id,username,task,event,code,stdout,stderr,estimated_stage,next_stage,processing_structure,advice
+2025-12-18T03:11:30.789Z,user_002,user2,15,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:○○, 出力:三角形の判定結果または三角形にならない場合（Error）*/
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:48:51.014Z,user_002,user2,15,auto_save,"#include <stdio.h>
+
+int main(void) {
+    
+    return 0;
+}",,,,,,

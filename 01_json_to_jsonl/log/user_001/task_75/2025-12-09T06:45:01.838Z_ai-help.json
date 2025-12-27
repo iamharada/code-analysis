@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-12-09T06:45:01.838Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n    //入力をパスカルの三角形の段数として受け付ける。\n    //入力値（段数）をpascal関数に渡す。\n    return 0;\n}\n//入力された段数分のパスカルの三角形を出力するpascal関数を作る",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数: 入力を受け取りpascal関数に渡す",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main内: 入力（段数）を受け付ける処理（コメントありが未実装）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main内: 入力値をpascal関数へ渡す呼び出し（コメントありが未実装）",
+      "status": "in_progress"
+    },
+    {
+      "level": 1,
+      "text": "pascal関数: 入力された段数分のパスカルの三角形を二次元配列と繰り返しで作り%3dで出力する（未作成）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "今あるコメントのうち、まずは『入力を受け取る』と『pascal関数に渡す』をコードに置き換えましょう。"
+    },
+    {
+      "level": 2,
+      "text": "mainで整数を読み取りその値を引数としてpascalに渡す流れを想像し、先に関数プロトタイプを宣言しておくと楽です。"
+    },
+    {
+      "level": 3,
+      "text": "具体的には mainで int n; scanf(\"%d\", &n); とし pascal(n); を呼ぶ。pascalは void pascal(int n) として int a[10][10]={0}; を使い二重ループで計算し printf(\"%3d\", a[i][j]); で出力、行末に改行を入れて完成させてください。"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "timestamp": "2025-12-17T07:20:03.776Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, \n    出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数: プログラムの入口（入力・出力の全体を担当）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力を1つの整数nとして読み取る",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "tri3再帰関数を呼んで三角形の各行を出力し、'*'の合計を集計する",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "最後にCOUNT=合計を出力する",
+      "status": "in_progress"
+    },
+    {
+      "level": 1,
+      "text": "tri3関数（再帰）: 各行の行数を決めてline3を呼ぶ再帰処理",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "再帰の終了条件（現在の行番号がnを超えたら停止）",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "line3関数（再帰またはループ）: 指定回数だけ'*'を出力し、出力ごとにカウンタを増やす",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まず課題の入出力を再確認し、nとCOUNTの出力形式が合っているか確かめよう。"
+    },
+    {
+      "level": 2,
+      "text": "mainは入力を読み、tri3を呼び、最後にCOUNTを出す役割に分け、tri3とline3の役割を決めよう。"
+    },
+    {
+      "level": 3,
+      "text": "tri3(int cur,int n,int *count): cur行目を出力するためline3(cur,count)を呼び、cur<nならtri3(cur+1,n,count)で再帰、終了はcur>n。line3(int k,int *count): '*'をk回出力し出力ごとに(*count)++、最後に改行。"
+    }
+  ]
+}

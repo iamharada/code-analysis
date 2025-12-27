@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-12-23T03:14:01.728Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, \n    出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n    // 1. 入力を受け取る\n    // 2. tri3を呼ぶ\n    return 0;\n}\n\n// tri3関数を作成する\n//     1行目からn行目まで順に出力する\n//     行数はforみたいに1ずつ増やす\n//     各行でlineを呼ぶ\n\n// line関数を作成する\n//     *をn個出力する\n//     for文でn回*を出す\n",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main: 入力を受け取り tri3 を呼ぶ（入力・出力の説明がコメントにあるが実装はない）",
+      "status": "in_progress"
+    },
+    {
+      "level": 1,
+      "text": "tri3関数: 1行目からn行目まで順に出力し、それぞれの行で line を呼ぶ（コメントのみ）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "line関数: 指定された個数だけ '*' を出力する（コメントで for を使う案があるが未実装）",
+      "status": "in_progress"
+    },
+    {
+      "level": 3,
+      "text": "出力時に '*' の個数を数えるカウンタを増やして最終的に COUNT= を出力する処理（具体化・実装がない）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "tri3 と line のコメントを見直し、どの部分を具体的に書くか決めよう。"
+    },
+    {
+      "level": 2,
+      "text": "tri3 が何を引数に取るか（行番号や合計n、カウンタの参照）と、line がカウンタをどう増やすかを考えよう。"
+    },
+    {
+      "level": 3,
+      "text": "具体案：tri3(i,n,&count) は i>n で終了、そうでなければ line(i,&count) を呼んで tri3(i+1,n,&count) を呼ぶ。line(k,&count) は k==0 で戻り、そうでなければ '*' を出力して (*count)++ し line(k-1,&count) を呼ぶ。"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-12-08T07:38:19.597Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": 1,
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：なし, 出力：Hello,world!*/\n    printf(\"Hello,world!\");\n    \n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数全体の処理",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "コメント：入力と出力の説明（/*入力：なし, 出力：Hello,world!*/）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "printfで文字列を印字する（printf(\"Hello,world!\");）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "戻り値を返す（return 0;）",
+      "status": "done"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題の要件をもう一度見て、出力が要求と一致しているか確認しましょう。"
+    },
+    {
+      "level": 2,
+      "text": "出力例を具体的に考えて、最後に改行が必要かどうかを確かめてください。"
+    },
+    {
+      "level": 3,
+      "text": "出力は「Hello,world!ようこそ」で、printfで出力し最後に改行を入れる必要があります。"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"timestamp":"2025-11-11T08:21:57.657Z","username":"user1","userId":"user_001","taskNumber":"64","event":"auto_save","code":"#include <stdio.h>\nint main(void) {\n    /*入力:1つの整数, 出力:入力値の約数の総和*/\n    //入力をする\n    int a;\n    scanf(\"%d\",&a);\n    printf(\"%d\",a);\n    //for文で約数を探索\n        //1から入力された数字までループする\n        //ru\n    //合計の出力\n}\n\n\n\n\n\n\n"}

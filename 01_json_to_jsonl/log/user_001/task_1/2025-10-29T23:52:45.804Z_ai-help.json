@@ -1,0 +1,49 @@
+{
+  "timestamp": "2025-10-29T23:52:45.804Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": 1,
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：〇〇, 出力：△△*/\n    aaaaaaaa;\n    \n    return 0;\n}",
+  "estimated_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "ヘッダのインクルード（#include <stdio.h>） — done"
+    },
+    {
+      "level": 1,
+      "text": "main関数の雛形を作成（int main(void) { ... }） — done"
+    },
+    {
+      "level": 2,
+      "text": "入出力の確認コメント（/*入力：〇〇, 出力：△△*/） — done"
+    },
+    {
+      "level": 2,
+      "text": "出力処理の記述（printfを使って文字列を出力する部分） — in_progress"
+    },
+    {
+      "level": 3,
+      "text": "出力文字列はダブルクォートで囲む、末尾に改行文字を入れる（\\n） — todo"
+    },
+    {
+      "level": 1,
+      "text": "return 0; による正常終了処理 — done"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "目的を確認：問題は printf を使って「Hello,world!ようこそ」を出力し、最後に改行することです。"
+    },
+    {
+      "level": 2,
+      "text": "どこに書くか：main関数内の aaaaaaaa; の行を置き換えて出力処理を書きます。stdio.h は既にインクルード済みなので printf を直接使えます。"
+    },
+    {
+      "level": 3,
+      "text": "書き方の注意点（コード例は直接示さない）：printf の第1引数に表示したい文字列をダブルクォートで渡す。文字列の最後に改行文字（\\n）を入れることを忘れない。文の終わりはセミコロンで閉じる。コンパイルして実行し、期待どおりに改行も含めて表示されるか確認する。"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-11-11T08:06:14.790Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "64",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\nint main(void) {\n    /*入力:1つの整数, 出力:入力値の約数の総和*/\n    //入力をする\n    int a;\n    scanf(\"%d\",&a);\n    printf(\"%d\",a);\n    //for文で約数を探索\n        //1から入力された数字までループする\n    //合計の出力\n}\n\n\n\n\n\n\n",
+  "estimated_stage": "コード化",
+  "next_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "入力を読み取る（scanfで整数を取得）",
+      "status": "done"
+    },
+    {
+      "level": 1,
+      "text": "入力値を確認用に表示している（printfで値を表示）",
+      "status": "done"
+    },
+    {
+      "level": 1,
+      "text": "for文で約数を探索する（概要コメントあり）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "1から入力値までループする（コメントで範囲指定あり）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "各ループで約数かを判定し合計に加える（実装未）",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "合計の出力（コメントあり、正しい形式での出力は未実装）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "コメント通りにコードを書き進めましょう。まず合計を入れる変数を用意してください。"
+    },
+    {
+      "level": 2,
+      "text": "for文で1から入力値まで回し、各iが約数か（余りが0か）を調べて合計に足してください。"
+    },
+    {
+      "level": 3,
+      "text": "最後は「Nの約数の総和はS」の形式で出力し、途中の確認用出力（printfで入力値を表示）は削除して動作確認をしてください。"
+    }
+  ]
+}

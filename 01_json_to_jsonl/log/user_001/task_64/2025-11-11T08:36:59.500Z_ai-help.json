@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-11-11T08:36:59.500Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "64",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\nint main(void) {\n    /*入力:1つの整数, 出力:入力値の約数の総和*/\n    //入力をする\n    //for文で約数を探索\n    //合計の出力\n}\n\n\n\n\n\n\n",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数の骨組み（プログラム全体）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力を受け取り整数を保持する",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "for文で1から入力値まで回して約数を見つけ合計する",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "合計を指定の形式で出力する（末尾に改行）",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "今のコメントは全体の流れが書けているので、そのまま実装に進みましょう。まず整数を受け取る処理を書いてください。"
+    },
+    {
+      "level": 2,
+      "text": "for文で1から入力値まで回し、各値で割り切れるかを調べて合計に加える処理を実装してください。分岐は簡単な比較でOKです。"
+    },
+    {
+      "level": 3,
+      "text": "最後に合計を「nの約数の総和はX」の形で出力し、余計な空白や行が入らないか確認してから実行してください。"
+    }
+  ]
+}

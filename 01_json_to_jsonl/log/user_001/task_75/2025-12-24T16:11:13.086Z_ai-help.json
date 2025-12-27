@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-12-24T16:11:13.086Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n    //入力をパスカルの三角形の段数として受け付ける。\n    //入力値（段数）をpascal関数に渡す。\n    return 0;\n}\n//入力された段数分のパスカルの三角形を出力するpascal関数を作る",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数で整数を読み取り、それをpascal関数に渡す",
+      "status": "in_progress"
+    },
+    {
+      "level": 1,
+      "text": "pascal関数を作り、受け取った段数分のパスカルの三角形を出力する（関数未作成）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "pascal内で二次元配列に値を入れる（境界要素は1、内部は上の行の和）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "二次元配列の内容をループで整形してprintf(\"%3d\", ...)で出力し、行末に改行する",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "今のコメントが「何をするか」だけ書かれている箇所を見つけよう。"
+    },
+    {
+      "level": 2,
+      "text": "pascal関数内で必要な手順を順に書き出して：配列宣言→値の初期化→値の計算→出力、と分けて考えてみてください。"
+    },
+    {
+      "level": 3,
+      "text": "具体的には、二次元配列を宣言し a[0][0]=1、各行の両端を1にして中間は a[i][j]=a[i-1][j-1]+a[i-1][j]、printf(\"%3d\")で出力して改行する、というコメントに分解してください。"
+    }
+  ]
+}

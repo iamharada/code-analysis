@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-12-24T08:20:56.984Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\nint line3(int n);\nint tri3(int n);\n\nint main(void) {\n    /*入力:1つの整数, \n    出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n    // 1. 入力を受け取る\n        // 段数を格納する変数（n）を定義する。\n        int n;\n        // scanfを用いて整数を入力し、nに代入する。\n        scanf(\"%d\", &n);\n    // 2. tri3を呼ぶ\n        // nを引数として tri3 関数を呼び出し、三角形の描画処理を開始する。\n        int count = tri3(n);\n        printf(\"\\nCOUNT=%d\\n\", count);\n    return 0;\n}\n\n// tri3関数を作成する\nint tri3(int n){\n    // 再帰の終了条件をチェックする（n > 0 のときだけ実行）。\n    int count = 0;\n    if(n > 0){\n        // 【再帰呼び出し】自分より小さい三角形（n-1段）を先に描画させるため、tri3(n-1) を呼ぶ。\n        count += tri3(n - 1);\n        // 現在の行（n個の星）を描画するため、line3(n) を呼ぶ。\n        count += line3(n);\n    }\n    return count;\n}\n\n// line3関数を作成する\nint line3(int n){\n    // 再帰の条件分岐を行う。\n    int count = 0;\n    if(n > 0){\n        // もし n > 0 なら：\n            // 画面に '*' を1つ出力する。\n            printf(\"*\");\n            count = 1;\n            // 残りの星（n-1個）を描画するため、line3(n-1) を再帰的に呼ぶ。\n            count += line3(n - 1);\n    } else {\n        // もし n == 0 なら：\n            // 再帰を終了する。\n            printf(\"\\n\");\n    }\n    return count;\n}\n",
+  "estimated_stage": "コード化",
+  "next_stage": "コードの整合性確認",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main: 整数を入力し tri3 を呼び、戻り値を受けて COUNT を出力する",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "tri3: 再帰で tri3(n-1) を呼び、line3(n) を呼んで各行の '*' 個数を合計する",
+      "status": "done"
+    },
+    {
+      "level": 3,
+      "text": "line3: 再帰で '*' を n 個出力し、n==0 のとき改行して出力した '*' の個数を返す",
+      "status": "done"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "出力の最後に余分な空行や不要な文字がないかに注目して確認しましょう。"
+    },
+    {
+      "level": 2,
+      "text": "n=1やn=2、n=5で実行して行ごとの出力とCOUNTの位置を追い、追加の改行が入っていないか確かめてください。"
+    },
+    {
+      "level": 3,
+      "text": "main内の printf(\"\\nCOUNT=%d\\n\", count); は先頭の改行を削除して printf(\"COUNT=%d\\n\", count); にし、再実行して期待通りの出力（余計な空行なし・COUNTが合っている）を確認しましょう。"
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+ts,user_id,username,task,event,code,stdout,stderr,estimated_stage,next_stage,processing_structure,advice
+2025-12-18T04:04:57.530Z,user_012,user12,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:みっつの, 出力:△△*/
+
+    return 0;
+}",,,,,,
+2025-12-18T04:05:07.528Z,user_012,user12,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数, 出力:さんかくけいの*/
+
+    return 0;
+}",,,,,,
+2025-12-18T04:05:17.530Z,user_012,user12,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数, 出力:三角形の形状判定*/
+
+    return 0;
+}",,,,,,
+2025-12-18T04:08:27.528Z,user_012,user12,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数, 出力:三角形の形状判定*/
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T04:08:37.538Z,user_012,user12,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数, 出力:三角形の形状判定*/
+    //入力を受け付ける
+
+    return 0;
+}",,,,,,
+2025-12-18T04:08:47.536Z,user_012,user12,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数, 出力:三角形の形状判定*/
+    //入力を受け付ける
+    ・・
+
+    return 0;
+}",,,,,,
+2025-12-18T04:08:57.524Z,user_012,user12,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数, 出力:三角形の形状判定*/
+    //入力を受け付ける
+    //三角形の成立判定
+
+    return 0;
+}",,,,,,
+2025-12-18T04:09:07.532Z,user_012,user12,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数, 出力:三角形の形状判定*/
+    //入力を受け付ける
+    //三角形の成立判定
+        //
+
+    return 0;
+}",,,,,,
+2025-12-18T04:09:17.525Z,user_012,user12,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数, 出力:三角形の形状判定*/
+    //入力を受け付ける
+    //三角形の成立判定
+        //成立する場合
+
+    return 0;
+}",,,,,,
+2025-12-18T04:09:27.536Z,user_012,user12,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数, 出力:三角形の形状判定*/
+    //入力を受け付ける
+    //三角形の成立判定
+        //成立する場合：さんかくけいｎ
+
+    return 0;
+}",,,,,,
+2025-12-18T04:09:37.532Z,user_012,user12,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数, 出力:三角形の形状判定*/
+    //入力を受け付ける
+    //三角形の成立判定
+        //成立する場合：三角形の種類の判定
+        //せいりｔ
+
+    return 0;
+}",,,,,,
+2025-12-18T04:09:47.525Z,user_012,user12,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数, 出力:三角形の形状判定*/
+    //入力を受け付ける
+    //三角形の成立判定
+        //成立する場合：三角形の種類の判定
+        //成立しない場合：エラー
+    //ｓ
+
+    return 0;
+}",,,,,,
+2025-12-18T04:09:57.536Z,user_012,user12,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数, 出力:三角形の形状判定*/
+    //入力を受け付ける
+    //三角形の成立判定
+        //成立する場合：三角形の種類の判定
+        //成立しない場合：エラー
+    //出力
+
+    return 0;
+}",,,,,,
+2025-12-18T04:11:57.524Z,user_012,user12,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数, 出力:三角形の形状判定*/
+    //入力を受け付ける
+    
+    //三角形の成立判定
+        //成立する場合：三角形の種類の判定
+        //成立しない場合：エラー
+    //出力
+
+    return 0;
+}",,,,,,
+2025-12-18T04:12:07.525Z,user_012,user12,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数, 出力:三角形の形状判定*/
+    //入力を受け付ける
+    scanff
+    //三角形の成立判定
+        //成立する場合：三角形の種類の判定
+        //成立しない場合：エラー
+    //出力
+
+    return 0;
+}",,,,,,
+2025-12-18T04:12:17.536Z,user_012,user12,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数, 出力:三角形の形状判定*/
+    //入力を受け付ける
+    scanf("""");
+    //三角形の成立判定
+        //成立する場合：三角形の種類の判定
+        //成立しない場合：エラー
+    //出力
+
+    return 0;
+}",,,,,,
+2025-12-18T04:12:27.536Z,user_012,user12,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数, 出力:三角形の形状判定*/
+    //入力を受け付ける
+    scanf("""",&a,&b,&c);
+    //三角形の成立判定
+        //成立する場合：三角形の種類の判定
+        //成立しない場合：エラー
+    //出力
+
+    return 0;
+}",,,,,,
+2025-12-18T04:12:37.535Z,user_012,user12,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数, 出力:三角形の形状判定*/
+    //入力を受け付ける
+    scanf(""%d %d %d"",&a,&b,&c);
+    //三角形の成立判定
+        //成立する場合：三角形の種類の判定
+        //成立しない場合：エラー
+    //出力
+
+    return 0;
+}",,,,,,
+2025-12-18T04:13:07.525Z,user_012,user12,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数, 出力:三角形の形状判定*/
+    //入力を受け付ける
+    scanf(""%d %d %d"",&a,&b,&c);
+    //三角形の成立判定
+        
+        //成立する場合：三角形の種類の判定
+        //成立しない場合：エラー
+    //出力
+
+    return 0;
+}",,,,,,
+2025-12-18T04:13:17.529Z,user_012,user12,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数, 出力:三角形の形状判定*/
+    //入力を受け付ける
+    scanf(""%d %d %d"",&a,&b,&c);
+    //三角形の成立判定
+    
+        //成立する場合：三角形の種類の判定
+        //成立しない場合：エラー
+    //出力
+
+    return 0;
+}",,,,,,

@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-12-18T05:02:21.953Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "14",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:3つの実数値, 出力:三角形の種類*/\n    //入力を読み込む\n    //三角形が作れるか調べる\n        //成立・・・直角/鋭角/鈍角を判定\n        //不成立・・・error\n    // 結果を出力\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：入力→判定→出力の大まかな流れ",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力を読み込む",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "三角形が作れるか調べる（三角形成立判定）",
+      "status": "todo"
+    },
+    {
+      "level": 3,
+      "text": "成立時は直角/鋭角/鈍角の判定",
+      "status": "todo"
+    },
+    {
+      "level": 3,
+      "text": "不成立時はErrorを出力",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "結果を出力",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "今あるコメントの順番どおりに一つずつ実装していくと迷いが少ないです。"
+    },
+    {
+      "level": 2,
+      "text": "まずdouble型の変数a,b,cを用意してscanfで3つの実数を読み取る処理を書きましょう。"
+    },
+    {
+      "level": 3,
+      "text": "最初の入力aが最大と仮定し、a < b + cで成立判定。a*a と b*b + c*c を比較して等しければ直角、より小さければ鋭角、より大きければ鈍角と出力し、不成立なら\"Error\"を出力（出力は指定の日本語で末尾に改行）。"
+    }
+  ]
+}

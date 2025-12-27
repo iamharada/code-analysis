@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-12-09T06:31:02.782Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n    //入力を受け付ける。\n    //計算する。\n    //出力する。\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：プログラム全体の入口",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力を受け付ける（行数nを読み取る）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "パスカルの三角形を計算する（2次元配列と繰り返し）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "計算結果を整形して出力する（%3dで右揃え）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "プログラム終了（return 0; が存在）",
+      "status": "done"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "どのコメントを今すぐコードにできるか見つけよう。まずは「入力を受け付ける」部分が実装しやすいはずです。"
+    },
+    {
+      "level": 2,
+      "text": "入力はscanfで整数を読み、二次元配列を宣言してループで埋め、最後にprintf(\"%3d\", ...)で出力する手順を考えよう。"
+    },
+    {
+      "level": 3,
+      "text": "具体的には scanf(\"%d\", &n); int a[10][10] = {0}; で初期化し、境界は1、内部は a[i][j]=a[i-1][j-1]+a[i-1][j]; を二重ループで計算して printf(\"%3d\", a[i][j]); で出力しよう。"
+    }
+  ]
+}

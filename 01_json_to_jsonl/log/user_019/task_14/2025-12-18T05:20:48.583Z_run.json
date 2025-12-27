@@ -1,0 +1,10 @@
+{
+  "timestamp": "2025-12-18T05:20:48.583Z",
+  "username": "user19",
+  "userId": "user_019",
+  "taskNumber": "14",
+  "event": "run",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:3つの整数値, 出力:三角形の種類*/\n    //3つの整数値を入力する\n    float a,b,c;\n    scanf(\"%f%f%f\",&a,&b,&c);\n    //成立するか判定\n    if(a<b+c){\n        //成立・・・三角形の種類を判定\n        if(a*a == b*b+c*c)\n            printf(\"直角三角形\\n\");\n        else if(a*a <= b*b+c*c)\n            printf(\"鋭角三角形\\n\");\n        else if(a*a >= b*b+c*c)\n            printf(\"鈍角三角形\\n\");\n    }else{\n        //不成立・・・Error\n        printf(\"Error\\n\");\n    }\n    //結果の表示\n    return 0;\n}",
+  "stdout": "直角三角形\n",
+  "stderr": ""
+}

@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-12-17T07:48:11.136Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, \n    出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n    // 1. 入力を受け取る\n    // 2. tri3を呼ぶ\n    return 0;\n}\n\n// tri3関数を作成する",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "#include とヘッダ読み込み",
+      "status": "done"
+    },
+    {
+      "level": 1,
+      "text": "main関数：プログラムの入口（入力を受け取り、tri3を呼ぶ）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力を受け取る（整数 n を読み込む）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "tri3 を呼び出して出力とカウントを行う",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "tri3関数の作成（コメントで作成予定がある）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "mainに『入力を受け取る』と『tri3を呼ぶ』のコメントがある点を確認しよう。"
+    },
+    {
+      "level": 2,
+      "text": "まず scanf を使って整数 n を読み取り、その値を使って tri3 を呼ぶ流れを考えよう。"
+    },
+    {
+      "level": 3,
+      "text": "count を 0 で初期化し、tri3 を例えば tri3(n, &count) のように呼ぶ設計にして、'*' を出力するたびに (*count)++ して最後に COUNT を出力しよう。"
+    }
+  ]
+}

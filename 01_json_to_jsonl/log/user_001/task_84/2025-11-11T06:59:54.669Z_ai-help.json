@@ -1,0 +1,60 @@
+{
+  "timestamp": "2025-11-11T06:59:54.669Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "84",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:２つの文字列（char型）, 出力:二つの合計（int型）*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数の雛形がある（プログラム開始と終了）",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "入力と出力についてのコメントがある（入力: 2つの文字列、出力: 合計）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力を受け取る（文字列として読み込む処理）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "文字列を1桁ずつint型配列に格納する処理",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "配列同士を繰り上げを考慮して足し算する処理",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "計算結果を出力して改行する処理",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "returnで正常終了する（現状 return 0 がある）",
+      "status": "done"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題の要件をもう一度確認しましょう。入力は2つの数字文字列で、出力はそれらの和（余計な空白や文字を入れない）。"
+    },
+    {
+      "level": 2,
+      "text": "入力と出力の具体形を紙に書いてみてください。例: 入力 '112' と '118' → 出力 '230'（改行のみ）。"
+    },
+    {
+      "level": 3,
+      "text": "次は処理の大枠を書きましょう：入力を読む → 各桁を配列化 → 繰り上げを考えて足す → 結果を出力、というコメントを追加してみてください。"
+    }
+  ]
+}

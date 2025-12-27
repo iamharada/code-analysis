@@ -1,0 +1,36 @@
+{
+  "timestamp": "2025-12-24T00:05:18.702Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "14",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    //入力：3つの実数、出力：三角形の形状（error含む）\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "処理の大枠決定",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数の雛形（戻り値と基本構造）",
+      "status": "done"
+    },
+    {
+      "level": 1,
+      "text": "課題の理解メモ：入力は3つの実数、出力は直角/鋭角/鈍角/またはErrorと記述",
+      "status": "done"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題の要件を再確認しましょう：入力は3つの実数で、出力は三角形の種類かErrorです。"
+    },
+    {
+      "level": 2,
+      "text": "全体の流れを考えてください：入力読み取り → 三角形が成立するか判定 → 角の種類を判定 → 結果を出力。"
+    },
+    {
+      "level": 3,
+      "text": "main内に3〜5のコメント行で処理手順を書き出してください（例：1)3辺を読み取る 2)成立判定 3)最大辺を仮定して角判定 4)出力）。"
+    }
+  ]
+}

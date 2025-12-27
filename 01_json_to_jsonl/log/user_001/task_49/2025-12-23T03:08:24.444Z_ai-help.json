@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-12-23T03:08:24.444Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, \n    出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n    // 1. 入力を受け取る\n    // 2. tri3を呼ぶ\n    return 0;\n}\n\n// tri3関数を作成する\n// 1行目からn行目まで順に出力する\n// 行数はforみたいに1ずつ増やす\n// 各行でlineを呼ぶ\n\n// line関数を作成する\n// *をn個出力する\n// for文でn回*を出す\n",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main: 整数を入力し、三角形出力を行う再帰関数を呼び、最後に COUNT=合計 を出力する予定のスケルトンがある",
+      "status": "in_progress"
+    },
+    {
+      "level": 1,
+      "text": "tri3: 1行目からn行目まで順に出力する役割（各行で line を呼ぶ）という設計コメントがあるが未実装",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "line: 各行で '*' を所定の個数出力し、出力した分だけ合計を増やす処理（コメントで for を使う案がある）が未実装",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "tri3 と line の役割は書けているので、特に「再帰でどう行を進めるか」と「星の合計(COUNT)をどこで持つか」を明確にしよう。"
+    },
+    {
+      "level": 2,
+      "text": "tri3 は行番号を引数にして終端条件を決め、各行で line を呼ぶ流れを考えると整理しやすい。COUNT はどの関数が増やすかを決めておくとよい。"
+    },
+    {
+      "level": 3,
+      "text": "tri3 に「現在の行」「最大行」「合計を格納する参照（ポインタ）」を渡す設計にし、line ではその行数分 '*' を出力するたびに参照先のカウンタを1ずつ増やすように実装するとよい。"
+    }
+  ]
+}

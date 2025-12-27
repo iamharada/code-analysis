@@ -1,0 +1,1 @@
+{"timestamp":"2025-12-18T04:44:57.526Z","username":"user12","userId":"user_012","taskNumber":"49","event":"auto_save","code":"#include <stdio.h>\n\nint main(void) {\n    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/\n    //tri3\n        //line3\n    return 0;\n}"}

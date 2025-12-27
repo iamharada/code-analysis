@@ -1,0 +1,1 @@
+{"timestamp":"2025-12-18T06:29:50.427Z","username":"user22","userId":"user_022","taskNumber":"39","event":"auto_save","code":"#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:*/\n\n    return 0;\n}"}

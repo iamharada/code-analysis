@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-11-26T20:30:15.879Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数n（1〜10）, 出力:各行を%3dで右揃えしてパスカルの三角形*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "処理の大枠決定",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：プログラム全体の入口（コメントで入力と出力が記載されている）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力を読み取る（1つの整数 n を取得する）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "パスカルの三角形を二次元配列で計算・格納する",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "配列の値を%3dでフォーマットして行ごとに出力する",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題の要件をもう一度確認しよう：入力は1つの整数、出力はパスカルの三角形であること。"
+    },
+    {
+      "level": 2,
+      "text": "全体の流れを考えよう：入力を読む→配列を準備する→値を計算する→結果を印字する、の順番を意識して。"
+    },
+    {
+      "level": 3,
+      "text": "その流れを3〜5行のコメントに書いてから、次に進んで実装を始めよう（まずはコメントだけでOK）。"
+    }
+  ]
+}

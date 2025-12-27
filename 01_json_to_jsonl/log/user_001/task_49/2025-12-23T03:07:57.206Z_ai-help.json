@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-12-23T03:07:57.206Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, \n    出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n    // 1. 入力を受け取る\n    // 2. tri3を呼ぶ\n    return 0;\n}\n\n// tri3関数を作成する\n// tri3(n-1)で前の行まで出す\n// line(n)で*をn個出す\n// COUNTはここで1行分を足す\n\n// line関数を作成する\n// *をn個出して改行する\n",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main: 入力を受け取り tri3 を呼び、最後に COUNT を出力する役割（コメントはあるが実装は未完）",
+      "status": "in_progress"
+    },
+    {
+      "level": 1,
+      "text": "関数群: tri3 と line3 を別に作るという設計（まだ実装されていない）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "tri3(n): 再帰で前の行を出力する（tri3(n-1) を呼び、line3(n) を呼ぶという設計）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "line3(n): '*' を n 個出力して改行する（出力時にカウンタを増やす設計）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "main のコメントを見て、まず入力を受け取る処理が実装できるか確認しよう。"
+    },
+    {
+      "level": 2,
+      "text": "tri3 と line3 の関数宣言と戻り値／引数（int n とカウンタ参照）を決めてからコード化を始めよう。"
+    },
+    {
+      "level": 3,
+      "text": "main で scanf で n を読み、int count=0 を用意。tri3 は if(n==1) { line3(1); } else { tri3(n-1); line3(n); }、line3 は for で '*' を出力するたびに count++ し最後に改行する実装にしよう。"
+    }
+  ]
+}

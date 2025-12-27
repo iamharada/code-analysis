@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-12-17T07:43:50.118Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, \n    出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n    // 1. 入力を受け取る\n    // 2. tri3を呼ぶ\n    return 0;\n}\n\n// tri3関数を作成する",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：プログラムの入口、入力とtri3呼び出しのコメントあり",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main内の処理：入力を受け取る（scanfで整数を読む）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "main内の処理：tri3を呼び出してカウントを渡す",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "tri3関数：再帰で三角形を出力し'*'を数える関数（宣言／実装がまだ）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まずmainのコメントを見て、入力を受け取りtri3を呼ぶ流れがあることに気づこう。"
+    },
+    {
+      "level": 2,
+      "text": "scanfで整数を読み、カウント用の変数を用意してからtri3を呼ぶことを考えてみて。"
+    },
+    {
+      "level": 3,
+      "text": "mainで int n; scanf(\"%d\", &n); int count = 0; とし、tri3に n と &count を渡して最後に printf(\"COUNT=%d\\n\", count); で出力するイメージで実装してみて。"
+    }
+  ]
+}

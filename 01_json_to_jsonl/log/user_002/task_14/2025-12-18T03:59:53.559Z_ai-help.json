@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-12-18T03:59:53.559Z",
+  "username": "user2",
+  "userId": "user_002",
+  "taskNumber": "14",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n    \n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "#include <stdio.h> によるヘッダ宣言",
+      "status": "done"
+    },
+    {
+      "level": 1,
+      "text": "main関数の定義（プログラムの開始と終了）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main内のコメント /*入力:○○, 出力:△△*/（入力・出力の記述）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "return 0; による正常終了",
+      "status": "done"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題の要件をもう一度確認しましょう。入力は3つの実数で最初が最大値である点を忘れないでください。"
+    },
+    {
+      "level": 2,
+      "text": "具体的な入出力例を考えてみましょう。例えば 5 4 3 のとき何を出力すべきか想像してください。"
+    },
+    {
+      "level": 3,
+      "text": "出力は問題文どおり1行で改行のみ。例: 入力 '5 4 3' → 出力 '直角三角形'（末尾に改行）"
+    }
+  ]
+}

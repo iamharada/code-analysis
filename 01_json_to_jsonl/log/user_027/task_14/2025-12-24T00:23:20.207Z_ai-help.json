@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-12-24T00:23:20.207Z",
+  "username": "user27",
+  "userId": "user_027",
+  "taskNumber": "14",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:３つ実数, 出力:三角形の形状*/\n    //三角形が成立する\n        //三角形の形状判定\n    \n    //三角形が成立しない\n        //error\n\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数（プログラム本体の枠）",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "入力：3つの実数を受け取る（コメントあり）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "三角形が成立するか判定する（コメントあり）",
+      "status": "todo"
+    },
+    {
+      "level": 3,
+      "text": "成立する場合は三角形の形状を判定する（コメントあり）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "成立しない場合はErrorを出力する（コメントあり）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "今あるコメントを見て、どの部分を具体化すべきか（入力・成立判定・種類判定）を確認しよう。"
+    },
+    {
+      "level": 2,
+      "text": "アルゴリズムは：まず値を読み取り、(最大辺) < (他の2辺の和)で成立判定、成立なら角度判定を行うことを考えてみて。"
+    },
+    {
+      "level": 3,
+      "text": "コメントで次の手順を書こう：1) 3つを読み込む 2) a < b + c なら成立 3) a*a == b*b + c*c -> 直角、< -> 鋭角、> -> 鈍角、それ以外はErrorを出力。"
+    }
+  ]
+}

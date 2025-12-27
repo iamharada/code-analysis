@@ -1,0 +1,1 @@
+{"timestamp":"2025-12-18T07:00:51.124Z","username":"user23","userId":"user_023","taskNumber":"39","event":"auto_save","code":"#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:約数の総和*/\n    int num;\n    int result;\n    scanf(\"%d,&num\");\n    result=yakusum(num,num);\n    /*その約数の総和を求める*/\n    return 0;\n}　　\n     /*入力した整数の約数を求める*/\nint yakusum1(){\n    int n;\n    "}

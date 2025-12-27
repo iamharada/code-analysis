@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-12-23T03:21:45.891Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, \n    出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n    // 1. 入力を受け取る\n    // 2. tri3を呼ぶ\n    return 0;\n}\n\n// tri3関数を作成する\n//     1行目からn行目まで順に出力する\n//     行数はforみたいに1ずつ増やす\n//     各行でlineを呼ぶ\n\n// line関数を作成する\n//     *をn個出力する\n//     for文でn回*を出す\n",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main: 入力を受け取り、tri3 を呼び、最後に COUNT= を出力する（現在は入力・呼び出しが未実装）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "tri3: 1行目からn行目まで順に出力する役割（各行で line を呼ぶ；再帰で行番号を増やす）",
+      "status": "todo"
+    },
+    {
+      "level": 3,
+      "text": "line: 指定された個数だけ '*' を出力し、その都度カウンタを増やす役割（再帰で '*' を出力して残りを減らす）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "tri3 と line（課題では tri3 と line3）それぞれの役割をもう一度確認して、どのコメントを詳しくするか決めよう。"
+    },
+    {
+      "level": 2,
+      "text": "各再帰関数について「基底条件（終了条件）」「再帰呼び出し」「渡す引数（行番号や残りの星数、カウンタ）」を考えよう。"
+    },
+    {
+      "level": 3,
+      "text": "tri3 は現在の行番号を引数にして行番号>n なら return、そうでなければ line3(行番号) を呼んで行番号+1で再帰呼び出しし、mainで最終的に COUNT= を出す。line3 は k==0 で return、そうでなければ '*' を出力してカウンタ++ し line3(k-1) を呼ぶ。"
+    }
+  ]
+}

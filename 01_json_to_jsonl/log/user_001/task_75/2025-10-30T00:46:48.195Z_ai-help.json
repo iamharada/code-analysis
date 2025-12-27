@@ -1,0 +1,50 @@
+{
+  "timestamp": "2025-10-30T00:46:48.195Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:一つの整数, 出力:その行数までのパスカルの三角形*/\n    \n}\n\n\n",
+  "estimated_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "ヘッダ#includeとmain関数の骨組みがある",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "課題の理解（入力:一つの整数、出力:指定行数までのパスカルの三角形）をコメントで記載している",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "入力値を読み取る処理（scanfなど）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "二次元配列と繰り返しでパスカルの三角形を作成する処理",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "%3dで整形して各行を出力する処理（最後は改行のみ）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まず課題の条件（入力範囲、出力の形式、%3dで右揃え等）を短く確認しておこう。"
+    },
+    {
+      "level": 2,
+      "text": "次は全体の流れを決めよう：入力→配列初期化→値計算→整形出力の順で考えると分かりやすい。"
+    },
+    {
+      "level": 3,
+      "text": "main内に3〜5行のコメントで手順（入力取得、配列作成、計算ループ、出力）を書いてから実装を始めよう。"
+    }
+  ]
+}

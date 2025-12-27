@@ -1,0 +1,2159 @@
+ts,user_id,username,task,event,code,stdout,stderr,estimated_stage,next_stage,processing_structure,advice
+2025-12-18T04:39:57.531Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:, 出力:△△*/
+
+    return 0;
+}",,,,,,
+2025-12-18T04:40:57.534Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:一つのせ, 出力:△△*/
+
+    return 0;
+}",,,,,,
+2025-12-18T04:41:07.527Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:一つの整数値, 出力:*/
+
+    return 0;
+}",,,,,,
+2025-12-18T04:41:27.537Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:一つの整数値, 出力:asterisk*/
+
+    return 0;
+}",,,,,,
+2025-12-18T04:41:37.526Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:一つの整数値, 出力:*をもちい*/
+
+    return 0;
+}",,,,,,
+2025-12-18T04:41:47.532Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形*/
+
+    return 0;
+}",,,,,,
+2025-12-18T04:42:27.525Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形とカウント*/
+
+    return 0;
+}",,,,,,
+2025-12-18T04:42:37.538Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形と*の数*/
+
+    return 0;
+}",,,,,,
+2025-12-18T04:42:47.531Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+
+    return 0;
+}",,,,,,
+2025-12-18T04:42:57.538Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //
+    return 0;
+}",,,,,,
+2025-12-18T04:44:47.526Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //tri3
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:44:57.526Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //tri3
+        //line3
+    return 0;
+}",,,,,,
+2025-12-18T04:45:27.530Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //tri3
+        //
+        //line3
+    return 0;
+}",,,,,,
+2025-12-18T04:46:07.529Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //tri3
+        //nyu
+        //line3
+    return 0;
+}",,,,,,
+2025-12-18T04:46:17.524Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //tri3
+        //入力した
+        //line3
+    return 0;
+}",,,,,,
+2025-12-18T04:47:57.536Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //tri3
+        //入力したせいすう
+        //line3
+    return 0;
+}",,,,,,
+2025-12-18T04:48:07.538Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //tri3
+        //1から入力した整数値まで
+        //line3
+    return 0;
+}",,,,,,
+2025-12-18T04:48:17.537Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //tri3
+        //1から入力した整数値まで繰り返して
+        //line3
+    return 0;
+}",,,,,,
+2025-12-18T04:50:17.531Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //tri3
+        //1から入力した整数値まで繰り返してそｎ
+        //line3
+    return 0;
+}",,,,,,
+2025-12-18T04:50:27.539Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //tri3
+        //1から入力した整数値まで1繰り返してその分だけ
+        //line3
+    return 0;
+}",,,,,,
+2025-12-18T04:50:37.533Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //tri3
+        //1から入力した整数値までiを１繰り返してその分だけ
+        //line3
+    return 0;
+}",,,,,,
+2025-12-18T04:50:47.530Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返してその分だけ
+        //line3
+    return 0;
+}",,,,,,
+2025-12-18T04:51:17.526Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返してその分だけline 
+        //line3
+    return 0;
+}",,,,,,
+2025-12-18T04:51:27.533Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返してその分だけline関数を実行
+        //line3
+    return 0;
+}",,,,,,
+2025-12-18T04:51:37.538Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline関数を実行
+        //line3
+    return 0;
+}",,,,,,
+2025-12-18T04:51:47.528Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline関数を実行
+            //line3
+    return 0;
+}",,,,,,
+2025-12-18T04:51:57.525Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline関数を実行
+        //line3
+    
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:52:17.538Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline関数を実行
+        //line3
+            //
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:52:27.525Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:52:37.534Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //
+    //しゅつｔ
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:52:47.533Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:52:57.525Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //そ
+    
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:53:07.524Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //iの値だけ
+    
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:53:17.532Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（）の値だけ
+    
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:53:27.525Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値だけ
+    
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:54:07.533Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ
+    
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:54:17.526Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*をなら
+    
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:54:27.538Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+    
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:54:37.539Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+            //
+    
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:54:47.537Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+            //毎回繰り返しの
+    
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:54:57.525Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+            //毎回繰り返しの階層の末端でCOUNTを
+    
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:55:07.528Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+            //毎回繰
+    
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:55:17.526Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTをｔ
+    
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:55:27.527Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:58:28.821Z,user_012,user12,49,ai-help,"#include <stdio.h>
+
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    
+    return 0;
+}",,,処理の大枠決定,コード化,"[{""level"": 1, ""text"": ""main：入力を受け取り、三角形描画関数を呼び、最後にCOUNTを出力する"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""tri3関数：1から入力値までの各行を順に処理してline3を呼ぶ役割（再帰で実装する予定）"", ""status"": ""in_progress""}, {""level"": 3, ""text"": ""tri3内のループ処理：各行の長さを決めてその回数だけline3を呼び、COUNTを累積する（コメントあり）"", ""status"": ""in_progress""}, {""level"": 3, ""text"": ""line3関数：与えられた数だけ'*'を出力し、出力時にカウンタを1ずつ増やす（再帰で実装予定）"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""COUNTの管理：全体でカウントする変数を用意し、line3から増やして最後に表示する（コメントあり）"", ""status"": ""in_progress""}]","[{""level"": 1, ""text"": ""今書いているコメント通りに、まずは1行ずつ順にコードに置き換えることを考えてみよう。""}, {""level"": 2, ""text"": ""tri3とline3を別関数にして、mainは入力受け取りとカウント初期化と呼び出しだけにする設計を意識しよう。""}, {""level"": 3, ""text"": ""mainでint count=0を作り、そのアドレスをtri3／line3に渡す。line3は再帰で'*'を出力しつつカウントを増やし、各行の後に改行、最後にCOUNT=数値を出力しよう。""}]"
+2025-12-18T05:00:07.535Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    
+    
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:00:17.524Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    入力を
+    
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:00:47.532Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //入力
+    
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:00:57.525Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //入力受け付け
+    ｓ
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:01:07.538Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //入力受け付け
+    scanf();
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:01:17.527Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //入力受け付け
+    scanf("""",);
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:02:07.530Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //入力受け付け
+    scanf("""",&);
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:02:17.525Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //入力受け付け
+    scanf(""%d"",&a);
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:03:17.537Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //入力受け付け
+    scanf(""%d"",&a);
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    
+    return 0;
+}
+
+i",,,,,,
+2025-12-18T05:03:27.535Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int 
+
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //入力受け付け
+    scanf(""%d"",&a);
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:03:37.533Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int tri3()
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //入力受け付け
+    scanf(""%d"",&a);
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:03:47.527Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int tri3(){
+    
+}
+    
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //入力受け付け
+    scanf(""%d"",&a);
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:03:57.526Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int tri3(int ){
+    
+}
+    
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //入力受け付け
+    scanf(""%d"",&a);
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:04:27.528Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int tri3(int n){
+    f
+}
+    
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //入力受け付け
+    scanf(""%d"",&a);
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:04:37.531Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int tri3(int n){
+    for(){
+    
+    }
+}
+    
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //入力受け付け
+    scanf(""%d"",&a);
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:04:47.526Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int tri3(int n){
+    for(int ){
+    
+    }
+}
+    
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //入力受け付け
+    scanf(""%d"",&a);
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:04:57.540Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int tri3(int n){
+    for(int 1){
+    
+    }
+}
+    
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //入力受け付け
+    scanf(""%d"",&a);
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:05:17.530Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int tri3(int n){
+    for(int i=1;i){
+    
+    }
+}
+    
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //入力受け付け
+    scanf(""%d"",&a);
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:05:27.539Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int tri3(int n){
+    for(int i=1;i>=){
+    
+    }
+}
+    
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //入力受け付け
+    scanf(""%d"",&a);
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:05:37.539Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int tri3(int n){
+    for(int i=1;i>=n;i++){
+        
+    }
+}
+    
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //入力受け付け
+    scanf(""%d"",&a);
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:06:37.530Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int tri3(int n){
+    for(int i=1;i>=n;i++){
+        print
+    }
+}
+    
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //入力受け付け
+    scanf(""%d"",&a);
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:06:47.527Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int tri3(int n){
+    for(int i=1;i>=n;i++){
+        line3
+    }
+}
+    
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //入力受け付け
+    scanf(""%d"",&a);
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:06:57.525Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int tri3(int n){
+    for(int i=1;i>=n;i++){
+        line3(i)
+    }
+}
+    
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //入力受け付け
+    scanf(""%d"",&a);
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:07:07.536Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+
+
+int tri3(int n){
+    for(int i=1;i>=n;i++){
+        line3(i);
+    }
+}
+    
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //入力受け付け
+    scanf(""%d"",&a);
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:07:17.530Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int line3()
+
+int tri3(int n){
+    for(int i=1;i>=n;i++){
+        line3(i);
+    }
+}
+    
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //入力受け付け
+    scanf(""%d"",&a);
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:07:27.528Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int line3(){
+    
+}
+
+int tri3(int n){
+    for(int i=1;i>=n;i++){
+        line3(i);
+    }
+}
+    
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //入力受け付け
+    scanf(""%d"",&a);
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:07:37.525Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int line3(int n){
+    
+}
+
+int tri3(int m){
+    for(int i=1;i>=n;i++){
+        line3(i);
+    }
+}
+    
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //入力受け付け
+    scanf(""%d"",&a);
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:07:47.537Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int line3(int m){
+    for
+}
+
+int tri3(int n){
+    for(int i=1;i>=n;i++){
+        line3(i);
+    }
+}
+    
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //入力受け付け
+    scanf(""%d"",&a);
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:07:57.529Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int line3(int m){
+    for(){
+        
+    }
+}
+
+int tri3(int n){
+    for(int i=1;i>=n;i++){
+        line3(i);
+    }
+}
+    
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //入力受け付け
+    scanf(""%d"",&a);
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:08:07.524Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int line3(int m){
+    for(int j=1;){
+        
+    }
+}
+
+int tri3(int n){
+    for(int i=1;i>=n;i++){
+        line3(i);
+    }
+}
+    
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //入力受け付け
+    scanf(""%d"",&a);
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:08:17.537Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int line3(int m){
+    for(int j=1;j>=m){
+        
+    }
+}
+
+int tri3(int n){
+    for(int i=1;i>=n;i++){
+        line3(i);
+    }
+}
+    
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //入力受け付け
+    scanf(""%d"",&a);
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:08:27.539Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int line3(int m){
+    for(int j=1;j>=m;j++){
+        
+    }
+}
+
+int tri3(int n){
+    for(int i=1;i>=n;i++){
+        line3(i);
+    }
+}
+    
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //入力受け付け
+    scanf(""%d"",&a);
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:08:57.526Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int line3(int m){
+    for(int j=1;j>=m;j++){
+        
+    }
+}
+
+int tri3(int n){
+    for(int i=1;i<=n;i++){
+        line3(i);
+    }
+}
+    
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //入力受け付け
+    scanf(""%d"",&a);
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:09:07.527Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int line3(int m){
+    for(int j=1;j<=m;j++){
+        
+    }
+}
+
+int tri3(int n){
+    for(int i=1;i<=n;i++){
+        line3(i);
+    }
+}
+    
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //入力受け付け
+    scanf(""%d"",&a);
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:09:47.527Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int line3(int m){
+    for(int j=1;j<=m;j++){
+        
+    }
+    printf("""");
+}
+
+int tri3(int n){
+    for(int i=1;i<=n;i++){
+        line3(i);
+    }
+}
+    
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //入力受け付け
+    scanf(""%d"",&a);
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:09:57.533Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int line3(int m){
+    for(int j=1;j<=m;j++){
+        printf();
+    }
+    printf(""\n"");
+}
+
+int tri3(int n){
+    for(int i=1;i<=n;i++){
+        line3(i);
+    }
+}
+    
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //入力受け付け
+    scanf(""%d"",&a);
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:10:07.527Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int line3(int m){
+    for(int j=1;j<=m;j++){
+        printf(""*"");
+    }
+    printf(""\n"");
+}
+
+int tri3(int n){
+    for(int i=1;i<=n;i++){
+        line3(i);
+    }
+}
+    
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //入力受け付け
+    scanf(""%d"",&a);
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:10:27.525Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int line3(int m){
+    for(int j=1;j<=m;j++){
+        printf(""*"");
+    }
+    printf(""\n"");
+}
+
+int tri3(int n){
+    for(int i=1;i<=n;i++){
+        line3(i);
+        
+        
+    }
+}
+    
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //入力受け付け
+    scanf(""%d"",&a);
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:10:37.539Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int line3(int m){
+    for(int j=1;j<=m;j++){
+        printf(""*"");
+    }
+    printf(""\n"");
+}
+
+int tri3(int n){
+    intCOUN
+    for(int i=1;i<=n;i++){
+        line3(i);
+        
+        
+    }
+}
+    
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //入力受け付け
+    scanf(""%d"",&a);
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:10:47.526Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int line3(int m){
+    for(int j=1;j<=m;j++){
+        printf(""*"");
+    }
+    printf(""\n"");
+}
+
+int tri3(int n){
+    int COUNT;
+    for(int i=1;i<=n;i++){
+        line3(i);
+        
+        
+    }
+}
+    
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //入力受け付け
+    scanf(""%d"",&a);
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:10:57.526Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int line3(int m){
+    for(int j=1;j<=m;j++){
+        printf(""*"");
+    }
+    printf(""\n"");
+}
+
+int tri3(int n){
+    int COUNT;
+    
+    for(int i=1;i<=n;i++){
+        line3(i);
+        
+        
+    }
+}
+    
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //入力受け付け
+    scanf(""%d"",&a);
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:11:07.524Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int line3(int m){
+    for(int j=1;j<=m;j++){
+        printf(""*"");
+    }
+    printf(""\n"");
+}
+
+int tri3(int n){
+    int COUNT;
+    
+    for(int i=1;i<=n;i++){
+        line3(i);
+        
+        COUNT=COUNT
+    }
+}
+    
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //入力受け付け
+    scanf(""%d"",&a);
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:11:17.537Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int line3(int m){
+    for(int j=1;j<=m;j++){
+        printf(""*"");
+    }
+    printf(""\n"");
+}
+
+int tri3(int n){
+    int COUNT;
+    
+    for(int i=1;i<=n;i++){
+        line3(i);
+        
+        COUNT=COUNT+i;
+    }
+}
+    
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //入力受け付け
+    scanf(""%d"",&a);
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:11:27.525Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int line3(int m){
+    for(int j=1;j<=m;j++){
+        printf(""*"");
+    }
+    printf(""\n"");
+}
+
+int tri3(int n){
+    int COUNT;
+    
+    for(int i=1;i<=n;i++){
+        line3(i);
+        
+        COUNT=COUNT+i;
+    }
+    return COUNT;
+}
+    
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //入力受け付け
+    scanf(""%d"",&a);
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:11:37.524Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int line3(int m){
+    for(int j=1;j<=m;j++){
+        printf(""*"");
+    }
+    printf(""\n"");
+}
+
+int tri3(int n){
+    int COUNT;
+    
+    for(int i=1;i<=n;i++){
+        line3(i);
+        
+        COUNT=COUNT+i;
+    }
+    return COUNT;
+}
+    
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //入力受け付け
+    scanf(""%d"",&a);
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:11:57.537Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int line3(int m){
+    for(int j=1;j<=m;j++){
+        printf(""*"");
+    }
+    printf(""\n"");
+}
+
+int tri3(int n){
+    int COUNT;
+    
+    for(int i=1;i<=n;i++){
+        line3(i);
+        
+        COUNT=COUNT+i;
+    }
+    COUNT;p
+}
+    
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //入力受け付け
+    scanf(""%d"",&a);
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:12:07.530Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int line3(int m){
+    for(int j=1;j<=m;j++){
+        printf(""*"");
+    }
+    printf(""\n"");
+}
+
+int tri3(int n){
+    int COUNT;
+    
+    for(int i=1;i<=n;i++){
+        line3(i);
+        
+        COUNT=COUNT+i;
+    }
+    COUNT;
+}
+    
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //入力受け付け
+    scanf(""%d"",&a);
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:12:27.524Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int line3(int m){
+    for(int j=1;j<=m;j++){
+        printf(""*"");
+    }
+    printf(""\n"");
+}
+
+int tri3(int n){
+    int COUNT;
+    
+    for(int i=1;i<=n;i++){
+        line3(i);
+        
+        COUNT=COUNT+i;
+    
+    COUNT;
+}
+    
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //入力受け付け
+    scanf(""%d"",&a);
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:12:37.531Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int line3(int m){
+    for(int j=1;j<=m;j++){
+        printf(""*"");
+    }
+    printf(""\n"");
+}
+
+int tri3(int n){
+    int COUNT;
+    
+    for(int i=1;i<=n;i++){
+        line3(i);
+        
+        COUNT=COUNT+i;
+    
+    ("""",COUNT);
+}
+    
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //入力受け付け
+    scanf(""%d"",&a);
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:12:47.524Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int line3(int m){
+    for(int j=1;j<=m;j++){
+        printf(""*"");
+    }
+    printf(""\n"");
+}
+
+int tri3(int n){
+    int COUNT;
+    
+    for(int i=1;i<=n;i++){
+        line3(i);
+        
+        COUNT=COUNT+i;
+    
+    printf(""%d"",COUNT);
+}
+    
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //入力受け付け
+    scanf(""%d"",&a);
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:13:27.524Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int line3(int m){
+    for(int j=1;j<=m;j++){
+        printf(""*"");
+    }
+    printf(""\n"");
+}
+
+int tri3(int n){
+    int COUNT;
+    
+    for(int i=1;i<=n;i++){
+        line3(i);
+        
+        COUNT=COUNT+i;
+    
+    printf(""%d"",COUNT);
+}
+    
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //入力受け付け
+    scanf(""%d"",&a);
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    tri3
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:13:37.525Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int line3(int m){
+    for(int j=1;j<=m;j++){
+        printf(""*"");
+    }
+    printf(""\n"");
+}
+
+int tri3(int n){
+    int COUNT;
+    
+    for(int i=1;i<=n;i++){
+        line3(i);
+        
+        COUNT=COUNT+i;
+    
+    printf(""%d"",COUNT);
+}
+    
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //入力受け付け
+    scanf(""%d"",&a);
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    tri3(a);
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:14:37.535Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int line3(int m){
+    for(int j=1;j<=m;j++){
+        printf(""*"");
+    }
+    printf(""\n"");
+}
+
+int tri3(int n){
+    int COUNT;
+    
+    for(int i=1;i<=n;i++){
+        line3(i);
+        
+        COUNT=COUNT+i;
+    
+    printf
+    printf(""%d"",COUNT);
+}
+    
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //入力受け付け
+    scanf(""%d"",&a);
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    tri3(a);
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:14:47.531Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int line3(int m){
+    for(int j=1;j<=m;j++){
+        printf(""*"");
+    }
+    printf(""\n"");
+}
+
+int tri3(int n){
+    int COUNT;
+    
+    for(int i=1;i<=n;i++){
+        line3(i);
+        
+        COUNT=COUNT+i;
+    
+    printf(""\n"");
+    printf(""%d"",COUNT);
+}
+    
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //入力受け付け
+    scanf(""%d"",&a);
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    tri3(a);
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:15:32.236Z,user_012,user12,49,run,"#include <stdio.h>
+
+int line3(int m){
+    for(int j=1;j<=m;j++){
+        printf(""*"");
+    }
+    printf(""\n"");
+}
+
+int tri3(int n){
+    int COUNT;
+    
+    for(int i=1;i<=n;i++){
+        line3(i);
+        
+        COUNT=COUNT+i;
+    }
+    
+    printf(""\n"");
+    printf(""%d"",COUNT);
+}
+    
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //入力受け付け
+    scanf(""%d"",&a);
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    tri3(a);
+    
+    return 0;
+}",,"file0.code.c: In function 'main':
+file0.code.c:26:17: error: 'a' undeclared (first use in this function)
+   26 |     scanf(""%d"",&a);
+      |                 ^
+file0.code.c:26:17: note: each undeclared identifier is reported only once for each function it appears in
+chmod: cannot access 'a.out': No such file or directory
+",,,,
+2025-12-18T05:15:37.528Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int line3(int m){
+    for(int j=1;j<=m;j++){
+        printf(""*"");
+    }
+    printf(""\n"");
+}
+
+int tri3(int n){
+    int COUNT;
+    
+    for(int i=1;i<=n;i++){
+        line3(i);
+        
+        COUNT=COUNT+i;
+    }
+    
+    printf(""\n"");
+    printf(""%d"",COUNT);
+}
+    
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //入力受け付け
+    scanf(""%d"",&a);
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    tri3(a);
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:15:47.347Z,user_012,user12,49,run,"#include <stdio.h>
+
+int line3(int m){
+    for(int j=1;j<=m;j++){
+        printf(""*"");
+    }
+    printf(""\n"");
+}
+
+int tri3(int n){
+    int COUNT;
+    
+    for(int i=1;i<=n;i++){
+        line3(i);
+        
+        COUNT=COUNT+i;
+    }
+    
+    printf(""\n"");
+    printf(""%d"",COUNT);
+}
+    
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //入力受け付け
+    int a;
+    scanf(""%d"",&a);
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    tri3(a);
+    
+    return 0;
+}","
+32744",,,,,
+2025-12-18T05:15:47.535Z,user_012,user12,49,auto_save,"#include <stdio.h>
+
+int line3(int m){
+    for(int j=1;j<=m;j++){
+        printf(""*"");
+    }
+    printf(""\n"");
+}
+
+int tri3(int n){
+    int COUNT;
+    
+    for(int i=1;i<=n;i++){
+        line3(i);
+        
+        COUNT=COUNT+i;
+    }
+    
+    printf(""\n"");
+    printf(""%d"",COUNT);
+}
+    
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //入力受け付け
+    int a;
+    scanf(""%d"",&a);
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    tri3(a);
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:15:51.007Z,user_012,user12,49,run,"#include <stdio.h>
+
+int line3(int m){
+    for(int j=1;j<=m;j++){
+        printf(""*"");
+    }
+    printf(""\n"");
+}
+
+int tri3(int n){
+    int COUNT;
+    
+    for(int i=1;i<=n;i++){
+        line3(i);
+        
+        COUNT=COUNT+i;
+    }
+    
+    printf(""\n"");
+    printf(""%d"",COUNT);
+}
+    
+int main(void) {
+    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/
+    //入力受け付け
+    int a;
+    scanf(""%d"",&a);
+    //tri3
+        //1から入力した整数値までiを1つずつ足しながら繰り返す
+        //その分だけline3関数を実行
+        //line3
+            //i（line3に代入する予定）の値の分だけ*を並べる
+        //COUNTを足し続ける
+    
+    //出力
+    tri3(a);
+    
+    return 0;
+}","*
+**
+***
+****
+*****
+******
+*******
+********
+*********
+**********
+
+32699",,,,,

@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-12-17T10:10:46.420Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, \n    出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n    // 1. 入力を受け取る\n    // 2. tri3を呼ぶ\n    return 0;\n}\n\n// tri3関数を作成する\n\n// line関数を作成する",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数: 入力を受け取り tri3を呼ぶ処理の枠組みがコメントである",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main内: 入力を受け取る (scanfなどで整数を読む)",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "main内: tri3を呼び結果（COUNT）を出力する",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "tri3関数: n行分の三角形を再帰で出力し、'*'の合計を管理する",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "line3関数: 指定個数の'*'を出力し、出力ごとにカウンタを増やす再帰処理を行う",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "今あるコメントを見て、どの部分を細かく書けば実装できそうかを決めよう。"
+    },
+    {
+      "level": 2,
+      "text": "tri3は行数を管理する役、line3は1行分の'*'を出す役と分けて、引数をどうするか考えてみて。"
+    },
+    {
+      "level": 3,
+      "text": "tri3は行番号を再帰で進めて各行でline3を呼ぶ設計にするとよい。line3には出力する'*'個数と合計を増やすためのポインタを渡すと実装しやすい（引数例を想像してみて）。"
+    }
+  ]
+}

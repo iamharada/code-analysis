@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-12-17T09:57:46.123Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, \n    出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n    // 1. 入力を受け取る\n    // 2. tri3を呼ぶ\n    return 0;\n}\n\n// tri3関数を作成する\n\n// line関数を作成する",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数: プログラム全体の入口として存在する",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力を受け取る（整数nを読む）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "tri3を呼ぶ（再帰で三角形を出力する役目）",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "tri3関数: 各行を再帰で出力し、'*'を数える集計を行う",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "tri3内でline3を呼んでその行を出力し、カウンタを更新する",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "line3関数: 指定個数の'*'を出力し、出力した分だけカウンタを増やす",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "tri3とline3の役割をはっきりさせよう。tri3は行の順序管理、line3は1行分の'*'出力とカウントだと確認して。"
+    },
+    {
+      "level": 2,
+      "text": "tri3はnを受け取り再帰で1行ずつ処理する設計にし、カウンタは関数間で共有するためポインタで渡す案を考えて。"
+    },
+    {
+      "level": 3,
+      "text": "関数の形は例えば: void tri3(int n, int *count); void line3(int k, int *count); tri3は if(n<=0) return; else tri3(n-1,count); line3(n,count); の流れを実装してみて。"
+    }
+  ]
+}

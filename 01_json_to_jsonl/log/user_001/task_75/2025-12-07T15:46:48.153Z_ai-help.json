@@ -1,0 +1,36 @@
+{
+  "timestamp": "2025-12-07T15:46:48.153Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数の雛形がある",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "入力と出力についてのプレースホルダコメント（/*入力:○○, 出力:△△*/）がある",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題文をもう一度読んで、何を入力して何を出力するかをはっきりさせよう。"
+    },
+    {
+      "level": 2,
+      "text": "具体例を考えてみよう：入力が4なら出力は4行のパスカルの三角形（各数を%3dで右揃え）になると想定する。"
+    },
+    {
+      "level": 3,
+      "text": "コメントを具体化して置き換えよう：\"入力: 整数 n(1〜10)\", \"出力: %3d で整形した n 行のパスカルの三角形（行末は改行のみ）\" と書いてから次に進む。"
+    }
+  ]
+}

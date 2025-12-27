@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-12-24T00:09:29.654Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "14",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    //入力：3つの実数、出力：三角形の形状（error含む）\n    \n    //3つの実数を受け取る\n    \n    //三角形が成立するか判定（成立する場合）\n        //三角形の形状判定\n    //成立しない場合\n        //error\n    \n    //結果出力\n    \n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main：プログラム全体の流れ（入力→判定→出力）を示す",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "3つの実数を受け取る（入力）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "三角形が成立するか判定する",
+      "status": "todo"
+    },
+    {
+      "level": 3,
+      "text": "成立する場合：三角形の形状（直角／鋭角／鈍角）を判定する",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "成立しない場合：\"Error\"を出力する",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "結果を出力して終了する",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "今のコメントで全体像は分かります。まず「最初の入力が最大値である」という条件を忘れないでください。"
+    },
+    {
+      "level": 2,
+      "text": "各大きな処理を細かい手順に分けて書き出しましょう（入力、成立判定、角度判定、出力の順）。"
+    },
+    {
+      "level": 3,
+      "text": "具体的には：1) doubleで3つ読み込む 2) 最大辺（最初） < 残り2辺の和なら成立 3) 比較は平方で a^2 ? b^2+c^2 により直角/鋭角/鈍角を決定 4) 成立しなければ\"Error\"を出力"
+    }
+  ]
+}

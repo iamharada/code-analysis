@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-12-24T15:47:38.870Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "処理の大枠決定",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数（プログラム全体）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "入力値（1つの整数）を受け取る",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "二次元配列でパスカルの三角形の各要素を作る",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "%3dで各行を整形して出力する",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題要件をもう一度確認して、入力は1つの整数、出力はその行数分のパスカルの三角形であることを確認してください。"
+    },
+    {
+      "level": 2,
+      "text": "全体の流れを考えてみましょう：入力を受け取り、二次元配列に値を入れ、整形して出力する、という順序を意識してください。"
+    },
+    {
+      "level": 3,
+      "text": "まずmainでnを読み、int a[10][10]などを用意して初期化し、上端を1にしてループで下の行を前行の和で埋め、printf(\"%3d\", a[i][j])で行ごとに出力して改行する、というコメントをコード内に書いてから実装しましょう。"
+    }
+  ]
+}

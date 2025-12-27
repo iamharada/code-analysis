@@ -1,0 +1,10 @@
+{
+  "timestamp": "2025-12-18T05:09:12.653Z",
+  "username": "user11",
+  "userId": "user_011",
+  "taskNumber": "39",
+  "event": "run",
+  "code": "#include <stdio.h>\n\nint yakusum1(int n,int m) {\n    int s = 0;\n    if (m < n) {\n        if (n % m == 0) {\n            s = s + m;\n        }\n        s = s + yakusum1(n,m+1);\n    }\n        return s;\n}\n\nint main(void) {\n    /*入力: 1以上1000以下の整数 n, 出力: nの約数の総和は%d\\n*/\n    int n;\n    scanf(\"%d\",&n);\n    printf(\"%dの約数の総和は%d\\n\",n,yakusum1(n,1));\n    return 0;\n}",
+  "stdout": "10の約数の総和は8\n",
+  "stderr": ""
+}

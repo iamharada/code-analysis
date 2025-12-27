@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-12-09T06:34:45.965Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n    //入力を受け付ける。\n    //計算する。\n    //出力する。\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の大枠決定",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数の雛形（コメントで処理の大まかな流れを記述）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "課題の理解コメント（入力:1つの整数, 出力:パスカルの三角形）",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "入力を受け付ける（scanfで整数を読む）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "計算する（パスカルの三角形を二次元配列で作る）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "出力する（%3dで整形して印字、最後に改行）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "全体の流れをもう一度イメージしてみて：入力→三角形を作る→出力の順で処理することを意識しよう。"
+    },
+    {
+      "level": 2,
+      "text": "どの処理を関数にするか決めよう。課題名にあるpascal関数を作り、mainは入出力を担当すると分けると良い。"
+    },
+    {
+      "level": 3,
+      "text": "具体的には：1) mainでnを読み、2) pascal関数にnを渡し二次元配列で値を計算、3) pascal内で%3dで各行を印字し最後に改行する、という3ステップにすると実装しやすい。"
+    }
+  ]
+}

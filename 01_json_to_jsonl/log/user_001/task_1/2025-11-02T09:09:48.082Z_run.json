@@ -1,0 +1,10 @@
+{
+  "timestamp": "2025-11-02T09:09:48.082Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "1",
+  "event": "run",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：なし, 出力：Hello,world!*/\n    aaaaaaaa;\n    printf(\"\");\n    \n    return 0;\n}",
+  "stdout": "",
+  "stderr": "file0.code.c: In function 'main':\nfile0.code.c:5:5: error: 'aaaaaaaa' undeclared (first use in this function)\n    5 |     aaaaaaaa;\n      |     ^~~~~~~~\nfile0.code.c:5:5: note: each undeclared identifier is reported only once for each function it appears in\nchmod: cannot access 'a.out': No such file or directory\n"
+}

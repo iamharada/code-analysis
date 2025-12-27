@@ -1,0 +1,10 @@
+{
+  "timestamp": "2025-12-18T07:03:54.833Z",
+  "username": "user19",
+  "userId": "user_019",
+  "taskNumber": "49",
+  "event": "run",
+  "code": "#include <stdio.h>\nint line3(int i);\nint tri3(int n,int m);\n\nint main(void) {\n    /*入力:1つの整数値, 出力:*の三角形*/\n    //整数値の入力\n    int n;\n    int count;\n    scanf(\"%d\",&n);\n    //tri3入力値を代入\n    count=tri3(n,1);\n    //countを表示\n    printf(\"COUNT=%d\\n\",count);\n    return 0;\n}\n\nint line3(int i){\n    int count=0;\n    //i個の*を表示\n    //*を一つずつ表示、iが0になるまで再帰\n    //iが0かどうか判定\n    \n    if(i!=0){\n        //i!=0・・・*を表示\n        printf(\"*\");\n        //count = count+1\n        count = count+1;\n        //i-1をline3に代入\n        count=count+line3(i-1);\n        }else{\n        //i==0・・・countを返す\n        return count;\n    }\n    return count;\n}\n\nint tri3(int n,int m){\n    int count=0;\n    //line3にmを代入\n    count=count+line3(m);\n    printf(\"\\n\");\n    //nがmと同値か判断\n    \n    if(n==m){\n        //同値・・・countを返す\n        return count;\n    }else{\n        //同値でない・・・tri3にn,m+1を代入\n        count= count+tri3(n,m+1);\n    }\n    return count;\n}",
+  "stdout": "*\n**\n***\n****\n*****\n******\nCOUNT=21\n",
+  "stderr": ""
+}

@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-12-18T05:09:50.913Z",
+  "username": "user19",
+  "userId": "user_019",
+  "taskNumber": "14",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:3つの整数値, 出力:三角形の種類*/\n    //3つの整数値を入力する\n    //成立するか判定\n        //成立・・・三角形の種類を判定\n        //不成立・・・Error\n    //結果の表示\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数全体の処理の流れをコメントで記述している（入力→成立判定→種類判定→表示）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "3つの値を入力する（コメントあり）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "三角形が成立するか判定する（コメントあり）",
+      "status": "todo"
+    },
+    {
+      "level": 3,
+      "text": "成立していれば三角形の種類（直角／鋭角／鈍角）を判定する（コメントあり）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "結果を表示する（コメントあり）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "コメントに書いた「入力→判定→出力」の流れをそのままコードにしてみましょう。まずはscanfで値を読み取る行を書いてください。"
+    },
+    {
+      "level": 2,
+      "text": "実数扱いなのでdouble型を使い、問題文の注意通り「最初の入力を最大値」として扱って判定の条件を考えてください。"
+    },
+    {
+      "level": 3,
+      "text": "読み込んだa,b,cについて a >= b + c なら\"Error\"を出力。そうでなければ a*a と b*b + c*c を比較し、等しいなら直角、大きければ鈍角、小さければ鋭角と出力してください（等号判定は fabs差 < 1e-9 などで扱うと安全です）。"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-12-23T03:02:52.269Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数,\n    出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n    // 1. 入力を受け取る\n    // 2. tri3を呼ぶ\n    return 0;\n}\n\n// tri3関数を作成する\n// tri3(n):\n//   まずline(n)でn個の*を出す\n//   次にtri3(n-1)で残りを出す\n//   COUNTは line の戻り値を足していく\n\n// line関数を作成する\n// line(n):\n//   *を1個出してline(n-1)を呼ぶ\n//   最後に改行する",
+  "estimated_stage": "処理の詳細化",
+  "next_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main: 入力を受け取り tri3 を呼ぶための枠がある（scanf と呼び出しのコメント）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main 内の処理詳細: 入力を受け取り、tri3 を呼び出し、COUNT 表示を行う（まだ実装されていない）",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "tri3(n): line(n) を呼んで n-1 で自分を再帰呼び出し、line の戻り値を合計する（コメントで仕様記載）",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "line(n): '*' を1個出力して再帰呼び出し、最後に改行して出力した '*' の個数を返す（コメントで仕様記載）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "今のコメントは具体的で実装可能に見えるので、どのコメントを先にコードにするか決めましょう。"
+    },
+    {
+      "level": 2,
+      "text": "tri3 と line は戻り値でカウントを返す設計にすると main で合計しやすいと考えてみてください。"
+    },
+    {
+      "level": 3,
+      "text": "line と tri3 をそれぞれ int を返す関数で実装し、base case（n<=0）を作って再帰の終了とカウントの集計を行い、main で scanf→tri3 呼出→ printf(\"COUNT=%d\\n\", count) の順にしてください。"
+    }
+  ]
+}

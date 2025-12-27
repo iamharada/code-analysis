@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-12-18T06:50:55.090Z",
+  "username": "user20",
+  "userId": "user_020",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n//関数を作る\n//\n\nint main(void) {\n    /*入力:一つの整数, 出力:パスカルの三角形*/\n    \n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "処理の大枠決定",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "ファイル先頭のコメント：関数を作る（pascal関数を用意する意図）",
+      "status": "in_progress"
+    },
+    {
+      "level": 1,
+      "text": "main関数：入力（1つの整数）を受け取り、パスカルの三角形を出力する場所（コメントのみ）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main内の終了処理（return 0; が存在）",
+      "status": "done"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "全体の流れをイメージしよう：入力を受け取り→三角形を作り→整形して出力する順番を考えてください。"
+    },
+    {
+      "level": 2,
+      "text": "必要なステップを洗い出そう：入力読み取り、pascal関数の用意、二次元配列で計算、%3dで整形して出力の順に分けて考えてください。"
+    },
+    {
+      "level": 3,
+      "text": "まずmainで入力を読むとコメントし、pascal(int n)を作るとコメントして、関数内で配列の初期化・計算・行ごとに%3dで出力する処理を3〜5行のコメントで書いてから実装を始めてください。"
+    }
+  ]
+}

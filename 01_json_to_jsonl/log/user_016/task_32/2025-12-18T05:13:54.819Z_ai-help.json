@@ -1,0 +1,61 @@
+{
+  "timestamp": "2025-12-18T05:13:54.819Z",
+  "username": "user16",
+  "userId": "user_016",
+  "taskNumber": "32",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint checktri(float x,float y,float z){//関数の作成\n    int s;\n    if(a<b+c){\n        if(a*a==b*b+c*c){\n            s=1;\n        }else if(a*a<b*b+c*c){\n            s=2;\n        }else{\n            s=3;\n        }\n    }else{\n        s=0;\n    }\n        \nint main(void) {\n    /*入力:3つの実数, 出力:三角形の形状*/\n    float a,b,c;\n    int y;\n    scanf(\"%f %f %f\",&a,&b,&c);//入力する\n    y=checktri(a,b,c);\n    \n    \n    //関数から判定\n    \n\n    return 0;\n}",
+  "estimated_stage": "コード化",
+  "next_stage": "コードの整合性確認",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "checktri関数: 三角形成立の判定と角の種類の判定を行う",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "三角形成立判定: 最大辺(a) < 他の2辺の和(b + c) を確認する（問題文で最初の入力が最大と仮定）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "角判定: a*a と b*b + c*c を比較して直角/鋭角/鈍角を判定する",
+      "status": "in_progress"
+    },
+    {
+      "level": 1,
+      "text": "main関数: 入力読み取り、関数呼び出し、戻り値に応じた出力（switch-case）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力読み取り: scanfで3つの実数を読み取る",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "関数呼び出し: checktriを呼んで戻り値を受け取る",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "出力処理: 戻り値に応じた文字列を出力するswitch-case（未実装）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まずコード全体を見直して、コンパイルエラーになりそうな箇所（未閉じの波括弧や未定義変数）に気づこう。"
+    },
+    {
+      "level": 2,
+      "text": "checktriの引数名と関数内で使っている変数名を一致させ、関数の最後で必ず戻り値を返すように修正してみて。"
+    },
+    {
+      "level": 3,
+      "text": "具体的には: 1) checktri内でa,b,cを使わず引数x,y,zを使うよう置換、2) 成立判定を if (x < y + z) の形で行い、角判定は x*x と y*y+z*z を比較、3) 判定値を return し、4) mainでswitchを作り0→\"Error\"、1→\"直角三角形\"、2→\"鋭角三角形\"、3→\"鈍角三角形\"をprintfで出力して改行で終える。"
+    }
+  ]
+}

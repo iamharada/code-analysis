@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-12-24T15:58:54.696Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n    //入力を受け付ける。\n    //計算する。\n    //出力する。\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の大枠決定",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：プログラムの開始と全体の流れを管理する",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力を受け付ける（1つの整数 n を読み取る）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "計算する（パスカルの三角形を生成する処理）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "出力する（%3d で整形して印字し、行ごとに改行）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "全体の流れを確認しよう：入力を受け取り、三角形を作り、整形して出力する順だよ。"
+    },
+    {
+      "level": 2,
+      "text": "必要なステップを明確に分けよう：入力読み取り、二次元配列で計算、%3dで出力の3つに分けて考えてみて。"
+    },
+    {
+      "level": 3,
+      "text": "mainでnを読み取りpascal(n)を呼ぶ設計にし、pascal内で二次元配列に a[i][0]=a[i][i]=1, a[i][j]=a[i-1][j-1]+a[i-1][j] を繰り返し計算して printf(\"%3d\",a[i][j]) で出力して行末で改行するように実装してみよう。"
+    }
+  ]
+}

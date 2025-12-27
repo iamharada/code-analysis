@@ -1,0 +1,1 @@
+{"timestamp":"2025-12-24T00:28:33.612Z","username":"user26","userId":"user_026","taskNumber":"14","event":"auto_save","code":"#include <stdio.h>\n\nint main(void) {\n    scanf(\"%d\",&a,)\n    /*入力:3つの整数, 出力:三角形の形状\n    三角形の成立条件で条件分岐\n    \n    \n    */\n\n    return 0;\n}"}

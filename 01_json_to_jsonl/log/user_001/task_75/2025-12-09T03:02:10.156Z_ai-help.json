@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-12-09T03:02:10.156Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の大枠決定",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：プログラム開始と全体の管理（入力→処理→出力）を担う",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力を受け取る（1つの整数 n を読み取る）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "パスカルの三角形を計算して印字する（行数 n、%3d で整形）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まず課題の全体像をもう一度確認して、何を出力するかはっきりさせよう。"
+    },
+    {
+      "level": 2,
+      "text": "必要な大きな手順（入力を読む、三角形を作る、整形して出力する）を順番に考えてみよう。"
+    },
+    {
+      "level": 3,
+      "text": "main と別に pascal 関数を作ることを考え、コメントで3〜5ステップ（例：読み取り→配列初期化→繰り返しで計算→%3dで出力→改行）を書いてから実装を始めよう。"
+    }
+  ]
+}

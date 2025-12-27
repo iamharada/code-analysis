@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-12-18T04:21:30.252Z",
+  "username": "user16",
+  "userId": "user_016",
+  "taskNumber": "14",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    float a,b,c/*入力:3つの実数, 出力:三角形の形状判定*/\n    //三角形の成立を判定\n    　　//三角形の種類を判定\n    //エラー\n\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：入力を受け取り判定して結果を出力する流れ",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "変数宣言：実数 a, b, c を用意する",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "三角形の成立を判定する（最初の入力が最大である前提）",
+      "status": "todo"
+    },
+    {
+      "level": 3,
+      "text": "成立する場合に三角形の種類を判定する（直角/鋭角/鈍角）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "成立しない場合は \"Error\" を出力する",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "今あるコメントをそのまま順番に実装することを考えよう。まずは入力処理から着手してみてください。"
+    },
+    {
+      "level": 2,
+      "text": "宣言の末尾にセミコロンを付け、scanfで3つの実数を読み取るコードを追加してみてください。"
+    },
+    {
+      "level": 3,
+      "text": "三角形成立は a < b + c で判定し、成立しなければ printf(\"Error\\n\")。成立するなら a*a と b*b + c*c を比較して種類を出力してください。"
+    }
+  ]
+}

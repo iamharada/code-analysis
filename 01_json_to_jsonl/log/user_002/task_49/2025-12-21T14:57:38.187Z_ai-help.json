@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-12-21T14:57:38.187Z",
+  "username": "user2",
+  "userId": "user_002",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, \n    出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n    // 1. 入力を受け取る\n    // 2. tri3を呼ぶ\n    return 0;\n}\n\n// tri3関数を作成する\n\n// line関数を作成する",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main: 入力を受け取り tri3 を呼ぶ（コメントで記述あり）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "tri3: 再帰で各行を出力しカウントを集計する関数（宣言のみコメント）",
+      "status": "todo"
+    },
+    {
+      "level": 3,
+      "text": "line3: 1行分の '*' を出力し、出力ごとにカウンタを増やす関数（宣言のみコメント）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "tri3 と line3 の役割をはっきり分ける必要があると気づきましょう。"
+    },
+    {
+      "level": 2,
+      "text": "tri3 は行数の管理、line3 は1行分の '*' 出力とカウント増加を担当すると考えてみてください。"
+    },
+    {
+      "level": 3,
+      "text": "具体案：tri3(int n, int *count) は n==0 で終了、そうでなければ tri3(n-1,count) の後に line3(n,count) を呼ぶ。line3(int k, int *count) は再帰で '*' を k 個出力し、出力ごとに (*count)++ する設計にすると実装しやすいです。"
+    }
+  ]
+}

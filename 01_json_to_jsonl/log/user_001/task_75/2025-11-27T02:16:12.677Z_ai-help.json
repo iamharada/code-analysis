@@ -1,0 +1,36 @@
+{
+  "timestamp": "2025-11-27T02:16:12.677Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "プログラムの骨組み（#includeとmain関数、return 0）がある",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main内にプレースホルダコメント（/*入力:○○, 出力:△△*/）が残っている",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題の要件（入力の範囲・出力の形式・余計な空白を出さないこと）をもう一度はっきりさせてください。"
+    },
+    {
+      "level": 2,
+      "text": "具体的な入力例（例:4）と、それに対応する出力例を紙に書いて、出力の見た目や改行位置を確認してください。"
+    },
+    {
+      "level": 3,
+      "text": "入力は整数n(1〜10)。出力はn行のパスカルの三角形で、各数は幅3の右揃え('%3d')で出力し、最後は改行のみとしてください（例:入力4は提示の出力と同じ）。"
+    }
+  ]
+}

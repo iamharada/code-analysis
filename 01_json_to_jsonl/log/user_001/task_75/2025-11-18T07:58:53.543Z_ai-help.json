@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-11-18T07:58:53.543Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "#include ディレクティブ（stdio.h）がある",
+      "status": "done"
+    },
+    {
+      "level": 1,
+      "text": "main関数の雛形がある（処理未実装）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main内に入力・出力を示す簡単なコメント（'入力:○○, 出力:△△'）がある",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "mainの終了処理（return 0;）がある",
+      "status": "done"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題の要件をもう一度確認しましょう。入力は1つの整数（1〜10）、出力はパスカルの三角形を%3dで右揃えで表示する点を押さえてください。"
+    },
+    {
+      "level": 2,
+      "text": "入力と出力の具体像を紙に書いてください。入力変数名（例：n）と、出力はn行で各行にいくつの数を並べるかを明確にしましょう。"
+    },
+    {
+      "level": 3,
+      "text": "例を使って確認しましょう：n=4のとき行は4行で最後は1 4 6 4 1（各数を%3dで右揃え）。これが理解できたら、次は処理の大枠決定に進んで、必要な手順を3〜5個のコメントで書いてください。"
+    }
+  ]
+}

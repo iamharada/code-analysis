@@ -1,0 +1,29 @@
+ts,user_id,username,task,event,code,stdout,stderr,estimated_stage,next_stage,processing_structure,advice
+2025-11-04T05:53:03.118Z,user_001,user1,10,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:, 出力:△△*/
+
+    return 0;
+}",,,,,,
+2025-11-04T05:53:13.118Z,user_001,user1,10,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:整数値, 出力:*/
+
+    return 0;
+}",,,,,,
+2025-11-04T05:53:23.117Z,user_001,user1,10,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:整数値, 出力:偶数と奇数の判定*/
+
+    return 0;
+}",,,,,,
+2025-11-04T05:53:33.743Z,user_001,user1,10,run,"#include <stdio.h>
+
+int main(void) {
+    /*入力:整数値, 出力:偶数と奇数の判定*/
+
+    return 0;
+}",,,,,,

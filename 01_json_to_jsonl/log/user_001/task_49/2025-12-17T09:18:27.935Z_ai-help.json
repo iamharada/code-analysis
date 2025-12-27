@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-12-17T09:18:27.935Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, \n    出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n    // 1. 入力を受け取る\n    // 2. tri3を呼ぶ\n    // 3. COUNTは n*(n+1)/2 で計算して表示\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：プログラム全体の流れを記述したコメントあり",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力を受け取る（整数 n を scanf 等で取得）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "tri3 を呼び出して三角形を出力する（再帰関数を使う）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "COUNT を出力する（コメントで n*(n+1)/2 と書いているが、再帰内でカウントする必要あり）",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "main のコメントはそのまま実装可能な処理（入力取得・再帰呼び出し・COUNT出力）を示しています。"
+    },
+    {
+      "level": 2,
+      "text": "tri3 と line3 を関数として定義し、main では入力を読み取って tri3 を呼ぶ流れにしてください。"
+    },
+    {
+      "level": 3,
+      "text": "関数例：void tri3(int n,int *cnt); void line3(int k,int *cnt); line3 は '*' を出力するたびに (*cnt)++ し、tri3 は再帰で行を作ります。"
+    }
+  ]
+}

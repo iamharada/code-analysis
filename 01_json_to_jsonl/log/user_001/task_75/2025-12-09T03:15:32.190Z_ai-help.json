@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-12-09T03:15:32.190Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "処理の大枠決定",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数のスケルトン（return 0 を含む）",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "入力として整数を読み取る",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "パスカルの三角形を作成する処理",
+      "status": "todo"
+    },
+    {
+      "level": 3,
+      "text": "二次元配列を用いて値を格納する（配列宣言）",
+      "status": "todo"
+    },
+    {
+      "level": 3,
+      "text": "繰り返しで配列に値を計算・代入する",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "%3d で整形して行ごとに出力する",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まず課題全体の流れをイメージして：入力→三角形作成→出力の順で考えよう。"
+    },
+    {
+      "level": 2,
+      "text": "必要なステップを列挙してみて：読み取り、配列の準備、値の計算、整形して表示、の順を意識して。"
+    },
+    {
+      "level": 3,
+      "text": "main内にコメントで3〜5の処理ステップを書き（例：入力を読む／二次元配列宣言／値を計算／出力）、次はその各ステップを詳細なコメントに分解してみよう。"
+    }
+  ]
+}

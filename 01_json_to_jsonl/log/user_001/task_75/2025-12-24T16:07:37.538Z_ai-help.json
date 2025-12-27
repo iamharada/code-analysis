@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-12-24T16:07:37.538Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n    //入力をパスカルの三角形の段数として受け付ける。\n    //入力値（段数）をpascal関数に渡す。\n    return 0;\n}\n//入力された段数分のパスカルの三角形を出力するpascal関数を作る",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数: プログラム開始、入力を受け取りpascal関数に渡す役割",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main内の処理: 標準入力から整数を読み取る（scanf等）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "main内の処理: 読み取った値をpascal関数に渡して呼び出す",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "pascal関数: 二次元配列と繰り返しでパスカルの三角形を作成し%3dで整形出力する",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "今のコメントを見て、どの部分がまだあいまいか確認しよう：入力処理とpascal関数内の処理を分けて考えてみて。"
+    },
+    {
+      "level": 2,
+      "text": "処理を小さなステップに分けよう：配列のサイズ決定→初期化→端は1に設定→内部は上の行の和で計算→%3dで行ごとに出力、という順序を作る。"
+    },
+    {
+      "level": 3,
+      "text": "具体的にコメントを書き出そう：arr[n][n]を0で初期化、for i=0..n-1でarr[i][0]=arr[i][i]=1、内部はarr[i][j]=arr[i-1][j-1]+arr[i-1][j]、出力はprintf(\"%3d\", arr[i][j])で行末に改行。"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "timestamp": "2025-10-29T23:56:18.688Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": 1,
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：なし, 出力：Hello,world!*/\n    aaaaaaaa;\n    printf(\"\")\n    \n    return 0;\n}",
+  "estimated_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "ヘッダのインクルード（#include <stdio.h>）",
+      "status": "done"
+    },
+    {
+      "level": 1,
+      "text": "main関数の定義（int main(void) { … }）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力/出力のコメント（入力なし、出力は指定の文字列）",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "不明なプレースホルダ（aaaaaaaa; — 未完成/不要な記述）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "printf呼び出しの記述（現状: printf(\"\") が未完成）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "return 0; による終了処理",
+      "status": "done"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "目的を再確認：プログラムは標準出力に指定の文字列を表示して改行するだけ。使う関数は printf。まず main の中で出力処理を書くこと。"
+    },
+    {
+      "level": 2,
+      "text": "main 内の不要なプレースホルダ（aaaaaaaa;）は削除して、printf に正しい引数を渡す。文字列は \"Hello,world!ようこそ\" とし、最後に改行を表すエスケープシーケンス（\\n）を付けること。文末のセミコロンを忘れない。"
+    },
+    {
+      "level": 3,
+      "text": "よくあるミスの確認手順：1) 文字列はダブルクオートで囲まれているか、2) printf の綴りと小文字/大文字は正しいか、3) 文末に ; があるか、4) ソースファイルの文字エンコーディング（UTF-8）で日本語が正しく保存されているか、5) コンパイルして実行して期待通りに改行されるかを確かめる。エラーが出たらエラーメッセージを読んで該当行を修正する。"
+    }
+  ]
+}

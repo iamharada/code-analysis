@@ -1,0 +1,766 @@
+ts,user_id,username,task,event,code,stdout,stderr,estimated_stage,next_stage,processing_structure,advice
+2025-12-18T02:36:55.355Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:, 出力:*/
+
+    return 0;
+}",,,,,,
+2025-12-18T02:37:15.355Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つのじ, 出力:*/
+
+    return 0;
+}",,,,,,
+2025-12-18T02:37:25.355Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数, 出力:*/
+
+    return 0;
+}",,,,,,
+2025-12-18T02:37:35.355Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の*/
+
+    return 0;
+}",,,,,,
+2025-12-18T02:37:45.356Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の判定結果または*/
+
+    return 0;
+}",,,,,,
+2025-12-18T02:37:55.356Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の判定結果または三角形にならない*/
+
+    return 0;
+}",,,,,,
+2025-12-18T02:38:05.356Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の判定結果または三角形にならない場合（E）*/
+
+    return 0;
+}",,,,,,
+2025-12-18T02:38:15.356Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の判定結果または三角形にならない場合（Error）*/
+
+    return 0;
+}",,,,,,
+2025-12-18T02:38:39.305Z,user_002,user2,14,ai-help,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の判定結果または三角形にならない場合（Error）*/
+
+    return 0;
+}",,,処理の大枠決定,処理の大枠決定,"[{""level"": 1, ""text"": ""main関数（プログラム本体の枠のみがある）"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""課題説明コメント（入力:3つの実数, 出力:三角形判定またはError）"", ""status"": ""done""}]","[{""level"": 1, ""text"": ""全体の流れを考えよう：入力を受け取り、三角形が成立するか調べ、種類を判定して出力する順をイメージして下さい。""}, {""level"": 2, ""text"": ""必要な大きな手順を書き出そう：入力読み取り → 三角形成立判定 → 角度の判定 → 結果の出力、の四つを明記してみてください。""}, {""level"": 3, ""text"": ""具体的には：1) doubleでa,b,cを読み取る（問題でaが最大と仮定）2) a < b + c なら三角形成立、でなければ\""Error\\n\""を出力3) 成立時は a*a と b*b + c*c を比較して直角/鋭角/鈍角を出力する。""}]"
+2025-12-18T02:46:30.740Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の判定結果または三角形にならない場合（Error）*/
+    return 0;
+}",,,,,,
+2025-12-18T02:46:48.152Z,user_002,user2,14,ai-help,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の判定結果または三角形にならない場合（Error）*/
+    return 0;
+}",,,課題の理解,処理の大枠決定,"[{""level"": 1, ""text"": ""main関数: コメントで入力(3つの実数)と出力(三角形判定またはError)の要件が書かれているが、実装はない"", ""status"": ""in_progress""}]","[{""level"": 1, ""text"": ""課題の要件をもう一度確認して、入力と出力が何かをはっきりさせてください。""}, {""level"": 2, ""text"": ""処理の流れを洗い出しましょう：入力を読み、最大辺を決め、三角形成立を判定し、角の種類を判定して出力する手順です。""}, {""level"": 3, ""text"": ""具体的手順：1) double 変数に3つをscanfで読む 2) 最大が最初の入力である前提で三角形不等式 a < b + c を確認 3) a*a と b*b + c*c を比較して直角/鋭角/鈍角を判定し、結果をprintfで出力する（比較は丸め誤差対策に fabs の閾値を使うと安全）。""}]"
+2025-12-18T02:55:53.044Z,user_002,user2,14,ai-help,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の判定結果または三角形にならない場合（Error）*/
+    return 0;
+}",,,課題の理解,処理の大枠決定,"[{""level"": 1, ""text"": ""main関数の雛形（プログラム開始点）"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""入力: 3つの実数を受け取る処理（scanfなど）"", ""status"": ""todo""}, {""level"": 2, ""text"": ""判定: 三角形成立の確認と角度の種類（直角/鋭角/鈍角）の判定"", ""status"": ""todo""}, {""level"": 2, ""text"": ""出力: 判定結果を指定の文字列で表示（改行あり）"", ""status"": ""todo""}]","[{""level"": 1, ""text"": ""全体の流れをイメージしてみてください：入力→判定→出力の順です。""}, {""level"": 2, ""text"": ""まず必要な大きな手順を書き出しましょう：入力取得、三角形成立確認、角度判定、出力の順で考えます。""}, {""level"": 3, ""text"": ""具体的な大枠は：1) scanfで3つのdoubleを読む。2) 入力のうち最大値をa、他をb,cにしてa < b + cで成立確認。3) a*a と b*b + c*c を比較して直角/鋭角/鈍角を判定。4) 結果を対応する日本語で出力して改行。""}]"
+2025-12-18T02:56:51.473Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の判定結果または三角形にならない場合（Error）*/
+    
+    return 0;
+}",,,,,,
+2025-12-18T02:57:01.473Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の判定結果または三角形にならない場合（Error）*/
+    //
+    //
+    //
+    return 0;
+}",,,,,,
+2025-12-18T03:03:01.088Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の判定結果または三角形にならない場合（Error）*/
+    //成立判定
+    //けい
+    //
+    return 0;
+}",,,,,,
+2025-12-18T03:03:11.088Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の判定結果または三角形にならない場合（Error）*/
+    //成立判定
+    //形状判定
+    //しゅつりょ
+    return 0;
+}",,,,,,
+2025-12-18T03:03:21.088Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の判定結果または三角形にならない場合（Error）*/
+    //入力
+    //成立判定
+    //形状判定
+    //出力
+    return 0;
+}",,,,,,
+2025-12-18T03:03:31.090Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の判定結果または三角形にならない場合（Error）*/
+    //入力の受け付け
+    //成立判定
+    //形状判定
+    //出力
+    return 0;
+}",,,,,,
+2025-12-18T03:04:01.219Z,user_002,user2,14,ai-help,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の判定結果または三角形にならない場合（Error）*/
+    //入力の受け付け
+    //成立判定
+    //形状判定
+    //出力
+    return 0;
+}",,,処理の大枠決定,処理の詳細化,"[{""level"": 1, ""text"": ""課題の要約コメント（入力:3つの実数、出力:判定またはError）"", ""status"": ""done""}, {""level"": 1, ""text"": ""main関数の処理フロー（高レベルのコメント）"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""入力の受け付け（3つの実数を読み取る）"", ""status"": ""todo""}, {""level"": 2, ""text"": ""成立判定（三角形の成立条件を確認）"", ""status"": ""todo""}, {""level"": 2, ""text"": ""形状判定（直角・鋭角・鈍角の判定）"", ""status"": ""todo""}, {""level"": 2, ""text"": ""出力（判定結果を表示し改行する）"", ""status"": ""todo""}]","[{""level"": 1, ""text"": ""どのコメントを詳細化すべきか確認しよう：入力→成立判定→形状判定→出力の順で考えてみてください。""}, {""level"": 2, ""text"": ""各コメントを具体化しよう：入力は3つのdoubleで読み、成立判定と角度判定の条件を書き出してみてください。""}, {""level"": 3, ""text"": ""具体手順案：double a,b,cを読み（scanf）、まずa>=b+cなら\""Error\""を出力；それ以外はa*a と b*b+c*cを比較して等しい→\""直角三角形\""、小さい→\""鋭角三角形\""、大きい→\""鈍角三角形\""（最後に改行）。""}]"
+2025-12-18T03:11:20.790Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の判定結果または三角形にならない場合（Error）*/
+    
+    return 0;
+}",,,,,,
+2025-12-18T03:11:40.790Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+
+    return 0;
+}",,,,,,
+2025-12-18T03:11:50.791Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+    
+    return 0;
+}",,,,,,
+2025-12-18T03:30:43.107Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力: 出力:△△*/
+    
+    return 0;
+}",,,,,,
+2025-12-18T03:31:03.105Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力: 出力:*/
+    printf
+    
+    return 0;
+}",,,,,,
+2025-12-18T03:31:13.107Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力: 出力:*/
+    printf(""%d"",)
+    
+    return 0;
+}",,,,,,
+2025-12-18T03:31:43.107Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力: 出力:*/
+    return 0;
+}",,,,,,
+2025-12-18T03:32:59.284Z,user_002,user2,14,ai-help,"#include <stdio.h>
+
+int main(void) {
+    /*入力: 出力:*/
+    return 0;
+}",,,課題の理解,課題の理解,"[{""level"": 1, ""text"": ""main関数の雛形がある（処理部分は未実装）"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""main内に入力・出力を示すコメント /*入力: 出力:*/ があるが内容が未記入"", ""status"": ""todo""}]","[{""level"": 1, ""text"": ""課題をもう一度確認して、何を入力し何を出力するかはっきりさせましょう。""}, {""level"": 2, ""text"": ""入力は実数3つ（最初の値が最大値でよい）、出力は判定文字列のみ（最後に改行）という具体例を考えてみてください。""}, {""level"": 3, ""text"": ""入力を a,b,c（a が最大）として、まず a < b + c なら三角形成立、そうでなければ \""Error\"" を出力し、成立するなら a*a と b*b + c*c を比較して直角/鋭角/鈍角を決めてください。""}]"
+2025-12-18T03:39:55.435Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数 出力:三角形の班*/
+    return 0;
+}",,,,,,
+2025-12-18T03:40:05.434Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数 出力:三角形の判定*/
+    return 0;
+}",,,,,,
+2025-12-18T03:40:35.435Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数 出力:三角形の形状判定*/
+    
+    return 0;
+}",,,,,,
+2025-12-18T03:40:55.436Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数 出力:三角形の形状判定*/
+    //にゅう
+    return 0;
+}",,,,,,
+2025-12-18T03:41:05.436Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数 出力:三角形の形状判定*/
+    //入力の受け付け
+    return 0;
+}",,,,,,
+2025-12-18T03:41:15.437Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数 出力:三角形の形状判定*/
+    //入力の受け付け
+    //
+    return 0;
+}",,,,,,
+2025-12-18T03:41:25.437Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数 出力:三角形の形状判定*/
+    //入力の受け付け
+    //s
+    return 0;
+}",,,,,,
+2025-12-18T03:41:35.436Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数 出力:三角形の形状判定*/
+    //入力の受け付け
+    //三角形に
+    return 0;
+}",,,,,,
+2025-12-18T03:41:45.437Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数 出力:三角形の形状判定*/
+    //入力の受け付け
+    //三角形になるかの判定
+    return 0;
+}",,,,,,
+2025-12-18T03:41:55.438Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数 出力:三角形の形状判定*/
+    //入力の受け付け
+    //三角形になるかの判定
+    //形状の判定
+    return 0;
+}",,,,,,
+2025-12-18T03:42:05.438Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数 出力:三角形の形状判定*/
+    //入力の受け付け
+    //三角形になるかの判定
+        //形状の判定
+    
+    return 0;
+}",,,,,,
+2025-12-18T03:42:15.438Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数 出力:三角形の形状判定*/
+    //入力の受け付け
+    //三角形になるかの判定
+        //形状の判定
+    //出力
+    return 0;
+}",,,,,,
+2025-12-18T03:43:10.145Z,user_002,user2,14,ai-help,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数 出力:三角形の形状判定*/
+    //入力の受け付け
+    //三角形になるかの判定
+        //形状の判定
+    //出力
+    return 0;
+}",,,処理の大枠決定,処理の詳細化,"[{""level"": 1, ""text"": ""main関数：プログラム全体の入口と処理の枠組みを示すコメントがある"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""入力の受け付け（3つの実数を読む）"", ""status"": ""todo""}, {""level"": 2, ""text"": ""三角形になるかの判定（最大値を前提に成立条件を調べる）"", ""status"": ""todo""}, {""level"": 3, ""text"": ""形状の判定（直角・鋭角・鈍角の判定）"", ""status"": ""todo""}, {""level"": 2, ""text"": ""出力（判定結果を表示）"", ""status"": ""todo""}]","[{""level"": 1, ""text"": ""今のコメントを見て、どの部分を細かく書くべきか探そう。入力・成立判定・形状判定・出力の4つに分けると良い。 ""}, {""level"": 2, ""text"": ""各部分で必要な処理を書き出そう。例: 入力はdoubleで受け取る、成立判定は最大辺 a に対して a < b + c を使う、角判定は長さの2乗を比較する。 ""}, {""level"": 3, ""text"": ""詳細: 3つをdoubleで読み、成立は a < b + c を確認。角判定は a*a と b*b + c*c を比較し、差が小さいなら直角、差が正負で鋭角/鈍角を判定して対応する文字列を出力する（小さな誤差を考慮するため許容差を使う）。""}]"
+2025-12-18T03:50:23.540Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+    
+    return 0;
+}",,,,,,
+2025-12-18T03:50:33.540Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+    
+    return 0;
+}",,,,,,
+2025-12-18T03:50:43.540Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+    
+    return 0;
+}",,,,,,
+2025-12-18T03:59:53.559Z,user_002,user2,14,ai-help,"#include <stdio.h>
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+    
+    return 0;
+}",,,課題の理解,課題の理解,"[{""level"": 1, ""text"": ""#include <stdio.h> によるヘッダ宣言"", ""status"": ""done""}, {""level"": 1, ""text"": ""main関数の定義（プログラムの開始と終了）"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""main内のコメント /*入力:○○, 出力:△△*/（入力・出力の記述）"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""return 0; による正常終了"", ""status"": ""done""}]","[{""level"": 1, ""text"": ""課題の要件をもう一度確認しましょう。入力は3つの実数で最初が最大値である点を忘れないでください。""}, {""level"": 2, ""text"": ""具体的な入出力例を考えてみましょう。例えば 5 4 3 のとき何を出力すべきか想像してください。""}, {""level"": 3, ""text"": ""出力は問題文どおり1行で改行のみ。例: 入力 '5 4 3' → 出力 '直角三角形'（末尾に改行）""}]"
+2025-12-18T04:02:24.246Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+    //
+    return 0;
+}",,,,,,
+2025-12-18T04:02:34.244Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+    //
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:02:44.245Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+    //
+    /**/
+    return 0;
+}",,,,,,
+2025-12-18T04:02:54.246Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+    //
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:03:24.245Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:○, 出力:△△*/
+    //
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:03:34.245Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+ 
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:03:44.247Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:04:14.247Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数, 出力:*/
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:04:24.247Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数, 出力:三角形の形状判定*/
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:04:34.248Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数, 出力:三角形の形状判定*/
+    
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:04:44.248Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数, 出力:三角形の形状判定*/
+    //
+    //
+    //
+    //
+    return 0;
+}",,,,,,
+2025-12-18T04:05:04.248Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数, 出力:三角形の形状判定*/
+    //入力をうk
+    //
+    //
+    //
+    return 0;
+}",,,,,,
+2025-12-18T04:05:14.249Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数, 出力:三角形の形状判定*/
+    //入力を受け付ける
+    //
+    //
+    //
+    return 0;
+}",,,,,,
+2025-12-18T04:06:10.166Z,user_002,user2,14,ai-help,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数, 出力:三角形の形状判定*/
+    //入力を受け付ける
+    //
+    //
+    //
+    return 0;
+}",,,処理の大枠決定,処理の大枠決定,"[{""level"": 1, ""text"": ""main関数: プログラム開始と全体の制御"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""課題の入出力の記述（/*入力:三つの実数, 出力:三角形の形状判定*/）"", ""status"": ""done""}, {""level"": 2, ""text"": ""入力を受け付ける（//入力を受け付ける がコメントのみ）"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""プログラム終了（return 0; がある）"", ""status"": ""done""}]","[{""level"": 1, ""text"": ""まず全体の流れを固めよう：入力を読み、三角形の成立を確認し、種類を判定して出力する順序をイメージして下さい。""}, {""level"": 2, ""text"": ""必要な処理を箇条書きにしてみて：入力読み取り、成立条件チェック、角度判定（平方で比較）、結果の表示の4つを明記すること。""}, {""level"": 3, ""text"": ""具体的手順の例：1) scanfで3つのdoubleを読む（最初が最大と仮定） 2) 成立条件は a < b + c なら三角形 3) a*a と b*b+c*c を比較して直角/鋭角/鈍角を判定 4) 成立しないときは Error を出力（改行あり）""}]"
+2025-12-18T04:06:44.252Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数, 出力:三角形の形状判定*/
+    //入力を受け付ける
+    //三角k
+    //
+    //
+    return 0;
+}",,,,,,
+2025-12-18T04:06:54.252Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数, 出力:三角形の形状判定*/
+    //入力を受け付ける
+    //三角形の成立判定
+    
+    //
+    return 0;
+}",,,,,,
+2025-12-18T04:07:04.252Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数, 出力:三角形の形状判定*/
+    //入力を受け付ける
+    //三角形の成立判定
+        
+    //
+    return 0;
+}",,,,,,
+2025-12-18T04:07:14.252Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数, 出力:三角形の形状判定*/
+    //入力を受け付ける
+    //三角形の成立判定
+        //三角形の種
+    //
+    return 0;
+}",,,,,,
+2025-12-18T04:07:24.252Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数, 出力:三角形の形状判定*/
+    //入力を受け付ける
+    //三角形の成立判定
+        //三角形の種類の判定
+    //出力
+    return 0;
+}",,,,,,
+2025-12-18T04:07:34.253Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数, 出力:三角形の形状判定*/
+    //入力を受け付ける
+    //三角形の成立判定
+ 
+        //三角形の種類の判定
+    //出力
+    return 0;
+}",,,,,,
+2025-12-18T04:07:44.254Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数, 出力:三角形の形状判定*/
+    //入力を受け付ける
+    //三角形の成立判定
+        //成立三角形の種類の判定
+    //出力
+    return 0;
+}",,,,,,
+2025-12-18T04:07:54.254Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数, 出力:三角形の形状判定*/
+    //入力を受け付ける
+    //三角形の成立判定
+        //成立する場合：三角形の種類の判定
+        //
+    //出力
+    return 0;
+}",,,,,,
+2025-12-18T04:08:04.254Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数, 出力:三角形の形状判定*/
+    //入力を受け付ける
+    //三角形の成立判定
+        //成立する場合：三角形の種類の判定
+        //成立しない場合：エラ
+    //出力
+    return 0;
+}",,,,,,
+2025-12-18T04:08:14.254Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数, 出力:三角形の形状判定*/
+    //入力を受け付ける
+    //三角形の成立判定
+        //成立する場合：三角形の種類の判定
+        //成立しない場合：エラー
+    //出力
+    return 0;
+}",,,,,,
+2025-12-18T04:08:41.829Z,user_002,user2,14,ai-help,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数, 出力:三角形の形状判定*/
+    //入力を受け付ける
+    //三角形の成立判定
+        //成立する場合：三角形の種類の判定
+        //成立しない場合：エラー
+    //出力
+    return 0;
+}",,,処理の大枠決定,処理の詳細化,"[{""level"": 1, ""text"": ""main関数：全体の処理（入力→成立判定→種類判定→出力）"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""入力を受け付ける（3つの実数）"", ""status"": ""todo""}, {""level"": 2, ""text"": ""三角形の成立判定"", ""status"": ""todo""}, {""level"": 3, ""text"": ""成立する場合：三角形の種類の判定（直角/鋭角/鈍角）"", ""status"": ""todo""}, {""level"": 3, ""text"": ""成立しない場合：Error出力"", ""status"": ""todo""}, {""level"": 2, ""text"": ""出力（結果を改行付きで表示）"", ""status"": ""todo""}]","[{""level"": 1, ""text"": ""まずコメントを見て、どの処理を細かく決める必要があるかを確認しよう（入力・成立判定・種類判定・出力）。""}, {""level"": 2, ""text"": ""入力は3つの実数をdoubleで受け取り、問題文の通り「最初の入力が最大値」と仮定して成立判定は最大値 < 他の2辺の和で行うことを考えてみて。""}, {""level"": 3, ""text"": ""成立なら a*a と (b*b + c*c) を比較して、等しい→直角、小さい→鋭角、大きい→鈍角を出力し、成立しなければ「Error」を改行付きで出すように決めてください。""}]"
+2025-12-18T04:09:44.257Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数, 出力:三角形の形状判定*/
+    //入力を受け付ける
+    //三角形の成立判定
+        //成立する場合：三角形の種類の判定
+            
+        //成立しない場合：エラー
+    //出力
+    return 0;
+}",,,,,,
+2025-12-18T04:09:54.256Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数, 出力:三角形の形状判定*/
+    //入力を受け付ける
+    //三角形の成立判定
+        //成立する場合：三角形の種類の判定
+            //
+        //成立しない場合：エラー
+    //出力
+    return 0;
+}",,,,,,
+2025-12-18T04:22:58.186Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数, 出力:三角形の形状判定*/
+    float a;//入力を受け付ける
+    //三角形の成立判定
+        //成立する場合：三角形の種類の判定
+            //
+        //成立しない場合：エラー
+    //出力
+    return 0;
+}",,,,,,
+2025-12-18T04:23:17.490Z,user_002,user2,14,ai-help,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数, 出力:三角形の形状判定*/
+    float a;//入力を受け付ける
+    //三角形の成立判定
+        //成立する場合：三角形の種類の判定
+            //
+        //成立しない場合：エラー
+    //出力
+    return 0;
+}",,,処理の大枠決定,処理の詳細化,"[{""level"": 1, ""text"": ""main関数全体の骨組み（入力・判定・出力）"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""入力を受け付ける（コメントあり、変数宣言が途中）"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""三角形の成立判定（コメントのみ）"", ""status"": ""todo""}, {""level"": 3, ""text"": ""成立する場合：三角形の種類の判定（コメントのみ）"", ""status"": ""todo""}, {""level"": 3, ""text"": ""成立しない場合：エラー出力（コメントのみ）"", ""status"": ""todo""}, {""level"": 2, ""text"": ""出力（コメントのみ）"", ""status"": ""todo""}]","[{""level"": 1, ""text"": ""今のコメントが大枠を書いているか確認して、どの部分が未具体化か見つけよう。""}, {""level"": 2, ""text"": ""具体化すべきは「入力で何を受け取るか」「成立条件」「成立したときの判定方法」「出力内容」の4点だと考えてみてください。""}, {""level"": 3, ""text"": ""まず3つの実数を変数a,b,cで読み込み、問題文通り最初の入力aが最大と仮定して:a<b+cなら成立、そうでなければ\""Error\""を出力。成立時はa*aとb*b+c*cを比較して直角/鋭角/鈍角を決めて改行で出力してください。""}]"
+2025-12-18T05:49:11.015Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:49:37.961Z,user_002,user2,14,ai-help,"#include <stdio.h>
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+    
+    return 0;
+}",,,課題の理解,課題の理解,"[{""level"": 1, ""text"": ""main関数の雛形（#include と int main のブロック）"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""入力・出力の説明コメント（/*入力:○○, 出力:△△*/）が残っている"", ""status"": ""todo""}, {""level"": 2, ""text"": ""プログラムの終了（return 0;）"", ""status"": ""done""}]","[{""level"": 1, ""text"": ""課題文をもう一度読み、何を入力して何を出力するかをはっきりさせてください。特に「最初の入力が最大値である」ことと出力の形式（改行のみ）に注意。""}, {""level"": 2, ""text"": ""具体的な入力と期待される出力をいくつか書いてみましょう（例: 入力 5 4 3 → 出力 “直角三角形”）。それで処理の要件が満たされるか確認してください。""}, {""level"": 3, ""text"": ""入力は3つの実数（最初の値が最大）で、出力は条件に応じて正確に「直角三角形」「鋭角三角形」「鈍角三角形」または「Error」を改行付きで出す、という仕様をコメントに書き入れてください。""}]"
+2025-12-18T05:55:03.300Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:○, 出力:△△*/
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:55:13.301Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:57:33.305Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:○, 出力:△△*/
+    
+    return 0;
+}",,,,,,
+2025-12-18T05:57:43.305Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+    
+    return 0;
+}",,,,,,
+2025-12-18T06:00:13.308Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:, 出力:△△*/
+    
+    return 0;
+}",,,,,,
+2025-12-18T06:00:23.310Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数, 出力:三角*/
+    
+    return 0;
+}",,,,,,
+2025-12-18T06:00:33.309Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数, 出力:三角形の形状判定またはEr*/
+    
+    return 0;
+}",,,,,,
+2025-12-18T06:00:43.310Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数, 出力:三角形の形状判定またはError*/
+    //
+    return 0;
+}",,,,,,
+2025-12-18T06:03:13.315Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数, 出力:三角形の形状判定またはError*/
+    //三角形がな
+    return 0;
+}",,,,,,
+2025-12-18T06:03:23.314Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数, 出力:三角形の形状判定またはError*/
+    //三角形が成り立つかの判定
+        
+    return 0;
+}",,,,,,
+2025-12-18T06:03:33.315Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数, 出力:三角形の形状判定またはError*/
+    //三角形が成り立つかの判定
+        //成り立つ場合：
+    return 0;
+}",,,,,,
+2025-12-18T06:03:43.315Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数, 出力:三角形の形状判定またはError*/
+    //三角形が成り立つかの判定
+        //成り立つ場合：三角形の種類のはんb
+    return 0;
+}",,,,,,
+2025-12-18T06:03:53.315Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数, 出力:三角形の形状判定またはError*/
+    //三角形が成り立つかの判定
+        //成り立つ場合：三角形の種類の判別
+        //
+    return 0;
+}",,,,,,
+2025-12-18T06:04:03.315Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数, 出力:三角形の形状判定またはError*/
+    //三角形が成り立つかの判定
+        //成り立つ場合：三角形の種類の判別
+        //成り立たない場合
+    return 0;
+}",,,,,,
+2025-12-18T06:04:13.316Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数, 出力:三角形の形状判定またはError*/
+    //三角形が成り立つかの判定
+        //成り立つ場合：三角形の種類の判別
+        //成り立たない場合：エラー
+    //出力
+    return 0;
+}",,,,,,
+2025-12-18T06:04:53.318Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数, 出力:三角形の形状判定またはError*/
+   
+    return 0;
+}",,,,,,
+2025-12-18T06:05:36.993Z,user_002,user2,14,ai-help,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数, 出力:三角形の形状判定またはError*/
+   
+    return 0;
+}",,,課題の理解,処理の大枠決定,"[{""level"": 1, ""text"": ""#includeによるヘッダの読み込み（stdio.h）"", ""status"": ""done""}, {""level"": 1, ""text"": ""main関数：プログラム本体（入力受け取り・処理・出力を行う場所）"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""main内のコメント：入力は三つの実数、出力は三角形の形状判定またはError"", ""status"": ""done""}, {""level"": 2, ""text"": ""main内の終了処理：return 0;"", ""status"": ""done""}]","[{""level"": 1, ""text"": ""まず全体の流れを考えよう：入力を受け取り、判定を行い、結果を出力する順をイメージしてみてください。""}, {""level"": 2, ""text"": ""必要なステップを洗い出そう：値の読み取り、三角形成立判定、角の種類判定（直角/鋭角/鈍角）、出力の順で処理を考えてください。""}, {""level"": 3, ""text"": ""具体的な大枠手順：1) doubleでa,b,cを読み込む（最初のaが最大と仮定） 2) 三角形は a < b + c で成立、成立しなければ\""Error\""を出力 3) a*a と b*b + c*c を比較して等しければ\""直角三角形\""、小さければ\""鋭角三角形\""、大きければ\""鈍角三角形\""を出力（最後は改行のみ）。""}]"
+2025-12-18T06:06:43.320Z,user_002,user2,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:三つの実数, 出力:三角形の形状判定またはError*/
+    //三角形が成り立つかの判定
+        //成り立つ場合：三角形の種類の判別
+        //成り立たない場合：エラー
+    //出力
+    return 0;
+}",,,,,,

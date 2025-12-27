@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-12-17T07:32:06.929Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, \n    出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "処理の大枠決定",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数で全体をまとめる",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "整数 n を読み取る",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "1行目から n 行目まで '*' をそれぞれ1個〜n個出力する",
+      "status": "todo"
+    },
+    {
+      "level": 3,
+      "text": "出力した '*' の個数を合計して最後に COUNT=合計 を出力する",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題文の出力例をもう一度見て、入力と出力の形式（n と COUNT の表示）をはっきりさせてください。"
+    },
+    {
+      "level": 2,
+      "text": "必要な大まかな手順を書き出そう：入力を受け取る → 各行を作る → '*' を数える → COUNT を表示する、の順で考えてみてください。"
+    },
+    {
+      "level": 3,
+      "text": "具体案（コメントに書く）：1) n を読み取る 2) tri3(n) で 1..n 行を再帰的に出力し、各行で line3 を使って '*' を出力してカウントを増やす 3) 最後に COUNT=合計 を出力する。"
+    }
+  ]
+}

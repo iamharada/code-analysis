@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-12-17T07:29:32.173Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, \n    出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数: 入力を受け取り、三角形を出力してCOUNTを表示する",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "整数nを入力で受け取る",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "1行目からn行目まで'*'を増やして出力し、'*'の個数を数える",
+      "status": "todo"
+    },
+    {
+      "level": 3,
+      "text": "各行で'*'を出力するたびにカウンタを1増やす（合計を集計）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "最後にCOUNT=合計を出力する（余計な空白や空行は出さない）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題文をもう一度読んで、入力と最終出力（COUNTを含む）をはっきりさせよう。"
+    },
+    {
+      "level": 2,
+      "text": "具体例を考えてみて：例えば入力5なら各行は'*'〜'*****'で最後にCOUNT=15となることを確認しよう。"
+    },
+    {
+      "level": 3,
+      "text": "入力は整数n(2〜20)。出力は1行目に'*'、...、n行目に'*'をn個ずつ、最後に'COUNT='と合計(n*(n+1)/2)を改行付きで出すこと。"
+    }
+  ]
+}

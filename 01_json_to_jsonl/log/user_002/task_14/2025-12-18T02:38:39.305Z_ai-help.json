@@ -1,0 +1,36 @@
+{
+  "timestamp": "2025-12-18T02:38:39.305Z",
+  "username": "user2",
+  "userId": "user_002",
+  "taskNumber": "14",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:3つの実数, 出力:三角形の判定結果または三角形にならない場合（Error）*/\n\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の大枠決定",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数（プログラム本体の枠のみがある）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "課題説明コメント（入力:3つの実数, 出力:三角形判定またはError）",
+      "status": "done"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "全体の流れを考えよう：入力を受け取り、三角形が成立するか調べ、種類を判定して出力する順をイメージして下さい。"
+    },
+    {
+      "level": 2,
+      "text": "必要な大きな手順を書き出そう：入力読み取り → 三角形成立判定 → 角度の判定 → 結果の出力、の四つを明記してみてください。"
+    },
+    {
+      "level": 3,
+      "text": "具体的には：1) doubleでa,b,cを読み取る（問題でaが最大と仮定）2) a < b + c なら三角形成立、でなければ\"Error\\n\"を出力3) 成立時は a*a と b*b + c*c を比較して直角/鋭角/鈍角を出力する。"
+    }
+  ]
+}

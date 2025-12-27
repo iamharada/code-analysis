@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-12-17T06:51:34.055Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数: 入力と出力の処理を置く場所（現在は雛形のみで処理は未記述）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "tri3（想定）: 三角形の行ごとの出力を再帰で管理し、'*'の総数を集計する役割",
+      "status": "todo"
+    },
+    {
+      "level": 3,
+      "text": "line3（想定）: 1行分の'*'を再帰で出力し、出力のたびにカウンタを増やす役割",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題の説明をもう一度確認して、入力は整数1つで出力は三角形とCOUNTだと確かめよう。"
+    },
+    {
+      "level": 2,
+      "text": "入出力例を具体的に追ってみよう。例えば入力5なら行ごとに1,2,3,4,5個の'*'が出て最後にCOUNT=15になる。"
+    },
+    {
+      "level": 3,
+      "text": "入力は整数n（2〜20）。出力はi=1..nの各行に'*'をi個出力し、'*'を出すたびにカウンタを増やして最後に\"COUNT=合計\"と表示しよう。"
+    }
+  ]
+}

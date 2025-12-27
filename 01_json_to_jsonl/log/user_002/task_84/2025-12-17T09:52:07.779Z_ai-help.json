@@ -1,0 +1,36 @@
+{
+  "timestamp": "2025-12-17T09:52:07.779Z",
+  "username": "user2",
+  "userId": "user_002",
+  "taskNumber": "84",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数の骨組みがある（#include と main の開始・終了のみ）",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "/*入力:○○, 出力:△△*/ のコメントがそのまま残っている（入力・出力の記述が未完）",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題の要件をもう一度確認しましょう。文字列を桁ごとに配列に入れて足し算する必要があります。"
+    },
+    {
+      "level": 2,
+      "text": "入力は2つの数字文字列（各10文字以内で先頭は0でない）、出力はその和を10進で表示することを具体例で考えてください。"
+    },
+    {
+      "level": 3,
+      "text": "実際の入出力の形を決めて書き込んでください：標準入力で2つの数字文字列を読み、和を計算して改行付きで出力（余計な空白や文字はなし）。"
+    }
+  ]
+}

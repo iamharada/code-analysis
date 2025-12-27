@@ -1,0 +1,2279 @@
+[
+  {
+    "ts": "2025-10-16T13:07:14.080Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "auto_save",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*input:○○, output:○○, goal:○○*/\n    int no1;\n\n    return 0;\n}",
+    "stdout": null,
+    "stderr": null,
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-10-16T13:07:24.108Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "auto_save",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*input:○○, output:○○, goal:○○*/\n    int no01;\n\n    return 0;\n}",
+    "stdout": null,
+    "stderr": null,
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-10-16T13:07:42.471Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "run",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*input:○○, output:○○, goal:○○*/\n    int no01;\n\n    return 0;\n}",
+    "stdout": "",
+    "stderr": "",
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-10-16T13:08:26.666Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "ai-help",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*input:○○, output:○○, goal:○○*/\n    int no01;\n\n    return 0;\n}",
+    "stdout": null,
+    "stderr": null,
+    "estimated_stage": "課題の理解",
+    "next_stage": null,
+    "processing_structure": [
+      {
+        "level": 1,
+        "text": "ヘッダのインクルード（#include <stdio.h>）",
+        "status": "done"
+      },
+      {
+        "level": 1,
+        "text": "main関数の定義（int main(void)）",
+        "status": "in_progress"
+      },
+      {
+        "level": 2,
+        "text": "main内の計画コメント（input, output, goal のプレースホルダ）",
+        "status": "in_progress"
+      },
+      {
+        "level": 2,
+        "text": "変数宣言（int no01;）",
+        "status": "done"
+      },
+      {
+        "level": 2,
+        "text": "戻り値の記述（return 0;）",
+        "status": "done"
+      },
+      {
+        "level": 2,
+        "text": "出力処理（printfを使って文字列を印字し改行する）",
+        "status": "todo"
+      }
+    ],
+    "advice": [
+      {
+        "level": 1,
+        "text": "まず課題を整理しましょう。入力は特に無く、出力は正確に「Hello,world!ようこそ」と改行付きで表示することだけです。"
+      },
+      {
+        "level": 2,
+        "text": "main関数の中に出力処理を入れます。stdio.hは既にインクルードされているので、mainのreturn 0;の前に出力を行う位置を決めてください。不要な変数（int no01;）は使わないなら削除して構いません。"
+      },
+      {
+        "level": 3,
+        "text": "printf関数を使って、引数に出力したい文字列を渡します。文字列の末尾には改行を表すエスケープ（\\n）を付けることを忘れないでください。実行後はコンパイルして出力が課題と完全に一致するか（余分な空白や改行がないか）を確認してください。"
+      }
+    ]
+  },
+  {
+    "ts": "2025-10-21T02:18:55.044Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "run",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*input:○○, output:○○, goal:○○*/\n    int no01;\n\n    return 0;\n}",
+    "stdout": "",
+    "stderr": "",
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-10-21T02:19:23.011Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "ai-help",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*input:○○, output:○○, goal:○○*/\n    int no01;\n\n    return 0;\n}",
+    "stdout": null,
+    "stderr": null,
+    "estimated_stage": "課題の理解",
+    "next_stage": null,
+    "processing_structure": [
+      {
+        "level": 1,
+        "text": "#include <stdio.h>（ヘッダのインクルード）",
+        "status": "done"
+      },
+      {
+        "level": 1,
+        "text": "main関数の定義と本体（処理本体は未完成）",
+        "status": "in_progress"
+      },
+      {
+        "level": 2,
+        "text": "コメント: /*input:○○, output:○○, goal:○○*/（課題の入出力を書こうとしている）",
+        "status": "done"
+      },
+      {
+        "level": 2,
+        "text": "変数宣言: int no01;（宣言されているが未使用）",
+        "status": "done"
+      },
+      {
+        "level": 2,
+        "text": "return 0;（プログラム終了）",
+        "status": "done"
+      }
+    ],
+    "advice": [
+      {
+        "level": 1,
+        "text": "まず課題をはっきりさせましょう。入力は不要で、出力は正確に「Hello,world!ようこそ」と表示し、最後に改行が必要です。出力には必ずprintfを使います。"
+      },
+      {
+        "level": 2,
+        "text": "実装の大枠は簡単です。main関数内でprintfを1回呼び出して目的の文字列を渡し、その直後にreturn 0;とするだけです。不要な変数は削除してください。ヘッダ<stdio.h>は既にあるのでそのままで構いません。"
+      },
+      {
+        "level": 3,
+        "text": "具体的には：\n- コメントの○○部分を実際の入出力に書き換え（入力なし、出力は指定文字列）\n- main関数内にprintfを置く（文字列の末尾に改行を入れるには\"\\n\"を使う）\n- int no01;のような使わない変数は削除し、コンパイル時の警告をなくす\n- コンパイルして実行し、出力が課題の文字列と改行だけになっているか確認する（余分な空白や改行がないか注意）"
+      }
+    ]
+  },
+  {
+    "ts": "2025-10-21T03:14:37.227Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "run",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*input:○○, output:○○, goal:○○*/\n    int no01;\n\n    return 0;\n}",
+    "stdout": "",
+    "stderr": "",
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-10-21T03:14:37.834Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "run",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*input:○○, output:○○, goal:○○*/\n    int no01;\n\n    return 0;\n}",
+    "stdout": "",
+    "stderr": "",
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-10-21T03:14:54.839Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "ai-help",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*input:○○, output:○○, goal:○○*/\n    int no01;\n\n    return 0;\n}",
+    "stdout": null,
+    "stderr": null,
+    "estimated_stage": "課題の理解",
+    "next_stage": null,
+    "processing_structure": [
+      {
+        "level": 1,
+        "text": "#include <stdio.h>（標準入出力ヘッダのインクルード）",
+        "status": "done"
+      },
+      {
+        "level": 1,
+        "text": "int main(void) の定義（プログラム本体）",
+        "status": "in_progress"
+      },
+      {
+        "level": 2,
+        "text": "コメント /*input:○○, output:○○, goal:○○*/（課題の入出力を記述する場所）",
+        "status": "in_progress"
+      },
+      {
+        "level": 2,
+        "text": "int no01;（変数宣言があるが未使用）",
+        "status": "done"
+      },
+      {
+        "level": 2,
+        "text": "printf を使って文字列を出力し最後に改行する処理（未実装）",
+        "status": "todo"
+      },
+      {
+        "level": 2,
+        "text": "return 0;（正常終了の返却）",
+        "status": "done"
+      }
+    ],
+    "advice": [
+      {
+        "level": 1,
+        "text": "まず課題の入出力を明確に書きましょう。入力は不要、出力は「Hello,world!ようこそ」と末尾に改行があることをコメントに記載します。"
+      },
+      {
+        "level": 2,
+        "text": "処理の大枠は簡単です：ヘッダをインクルード → main関数内で出力 → 終了。今はコメントと関数枠があるので、次は出力処理を実装する段階です。"
+      },
+      {
+        "level": 3,
+        "text": "具体的には printf に出力したい文字列を与え、文字列の末尾に改行文字（\\n）を含めます。変数 no01 はこの課題では不要なので削除するか使う意図を書いてから使ってください。実装後はコンパイルして実行し、改行が入っているか確認しましょう。"
+      }
+    ]
+  },
+  {
+    "ts": "2025-10-21T03:15:18.871Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "auto_save",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*n*/\n    int no01;\n\n    return 0;\n}",
+    "stdout": null,
+    "stderr": null,
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-10-21T03:15:28.859Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "auto_save",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：*/\n    int no01;\n\n    return 0;\n}",
+    "stdout": null,
+    "stderr": null,
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-10-21T03:17:28.860Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "auto_save",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：〇〇*/\n    int no01;\n\n    return 0;\n}",
+    "stdout": null,
+    "stderr": null,
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-10-21T03:17:38.858Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "auto_save",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：〇〇, 出力：△△*/\n    int no01;\n\n    return 0;\n}",
+    "stdout": null,
+    "stderr": null,
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-10-21T03:17:39.120Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "run",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：〇〇, 出力：△△*/\n    int no01;\n\n    return 0;\n}",
+    "stdout": "",
+    "stderr": "",
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-10-21T03:17:39.550Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "run",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：〇〇, 出力：△△*/\n    int no01;\n\n    return 0;\n}",
+    "stdout": "",
+    "stderr": "",
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-10-21T03:17:48.859Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "auto_save",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：〇〇, 出力：△△*/\n\n    return 0;\n}",
+    "stdout": null,
+    "stderr": null,
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-10-21T03:18:04.386Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "ai-help",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：〇〇, 出力：△△*/\n\n    return 0;\n}",
+    "stdout": null,
+    "stderr": null,
+    "estimated_stage": "課題の理解",
+    "next_stage": null,
+    "processing_structure": [
+      {
+        "level": 1,
+        "text": "プログラム全体（ファイル）",
+        "status": "in_progress"
+      },
+      {
+        "level": 2,
+        "text": "#include <stdio.h> の宣言（標準入出力ヘッダ）",
+        "status": "done"
+      },
+      {
+        "level": 2,
+        "text": "main 関数の定義（int main(void) { ... }）",
+        "status": "in_progress"
+      },
+      {
+        "level": 3,
+        "text": "入力・出力の説明コメント（/*入力：〇〇, 出力：△△*/）",
+        "status": "in_progress"
+      },
+      {
+        "level": 3,
+        "text": "printf を使った出力処理（Hello,world!ようこそ を印字し改行する）",
+        "status": "todo"
+      },
+      {
+        "level": 3,
+        "text": "return 0; による終了",
+        "status": "done"
+      }
+    ],
+    "advice": [
+      {
+        "level": 1,
+        "text": "まずやることを整理しましょう：出力すべき文字列をコメントに書き、実際に printf を呼ぶ場所を決めます。今はコメントを書いている段階なので、次は出力処理を実装することを目標にしてください。"
+      },
+      {
+        "level": 2,
+        "text": "printf に渡す文字列は課題で指定された通り正確にします。最後に改行が必要なので、出力の末尾に改行を入れること（改行文字を含める）を忘れないでください。printf の呼び出しは main の中に書き、文末にセミコロンをつけます。"
+      },
+      {
+        "level": 3,
+        "text": "具体的に進めるときは：①コメントの \"出力\" に正しい文字列を書き換える、②その位置に printf を追加して文字列を渡す、③コンパイルして実行し、表示が \"Hello,world!ようこそ\"（行末で改行されていること）と正確に出るか確認する、という順で進めてください。コンパイルエラーが出たらエラーメッセージを読んで、忘れがちな点（セミコロン、ダブルクオート、ヘッダの有無）をチェックしましょう。"
+      }
+    ]
+  },
+  {
+    "ts": "2025-10-21T05:06:36.299Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "auto_save",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：〇〇, 出力：△△*/\n    int a;\n\n    return 0;\n}",
+    "stdout": null,
+    "stderr": null,
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-10-21T05:07:17.147Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "run",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：〇〇, 出力：△△*/\n    int a;\n\n    return 0;\n}",
+    "stdout": "",
+    "stderr": "",
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-10-21T05:07:48.670Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "ai-help",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：〇〇, 出力：△△*/\n    int a;\n\n    return 0;\n}",
+    "stdout": null,
+    "stderr": null,
+    "estimated_stage": "課題の理解",
+    "next_stage": null,
+    "processing_structure": [
+      {
+        "level": 1,
+        "text": "プログラムの雛形（#include と main 関数の作成）",
+        "status": "done"
+      },
+      {
+        "level": 2,
+        "text": "入力／出力をコメントで記述しようとしている（入力：〇〇, 出力：△△）",
+        "status": "in_progress"
+      },
+      {
+        "level": 2,
+        "text": "不要な変数宣言（int a;）がある",
+        "status": "done"
+      },
+      {
+        "level": 2,
+        "text": "printf を使って指定の文字列を印字し、末尾に改行を入れる処理",
+        "status": "todo"
+      },
+      {
+        "level": 2,
+        "text": "return 0; によるプログラム終了",
+        "status": "done"
+      }
+    ],
+    "advice": [
+      {
+        "level": 1,
+        "text": "全体的には「標準出力へ決まった文字列を表示するだけ」の課題です。今はまず入出力が何かをはっきり書き出しましょう。"
+      },
+      {
+        "level": 2,
+        "text": "コメントの入力／出力欄を具体化します。ここでは入力は不要（なし）、出力は正確な文字列「Hello,world!ようこそ」と最後に改行です。次に printf 関数を使ってその文字列を出力する処理を main の中に書きます。不要な変数宣言は削除しておくと分かりやすいです。"
+      },
+      {
+        "level": 3,
+        "text": "具体的な手順：\n1) コメントを「入力：なし, 出力：Hello,world!ようこそ」と書き換える。\n2) int a; はこの課題では不要なので削除する。\n3) main 関数の中に printf を呼び出して、出力したい文字列を渡す（出力の最後に改行を入れること——改行文字は \\n で表します）。\n4) ファイルを保存してコンパイル・実行し、表示が「Hello,world!ようこそ」で改行されているか確認する。\n注意：表示する文字列は句読点やスペースも含めて課題と完全に一致させてください。"
+      }
+    ]
+  },
+  {
+    "ts": "2025-10-21T05:12:06.300Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "auto_save",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：〇〇, 出力：△△*/\n\n    return 0;\n}",
+    "stdout": null,
+    "stderr": null,
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-10-21T05:12:37.877Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "ai-help",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：〇〇, 出力：△△*/\n\n    return 0;\n}",
+    "stdout": null,
+    "stderr": null,
+    "estimated_stage": "課題の理解",
+    "next_stage": null,
+    "processing_structure": [
+      {
+        "level": 1,
+        "text": "ヘッダーファイルのインクルード（stdio.h）",
+        "status": "done"
+      },
+      {
+        "level": 1,
+        "text": "main関数の定義",
+        "status": "done"
+      },
+      {
+        "level": 2,
+        "text": "main内に入力・出力についてのコメントを記述（入力：〇〇, 出力：△△）",
+        "status": "done"
+      },
+      {
+        "level": 2,
+        "text": "出力処理（printfを使って指定の文字列を印字し、最後に改行する）",
+        "status": "todo"
+      },
+      {
+        "level": 2,
+        "text": "main関数の終了（return 0;）",
+        "status": "done"
+      }
+    ],
+    "advice": [
+      {
+        "level": 1,
+        "text": "全体の方針：この課題は入力は不要で、出力だけを行う単純なプログラムです。標準出力に指示された文字列を正確に出力し、最後に必ず改行をつけることを意識してください。"
+      },
+      {
+        "level": 2,
+        "text": "中程度の具体化：stdio.hが既にインクルードされているので、main関数内でprintfを呼んで文字列を出力します。コメントで書いた入力・出力の部分の『出力』に書かれている文字列をそのまま出すようにすると良いです（句読点や空白も一致させる）。改行は別途付ける必要がある点に注意してください。"
+      },
+      {
+        "level": 3,
+        "text": "非常に具体的な手順：コメントの下、return 0; の直前あたりに出力処理を追加します。出力はprintfに一つの文字列リテラルを渡す形で行い、その文字列は「Hello,world!ようこそ」と正確に記述して最後に改行を表すエスケープシーケンスを付けます（余分な空白や他の文字を入れない）。実装後はコンパイラ（例：gccなど）でコンパイルして実行し、表示が課題の出力例と完全に一致しているか確認してください。"
+      }
+    ]
+  },
+  {
+    "ts": "2025-10-21T09:05:15.874Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "run",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：〇〇, 出力：△△*/\n\n    return 0;\n}",
+    "stdout": "",
+    "stderr": "",
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-10-21T09:05:16.889Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "run",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：〇〇, 出力：△△*/\n\n    return 0;\n}",
+    "stdout": "",
+    "stderr": "",
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-10-21T09:06:14.784Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "ai-help",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：〇〇, 出力：△△*/\n\n    return 0;\n}",
+    "stdout": null,
+    "stderr": null,
+    "estimated_stage": "課題の理解",
+    "next_stage": null,
+    "processing_structure": [
+      {
+        "level": 1,
+        "text": "#include <stdio.h> がある（標準入出力ヘッダの読み込み）",
+        "status": "done"
+      },
+      {
+        "level": 1,
+        "text": "int main(void) { ... }（プログラム本体の関数定義）",
+        "status": "done"
+      },
+      {
+        "level": 2,
+        "text": "コメントで入力・出力の欄を作成（入力：〇〇, 出力：△△）",
+        "status": "done"
+      },
+      {
+        "level": 2,
+        "text": "printf 呼び出しでメッセージを出力する処理（未実装）",
+        "status": "todo"
+      },
+      {
+        "level": 2,
+        "text": "return 0;（正常終了を返す）",
+        "status": "done"
+      }
+    ],
+    "advice": [
+      {
+        "level": 1,
+        "text": "まずやることは単純です：main 関数の中で printf を使って指定の文字列を出力し、最後に改行を付けること。"
+      },
+      {
+        "level": 2,
+        "text": "main の中のコメント部分を置き換える形で、printf を呼び出す位置を決める。出力する文字列は課題にある通り（Hello,world!ようこそ）で、末尾に改行文字を付けることを忘れない。"
+      },
+      {
+        "level": 3,
+        "text": "実装後はコンパイルして実行し、出力がちょうど一行で課題の文字列と改行だけになっているか確認する。よくあるミス：ヘッダを消す、末尾のセミコロン忘れ、改行文字の付け忘れ。日本語が文字化けする場合はファイルの文字コードを UTF-8 にするか、ターミナルのエンコーディング設定を確認すること。"
+      }
+    ]
+  },
+  {
+    "ts": "2025-10-21T09:19:02.789Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "ai-help",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：〇〇, 出力：△△*/\n\n    return 0;\n}",
+    "stdout": null,
+    "stderr": null,
+    "estimated_stage": "課題の理解",
+    "next_stage": null,
+    "processing_structure": [
+      {
+        "level": 1,
+        "text": "#include <stdio.h>（標準入出力ヘッダのインクルード）",
+        "status": "done"
+      },
+      {
+        "level": 1,
+        "text": "int main(void) の定義（main 関数の開始）",
+        "status": "in_progress"
+      },
+      {
+        "level": 2,
+        "text": "/*入力：〇〇, 出力：△△*/（課題の入出力を示すコメント）",
+        "status": "done"
+      },
+      {
+        "level": 2,
+        "text": "return 0;（main 関数の終了処理）",
+        "status": "done"
+      }
+    ],
+    "advice": [
+      {
+        "level": 1,
+        "text": "まず課題を確認しましょう：printf関数を使って画面に Hello,world!ようこそ を出力し、出力の最後に改行を付けることが求められています。現在は入力／出力のコメントだけが書かれています。"
+      },
+      {
+        "level": 2,
+        "text": "処理の大枠は簡単です。既に <stdio.h> がインクルードされているので、main 関数の中（return 0; の前）に printf を呼び出して文字列を出力する、という流れにします。"
+      },
+      {
+        "level": 3,
+        "text": "具体的な実装のヒント：printfには出力したい内容をダブルクオートで囲んだ文字列リテラルとして渡します（例：\"...\"）。文字列の末尾に改行を入れるには改行文字 \\n を加えます。コメント部分を削除または置き換えて、main の return の前に printf の呼び出しを書き、文の終わりにはセミコロンを忘れないでください。保存してコンパイル・実行し、出力が期待通り（行末に改行ありで文字列が正確に一致）か確認しましょう。"
+      }
+    ]
+  },
+  {
+    "ts": "2025-10-21T09:23:56.322Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "auto_save",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：〇〇, 出力：△△*/\n    int a;\n    printf(\"%d,\n    return 0;\n}",
+    "stdout": null,
+    "stderr": null,
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-10-22T01:13:54.809Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "auto_save",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：〇〇, 出力：△△*/\n    \n    return 0;\n}",
+    "stdout": null,
+    "stderr": null,
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-10-22T01:14:03.150Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "run",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：〇〇, 出力：△△*/\n    \n    return 0;\n}",
+    "stdout": "",
+    "stderr": "",
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-10-22T01:14:03.983Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "run",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：〇〇, 出力：△△*/\n    \n    return 0;\n}",
+    "stdout": "",
+    "stderr": "",
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-10-22T01:14:57.829Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "ai-help",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：〇〇, 出力：△△*/\n    \n    return 0;\n}",
+    "stdout": null,
+    "stderr": null,
+    "estimated_stage": "課題の理解",
+    "next_stage": null,
+    "processing_structure": [
+      {
+        "level": 1,
+        "text": "ヘッダファイルのインクルード（#include <stdio.h>）",
+        "status": "done"
+      },
+      {
+        "level": 1,
+        "text": "main関数の定義（int main(void) { ... }）",
+        "status": "done"
+      },
+      {
+        "level": 2,
+        "text": "入力と出力の仕様をコメントで記述（/*入力：〇〇, 出力：△△*/）",
+        "status": "done"
+      },
+      {
+        "level": 2,
+        "text": "printfで指定の文字列を出力し、最後に改行する処理を実装する",
+        "status": "todo"
+      },
+      {
+        "level": 2,
+        "text": "return 0; による正常終了",
+        "status": "done"
+      }
+    ],
+    "advice": [
+      {
+        "level": 1,
+        "text": "まずやることは明確です：main関数内でprintf関数を使って問題文どおりの文字列を出力し、最後に改行をつけること。追加の入力処理は不要です。"
+      },
+      {
+        "level": 2,
+        "text": "printfの使い方のポイントを押さえましょう。出力したい文字列はダブルクォートで囲みます。改行は文字列の末尾に\\nを入れて表します（例：\"...\\n\"）。文の終わりにはセミコロンを忘れないでください。出力文字列は問題と完全に一致させる必要があるので句読点や空白にも注意しましょう。"
+      },
+      {
+        "level": 3,
+        "text": "実装後の確認チェックリスト：1) コンパイルエラーが出ない（ヘッダの有無、セミコロン、引用符の閉じ忘れを確認）。2) 実行して表示が問題文どおりで最後に改行があるか確認。3) 余分な出力（デバッグ用の文字列など）が含まれていないか確認。必要ならコンパイラのエラーメッセージを読み、該当箇所を修正してみてください。"
+      }
+    ]
+  },
+  {
+    "ts": "2025-10-22T01:16:34.810Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "auto_save",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：〇〇, 出力：△△*/\n    aaaaaaa\n    \n    return 0;\n}",
+    "stdout": null,
+    "stderr": null,
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-10-22T01:16:45.674Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "auto_save",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：〇〇, 出力：△△*/\n    aaaaaaaa;\n    \n    return 0;\n}",
+    "stdout": null,
+    "stderr": null,
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-10-29T23:52:45.804Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "ai-help",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：〇〇, 出力：△△*/\n    aaaaaaaa;\n    \n    return 0;\n}",
+    "stdout": null,
+    "stderr": null,
+    "estimated_stage": "コード化",
+    "next_stage": null,
+    "processing_structure": [
+      {
+        "level": 1,
+        "text": "ヘッダのインクルード（#include <stdio.h>） — done"
+      },
+      {
+        "level": 1,
+        "text": "main関数の雛形を作成（int main(void) { ... }） — done"
+      },
+      {
+        "level": 2,
+        "text": "入出力の確認コメント（/*入力：〇〇, 出力：△△*/） — done"
+      },
+      {
+        "level": 2,
+        "text": "出力処理の記述（printfを使って文字列を出力する部分） — in_progress"
+      },
+      {
+        "level": 3,
+        "text": "出力文字列はダブルクォートで囲む、末尾に改行文字を入れる（\\n） — todo"
+      },
+      {
+        "level": 1,
+        "text": "return 0; による正常終了処理 — done"
+      }
+    ],
+    "advice": [
+      {
+        "level": 1,
+        "text": "目的を確認：問題は printf を使って「Hello,world!ようこそ」を出力し、最後に改行することです。"
+      },
+      {
+        "level": 2,
+        "text": "どこに書くか：main関数内の aaaaaaaa; の行を置き換えて出力処理を書きます。stdio.h は既にインクルード済みなので printf を直接使えます。"
+      },
+      {
+        "level": 3,
+        "text": "書き方の注意点（コード例は直接示さない）：printf の第1引数に表示したい文字列をダブルクォートで渡す。文字列の最後に改行文字（\\n）を入れることを忘れない。文の終わりはセミコロンで閉じる。コンパイルして実行し、期待どおりに改行も含めて表示されるか確認する。"
+      }
+    ]
+  },
+  {
+    "ts": "2025-10-29T23:53:49.798Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "ai-help",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：〇〇, 出力：△△*/\n    aaaaaaaa;\n    \n    return 0;\n}",
+    "stdout": null,
+    "stderr": null,
+    "estimated_stage": "課題の理解",
+    "next_stage": null,
+    "processing_structure": [
+      {
+        "level": 1,
+        "text": "#include <stdio.h> を記述している（ヘッダ読み込み）",
+        "status": "done"
+      },
+      {
+        "level": 1,
+        "text": "int main(void) の定義（プログラム本体の開始）",
+        "status": "done"
+      },
+      {
+        "level": 2,
+        "text": "入力・出力についてのコメントを書いている（入力：〇〇, 出力：△△）",
+        "status": "done"
+      },
+      {
+        "level": 2,
+        "text": "実際の出力処理の場所にプレースホルダ（aaaaaaaa;）がある（未実装）",
+        "status": "todo"
+      },
+      {
+        "level": 2,
+        "text": "return 0; による終了処理が書かれている",
+        "status": "done"
+      }
+    ],
+    "advice": [
+      {
+        "level": 1,
+        "text": "現在は「出力をどう書くか」を決める段階です。プレースホルダを削除して、main関数内でprintfを使って目的の文字列を出力する処理を書きましょう。"
+      },
+      {
+        "level": 2,
+        "text": "出力すべき文字列は正確に \"Hello,world!ようこそ\" で、最後に改行を入れる必要があります。printfには出力する文字列（ダブルクォートで囲む）を渡し、文の終わりにセミコロンを付けることを忘れないでください。stdio.hは既に読み込まれています。"
+      },
+      {
+        "level": 3,
+        "text": "手順：1) プレースホルダ行を消す。2) mainの中にprintfを呼ぶ文を入れる（ダブルクォートで文字列を作る、末尾に改行を入れるエスケープを忘れずに）。3) コンパイルして実行し、出力が課題の例と完全に一致するか確認する。もし違うなら、文字列の綴り・句読点・改行の有無・ファイルの文字エンコーディング（UTF-8等）を確認してください。"
+      }
+    ]
+  },
+  {
+    "ts": "2025-10-29T23:55:13.568Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "auto_save",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：〇〇, 出力：△△*/\n    aaaaaaaa;\n    \n    \n    return 0;\n}",
+    "stdout": null,
+    "stderr": null,
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-10-29T23:55:23.568Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "auto_save",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：〇〇, 出力：△△*/\n    aaaaaaaa;\n    printf(\"\")\n    \n    return 0;\n}",
+    "stdout": null,
+    "stderr": null,
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-10-29T23:55:33.567Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "auto_save",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：なし, 出力：Hello*/\n    aaaaaaaa;\n    printf(\"\")\n    \n    return 0;\n}",
+    "stdout": null,
+    "stderr": null,
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-10-29T23:55:43.567Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "auto_save",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：なし, 出力：Hello,world!*/\n    aaaaaaaa;\n    printf(\"\")\n    \n    return 0;\n}",
+    "stdout": null,
+    "stderr": null,
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-10-29T23:56:18.688Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "ai-help",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：なし, 出力：Hello,world!*/\n    aaaaaaaa;\n    printf(\"\")\n    \n    return 0;\n}",
+    "stdout": null,
+    "stderr": null,
+    "estimated_stage": "コード化",
+    "next_stage": null,
+    "processing_structure": [
+      {
+        "level": 1,
+        "text": "ヘッダのインクルード（#include <stdio.h>）",
+        "status": "done"
+      },
+      {
+        "level": 1,
+        "text": "main関数の定義（int main(void) { … }）",
+        "status": "in_progress"
+      },
+      {
+        "level": 2,
+        "text": "入力/出力のコメント（入力なし、出力は指定の文字列）",
+        "status": "done"
+      },
+      {
+        "level": 2,
+        "text": "不明なプレースホルダ（aaaaaaaa; — 未完成/不要な記述）",
+        "status": "todo"
+      },
+      {
+        "level": 2,
+        "text": "printf呼び出しの記述（現状: printf(\"\") が未完成）",
+        "status": "in_progress"
+      },
+      {
+        "level": 2,
+        "text": "return 0; による終了処理",
+        "status": "done"
+      }
+    ],
+    "advice": [
+      {
+        "level": 1,
+        "text": "目的を再確認：プログラムは標準出力に指定の文字列を表示して改行するだけ。使う関数は printf。まず main の中で出力処理を書くこと。"
+      },
+      {
+        "level": 2,
+        "text": "main 内の不要なプレースホルダ（aaaaaaaa;）は削除して、printf に正しい引数を渡す。文字列は \"Hello,world!ようこそ\" とし、最後に改行を表すエスケープシーケンス（\\n）を付けること。文末のセミコロンを忘れない。"
+      },
+      {
+        "level": 3,
+        "text": "よくあるミスの確認手順：1) 文字列はダブルクオートで囲まれているか、2) printf の綴りと小文字/大文字は正しいか、3) 文末に ; があるか、4) ソースファイルの文字エンコーディング（UTF-8）で日本語が正しく保存されているか、5) コンパイルして実行して期待通りに改行されるかを確かめる。エラーが出たらエラーメッセージを読んで該当行を修正する。"
+      }
+    ]
+  },
+  {
+    "ts": "2025-10-30T00:27:00.361Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "ai-help",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：なし, 出力：Hello,world!*/\n    aaaaaaaa;\n    printf(\"\")\n    \n    return 0;\n}",
+    "stdout": null,
+    "stderr": null,
+    "estimated_stage": "コード化",
+    "next_stage": null,
+    "processing_structure": [
+      {
+        "level": 1,
+        "text": "ヘッダーのインクルード（#include <stdio.h>）がある",
+        "status": "done"
+      },
+      {
+        "level": 1,
+        "text": "main関数の定義（int main(void) { ... }）",
+        "status": "in_progress"
+      },
+      {
+        "level": 2,
+        "text": "入力・出力の説明コメント（入力：なし、出力：Hello,world! と記載）",
+        "status": "done"
+      },
+      {
+        "level": 2,
+        "text": "不正な識別子 'aaaaaaaa;' が残っている（削除または修正が必要）",
+        "status": "in_progress"
+      },
+      {
+        "level": 2,
+        "text": "printf呼び出しがあるが文字列が空でセミコロンがない（出力文字列と末尾の改行を含める必要がある）",
+        "status": "in_progress"
+      },
+      {
+        "level": 2,
+        "text": "return 0; による終了処理がある",
+        "status": "done"
+      }
+    ],
+    "advice": [
+      {
+        "level": 1,
+        "text": "まず課題の出力を正しく確認する（課題は「Hello,world!ようこそ」を出力し、最後に改行を入れる）。コメントと要求が一致しているか確認してコメントを必要なら直す。"
+      },
+      {
+        "level": 2,
+        "text": "コード修正の順序を決める：①不要な行（'aaaaaaaa;'）を削除する、②printfを正しく使って課題の文字列を出力する（文字列の末尾に改行を入れる）、③各文の末尾にセミコロンを付ける。ヘッダは既に正しいのでそのままで良い。"
+      },
+      {
+        "level": 3,
+        "text": "細かい確認ポイント：printfの引数はダブルクォートで囲むこと、文字列の最後に改行はエスケープ文字（\\n）を入れること、文の終わりにはセミコロンを忘れないこと。日本語を含める場合はファイルをUTF-8で保存してコンパイル・実行し、出力が期待通り（正確な文字列と最後の改行）になっているかを確認する。コンパイルエラーが出たら最初のエラーメッセージを見て行番号と原因（例：セミコロン不足、未定義識別子）を直すこと。"
+      }
+    ]
+  },
+  {
+    "ts": "2025-10-30T00:49:42.979Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "run",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：なし, 出力：Hello,world!*/\n    aaaaaaaa;\n    printf(\"\")\n    \n    return 0;\n}",
+    "stdout": "",
+    "stderr": "file0.code.c: In function 'main':\nfile0.code.c:5:5: error: 'aaaaaaaa' undeclared (first use in this function)\n    5 |     aaaaaaaa;\n      |     ^~~~~~~~\nfile0.code.c:5:5: note: each undeclared identifier is reported only once for each function it appears in\nfile0.code.c:6:15: error: expected ';' before 'return'\n    6 |     printf(\"\")\n      |               ^\n      |               ;\n    7 | \n    8 |     return 0;\n      |     ~~~~~~     \nchmod: cannot access 'a.out': No such file or directory\n",
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-10-30T00:55:43.850Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "run",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：なし, 出力：Hello,world!*/\n    aaaaaaaa;\n    printf(\"\")\n    \n    return 0;\n}",
+    "stdout": "",
+    "stderr": "file0.code.c: In function 'main':\nfile0.code.c:5:5: error: 'aaaaaaaa' undeclared (first use in this function)\n    5 |     aaaaaaaa;\n      |     ^~~~~~~~\nfile0.code.c:5:5: note: each undeclared identifier is reported only once for each function it appears in\nfile0.code.c:6:15: error: expected ';' before 'return'\n    6 |     printf(\"\")\n      |               ^\n      |               ;\n    7 | \n    8 |     return 0;\n      |     ~~~~~~     \nchmod: cannot access 'a.out': No such file or directory\n",
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-10-30T00:55:52.525Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "run",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：なし, 出力：Hello,world!*/\n    printf(\"\")\n    \n    return 0;\n}",
+    "stdout": "",
+    "stderr": "file0.code.c: In function 'main':\nfile0.code.c:5:15: error: expected ';' before 'return'\n    5 |     printf(\"\")\n      |               ^\n      |               ;\n    6 | \n    7 |     return 0;\n      |     ~~~~~~     \nchmod: cannot access 'a.out': No such file or directory\n",
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-10-30T00:55:54.451Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "auto_save",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：なし, 出力：Hello,world!*/\n    printf(\"\")\n    \n    return 0;\n}",
+    "stdout": null,
+    "stderr": null,
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-10-30T00:55:57.878Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "run",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：なし, 出力：Hello,world!*/\n    printf(\"\");\n    \n    return 0;\n}",
+    "stdout": "",
+    "stderr": "",
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-10-30T00:55:59.312Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "run",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：なし, 出力：Hello,world!*/\n    printf(\"\");\n    \n    return 0;\n}",
+    "stdout": "",
+    "stderr": "",
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-10-30T00:56:04.450Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "auto_save",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：なし, 出力：Hello,world!*/\n    printf(\"\");\n    \n    return 0;\n}",
+    "stdout": null,
+    "stderr": null,
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-10-30T00:56:07.622Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "ai-help",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：なし, 出力：Hello,world!*/\n    aaaaaaaa;\n    printf(\"\")\n    \n    return 0;\n}",
+    "stdout": null,
+    "stderr": null,
+    "estimated_stage": "コード化",
+    "next_stage": null,
+    "processing_structure": [
+      {
+        "level": 1,
+        "text": "ヘッダのインクルードとmain関数の雛形を用意している",
+        "status": "done"
+      },
+      {
+        "level": 2,
+        "text": "入力：なし、出力：Hello,world!とコメントで書いている",
+        "status": "done"
+      },
+      {
+        "level": 2,
+        "text": "printfで文字列を出力しようとしている（printf(\"\")と未完成）",
+        "status": "in_progress"
+      },
+      {
+        "level": 2,
+        "text": "誤った行（aaaaaaaa;）が残っているので修正する必要がある",
+        "status": "todo"
+      },
+      {
+        "level": 2,
+        "text": "出力の最後に改行を付ける必要がある（まだ実装されていない）",
+        "status": "todo"
+      },
+      {
+        "level": 2,
+        "text": "return 0; で終了している",
+        "status": "done"
+      }
+    ],
+    "advice": [
+      {
+        "level": 1,
+        "text": "コメントの出力内容に合わせてprintfで文字列を出すようにしましょう。出力の最後は改行になるようにしてください。"
+      },
+      {
+        "level": 2,
+        "text": "不要な行（例: aaaaaaaa;）は削除し、printfの文が正しく終わるようにセミコロンなどの構文を確認しましょう。"
+      },
+      {
+        "level": 3,
+        "text": "printfの中身をコメントと同じ文字列にして保存し、コンパイルして実行して結果を確かめましょう。"
+      }
+    ]
+  },
+  {
+    "ts": "2025-10-30T00:57:43.721Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "run",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：なし, 出力：Hello,world!*/\n    aaaaaaaa;\n    printf(\"\")\n    \n    return 0;\n}",
+    "stdout": "",
+    "stderr": "file0.code.c: In function 'main':\nfile0.code.c:5:5: error: 'aaaaaaaa' undeclared (first use in this function)\n    5 |     aaaaaaaa;\n      |     ^~~~~~~~\nfile0.code.c:5:5: note: each undeclared identifier is reported only once for each function it appears in\nfile0.code.c:6:15: error: expected ';' before 'return'\n    6 |     printf(\"\")\n      |               ^\n      |               ;\n    7 | \n    8 |     return 0;\n      |     ~~~~~~     \nchmod: cannot access 'a.out': No such file or directory\n",
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-10-30T00:58:10.902Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "ai-help",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：なし, 出力：Hello,world!*/\n    aaaaaaaa;\n    printf(\"\")\n    \n    return 0;\n}",
+    "stdout": null,
+    "stderr": null,
+    "estimated_stage": "コード化",
+    "next_stage": null,
+    "processing_structure": [
+      {
+        "level": 1,
+        "text": "ヘッダのインクルード（stdio.h）",
+        "status": "done"
+      },
+      {
+        "level": 1,
+        "text": "main関数の定義",
+        "status": "in_progress"
+      },
+      {
+        "level": 2,
+        "text": "入力・出力を示すコメント（課題理解）",
+        "status": "done"
+      },
+      {
+        "level": 2,
+        "text": "不正な文（aaaaaaaa;）がある",
+        "status": "in_progress"
+      },
+      {
+        "level": 2,
+        "text": "printf呼び出しがあるが内容が未完成（文字列と改行が必要）",
+        "status": "in_progress"
+      },
+      {
+        "level": 2,
+        "text": "return 0; の記述",
+        "status": "done"
+      }
+    ],
+    "advice": [
+      {
+        "level": 1,
+        "text": "まず課題の出力を確かめてください：出力は Hello,world!ようこそ で最後に改行が必要です。"
+      },
+      {
+        "level": 2,
+        "text": "mainの中の不要な行（aaaaaaaa;）は削除し、printfで何を表示するかをはっきりさせましょう。"
+      },
+      {
+        "level": 3,
+        "text": "printfの引数に表示したい文字列を入れ、文字列の末尾に改行文字（\\n）を含め、文末にセミコロンを付けてコンパイルして確認してください。"
+      }
+    ]
+  },
+  {
+    "ts": "2025-10-30T01:16:30.066Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "ai-help",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：なし, 出力：Hello,world!*/\n    aaaaaaaa;\n    printf(\"\")\n    \n    return 0;\n}",
+    "stdout": null,
+    "stderr": null,
+    "estimated_stage": "コード化",
+    "next_stage": null,
+    "processing_structure": [
+      {
+        "level": 1,
+        "text": "#include <stdio.h> を追加している",
+        "status": "done"
+      },
+      {
+        "level": 1,
+        "text": "main関数の定義がある",
+        "status": "in_progress"
+      },
+      {
+        "level": 2,
+        "text": "コメントで入力なし・出力の意図を書いている",
+        "status": "done"
+      },
+      {
+        "level": 2,
+        "text": "不明な識別子 'aaaaaaaa;' が残っている（プレースホルダ）",
+        "status": "in_progress"
+      },
+      {
+        "level": 2,
+        "text": "printf呼び出しがあるが文字列が空で閉じカッコやセミコロンが欠けている",
+        "status": "in_progress"
+      },
+      {
+        "level": 2,
+        "text": "return 0; がある",
+        "status": "done"
+      }
+    ],
+    "advice": [
+      {
+        "level": 1,
+        "text": "課題をもう一度確認し、出力は「Hello,world!ようこそ」で最後に改行が必要なことを確認しましょう。"
+      },
+      {
+        "level": 2,
+        "text": "コメントを元に、printfで出力する文字列を正しく書き、文字列を\"\"で囲み改行文字を末尾に入れることを考えてください。"
+      },
+      {
+        "level": 3,
+        "text": "ソースの余分な識別子を削除し、文字列リテラルの終了やセミコロンなどの構文エラーを直してからコンパイル・実行して確認しましょう。"
+      }
+    ]
+  },
+  {
+    "ts": "2025-11-02T09:09:41.140Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "run",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：なし, 出力：Hello,world!*/\n    aaaaaaaa;\n    printf(\"\")\n    \n    return 0;\n}",
+    "stdout": "",
+    "stderr": "file0.code.c: In function 'main':\nfile0.code.c:5:5: error: 'aaaaaaaa' undeclared (first use in this function)\n    5 |     aaaaaaaa;\n      |     ^~~~~~~~\nfile0.code.c:5:5: note: each undeclared identifier is reported only once for each function it appears in\nfile0.code.c:6:15: error: expected ';' before 'return'\n    6 |     printf(\"\")\n      |               ^\n      |               ;\n    7 | \n    8 |     return 0;\n      |     ~~~~~~     \nchmod: cannot access 'a.out': No such file or directory\n",
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-11-02T09:09:41.582Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "run",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：なし, 出力：Hello,world!*/\n    aaaaaaaa;\n    printf(\"\")\n    \n    return 0;\n}",
+    "stdout": "",
+    "stderr": "file0.code.c: In function 'main':\nfile0.code.c:5:5: error: 'aaaaaaaa' undeclared (first use in this function)\n    5 |     aaaaaaaa;\n      |     ^~~~~~~~\nfile0.code.c:5:5: note: each undeclared identifier is reported only once for each function it appears in\nfile0.code.c:6:15: error: expected ';' before 'return'\n    6 |     printf(\"\")\n      |               ^\n      |               ;\n    7 | \n    8 |     return 0;\n      |     ~~~~~~     \nchmod: cannot access 'a.out': No such file or directory\n",
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-11-02T09:09:48.082Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "run",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：なし, 出力：Hello,world!*/\n    aaaaaaaa;\n    printf(\"\");\n    \n    return 0;\n}",
+    "stdout": "",
+    "stderr": "file0.code.c: In function 'main':\nfile0.code.c:5:5: error: 'aaaaaaaa' undeclared (first use in this function)\n    5 |     aaaaaaaa;\n      |     ^~~~~~~~\nfile0.code.c:5:5: note: each undeclared identifier is reported only once for each function it appears in\nchmod: cannot access 'a.out': No such file or directory\n",
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-11-02T09:09:48.296Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "auto_save",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：なし, 出力：Hello,world!*/\n    aaaaaaaa;\n    printf(\"\");\n    \n    return 0;\n}",
+    "stdout": null,
+    "stderr": null,
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-11-02T09:09:54.584Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "run",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：なし, 出力：Hello,world!*/\n    printf(\"\");\n    \n    return 0;\n}",
+    "stdout": "",
+    "stderr": "",
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-11-02T09:09:55.886Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "run",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：なし, 出力：Hello,world!*/\n    printf(\"\");\n    \n    return 0;\n}",
+    "stdout": "",
+    "stderr": "",
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-11-02T09:09:58.295Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "auto_save",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：なし, 出力：Hello,world!*/\n    printf(\"\");\n    \n    return 0;\n}",
+    "stdout": null,
+    "stderr": null,
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-11-02T09:10:24.109Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "ai-help",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：なし, 出力：Hello,world!*/\n    printf(\"\");\n    \n    return 0;\n}",
+    "stdout": null,
+    "stderr": null,
+    "estimated_stage": "コード化",
+    "next_stage": null,
+    "processing_structure": [
+      {
+        "level": 1,
+        "text": "ヘッダファイルのインクルード（stdio.h）",
+        "status": "done"
+      },
+      {
+        "level": 1,
+        "text": "main関数の定義",
+        "status": "in_progress"
+      },
+      {
+        "level": 2,
+        "text": "入出力の説明コメント（入力：なし, 出力：Hello,world!）",
+        "status": "done"
+      },
+      {
+        "level": 2,
+        "text": "printf関数呼び出し（出力部分）",
+        "status": "in_progress"
+      },
+      {
+        "level": 2,
+        "text": "return 0でプログラム終了",
+        "status": "done"
+      }
+    ],
+    "advice": [
+      {
+        "level": 1,
+        "text": "課題を再確認しましょう：printfを使ってHello,world!ようこそを出力し、最後に改行を入れることが要件です。"
+      },
+      {
+        "level": 2,
+        "text": "今のコメントはOKなので、printfに出力したい文字列（Hello,world!ようこそ）と改行を渡すことを考えてください。"
+      },
+      {
+        "level": 3,
+        "text": "空の文字列を実際の出力文字列に置き換えてコンパイル・実行し、出力が正しく改行されているか確かめてください。"
+      }
+    ]
+  },
+  {
+    "ts": "2025-11-04T05:42:03.097Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "ai-help",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：なし, 出力：Hello,world!*/\n    printf(\"\");\n    \n    return 0;\n}",
+    "stdout": null,
+    "stderr": null,
+    "estimated_stage": "コード化",
+    "next_stage": null,
+    "processing_structure": [
+      {
+        "level": 1,
+        "text": "#include <stdio.h> の記述（ヘッダの読み込み）",
+        "status": "done"
+      },
+      {
+        "level": 1,
+        "text": "int main(void) の定義（プログラムの入口）",
+        "status": "done"
+      },
+      {
+        "level": 2,
+        "text": "main 内のコメントで入力・出力を記述（課題の要件明記）",
+        "status": "done"
+      },
+      {
+        "level": 2,
+        "text": "printf 呼び出し（出力文字列を指定する箇所）",
+        "status": "in_progress"
+      },
+      {
+        "level": 2,
+        "text": "return 0; による終了処理",
+        "status": "done"
+      }
+    ],
+    "advice": [
+      {
+        "level": 1,
+        "text": "今はコメントをもとにコードを書き始める段階です。まずprintfの中身に出力したい文字列を入れてみましょう（最後に改行も）。"
+      },
+      {
+        "level": 2,
+        "text": "文字列は課題通り正確に書くことと、ダブルクォートやカンマ位置などの記号ミスをチェックしましょう。"
+      },
+      {
+        "level": 3,
+        "text": "実行して期待通りの出力になるか確認し、違うなら出力を見てprintfの中身や改行の有無を修正してください。"
+      }
+    ]
+  },
+  {
+    "ts": "2025-11-04T05:42:33.119Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "auto_save",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：なし, 出力：Hello,world!*/\n    printf(\"Hello,world!\");\n    \n    return 0;\n}",
+    "stdout": null,
+    "stderr": null,
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-11-04T05:42:38.770Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "run",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：なし, 出力：Hello,world!*/\n    printf(\"Hello,world!\");\n    \n    return 0;\n}",
+    "stdout": "Hello,world!",
+    "stderr": "",
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-11-04T05:42:57.003Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "run",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：なし, 出力：Hello,world!*/\n    printf(\"Hello,world!\");\n    \n    return 0;\n}",
+    "stdout": "Hello,world!",
+    "stderr": "",
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-11-11T07:25:58.235Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "run",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：なし, 出力：Hello,world!*/\n    printf(\"Hello,world!\");\n    \n    return 0;\n}",
+    "stdout": "Hello,world!",
+    "stderr": "",
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-11-11T07:25:59.097Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "run",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：なし, 出力：Hello,world!*/\n    printf(\"Hello,world!\");\n    \n    return 0;\n}",
+    "stdout": "Hello,world!",
+    "stderr": "",
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-11-11T07:26:30.389Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "ai-help",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：なし, 出力：Hello,world!*/\n    printf(\"Hello,world!\");\n    \n    return 0;\n}",
+    "stdout": null,
+    "stderr": null,
+    "estimated_stage": "コード化",
+    "next_stage": "コードの整合性確認",
+    "processing_structure": [
+      {
+        "level": 1,
+        "text": "#include <stdio.h> を使っている（ヘッダの読み込み）",
+        "status": "done"
+      },
+      {
+        "level": 1,
+        "text": "int main(void) の定義（プログラム本体）",
+        "status": "done"
+      },
+      {
+        "level": 2,
+        "text": "コメントで入力・出力を記述（入力：なし, 出力：Hello,world! と書かれている）",
+        "status": "in_progress"
+      },
+      {
+        "level": 2,
+        "text": "printf(\"Hello,world!\"); による文字列出力の実装",
+        "status": "in_progress"
+      },
+      {
+        "level": 2,
+        "text": "return 0; による終了処理",
+        "status": "done"
+      }
+    ],
+    "advice": [
+      {
+        "level": 1,
+        "text": "課題要件をもう一度確認しましょう：出力は Hello,world!ようこそ で、最後に改行が必要です。"
+      },
+      {
+        "level": 2,
+        "text": "今はprintfで出力していますが、出力内容が課題と一致していません。出力文字列を課題に合わせて見直しましょう。"
+      },
+      {
+        "level": 3,
+        "text": "まずはprintfの中身を修正して「ようこそ」を追加し、末尾に改行が入るようにしてから再コンパイル・実行して確認してください。"
+      }
+    ]
+  },
+  {
+    "ts": "2025-11-11T07:34:58.433Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "run",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：なし, 出力：Hello,world!*/\n    printf(\"Hello,world!\");\n    \n    return 0;\n}",
+    "stdout": "Hello,world!",
+    "stderr": "",
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-11-11T07:34:59.235Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "run",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：なし, 出力：Hello,world!*/\n    printf(\"Hello,world!\");\n    \n    return 0;\n}",
+    "stdout": "Hello,world!",
+    "stderr": "",
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-11-11T07:35:07.673Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "auto_save",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：なし, 出力：Hello,world!*/\n    printf(\"Hello,world!\");\n    \n    return 0;\n}\n\n\n\n\n",
+    "stdout": null,
+    "stderr": null,
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-11-11T07:35:11.507Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "ai-help",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：なし, 出力：Hello,world!*/\n    printf(\"Hello,world!\");\n    \n    return 0;\n}",
+    "stdout": null,
+    "stderr": null,
+    "estimated_stage": "コード化",
+    "next_stage": "コードの整合性確認",
+    "processing_structure": [
+      {
+        "level": 1,
+        "text": "プログラム全体（ソースファイル）",
+        "status": "done"
+      },
+      {
+        "level": 2,
+        "text": "#include 行（標準入出力ヘッダの追加）",
+        "status": "done"
+      },
+      {
+        "level": 2,
+        "text": "main 関数の定義",
+        "status": "done"
+      },
+      {
+        "level": 3,
+        "text": "main 内の入力／出力に関するコメント",
+        "status": "in_progress"
+      },
+      {
+        "level": 3,
+        "text": "printf による出力処理",
+        "status": "in_progress"
+      },
+      {
+        "level": 3,
+        "text": "return 0 による終了",
+        "status": "done"
+      }
+    ],
+    "advice": [
+      {
+        "level": 1,
+        "text": "課題の要件をもう一度確認しましょう：出力は「Hello,world!ようこそ」で、最後に改行が必要です。"
+      },
+      {
+        "level": 2,
+        "text": "現在のコードは printf を使っていますが、出力文字列が課題と一致していません。出力内容と改行の有無を検討してください。"
+      },
+      {
+        "level": 3,
+        "text": "printf の出力文字列を課題通りに修正し、末尾に改行を入れてからコンパイルして動作を確認しましょう（実行結果を比べる）。"
+      }
+    ]
+  },
+  {
+    "ts": "2025-11-11T07:35:17.673Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "auto_save",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：なし, 出力：Hello,world!*/\n    printf(\"Hello,world!\");\n    \n    return 0;\n}",
+    "stdout": null,
+    "stderr": null,
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-12-07T15:46:29.888Z",
+    "user_id": "user_001",
+    "username": "user1",
+    "task": 1,
+    "event": "ai-help",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：なし, 出力：Hello,world!*/\n    printf(\"Hello,world!\");\n    \n    return 0;\n}",
+    "stdout": null,
+    "stderr": null,
+    "estimated_stage": "コード化",
+    "next_stage": "コード化",
+    "processing_structure": [
+      {
+        "level": 1,
+        "text": "main関数の定義（プログラムの開始・終了）",
+        "status": "done"
+      },
+      {
+        "level": 2,
+        "text": "コメントで入出力の記述（入力：なし, 出力：Hello,world!）",
+        "status": "in_progress"
+      },
+      {
+        "level": 2,
+        "text": "printfで文字列を出力する（現状: \"Hello,world!\" を出力）",
+        "status": "in_progress"
+      },
+      {
+        "level": 2,
+        "text": "returnで正常終了を返す（return 0;）",
+        "status": "done"
+      }
+    ],
+    "advice": [
+      {
+        "level": 1,
+        "text": "コメントを見直して、何を出力すべきか明確にしよう。"
+      },
+      {
+        "level": 2,
+        "text": "出力は課題通りか、末尾に改行があるかなど細かい要件を確認してから直そう。"
+      },
+      {
+        "level": 3,
+        "text": "printfの文字列を課題どおり \"Hello,world!ようこそ\\n\" に変更して実行してみよう。"
+      }
+    ]
+  },
+  {
+    "ts": "2025-12-08T07:37:54.784Z",
+    "user_id": "user_001",
+    "username": "user01",
+    "task": 1,
+    "event": "auto_save",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：なし, 出力：Hello,world!*/\n    printf(\"Hello,world!\");\n \n    return 0;\n}",
+    "stdout": null,
+    "stderr": null,
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-12-08T07:38:04.785Z",
+    "user_id": "user_001",
+    "username": "user01",
+    "task": 1,
+    "event": "auto_save",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：なし, 出力：Hello,world!*/\n    printf(\"Hello,world!\");\n    \n    return 0;\n}",
+    "stdout": null,
+    "stderr": null,
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-12-08T07:38:19.597Z",
+    "user_id": "user_001",
+    "username": "user01",
+    "task": 1,
+    "event": "ai-help",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：なし, 出力：Hello,world!*/\n    printf(\"Hello,world!\");\n    \n    return 0;\n}",
+    "stdout": null,
+    "stderr": null,
+    "estimated_stage": "課題の理解",
+    "next_stage": "課題の理解",
+    "processing_structure": [
+      {
+        "level": 1,
+        "text": "main関数全体の処理",
+        "status": "in_progress"
+      },
+      {
+        "level": 2,
+        "text": "コメント：入力と出力の説明（/*入力：なし, 出力：Hello,world!*/）",
+        "status": "in_progress"
+      },
+      {
+        "level": 2,
+        "text": "printfで文字列を印字する（printf(\"Hello,world!\");）",
+        "status": "in_progress"
+      },
+      {
+        "level": 2,
+        "text": "戻り値を返す（return 0;）",
+        "status": "done"
+      }
+    ],
+    "advice": [
+      {
+        "level": 1,
+        "text": "課題の要件をもう一度見て、出力が要求と一致しているか確認しましょう。"
+      },
+      {
+        "level": 2,
+        "text": "出力例を具体的に考えて、最後に改行が必要かどうかを確かめてください。"
+      },
+      {
+        "level": 3,
+        "text": "出力は「Hello,world!ようこそ」で、printfで出力し最後に改行を入れる必要があります。"
+      }
+    ]
+  },
+  {
+    "ts": "2025-12-09T06:09:51.064Z",
+    "user_id": "user_001",
+    "username": "user01",
+    "task": 1,
+    "event": "ai-help",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：なし, 出力：Hello,world!*/\n    printf(\"Hello,world!\");\n    \n    return 0;\n}",
+    "stdout": null,
+    "stderr": null,
+    "estimated_stage": "コード化",
+    "next_stage": "コード化",
+    "processing_structure": [
+      {
+        "level": 1,
+        "text": "main関数の定義（プログラムの開始点）",
+        "status": "done"
+      },
+      {
+        "level": 2,
+        "text": "コメントで入力・出力を記述（入力：なし, 出力：Hello,world!）",
+        "status": "done"
+      },
+      {
+        "level": 2,
+        "text": "printfで文字列を出力する処理",
+        "status": "in_progress"
+      },
+      {
+        "level": 2,
+        "text": "return 0で終了コードを返す処理",
+        "status": "done"
+      }
+    ],
+    "advice": [
+      {
+        "level": 1,
+        "text": "コメントの出力内容と課題の要求をもう一度比べ、違いを探しましょう。"
+      },
+      {
+        "level": 2,
+        "text": "printfの中身をどう書けば課題どおりの文字列と改行が出るかを考えてみましょう。"
+      },
+      {
+        "level": 3,
+        "text": "出力文字列に「ようこそ」を追加し、末尾に改行文字（\\n）を入れて実行して確認してください。"
+      }
+    ]
+  },
+  {
+    "ts": "2025-12-11T02:10:45.149Z",
+    "user_id": "user_001",
+    "username": "user01",
+    "task": 1,
+    "event": "auto_save",
+    "code": "",
+    "stdout": null,
+    "stderr": null,
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-12-11T02:11:05.149Z",
+    "user_id": "user_001",
+    "username": "user01",
+    "task": 1,
+    "event": "auto_save",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n\n    return 0;\n}",
+    "stdout": null,
+    "stderr": null,
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-12-12T11:48:24.051Z",
+    "user_id": "user_001",
+    "username": "user01",
+    "task": 1,
+    "event": "run",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n\n    return 0;\n}",
+    "stdout": "",
+    "stderr": "",
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-12-12T11:48:24.940Z",
+    "user_id": "user_001",
+    "username": "user01",
+    "task": 1,
+    "event": "run",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n\n    return 0;\n}",
+    "stdout": "",
+    "stderr": "",
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-12-12T12:03:46.552Z",
+    "user_id": "user_001",
+    "username": "user01",
+    "task": 1,
+    "event": "ai-help",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n\n    return 0;\n}",
+    "stdout": null,
+    "stderr": null,
+    "estimated_stage": "課題の理解",
+    "next_stage": "課題の理解",
+    "processing_structure": [
+      {
+        "level": 1,
+        "text": "main関数の定義があるが処理は未実装",
+        "status": "in_progress"
+      },
+      {
+        "level": 2,
+        "text": "入力と出力の内容を示すコメント（/*入力:○○, 出力:△△*/）",
+        "status": "todo"
+      }
+    ],
+    "advice": [
+      {
+        "level": 1,
+        "text": "課題の要件（printfを使い、出力の最後に改行）をもう一度確認しましょう。"
+      },
+      {
+        "level": 2,
+        "text": "入力があるかどうかを考え、出力として何を表示するか具体的に決めてください。"
+      },
+      {
+        "level": 3,
+        "text": "入力はありません。出力は \"Hello,world!ようこそ\" を改行付きで表示する、という要件です。"
+      }
+    ]
+  },
+  {
+    "ts": "2025-12-16T05:25:00.409Z",
+    "user_id": "user_001",
+    "username": "user01",
+    "task": 1,
+    "event": "ai-help",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n\n    return 0;\n}",
+    "stdout": null,
+    "stderr": null,
+    "estimated_stage": "課題の理解",
+    "next_stage": "課題の理解",
+    "processing_structure": [
+      {
+        "level": 1,
+        "text": "main関数の定義（プログラムの入口）",
+        "status": "in_progress"
+      },
+      {
+        "level": 2,
+        "text": "入力と出力の内容をコメントで書く（/*入力:○○, 出力:△△*/）",
+        "status": "todo"
+      },
+      {
+        "level": 2,
+        "text": "main関数の終了（return 0; がある）",
+        "status": "done"
+      }
+    ],
+    "advice": [
+      {
+        "level": 1,
+        "text": "課題の要件をもう一度確認しましょう：printfで印字し、最後に改行することを守る必要があります。"
+      },
+      {
+        "level": 2,
+        "text": "出力がどうなるか具体的に書いてみてください（この課題は入力は不要です）。"
+      },
+      {
+        "level": 3,
+        "text": "入力はありません。出力は Hello,world!ようこそ をprintfで表示し、最後に改行（\"\\n\"）を入れてください。"
+      }
+    ]
+  },
+  {
+    "ts": "2025-12-18T01:00:42.758Z",
+    "user_id": "user_001",
+    "username": "user01",
+    "task": 1,
+    "event": "ai-help",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n\n    return 0;\n}",
+    "stdout": null,
+    "stderr": null,
+    "estimated_stage": "課題の理解",
+    "next_stage": "課題の理解",
+    "processing_structure": [
+      {
+        "level": 1,
+        "text": "main関数（プログラムの開始と終了を含む）",
+        "status": "in_progress"
+      },
+      {
+        "level": 2,
+        "text": "入力と出力を記述するコメント（/*入力:○○, 出力:△△*/）",
+        "status": "in_progress"
+      },
+      {
+        "level": 2,
+        "text": "return文（mainの終了）",
+        "status": "done"
+      }
+    ],
+    "advice": [
+      {
+        "level": 1,
+        "text": "課題の要件をもう一度確認しましょう。printfで表示し、最後は改行する必要があります。"
+      },
+      {
+        "level": 2,
+        "text": "入力と出力を具体的に記述しましょう。入力がないなら「入力: なし」と書きます。"
+      },
+      {
+        "level": 3,
+        "text": "出力は1行で「Hello,world!ようこそ」を表示し、末尾に改行（\"\\n\"）を付けると決めてください。"
+      }
+    ]
+  },
+  {
+    "ts": "2025-12-18T01:00:47.000Z",
+    "user_id": "user_001",
+    "username": "user01",
+    "task": 1,
+    "event": "run",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n\n    return 0;\n}",
+    "stdout": "",
+    "stderr": "",
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-12-18T01:00:47.947Z",
+    "user_id": "user_001",
+    "username": "user01",
+    "task": 1,
+    "event": "run",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n\n    return 0;\n}",
+    "stdout": "",
+    "stderr": "",
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-12-18T04:56:47.016Z",
+    "user_id": "user_001",
+    "username": "user01",
+    "task": 1,
+    "event": "auto_save",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n    \n\n    return 0;\n}",
+    "stdout": null,
+    "stderr": null,
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-12-18T04:56:57.018Z",
+    "user_id": "user_001",
+    "username": "user01",
+    "task": 1,
+    "event": "auto_save",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n    /\n\n    return 0;\n}",
+    "stdout": null,
+    "stderr": null,
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-12-18T04:57:07.018Z",
+    "user_id": "user_001",
+    "username": "user01",
+    "task": 1,
+    "event": "auto_save",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n    // \n    /**/\n\n    return 0;\n}",
+    "stdout": null,
+    "stderr": null,
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-12-18T08:17:31.171Z",
+    "user_id": "user_001",
+    "username": "user01",
+    "task": 1,
+    "event": "run",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n    // \n    /**/\n\n    return 0;\n}",
+    "stdout": "",
+    "stderr": "",
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  },
+  {
+    "ts": "2025-12-18T08:17:32.366Z",
+    "user_id": "user_001",
+    "username": "user01",
+    "task": 1,
+    "event": "run",
+    "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n    // \n    /**/\n\n    return 0;\n}",
+    "stdout": "",
+    "stderr": "",
+    "estimated_stage": null,
+    "next_stage": null,
+    "processing_structure": null,
+    "advice": null
+  }
+]

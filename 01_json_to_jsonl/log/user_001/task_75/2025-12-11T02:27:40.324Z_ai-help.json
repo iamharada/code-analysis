@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-12-11T02:27:40.324Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n    //入力をパスカルの三角形の段数として受け付ける。\n    //入力値（段数）をpascal関数に渡す。\n    return 0;\n}\n//入力された段数分のパスカルの三角形を出力するpascal関数を作る\n\n\n\n\n\n\n",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：入力を受け取りpascal関数に渡す準備をしている",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main内で整数を読み取る（scanfなど）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "mainからpascal関数を呼び出す",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "pascal関数：二次元配列と繰り返しでパスカルの三角形を作り%3dで出力する",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "どのコメントを詳細化するか決めてください：入力処理、配列の扱い、出力整形のそれぞれです。"
+    },
+    {
+      "level": 2,
+      "text": "配列は n×n の二次元配列にし、行ごとにループして値を計算する方針を具体化してみてください。"
+    },
+    {
+      "level": 3,
+      "text": "処理手順をコメントで書いてください：1) nをscanfで読む 2) pascal関数で配列を初期化し、端を1、それ以外を上の二つの和で計算（for i=0..n-1, for j=0..i）3) 各要素を printf(\"%3d\", ...) で出力し行ごとに改行。"
+    }
+  ]
+}

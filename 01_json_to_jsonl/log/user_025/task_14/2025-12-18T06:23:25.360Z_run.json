@@ -1,0 +1,10 @@
+{
+  "timestamp": "2025-12-18T06:23:25.360Z",
+  "username": "user25",
+  "userId": "user_025",
+  "taskNumber": "14",
+  "event": "run",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    int x.y.z;\n    scanf(\"%d\",&a,&b,&c);\n    if(x>y+z){\n        printf(\"Error\");\n    }\n    else if(x*x==y*y+z*z){\n        printf(\"直角三角形\");\n    }\n     else if(x*x>y*y+z*z){\n        printf(\"鈍角三角形\");\n    }\n     else if(x*x<y*y+z*z){\n        printf(\"鋭角三角形\");\n    }\n    /*入力:3つの実数, 出力:三角形の種類*/\n    //入力を受け取る\n    //長さ判定\n    //形状を判定する\n    //成立しないならError\n    //成立するなら、x*x+y*y=z*z\n\n    return 0;\n}",
+  "stdout": "",
+  "stderr": "file0.code.c: In function 'main':\nfile0.code.c:4:10: error: expected '=', ',', ';', 'asm' or '__attribute__' before '.' token\n    4 |     int x.y.z;\n      |          ^\nfile0.code.c:4:10: error: expected expression before '.' token\nfile0.code.c:5:17: error: 'a' undeclared (first use in this function)\n    5 |     scanf(\"%d\",&a,&b,&c);\n      |                 ^\nfile0.code.c:5:17: note: each undeclared identifier is reported only once for each function it appears in\nfile0.code.c:5:20: error: 'b' undeclared (first use in this function)\n    5 |     scanf(\"%d\",&a,&b,&c);\n      |                    ^\nfile0.code.c:5:23: error: 'c' undeclared (first use in this function)\n    5 |     scanf(\"%d\",&a,&b,&c);\n      |                       ^\nfile0.code.c:6:8: error: 'x' undeclared (first use in this function)\n    6 |     if(x>y+z){\n      |        ^\nfile0.code.c:6:10: error: 'y' undeclared (first use in this function)\n    6 |     if(x>y+z){\n      |          ^\n"
+}

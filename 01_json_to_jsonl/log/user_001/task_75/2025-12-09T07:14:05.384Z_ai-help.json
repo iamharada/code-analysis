@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-12-09T07:14:05.384Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n    //入力をパスカルの三角形の段数として受け付ける。\n    //入力値（段数）をpascal関数に渡す。\n    return 0;\n}\n//入力された段数分のパスカルの三角形を出力するpascal関数を作る\n",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：プログラムの入口。入力を受け取りpascal関数へ渡す役割",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main内の処理：整数を読み取り変数に格納し、その値をpascal関数に渡す",
+      "status": "in_progress"
+    },
+    {
+      "level": 1,
+      "text": "pascal関数：二次元配列と繰り返しでパスカルの三角形を作成し、%3dで整形して出力する",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "今書いてあるコメントのうち、どれが『mainでやること』でどれが『pascal関数でやること』か確認しよう。"
+    },
+    {
+      "level": 2,
+      "text": "主な細分は：1) 整数を読み取る、2) 二次元配列を用意する、3) 配列を計算で埋める、4) 行ごとに%3dで出力する、の順で考えてみてください。"
+    },
+    {
+      "level": 3,
+      "text": "具体的には：scanfでnを読み、pascal(n)を呼ぶ。pascal内で配列を初期化し、端は1、内部は上の行の左右和で埋め、各行を%3dで出力して改行するよう実装してください。"
+    }
+  ]
+}

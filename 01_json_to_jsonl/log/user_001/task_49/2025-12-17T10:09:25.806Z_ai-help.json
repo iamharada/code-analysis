@@ -1,0 +1,66 @@
+{
+  "timestamp": "2025-12-17T10:09:25.806Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, \n    出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n    // 1. 入力を受け取る\n    // 2. tri3を呼ぶ\n    return 0;\n}\n\n// tri3関数を作成する\n\n// line関数を作成する",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：入力を受け取りtri3を呼ぶ全体の入口",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main内：整数を読み取る（コメントありだが未実装）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main内：tri3（再帰関数）を呼ぶ（コメントありだが未実装）",
+      "status": "in_progress"
+    },
+    {
+      "level": 1,
+      "text": "tri3関数：三角形の各行を再帰で処理する関数の作成（未作成）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "tri3内：再帰で上の行から順にline3を呼ぶ動き（仕様から推定、未実装）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "tri3内：*の総数を管理する仕組み（カウンタを渡すなど）（未実装）",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "line3関数：1行分の'*'を出力し、そのたびにカウンタを増やす関数（未作成）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "line3内：指定回数だけ'*'を出力しカウンタを1ずつ増やす処理（未実装）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "今のコメントは大まかなので、tri3とline3の役割を明確にしましょう。"
+    },
+    {
+      "level": 2,
+      "text": "tri3は再帰で行を順に処理し、line3は1行分の'*'を出力してカウントする、と分けて考えてください。"
+    },
+    {
+      "level": 3,
+      "text": "詳しくは、tri3(n, &count)：if(n>1) tri3(n-1,&count); line3(n,&count); とし、line3はループで'*'を出力するたびに count を増やす実装を考えてください。"
+    }
+  ]
+}

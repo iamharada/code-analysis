@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-12-18T01:00:42.758Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": 1,
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数（プログラムの開始と終了を含む）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力と出力を記述するコメント（/*入力:○○, 出力:△△*/）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "return文（mainの終了）",
+      "status": "done"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題の要件をもう一度確認しましょう。printfで表示し、最後は改行する必要があります。"
+    },
+    {
+      "level": 2,
+      "text": "入力と出力を具体的に記述しましょう。入力がないなら「入力: なし」と書きます。"
+    },
+    {
+      "level": 3,
+      "text": "出力は1行で「Hello,world!ようこそ」を表示し、末尾に改行（\"\\n\"）を付けると決めてください。"
+    }
+  ]
+}

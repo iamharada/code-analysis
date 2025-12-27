@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-12-18T04:05:15.506Z",
+  "username": "user10",
+  "userId": "user_010",
+  "taskNumber": "32",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint checktri(int a, int b, int c){\n    //三角形の種類判定\n    if(a < b + c){\n        if(a * a == b * b + c * c){\n            return 1;\n        }else if(a * a < b * b + c * c){\n            return 2;\n        }else if(a * a > b * b + c * c){\n            return 3;\n        }else{\n            return 0;\n        }\n    }\n}\n\nint main(void) {\n    /*入力:3つの実数, 出力:三角形の種類*/\n    //入力の受付\n    int a,b,c;\n    scanf(\"%d\", &a);\n    scanf(\"%d\", &b);\n    scanf(\"%d\", &c);\n    //三角形の種類判定と出力\n    switch(checktri(a,b,c)){\n        case 1:\n            printf(\"直角三角形\");\n            break;\n        case 2:\n            printf(\"鋭角三角形\");\n            break;\n        case 3:\n            printf(\"鈍角三角形\");\n            break;\n        case 0:\n            printf(\"Error\");\n            break;\n    }\n    return 0;\n}",
+  "estimated_stage": "コード化",
+  "next_stage": "コードの整合性確認",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "checktri関数の定義（最初の引数aが最大と仮定）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "三角形成立判定: a < b + c をチェックする",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "角度判定: a^2 と b^2 + c^2 を比較して1/2/3を返す",
+      "status": "done"
+    },
+    {
+      "level": 1,
+      "text": "main関数: 入力を受け取り checktri を呼び、戻り値で出力する",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力受け取り: scanfで3つの値を読む",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "結果出力: switchで戻り値に応じた文字列を表示する",
+      "status": "done"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まず実行していくつかの入力例で期待通りの出力になるか確認しよう。"
+    },
+    {
+      "level": 2,
+      "text": "型（整数か実数か）や全ての分岐で必ず値を返しているかを点検してみてください。"
+    },
+    {
+      "level": 3,
+      "text": "scanfとchecktriの引数を実数型（double）で統一し、三角形でないときに必ず0を返す分岐と出力の最後に改行を入れるよう修正しましょう。"
+    }
+  ]
+}

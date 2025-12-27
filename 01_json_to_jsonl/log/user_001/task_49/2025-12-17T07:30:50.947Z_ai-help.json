@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-12-17T07:30:50.947Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, \n    出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "処理の大枠決定",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数: 入力を受け取り、三角形出力とCOUNT表示を制御する",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力を読み取る（整数 n を取得する）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "三角形を出力する（1行目'*'、2行目'**'…n行目）",
+      "status": "todo"
+    },
+    {
+      "level": 3,
+      "text": "各行で'*'を出力し、そのたびにカウンタを1ずつ増やす",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "合計を 'COUNT=<合計>' の形式で出力する",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "今のコメントで入力と出力は書けているか再確認しよう。"
+    },
+    {
+      "level": 2,
+      "text": "全体を3つのステップ（入力取得→三角形出力→COUNT出力）に分けて考えてみよう。"
+    },
+    {
+      "level": 3,
+      "text": "mainで int n, count を用意し、tri3とline3の関数を作る大枠コメントをまず書こう（例: scanfでn取得→count初期化→tri3(n,&count)→printfでCOUNT表示）。"
+    }
+  ]
+}

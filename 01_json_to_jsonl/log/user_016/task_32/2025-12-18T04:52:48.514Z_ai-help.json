@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-12-18T04:52:48.514Z",
+  "username": "user16",
+  "userId": "user_016",
+  "taskNumber": "32",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:3つの実数, 出力:三角形の形状*/\n    //\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "処理の大枠決定",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：プログラム全体を制御する",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "3つの実数を入力として読み取る",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "三角形の種類を判定する処理を呼び出す（checktri を想定）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "戻り値を switch-case で受け取り対応する文字列を出力する",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題の要件をもう一度確認しよう：3つの実数を受け取り三角形の種類を出力すること。Errorも出す必要がある点を意識して下さい。"
+    },
+    {
+      "level": 2,
+      "text": "全体の流れを決めよう：入力を読み取る → 判定を行う（checktri）→ 戻り値で switch して出力する、の3つのステップを考えてみてください。"
+    },
+    {
+      "level": 3,
+      "text": "まず main に変数宣言と入力（scanf）を書く、checktri を別関数で作って判定結果を返すようにし、main で switch-case により文字列を出力（最後は改行のみ）するコメントを3〜5行で書いてから実装を始めてください。"
+    }
+  ]
+}

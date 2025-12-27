@@ -1,0 +1,1523 @@
+ts,user_id,username,task,event,code,stdout,stderr,estimated_stage,next_stage,processing_structure,advice
+2025-12-18T06:08:51.369Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:, 出力:△△*/
+
+    return 0;
+}",,,,,,
+2025-12-18T06:09:01.362Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数, 出力:*/
+
+    return 0;
+}",,,,,,
+2025-12-18T06:09:11.358Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の*/
+
+    return 0;
+}",,,,,,
+2025-12-18T06:09:31.363Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+
+    return 0;
+}",,,,,,
+2025-12-18T06:09:41.366Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    ・・
+
+    return 0;
+}",,,,,,
+2025-12-18T06:09:51.361Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //
+
+    return 0;
+}",,,,,,
+2025-12-18T06:10:11.362Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+
+    return 0;
+}",,,,,,
+2025-12-18T06:10:21.366Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //
+
+    return 0;
+}",,,,,,
+2025-12-18T06:10:51.371Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //形状をはん
+
+    return 0;
+}",,,,,,
+2025-12-18T06:11:01.359Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //形状を判定する
+    //
+
+    return 0;
+}",,,,,,
+2025-12-18T06:11:21.357Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //形状を判定する
+    //成立しないなら
+
+    return 0;
+}",,,,,,
+2025-12-18T06:11:31.365Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //形状を判定する
+    //成立しないならEっろ
+
+    return 0;
+}",,,,,,
+2025-12-18T06:11:41.372Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //形状を判定する
+    //成立しないならError
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T06:11:51.370Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、
+
+    return 0;
+}",,,,,,
+2025-12-18T06:12:01.372Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*
+
+    return 0;
+}",,,,,,
+2025-12-18T06:12:11.372Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y==
+
+    return 0;
+}",,,,,,
+2025-12-18T06:12:21.362Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+
+    return 0;
+}",,,,,,
+2025-12-18T06:13:01.364Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int /*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+
+    return 0;
+}",,,,,,
+2025-12-18T06:13:11.361Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int x.y.z;
+    s/*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+
+    return 0;
+}",,,,,,
+2025-12-18T06:13:21.361Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int x.y.z;
+    scanf()/*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+
+    return 0;
+}",,,,,,
+2025-12-18T06:13:31.366Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int x.y.z;
+    scanf(""%d"",)/*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+
+    return 0;
+}",,,,,,
+2025-12-18T06:13:41.360Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int x.y.z;
+    scanf(""%d)/*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+
+    return 0;
+}",,,,,,
+2025-12-18T06:13:51.357Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int x.y.z;
+    scanf(""%d"",&a,&)/*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+
+    return 0;
+}",,,,,,
+2025-12-18T06:14:01.368Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int x.y.z;
+    scanf(""%d"",&a,&b,&c)/*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+
+    return 0;
+}",,,,,,
+2025-12-18T06:15:01.367Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int x.y.z;
+    scanf(""%d"",&a,&b,&c);
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+
+    return 0;
+}",,,,,,
+2025-12-18T06:15:21.359Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int x.y.z;
+    scanf(""%d"",&a,&b,&c);
+    if()/*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+
+    return 0;
+}",,,,,,
+2025-12-18T06:15:41.364Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int x.y.z;
+    scanf(""%d"",&a,&b,&c);
+    if(x)/*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+
+    return 0;
+}",,,,,,
+2025-12-18T06:15:51.357Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int x.y.z;
+    scanf(""%d"",&a,&b,&c);
+    if(x=y+z)/*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+
+    return 0;
+}",,,,,,
+2025-12-18T06:16:01.363Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int x.y.z;
+    scanf(""%d"",&a,&b,&c);
+    if(x==y+z){
+        /*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+
+    return 0;
+}",,,,,,
+2025-12-18T06:16:51.363Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int x.y.z;
+    scanf(""%d"",&a,&b,&c);
+    if(x==y+z){
+        /*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    ・・
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+
+    return 0;
+}",,,,,,
+2025-12-18T06:17:01.363Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int x.y.z;
+    scanf(""%d"",&a,&b,&c);
+    if(x==y+z){
+        /*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //長さ判定
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+
+    return 0;
+}",,,,,,
+2025-12-18T06:17:21.360Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int x.y.z;
+    scanf(""%d"",&a,&b,&c);
+    
+    if(x==y+z){
+        /*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //長さ判定
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+
+    return 0;
+}",,,,,,
+2025-12-18T06:19:01.365Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int x.y.z;
+    scanf(""%d"",&a,&b,&c);
+    if(x==y+z){
+        /*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //長さ判定
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+
+    return 0;
+}",,,,,,
+2025-12-18T06:19:11.369Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int x.y.z;
+    scanf(""%d"",&a,&b,&c);
+    if(x){
+        /*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //長さ判定
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+
+    return 0;
+}",,,,,,
+2025-12-18T06:19:41.366Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int x.y.z;
+    scanf(""%d"",&a,&b,&c);
+    if(x==y+z){
+        /*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //長さ判定
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+
+    return 0;
+}",,,,,,
+2025-12-18T06:19:51.361Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int x.y.z;
+    scanf(""%d"",&a,&b,&c);
+    if(x<y+z){
+        /*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //長さ判定
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+
+    return 0;
+}",,,,,,
+2025-12-18T06:20:01.357Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int x.y.z;
+    scanf(""%d"",&a,&b,&c);
+    if(x>y+z){
+        /*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //長さ判定
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+
+    return 0;
+}",,,,,,
+2025-12-18T06:20:11.366Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int x.y.z;
+    scanf(""%d"",&a,&b,&c);
+    if(x>y+z){
+        p/*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //長さ判定
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+
+    return 0;
+}",,,,,,
+2025-12-18T06:20:21.358Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int x.y.z;
+    scanf(""%d"",&a,&b,&c);
+    if(x>y+z){
+        printf("""")/*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //長さ判定
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+
+    return 0;
+}",,,,,,
+2025-12-18T06:20:31.360Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int x.y.z;
+    scanf(""%d"",&a,&b,&c);
+    if(x>y+z){
+        printf(""Error"");
+        /*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //長さ判定
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+
+    return 0;
+}",,,,,,
+2025-12-18T06:20:41.371Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int x.y.z;
+    scanf(""%d"",&a,&b,&c);
+    if(x>y+z){
+        printf(""Error"");
+    }
+    else/*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //長さ判定
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+
+    return 0;
+}",,,,,,
+2025-12-18T06:20:51.372Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int x.y.z;
+    scanf(""%d"",&a,&b,&c);
+    if(x>y+z){
+        printf(""Error"");
+    }
+    else if("""")/*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //長さ判定
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+
+    return 0;
+}",,,,,,
+2025-12-18T06:21:01.360Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int x.y.z;
+    scanf(""%d"",&a,&b,&c);
+    if(x>y+z){
+        printf(""Error"");
+    }
+    else if(x**)/*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //長さ判定
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+
+    return 0;
+}",,,,,,
+2025-12-18T06:21:11.358Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int x.y.z;
+    scanf(""%d"",&a,&b,&c);
+    if(x>y+z){
+        printf(""Error"");
+    }
+    else if(x*x==)/*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //長さ判定
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+
+    return 0;
+}",,,,,,
+2025-12-18T06:21:21.358Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int x.y.z;
+    scanf(""%d"",&a,&b,&c);
+    if(x>y+z){
+        printf(""Error"");
+    }
+    else if(x*x==y)/*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //長さ判定
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+
+    return 0;
+}",,,,,,
+2025-12-18T06:21:31.359Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int x.y.z;
+    scanf(""%d"",&a,&b,&c);
+    if(x>y+z){
+        printf(""Error"");
+    }
+    else if(x*x==y*y+)/*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //長さ判定
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+
+    return 0;
+}",,,,,,
+2025-12-18T06:21:41.370Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int x.y.z;
+    scanf(""%d"",&a,&b,&c);
+    if(x>y+z){
+        printf(""Error"");
+    }
+    else if(x*x==y*y+z*z){
+        /*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //長さ判定
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+
+    return 0;
+}",,,,,,
+2025-12-18T06:21:51.357Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int x.y.z;
+    scanf(""%d"",&a,&b,&c);
+    if(x>y+z){
+        printf(""Error"");
+    }
+    else if(x*x==y*y+z*z){
+        printf("""")/*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //長さ判定
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+
+    return 0;
+}",,,,,,
+2025-12-18T06:22:01.368Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int x.y.z;
+    scanf(""%d"",&a,&b,&c);
+    if(x>y+z){
+        printf(""Error"");
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角"")/*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //長さ判定
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+
+    return 0;
+}",,,,,,
+2025-12-18T06:22:11.360Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int x.y.z;
+    scanf(""%d"",&a,&b,&c);
+    if(x>y+z){
+        printf(""Error"");
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+        /*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //長さ判定
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+
+    return 0;
+}",,,,,,
+2025-12-18T06:22:21.365Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int x.y.z;
+    scanf(""%d"",&a,&b,&c);
+    if(x>y+z){
+        printf(""Error"");
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //長さ判定
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+
+    return 0;
+}",,,,,,
+2025-12-18T06:22:31.359Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int x.y.z;
+    scanf(""%d"",&a,&b,&c);
+    if(x>y+z){
+        printf(""Error"");
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*xy*y+z*z){
+        printf(""直角三角形"");
+    }/*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //長さ判定
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+
+    return 0;
+}",,,,,,
+2025-12-18T06:22:41.358Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int x.y.z;
+    scanf(""%d"",&a,&b,&c);
+    if(x>y+z){
+        printf(""Error"");
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*x>y*y+z*z){
+        printf(""直角三角形"");
+    }/*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //長さ判定
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+
+    return 0;
+}",,,,,,
+2025-12-18T06:22:51.360Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int x.y.z;
+    scanf(""%d"",&a,&b,&c);
+    if(x>y+z){
+        printf(""Error"");
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*x>y*y+z*z){
+        printf(""鈍角三角形"");
+    }
+     else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }/*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //長さ判定
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+
+    return 0;
+}",,,,,,
+2025-12-18T06:23:01.361Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int x.y.z;
+    scanf(""%d"",&a,&b,&c);
+    if(x>y+z){
+        printf(""Error"");
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*x>y*y+z*z){
+        printf(""鈍角三角形"");
+    }
+     else if(x*x<y*y+z*z){
+        printf(""eikaku三角形"");
+    }/*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //長さ判定
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+
+    return 0;
+}",,,,,,
+2025-12-18T06:23:11.357Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int x.y.z;
+    scanf(""%d"",&a,&b,&c);
+    if(x>y+z){
+        printf(""Error"");
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*x>y*y+z*z){
+        printf(""鈍角三角形"");
+    }
+     else if(x*x<y*y+z*z){
+        printf(""鋭角三角形"");
+    }
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //長さ判定
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+
+    return 0;
+}",,,,,,
+2025-12-18T06:23:23.824Z,user_025,user25,14,run,"#include <stdio.h>
+
+int main(void) {
+    int x.y.z;
+    scanf(""%d"",&a,&b,&c);
+    if(x>y+z){
+        printf(""Error"");
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*x>y*y+z*z){
+        printf(""鈍角三角形"");
+    }
+     else if(x*x<y*y+z*z){
+        printf(""鋭角三角形"");
+    }
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //長さ判定
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+
+    return 0;
+}",,"file0.code.c: In function 'main':
+file0.code.c:4:10: error: expected '=', ',', ';', 'asm' or '__attribute__' before '.' token
+    4 |     int x.y.z;
+      |          ^
+file0.code.c:4:10: error: expected expression before '.' token
+file0.code.c:5:17: error: 'a' undeclared (first use in this function)
+    5 |     scanf(""%d"",&a,&b,&c);
+      |                 ^
+file0.code.c:5:17: note: each undeclared identifier is reported only once for each function it appears in
+file0.code.c:5:20: error: 'b' undeclared (first use in this function)
+    5 |     scanf(""%d"",&a,&b,&c);
+      |                    ^
+file0.code.c:5:23: error: 'c' undeclared (first use in this function)
+    5 |     scanf(""%d"",&a,&b,&c);
+      |                       ^
+file0.code.c:6:8: error: 'x' undeclared (first use in this function)
+    6 |     if(x>y+z){
+      |        ^
+file0.code.c:6:10: error: 'y' undeclared (first use in this function)
+    6 |     if(x>y+z){
+      |          ^
+",,,,
+2025-12-18T06:23:25.360Z,user_025,user25,14,run,"#include <stdio.h>
+
+int main(void) {
+    int x.y.z;
+    scanf(""%d"",&a,&b,&c);
+    if(x>y+z){
+        printf(""Error"");
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*x>y*y+z*z){
+        printf(""鈍角三角形"");
+    }
+     else if(x*x<y*y+z*z){
+        printf(""鋭角三角形"");
+    }
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //長さ判定
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+
+    return 0;
+}",,"file0.code.c: In function 'main':
+file0.code.c:4:10: error: expected '=', ',', ';', 'asm' or '__attribute__' before '.' token
+    4 |     int x.y.z;
+      |          ^
+file0.code.c:4:10: error: expected expression before '.' token
+file0.code.c:5:17: error: 'a' undeclared (first use in this function)
+    5 |     scanf(""%d"",&a,&b,&c);
+      |                 ^
+file0.code.c:5:17: note: each undeclared identifier is reported only once for each function it appears in
+file0.code.c:5:20: error: 'b' undeclared (first use in this function)
+    5 |     scanf(""%d"",&a,&b,&c);
+      |                    ^
+file0.code.c:5:23: error: 'c' undeclared (first use in this function)
+    5 |     scanf(""%d"",&a,&b,&c);
+      |                       ^
+file0.code.c:6:8: error: 'x' undeclared (first use in this function)
+    6 |     if(x>y+z){
+      |        ^
+file0.code.c:6:10: error: 'y' undeclared (first use in this function)
+    6 |     if(x>y+z){
+      |          ^
+",,,,
+2025-12-18T06:23:53.843Z,user_025,user25,14,run,"#include <stdio.h>
+
+int main(void) {
+    int x.y.z;
+    scanf(""%d"",&a,&b,&c);
+    if(x>y+z){
+        printf(""Error"");
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*x>y*y+z*z){
+        printf(""鈍角三角形"");
+    }
+     else if(x*x<y*y+z*z){
+        printf(""鋭角三角形"");
+    }
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //長さ判定
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+
+    return 0;
+}",,"file0.code.c: In function 'main':
+file0.code.c:4:10: error: expected '=', ',', ';', 'asm' or '__attribute__' before '.' token
+    4 |     int x.y.z;
+      |          ^
+file0.code.c:4:10: error: expected expression before '.' token
+file0.code.c:5:17: error: 'a' undeclared (first use in this function)
+    5 |     scanf(""%d"",&a,&b,&c);
+      |                 ^
+file0.code.c:5:17: note: each undeclared identifier is reported only once for each function it appears in
+file0.code.c:5:20: error: 'b' undeclared (first use in this function)
+    5 |     scanf(""%d"",&a,&b,&c);
+      |                    ^
+file0.code.c:5:23: error: 'c' undeclared (first use in this function)
+    5 |     scanf(""%d"",&a,&b,&c);
+      |                       ^
+file0.code.c:6:8: error: 'x' undeclared (first use in this function)
+    6 |     if(x>y+z){
+      |        ^
+file0.code.c:6:10: error: 'y' undeclared (first use in this function)
+    6 |     if(x>y+z){
+      |          ^
+chmod: cannot access 'a.out': No such file or directory
+",,,,
+2025-12-18T06:23:58.515Z,user_025,user25,14,run,"#include <stdio.h>
+
+int main(void) {
+    int x.y.z;
+    scanf(""%d"",&a,&b,&c);
+    if(x>y+z){
+        printf(""Error"");
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*x>y*y+z*z){
+        printf(""鈍角三角形"");
+    }
+     else if(x*x<y*y+z*z){
+        printf(""鋭角三角形"");
+    }
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //長さ判定
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+
+    return 0;
+}",,"file0.code.c: In function 'main':
+file0.code.c:4:10: error: expected '=', ',', ';', 'asm' or '__attribute__' before '.' token
+    4 |     int x.y.z;
+      |          ^
+file0.code.c:4:10: error: expected expression before '.' token
+file0.code.c:5:17: error: 'a' undeclared (first use in this function)
+    5 |     scanf(""%d"",&a,&b,&c);
+      |                 ^
+file0.code.c:5:17: note: each undeclared identifier is reported only once for each function it appears in
+file0.code.c:5:20: error: 'b' undeclared (first use in this function)
+    5 |     scanf(""%d"",&a,&b,&c);
+      |                    ^
+file0.code.c:5:23: error: 'c' undeclared (first use in this function)
+    5 |     scanf(""%d"",&a,&b,&c);
+      |                       ^
+file0.code.c:6:8: error: 'x' undeclared (first use in this function)
+    6 |     if(x>y+z){
+      |        ^
+file0.code.c:6:10: error: 'y' undeclared (first use in this function)
+    6 |     if(x>y+z){
+      |          ^
+",,,,
+2025-12-18T06:24:14.274Z,user_025,user25,14,run,"#include <stdio.h>
+
+int main(void) {
+    int x.y.z;
+    scanf(""%d"",&a,&b,&c);
+    if(x>y+z){
+        printf(""Error"");
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*x>y*y+z*z){
+        printf(""鈍角三角形"");
+    }
+     else if(x*x<y*y+z*z){
+        printf(""鋭角三角形"");
+    }
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //長さ判定
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+
+    return 0;
+}",,"file0.code.c: In function 'main':
+file0.code.c:4:10: error: expected '=', ',', ';', 'asm' or '__attribute__' before '.' token
+    4 |     int x.y.z;
+      |          ^
+file0.code.c:4:10: error: expected expression before '.' token
+file0.code.c:5:17: error: 'a' undeclared (first use in this function)
+    5 |     scanf(""%d"",&a,&b,&c);
+      |                 ^
+file0.code.c:5:17: note: each undeclared identifier is reported only once for each function it appears in
+file0.code.c:5:20: error: 'b' undeclared (first use in this function)
+    5 |     scanf(""%d"",&a,&b,&c);
+      |                    ^
+file0.code.c:5:23: error: 'c' undeclared (first use in this function)
+    5 |     scanf(""%d"",&a,&b,&c);
+      |                       ^
+file0.code.c:6:8: error: 'x' undeclared (first use in this function)
+    6 |     if(x>y+z){
+      |        ^
+file0.code.c:6:10: error: 'y' undeclared (first use in this function)
+    6 |     if(x>y+z){
+      |          ^
+",,,,
+2025-12-18T06:24:32.602Z,user_025,user25,14,run,"#include <stdio.h>
+
+int main(void) {
+    int x.y.z;
+    scanf(""%d"",&a,&b,&c);
+    if(x>y+z){
+        printf(""Error"");
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*x>y*y+z*z){
+        printf(""鈍角三角形"");
+    }
+     else if(x*x<y*y+z*z){
+        printf(""鋭角三角形"");
+    }
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //長さ判定
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+
+    return 0;
+}",,"file0.code.c: In function 'main':
+file0.code.c:4:10: error: expected '=', ',', ';', 'asm' or '__attribute__' before '.' token
+    4 |     int x.y.z;
+      |          ^
+file0.code.c:4:10: error: expected expression before '.' token
+file0.code.c:5:17: error: 'a' undeclared (first use in this function)
+    5 |     scanf(""%d"",&a,&b,&c);
+      |                 ^
+file0.code.c:5:17: note: each undeclared identifier is reported only once for each function it appears in
+file0.code.c:5:20: error: 'b' undeclared (first use in this function)
+    5 |     scanf(""%d"",&a,&b,&c);
+      |                    ^
+file0.code.c:5:23: error: 'c' undeclared (first use in this function)
+    5 |     scanf(""%d"",&a,&b,&c);
+      |                       ^
+file0.code.c:6:8: error: 'x' undeclared (first use in this function)
+    6 |     if(x>y+z){
+      |        ^
+file0.code.c:6:10: error: 'y' undeclared (first use in this function)
+    6 |     if(x>y+z){
+      |          ^
+",,,,
+2025-12-18T06:24:35.396Z,user_025,user25,14,run,"#include <stdio.h>
+
+int main(void) {
+    int x.y.z;
+    scanf(""%d"",&a,&b,&c);
+    if(x>y+z){
+        printf(""Error"");
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*x>y*y+z*z){
+        printf(""鈍角三角形"");
+    }
+     else if(x*x<y*y+z*z){
+        printf(""鋭角三角形"");
+    }
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //長さ判定
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+
+    return 0;
+}",,"file0.code.c: In function 'main':
+file0.code.c:4:10: error: expected '=', ',', ';', 'asm' or '__attribute__' before '.' token
+    4 |     int x.y.z;
+      |          ^
+file0.code.c:4:10: error: expected expression before '.' token
+file0.code.c:5:17: error: 'a' undeclared (first use in this function)
+    5 |     scanf(""%d"",&a,&b,&c);
+      |                 ^
+file0.code.c:5:17: note: each undeclared identifier is reported only once for each function it appears in
+file0.code.c:5:20: error: 'b' undeclared (first use in this function)
+    5 |     scanf(""%d"",&a,&b,&c);
+      |                    ^
+file0.code.c:5:23: error: 'c' undeclared (first use in this function)
+    5 |     scanf(""%d"",&a,&b,&c);
+      |                       ^
+file0.code.c:6:8: error: 'x' undeclared (first use in this function)
+    6 |     if(x>y+z){
+      |        ^
+file0.code.c:6:10: error: 'y' undeclared (first use in this function)
+    6 |     if(x>y+z){
+      |          ^
+",,,,
+2025-12-18T06:25:01.358Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int x,y,z;
+    scanf(""%d"",&a,&b,&c);
+    if(x>y+z){
+        printf(""Error"");
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*x>y*y+z*z){
+        printf(""鈍角三角形"");
+    }
+     else if(x*x<y*y+z*z){
+        printf(""鋭角三角形"");
+    }
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //長さ判定
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+
+    return 0;
+}",,,,,,
+2025-12-18T06:25:06.777Z,user_025,user25,14,run,"#include <stdio.h>
+
+int main(void) {
+    int x,y,z;
+    scanf(""%d"",&a,&b,&c);
+    if(x>y+z){
+        printf(""Error"");
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*x>y*y+z*z){
+        printf(""鈍角三角形"");
+    }
+     else if(x*x<y*y+z*z){
+        printf(""鋭角三角形"");
+    }
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //長さ判定
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+
+    return 0;
+}",,"file0.code.c: In function 'main':
+file0.code.c:5:17: error: 'a' undeclared (first use in this function)
+    5 |     scanf(""%d"",&a,&b,&c);
+      |                 ^
+file0.code.c:5:17: note: each undeclared identifier is reported only once for each function it appears in
+file0.code.c:5:20: error: 'b' undeclared (first use in this function)
+    5 |     scanf(""%d"",&a,&b,&c);
+      |                    ^
+file0.code.c:5:23: error: 'c' undeclared (first use in this function)
+    5 |     scanf(""%d"",&a,&b,&c);
+      |                       ^
+chmod: cannot access 'a.out': No such file or directory
+",,,,
+2025-12-18T06:25:07.652Z,user_025,user25,14,run,"#include <stdio.h>
+
+int main(void) {
+    int x,y,z;
+    scanf(""%d"",&a,&b,&c);
+    if(x>y+z){
+        printf(""Error"");
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*x>y*y+z*z){
+        printf(""鈍角三角形"");
+    }
+     else if(x*x<y*y+z*z){
+        printf(""鋭角三角形"");
+    }
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //長さ判定
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+
+    return 0;
+}",,"file0.code.c: In function 'main':
+file0.code.c:5:17: error: 'a' undeclared (first use in this function)
+    5 |     scanf(""%d"",&a,&b,&c);
+      |                 ^
+file0.code.c:5:17: note: each undeclared identifier is reported only once for each function it appears in
+file0.code.c:5:20: error: 'b' undeclared (first use in this function)
+    5 |     scanf(""%d"",&a,&b,&c);
+      |                    ^
+file0.code.c:5:23: error: 'c' undeclared (first use in this function)
+    5 |     scanf(""%d"",&a,&b,&c);
+      |                       ^
+chmod: cannot access 'a.out': No such file or directory
+",,,,
+2025-12-18T06:25:46.107Z,user_025,user25,14,run,"#include <stdio.h>
+
+int main(void) {
+    int x,y,z;
+    scanf(""%d"",&a,&b,&c);
+    if(x>y+z){
+        printf(""Error"");
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*x>y*y+z*z){
+        printf(""鈍角三角形"");
+    }
+     else if(x*x<y*y+z*z){
+        printf(""鋭角三角形"");
+    }
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //長さ判定
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+
+    return 0;
+}",,"file0.code.c: In function 'main':
+file0.code.c:5:17: error: 'a' undeclared (first use in this function)
+    5 |     scanf(""%d"",&a,&b,&c);
+      |                 ^
+file0.code.c:5:17: note: each undeclared identifier is reported only once for each function it appears in
+file0.code.c:5:20: error: 'b' undeclared (first use in this function)
+    5 |     scanf(""%d"",&a,&b,&c);
+      |                    ^
+file0.code.c:5:23: error: 'c' undeclared (first use in this function)
+    5 |     scanf(""%d"",&a,&b,&c);
+      |                       ^
+chmod: cannot access 'a.out': No such file or directory
+",,,,
+2025-12-18T06:25:58.299Z,user_025,user25,14,run,"#include <stdio.h>
+
+int main(void) {
+    int x,y,z;
+    scanf(""%d"",&a,&b,&c);
+    if(x>y+z){
+        printf(""Error"");
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*x>y*y+z*z){
+        printf(""鈍角三角形"");
+    }
+     else if(x*x<y*y+z*z){
+        printf(""鋭角三角形"");
+    }
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //長さ判定
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+
+    return 0;
+}",,"file0.code.c: In function 'main':
+file0.code.c:5:17: error: 'a' undeclared (first use in this function)
+    5 |     scanf(""%d"",&a,&b,&c);
+      |                 ^
+file0.code.c:5:17: note: each undeclared identifier is reported only once for each function it appears in
+file0.code.c:5:20: error: 'b' undeclared (first use in this function)
+    5 |     scanf(""%d"",&a,&b,&c);
+      |                    ^
+file0.code.c:5:23: error: 'c' undeclared (first use in this function)
+    5 |     scanf(""%d"",&a,&b,&c);
+      |                       ^
+chmod: cannot access 'a.out': No such file or directory
+",,,,
+2025-12-18T06:26:31.362Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int x,y,z;
+    scanf(""%d"",&x,&y,&z);
+    if(x>y+z){
+        printf(""Error"");
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*x>y*y+z*z){
+        printf(""鈍角三角形"");
+    }
+     else if(x*x<y*y+z*z){
+        printf(""鋭角三角形"");
+    }
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //長さ判定
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+
+    return 0;
+}",,,,,,
+2025-12-18T06:26:53.803Z,user_025,user25,14,run,"#include <stdio.h>
+
+int main(void) {
+    int x,y,z;
+    scanf(""%d"",&x,&y,&z);
+    if(x>y+z){
+        printf(""Error"");
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*x>y*y+z*z){
+        printf(""鈍角三角形"");
+    }
+     else if(x*x<y*y+z*z){
+        printf(""鋭角三角形"");
+    }
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //長さ判定
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+
+    return 0;
+}",鋭角三角形,,,,,
+2025-12-18T06:26:55.047Z,user_025,user25,14,run,"#include <stdio.h>
+
+int main(void) {
+    int x,y,z;
+    scanf(""%d"",&x,&y,&z);
+    if(x>y+z){
+        printf(""Error"");
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*x>y*y+z*z){
+        printf(""鈍角三角形"");
+    }
+     else if(x*x<y*y+z*z){
+        printf(""鋭角三角形"");
+    }
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //長さ判定
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+
+    return 0;
+}",鋭角三角形,,,,,
+2025-12-18T06:28:01.372Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int x,y,z;
+    scanf(""%d"",&x,&y,&z);
+    if(x>y+z){
+        printf(""Error"");
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*x>y*y+z*z){
+        printf(""鈍角三角形"");
+    }
+     else if(x*x<y*y+z*z){
+        printf(""鋭角三角形"");
+    }
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //長さ判定
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+    return 0;
+}",,,,,,
+2025-12-18T06:28:51.573Z,user_025,user25,14,run,"#include <stdio.h>
+
+int main(void) {
+    int x,y,z;
+    scanf(""%d"",&x,&y,&z);
+    if(x>y+z){
+        printf(""Error"");
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*x>y*y+z*z){
+        printf(""鈍角三角形"");
+    }
+     else if(x*x<y*y+z*z){
+        printf(""鋭角三角形"");
+    }
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //長さ判定
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+    return 0;
+}",鋭角三角形,,,,,
+2025-12-18T06:29:47.209Z,user_025,user25,14,run,"#include <stdio.h>
+
+int main(void) {
+    int x,y,z;
+    scanf(""%d%d%d"",&x,&y,&z);
+    if(x>y+z){
+        printf(""Error"");
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*x>y*y+z*z){
+        printf(""鈍角三角形"");
+    }
+     else if(x*x<y*y+z*z){
+        printf(""鋭角三角形"");
+    }
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //長さ判定
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+    return 0;
+}",直角三角形,,,,,
+2025-12-18T06:29:51.359Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int x,y,z;
+    scanf(""%d%d%d"",&x,&y,&z);
+    if(x>y+z){
+        printf(""Error"");
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*x>y*y+z*z){
+        printf(""鈍角三角形"");
+    }
+     else if(x*x<y*y+z*z){
+        printf(""鋭角三角形"");
+    }
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //長さ判定
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+    return 0;
+}",,,,,,
+2025-12-18T06:30:48.145Z,user_025,user25,14,run,"#include <stdio.h>
+
+int main(void) {
+    int x,y,z;
+    scanf(""%d%d%d"",&x,&y,&z);
+    if(x>=y+z){
+        printf(""Error"");
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*x>y*y+z*z){
+        printf(""鈍角三角形"");
+    }
+     else if(x*x<y*y+z*z){
+        printf(""鋭角三角形"");
+    }
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //長さ判定
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+    return 0;
+}",直角三角形,,,,,
+2025-12-18T06:30:51.367Z,user_025,user25,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int x,y,z;
+    scanf(""%d%d%d"",&x,&y,&z);
+    if(x>=y+z){
+        printf(""Error"");
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*x>y*y+z*z){
+        printf(""鈍角三角形"");
+    }
+     else if(x*x<y*y+z*z){
+        printf(""鋭角三角形"");
+    }
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力を受け取る
+    //長さ判定
+    //形状を判定する
+    //成立しないならError
+    //成立するなら、x*x+y*y=z*z
+    return 0;
+}",,,,,,

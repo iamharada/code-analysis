@@ -1,0 +1,1 @@
+{"timestamp":"2025-12-18T05:01:17.025Z","username":"user01","userId":"user_001","taskNumber":"14","event":"auto_save","code":"#include <stdio.h>\n\nint main(void) {\n    /*入力:3つの実数値, 出力:三角形の種類*/\n    //入力を読み込む\n    //三角形が作れるか調べる\n        //成立・・・直角/鋭角/鈍角を判定\n        //不成立・・・error\n   \n    return 0;\n}"}

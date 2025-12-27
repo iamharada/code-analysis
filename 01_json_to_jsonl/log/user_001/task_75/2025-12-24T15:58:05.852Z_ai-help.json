@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-12-24T15:58:05.852Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n    //入力を受け付ける。\n    //計算する。\n    //出力する。\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の大枠決定",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "#include <stdio.h> を記述している（ヘッダの準備）",
+      "status": "done"
+    },
+    {
+      "level": 1,
+      "text": "main 関数の雛形がある",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "/*入力:1つの整数, 出力:...*/ の課題コメントがある",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "入力を受け付ける（コメントあり）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "計算する（コメントあり）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "出力する（コメントあり）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まず全体の流れをはっきりさせよう：入力を読み、三角形を作り、整形して出力する順序を意識して。"
+    },
+    {
+      "level": 2,
+      "text": "必要なステップを書き出そう：入力取得、pascal 関数を作る、二次元配列で値を計算、%3d で整形して出力、mainから呼ぶ。"
+    },
+    {
+      "level": 3,
+      "text": "pascal(int n) を作って、二次元配列に端は1、内部は上2つの和で埋め、行ごとに printf(\"%3d\", 値) で出力し改行する、mainでは scanf で n を読み pascal を呼ぶ。"
+    }
+  ]
+}

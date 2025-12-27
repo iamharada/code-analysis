@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-12-23T03:27:45.930Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, \n    出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n    // 1. 入力を受け取る\n    // 2. tri3を呼ぶ\n    return 0;\n}\n\n// tri3関数を作成する\n//     1行目からn行目まで順に出力する\n//     行数はforみたいに1ずつ増やす\n//     各行でlineを呼ぶ\n\n// line関数を作成する\n//     *をn個出力する\n//     for文でn回*を出す\n",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の大枠決定",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数: 入力を受け取り tri3 を呼ぶ役割",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main内: 整数nを入力として受け取る",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "main内: tri3を呼び出して出力とカウントを得る",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "tri3関数: 1行目からn行目まで順に出力する（各行でlineを呼ぶ）",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "line関数: '*'を指定個数出力し、出力ごとにカウンタを増やす",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "main: 最後に COUNT=合計 を出力する",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まず全体の流れを確認しよう：入力→行ごとの出力→COUNTの出力、という順序を意識して。"
+    },
+    {
+      "level": 2,
+      "text": "tri3 と line3 は問題文で再帰関数にする必要があるので、再帰で行や'*'を減らす/進める設計を考えてみよう。"
+    },
+    {
+      "level": 3,
+      "text": "具体的には、tri3は現在の行番号・最大行数・カウンタ参照を引数にし、行を出力したら自分を次の行で再帰呼び出しする。line3は残りの'*'数とカウンタ参照を受け取り、'*'を出力してカウンタを増やしつつ再帰で残りを減らす設計にすると良い。"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "timestamp": "2025-12-17T09:50:10.134Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, \n    出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n    // 1. 入力を受け取る\n    // 2. tri3を呼ぶ\n    return 0;\n}\n\n// tri3関数を作成する\n\n// line関数を作成する",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数: 入力を受け取り tri3 を呼ぶ流れをコメントしている",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main -> 入力を受け取る（scanfなど）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "main -> tri3を呼び、終了後COUNTを出力する",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "tri3 (再帰関数): 各行を作る役割（実装予定の関数としてコメントあり）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "tri3 -> ベースケースと再帰呼び出しで行を増やす/減らす制御",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "line3 (再帰関数): その行の'*'を出力し、出力時にカウンタを増やす役割",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "line3 -> '*'を出力するたびにカウンタを1増やす処理（再帰で繰り返す）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まず今のコメントを見て、どの部分が未実装かをはっきりさせよう。特に「入力を受け取る」と「tri3を呼ぶ」を確認して。"
+    },
+    {
+      "level": 2,
+      "text": "tri3は行ごとに繰り返す再帰、line3はその行の'*'を出す再帰と考え、引数（残り行数や出力数、カウンタ参照）を決めてみて。"
+    },
+    {
+      "level": 3,
+      "text": "具体的には：tri3はnを受け取りベースケース(n==0)で終了、それ以外でline3を呼び再帰で次の行へ。line3はk回'*'を出力し、その都度カウンタ（ポインタ）を++する設計にすると実装しやすい。"
+    }
+  ]
+}

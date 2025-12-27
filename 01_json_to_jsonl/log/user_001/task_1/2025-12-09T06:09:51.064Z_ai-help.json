@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-12-09T06:09:51.064Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": 1,
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：なし, 出力：Hello,world!*/\n    printf(\"Hello,world!\");\n    \n    return 0;\n}",
+  "estimated_stage": "コード化",
+  "next_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数の定義（プログラムの開始点）",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "コメントで入力・出力を記述（入力：なし, 出力：Hello,world!）",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "printfで文字列を出力する処理",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "return 0で終了コードを返す処理",
+      "status": "done"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "コメントの出力内容と課題の要求をもう一度比べ、違いを探しましょう。"
+    },
+    {
+      "level": 2,
+      "text": "printfの中身をどう書けば課題どおりの文字列と改行が出るかを考えてみましょう。"
+    },
+    {
+      "level": 3,
+      "text": "出力文字列に「ようこそ」を追加し、末尾に改行文字（\\n）を入れて実行して確認してください。"
+    }
+  ]
+}

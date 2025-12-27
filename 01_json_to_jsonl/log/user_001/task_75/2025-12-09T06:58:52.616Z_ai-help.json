@@ -1,0 +1,36 @@
+{
+  "timestamp": "2025-12-09T06:58:52.616Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\nvoid pascal(int n); \n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n    //入力をパスカルの三角形の段数として受け付ける。\n    //入力値（段数）をpascal関数に渡す。\n    return 0;\n}\n//入力された段数分のパスカルの三角形を出力するpascal関数を作る",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：整数を入力として受け取り、pascal関数に渡す役割（コメントあり）",
+      "status": "in_progress"
+    },
+    {
+      "level": 1,
+      "text": "pascal関数：受け取った段数分のパスカルの三角形を出力する（関数宣言のみ、未実装）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "mainのコメントを見て、まず『入力を受け取る』『受け取った値を関数に渡す』がそのまま実装できると気づきましょう。"
+    },
+    {
+      "level": 2,
+      "text": "標準入力から整数を読み取り、その整数をpascal関数に渡す一連の処理をmainに書くことを考えてみてください。"
+    },
+    {
+      "level": 3,
+      "text": "mainで scanf(\"%d\", &n); を使い pascal(n); を呼びます。pascal内は二次元配列と二重ループで値を計算し printf(\"%3d\", ...)で出力、各行の最後は改行にします。"
+    }
+  ]
+}

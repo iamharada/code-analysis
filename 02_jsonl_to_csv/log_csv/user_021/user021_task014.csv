@@ -1,0 +1,971 @@
+ts,user_id,username,task,event,code,stdout,stderr,estimated_stage,next_stage,processing_structure,advice
+2025-12-18T06:07:54.474Z,user_021,user21,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:, 出力:△△*/
+
+    return 0;
+}",,,,,,
+2025-12-18T06:08:04.480Z,user_021,user21,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの自数値, 出力:△△*/
+
+    return 0;
+}",,,,,,
+2025-12-18T06:08:14.473Z,user_021,user21,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数値, 出力:*/
+
+    return 0;
+}",,,,,,
+2025-12-18T06:08:24.484Z,user_021,user21,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数値, 出力:さんかｋ*/
+
+    return 0;
+}",,,,,,
+2025-12-18T06:08:54.474Z,user_021,user21,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数値, 出力:さんかっけいの*/
+
+    return 0;
+}",,,,,,
+2025-12-18T06:09:04.482Z,user_021,user21,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数値, 出力:三角形の種類またはer*/
+
+    return 0;
+}",,,,,,
+2025-12-18T06:09:14.477Z,user_021,user21,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数値, 出力:三角形の種類またはError*/
+    //
+
+    return 0;
+}",,,,,,
+2025-12-18T06:09:24.484Z,user_021,user21,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数値, 出力:三角形の種類またはError*/
+    //入力を
+
+    return 0;
+}",,,,,,
+2025-12-18T06:09:34.479Z,user_021,user21,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数値, 出力:三角形の種類またはError*/
+    //入力を受け取る
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T06:09:44.476Z,user_021,user21,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数値, 出力:三角形の種類またはError*/
+    //入力を受け取る
+    //
+
+    return 0;
+}",,,,,,
+2025-12-18T06:11:24.481Z,user_021,user21,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数値, 出力:三角形の種類またはError*/
+    //入力を受け取る
+    //2
+
+    return 0;
+}",,,,,,
+2025-12-18T06:11:34.482Z,user_021,user21,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数値, 出力:三角形の種類またはError*/
+    //入力を受け取る
+    //2辺の長さが
+
+    return 0;
+}",,,,,,
+2025-12-18T06:11:45.043Z,user_021,user21,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数値, 出力:三角形の種類またはError*/
+    //入力を受け取る
+    //2辺の長さの合計が他の
+
+    return 0;
+}",,,,,,
+2025-12-18T06:11:54.479Z,user_021,user21,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数値, 出力:三角形の種類またはError*/
+    //入力を受け取る
+    //2辺の長さの合計が他の1辺の
+
+    return 0;
+}",,,,,,
+2025-12-18T06:12:04.472Z,user_021,user21,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数値, 出力:三角形の種類またはError*/
+    //入力を受け取る
+    //３かっけ
+
+    return 0;
+}",,,,,,
+2025-12-18T06:12:14.487Z,user_021,user21,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数値, 出力:三角形の種類またはError*/
+    //入力を受け取る
+    //3角形が成立するか確かめる
+    //
+
+    return 0;
+}",,,,,,
+2025-12-18T06:12:34.471Z,user_021,user21,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数値, 出力:三角形の種類またはError*/
+    //入力を受け取る
+    //3角形が成立するか確かめる
+    //3角形の種類
+
+    return 0;
+}",,,,,,
+2025-12-18T06:12:44.477Z,user_021,user21,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数値, 出力:三角形の種類またはError*/
+    //入力を受け取る
+    //3角形が成立するか確かめる
+    //3角形の種類を確認する
+
+    return 0;
+}",,,,,,
+2025-12-18T06:13:14.484Z,user_021,user21,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数値, 出力:三角形の種類またはError*/
+    //入力を受け取る
+    //3角形が成立するか確かめる
+        //
+    //3角形の種類を確認する
+
+    return 0;
+}",,,,,,
+2025-12-18T06:13:24.476Z,user_021,user21,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数値, 出力:三角形の種類またはError*/
+    //入力を受け取る
+    //3角形が成立するか確かめる
+        //任意の1篇の長さが他の
+    //3角形の種類を確認する
+
+    return 0;
+}",,,,,,
+2025-12-18T06:13:34.478Z,user_021,user21,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数値, 出力:三角形の種類またはError*/
+    //入力を受け取る
+    //3角形が成立するか確かめる
+        //任意の1篇の長さが他の2辺の長さの
+    //3角形の種類を確認する
+
+    return 0;
+}",,,,,,
+2025-12-18T06:13:44.481Z,user_021,user21,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数値, 出力:三角形の種類またはError*/
+    //入力を受け取る
+    //3角形が成立するか確かめる
+        //任意の1辺の長さが他の2辺の長さの和よりおおきい
+    //3角形の種類を確認する
+
+    return 0;
+}",,,,,,
+2025-12-18T06:13:54.473Z,user_021,user21,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数値, 出力:三角形の種類またはError*/
+    //入力を受け取る
+    //3角形が成立するか確かめる
+        //任意の1辺の長さが他の2辺の長さの和よりおおきい
+    //3角形の種類を確認する
+    　　//
+
+    return 0;
+}",,,,,,
+2025-12-18T06:14:26.437Z,user_021,user21,14,ai-help,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数値, 出力:三角形の種類またはError*/
+    //入力を受け取る
+    //3角形が成立するか確かめる
+        //任意の1辺の長さが他の2辺の長さの和よりおおきい
+    //3角形の種類を確認する
+    　　//
+
+    return 0;
+}",,,処理の大枠決定,コード化,"[{""level"": 1, ""text"": ""main関数：入力→判定→出力の全体処理"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""入力を受け取る（3つの実数）"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""3角形が成立するか確かめる"", ""status"": ""in_progress""}, {""level"": 3, ""text"": ""任意の1辺の長さが他の2辺の長さの和より大きいか確認（最初の入力が最大と仮定）"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""3角形の種類を確認する（直角/鋭角/鈍角）"", ""status"": ""todo""}, {""level"": 3, ""text"": ""結果を出力する（Error または 三角形の種類）"", ""status"": ""todo""}]","[{""level"": 1, ""text"": ""まずはコメントどおりの順番で進めよう：入力→成立判定→種類判定→出力の流れを意識して。最初の入力が最大という仮定を忘れないで。""}, {""level"": 2, ""text"": ""scanfで3つのdoubleを読み取り、最初をa、残りをb,cとして使おう。まずはa < b + cで三角形成立かをチェックしてみて。""}, {""level"": 3, ""text"": ""成立なら a*a と b*b + c*c を比較して等しければ直角、小さければ鋭角、大きければ鈍角を出力し、成立しなければ \""Error\"" と改行付きで出力して終える。""}]"
+2025-12-18T06:15:44.475Z,user_021,user21,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数値, 出力:三角形の種類またはError*/
+    //入力を受け取る
+    //3角形が成立するか確かめる
+        //入力1の長さが他の2辺の長さの和よりおおきい
+    //3角形の種類を確認する
+    　　//
+
+    return 0;
+}",,,,,,
+2025-12-18T06:16:44.476Z,user_021,user21,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数値, 出力:三角形の種類またはError*/
+    //入力を受け取る
+    //3角形が成立するか確かめる
+        //入力1の長さが他の2辺の長さの和よりおおきい
+    //3角形の種類を確認する
+    //しゅｔ
+
+    return 0;
+}",,,,,,
+2025-12-18T06:16:54.474Z,user_021,user21,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数値, 出力:三角形の種類またはError*/
+    //入力を受け取る
+    //3角形が成立するか確かめる
+        //入力1の長さが他の2辺の長さの和よりおおきい
+    //3角形の種類を確認する
+    //出力がうかｔｔ
+
+    return 0;
+}",,,,,,
+2025-12-18T06:17:04.486Z,user_021,user21,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数値, 出力:三角形の種類またはError*/
+    //入力を受け取る
+    //3角形が成立するか確かめる
+        //入力1の長さが他の2辺の長さの和よりおおきい
+    //3角形の種類を確認する
+    scanf(""""
+
+    return 0;
+}",,,,,,
+2025-12-18T06:17:14.479Z,user_021,user21,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数値, 出力:三角形の種類またはError*/
+    //入力を受け取る
+    //3角形が成立するか確かめる
+        //入力1の長さが他の2辺の長さの和よりおおきい
+    //3角形の種類を確認する
+    int a,b,c
+    scanf("""");
+
+    return 0;
+}",,,,,,
+2025-12-18T06:17:24.475Z,user_021,user21,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数値, 出力:三角形の種類またはError*/
+    //入力を受け取る
+    //3角形が成立するか確かめる
+        //入力1の長さが他の2辺の長さの和よりおおきい
+    //3角形の種類を確認する
+    int a,b,c
+    scanf(""%d %d %d"",&a,&b);
+
+    return 0;
+}",,,,,,
+2025-12-18T06:17:34.472Z,user_021,user21,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数値, 出力:三角形の種類またはError*/
+    //入力を受け取る
+    //3角形が成立するか確かめる
+        //入力1の長さが他の2辺の長さの和よりおおきい
+    //3角形の種類を確認する
+    int a,b,c
+    scanf(""%d %d %d"",&a,&b,&c);
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T06:17:44.479Z,user_021,user21,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数値, 出力:三角形の種類またはError*/
+    //入力を受け取る
+    //3角形が成立するか確かめる
+        //入力1の長さが他の2辺の長さの和よりおおきい
+    //3角形の種類を確認する
+    int a,b,c
+    scanf(""%d %d %d"",&a,&b,&c);
+    if(a
+
+    return 0;
+}",,,,,,
+2025-12-18T06:18:34.474Z,user_021,user21,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数値, 出力:三角形の種類またはError*/
+    //入力を受け取る
+    //3角形が成立するか確かめる
+        //入力1の長さが他の2辺の長さの和よりおおきい
+    //3角形の種類を確認する
+    int a,b,c
+    scanf(""%d %d %d"",&a,&b,&c);
+    if(a>b+c){
+        
+
+    return 0;
+}",,,,,,
+2025-12-18T06:18:44.483Z,user_021,user21,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数値, 出力:三角形の種類またはError*/
+    //入力を受け取る
+    //3角形が成立するか確かめる
+        //入力1の長さが他の2辺の長さの和よりおおきい
+    //3角形の種類を確認する
+    int a,b,c
+    scanf(""%d %d %d"",&a,&b,&c);
+    if(a>b+c){
+        printf("""")
+
+    return 0;
+}",,,,,,
+2025-12-18T06:18:54.481Z,user_021,user21,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数値, 出力:三角形の種類またはError*/
+    //入力を受け取る
+    //3角形が成立するか確かめる
+        //入力1の長さが他の2辺の長さの和よりおおきい
+    //3角形の種類を確認する
+    int a,b,c
+    scanf(""%d %d %d"",&a,&b,&c);
+    if(a>b+c){
+        printf(""Error\"")
+
+    return 0;
+}",,,,,,
+2025-12-18T06:19:04.484Z,user_021,user21,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数値, 出力:三角形の種類またはError*/
+    //入力を受け取る
+    //3角形が成立するか確かめる
+        //入力1の長さが他の2辺の長さの和よりおおきい
+    //3角形の種類を確認する
+    int a,b,c
+    scanf(""%d %d %d"",&a,&b,&c);
+    if(a>b+c){
+        printf(""Error\n"");
+    }
+
+    return 0;
+}",,,,,,
+2025-12-18T06:19:34.471Z,user_021,user21,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数値, 出力:三角形の種類またはError*/
+    //入力を受け取る
+    //3角形が成立するか確かめる
+        //入力1の長さが他の2辺の長さの和よりおおきい
+    //3角形の種類を確認する
+    int a,b,c
+    scanf(""%d %d %d"",&a,&b,&c);
+    if(a>b+c){
+        printf(""Error\n"");
+    }else{
+        if(a
+
+    return 0;
+}",,,,,,
+2025-12-18T06:19:44.478Z,user_021,user21,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数値, 出力:三角形の種類またはError*/
+    //入力を受け取る
+    //3角形が成立するか確かめる
+        //入力1の長さが他の2辺の長さの和よりおおきい
+    //3角形の種類を確認する
+    int a,b,c
+    scanf(""%d %d %d"",&a,&b,&c);
+    if(a>b+c){
+        printf(""Error\n"");
+    }else{
+        if(a*a+b*b==c*c){
+            
+
+    return 0;
+}",,,,,,
+2025-12-18T06:19:54.479Z,user_021,user21,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数値, 出力:三角形の種類またはError*/
+    //入力を受け取る
+    //3角形が成立するか確かめる
+        //入力1の長さが他の2辺の長さの和よりおおきい
+    //3角形の種類を確認する
+    int a,b,c
+    scanf(""%d %d %d"",&a,&b,&c);
+    if(a>b+c){
+        printf(""Error\n"");
+    }else{
+        if(a*a+b*b==c*c){
+            printf("""");
+        }else if(a
+
+    return 0;
+}",,,,,,
+2025-12-18T06:20:04.485Z,user_021,user21,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数値, 出力:三角形の種類またはError*/
+    //入力を受け取る
+    //3角形が成立するか確かめる
+        //入力1の長さが他の2辺の長さの和よりおおきい
+    //3角形の種類を確認する
+    int a,b,c
+    scanf(""%d %d %d"",&a,&b,&c);
+    if(a>b+c){
+        printf(""Error\n"");
+    }else{
+        if(a*a+b*b==c*c){
+            printf("""");
+        }else if(a*a+b*b
+
+    return 0;
+}",,,,,,
+2025-12-18T06:20:14.471Z,user_021,user21,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数値, 出力:三角形の種類またはError*/
+    //入力を受け取る
+    //3角形が成立するか確かめる
+        //入力1の長さが他の2辺の長さの和よりおおきい
+    //3角形の種類を確認する
+    int a,b,c
+    scanf(""%d %d %d"",&a,&b,&c);
+    if(a>b+c){
+        printf(""Error\n"");
+    }else{
+        if(a*a+b*b==c*c){
+            printf("""");
+        }else if(a*a+b*b<c*c){
+            printf("""");
+        }
+
+    return 0;
+}",,,,,,
+2025-12-18T06:20:24.477Z,user_021,user21,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数値, 出力:三角形の種類またはError*/
+    //入力を受け取る
+    //3角形が成立するか確かめる
+        //入力1の長さが他の2辺の長さの和よりおおきい
+    //3角形の種類を確認する
+    int a,b,c
+    scanf(""%d %d %d"",&a,&b,&c);
+    if(a>b+c){
+        printf(""Error\n"");
+    }else{
+        if(a*a+b*b==c*c){
+            printf("""");
+        }else if(a*a+b*b<c*c){
+            printf("""");
+        }else{
+            printf(""""):
+
+    return 0;
+}",,,,,,
+2025-12-18T06:20:34.471Z,user_021,user21,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数値, 出力:三角形の種類またはError*/
+    //入力を受け取る
+    //3角形が成立するか確かめる
+        //入力1の長さが他の2辺の長さの和よりおおきい
+    //3角形の種類を確認する
+    int a,b,c
+    scanf(""%d %d %d"",&a,&b,&c);
+    if(a>b+c){
+        printf(""Error\n"");
+    }else{
+        if(a*a+b*b==c*c){
+            printf("""");
+        }else if(a*a+b*b<c*c){
+            printf("""");
+        }else{
+            printf("""");
+        }
+    }
+    return 
+
+    return 0;
+}",,,,,,
+2025-12-18T06:20:44.482Z,user_021,user21,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数値, 出力:三角形の種類またはError*/
+    //入力を受け取る
+    //3角形が成立するか確かめる
+        //入力1の長さが他の2辺の長さの和よりおおきい
+    //3角形の種類を確認する
+    int a,b,c
+    scanf(""%d %d %d"",&a,&b,&c);
+    if(a>b+c){
+        printf(""Error\n"");
+    }else{
+        if(a*a+b*b==c*c){
+            printf(""直角三角形"");
+        }else if(a*a+b*b<c*c){
+            printf("""");
+        }else{
+            printf("""");
+        }
+    }
+    return 0;
+
+    return 0;
+}",,,,,,
+2025-12-18T06:20:54.483Z,user_021,user21,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数値, 出力:三角形の種類またはError*/
+    //入力を受け取る
+    //3角形が成立するか確かめる
+        //入力1の長さが他の2辺の長さの和よりおおきい
+    //3角形の種類を確認する
+    int a,b,c
+    scanf(""%d %d %d"",&a,&b,&c);
+    if(a>b+c){
+        printf(""Error\n"");
+    }else{
+        if(a*ab*b==c*c){
+            printf(""直角三角形"");
+        }else if(a*a+b*b<c*c){
+            printf("""");
+        }else{
+            printf("""");
+        }
+    }
+    return 0;
+
+    return 0;
+}",,,,,,
+2025-12-18T06:21:04.473Z,user_021,user21,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数値, 出力:三角形の種類またはError*/
+    //入力を受け取る
+    //3角形が成立するか確かめる
+        //入力1の長さが他の2辺の長さの和よりおおきい
+    //3角形の種類を確認する
+    int a,b,c
+    scanf(""%d %d %d"",&a,&b,&c);
+    if(a>b+c){
+        printf(""Error\n"");
+    }else{
+        if(a*a==b*b+c*c){
+            printf(""直角三角形"");
+        }else if(a*a==b*bc*c){
+            printf("""");
+        }else{
+            printf("""");
+        }
+    }
+    return 0;
+
+    return 0;
+}",,,,,,
+2025-12-18T06:21:14.478Z,user_021,user21,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数値, 出力:三角形の種類またはError*/
+    //入力を受け取る
+    //3角形が成立するか確かめる
+        //入力1の長さが他の2辺の長さの和よりおおきい
+    //3角形の種類を確認する
+    int a,b,c
+    scanf(""%d %d %d"",&a,&b,&c);
+    if(a>b+c){
+        printf(""Error\n"");
+    }else{
+        if(a*a==b*b+c*c){
+            printf(""直角三角形\n"");
+        }else if(a*a<*b+c*c){
+            printf("""");
+        }else{
+            printf("""");
+        }
+    }
+    return 0;
+
+    return 0;
+}",,,,,,
+2025-12-18T06:21:34.477Z,user_021,user21,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数値, 出力:三角形の種類またはError*/
+    //入力を受け取る
+    //3角形が成立するか確かめる
+        //入力1の長さが他の2辺の長さの和よりおおきい
+    //3角形の種類を確認する
+    int a,b,c
+    scanf(""%d %d %d"",&a,&b,&c);
+    if(a>b+c){
+        printf(""Error\n"");
+    }else{
+        if(a*a==b*b+c*c){
+            printf(""直角三角形\n"");
+        }else if(a*a<*b+c*c){
+            printf(""鋭角三角形"");
+        }else{
+            printf(""鈍角三角形"");
+        }
+    }
+    return 0;
+
+    return 0;
+}",,,,,,
+2025-12-18T06:21:41.638Z,user_021,user21,14,run,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数値, 出力:三角形の種類またはError*/
+    //入力を受け取る
+    //3角形が成立するか確かめる
+        //入力1の長さが他の2辺の長さの和よりおおきい
+    //3角形の種類を確認する
+    int a,b,c
+    scanf(""%d %d %d"",&a,&b,&c);
+    if(a>b+c){
+        printf(""Error\n"");
+    }else{
+        if(a*a==b*b+c*c){
+            printf(""直角三角形\n"");
+        }else if(a*a<*b+c*c){
+            printf(""鋭角三角形\n"");
+        }else{
+            printf(""鈍角三角形\n"");
+        }
+    }
+    return 0;
+
+    return 0;
+}",,"file0.code.c: In function 'main':
+file0.code.c:10:5: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'scanf'
+   10 |     scanf(""%d %d %d"",&a,&b,&c);
+      |     ^~~~~
+file0.code.c:11:12: error: 'c' undeclared (first use in this function)
+   11 |     if(a>b+c){
+      |            ^
+file0.code.c:11:12: note: each undeclared identifier is reported only once for each function it appears in
+file0.code.c:16:22: error: invalid type argument of unary '*' (have 'int')
+   16 |         }else if(a*a<*b+c*c){
+      |                      ^~
+chmod: cannot access 'a.out': No such file or directory
+",,,,
+2025-12-18T06:21:44.483Z,user_021,user21,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数値, 出力:三角形の種類またはError*/
+    //入力を受け取る
+    //3角形が成立するか確かめる
+        //入力1の長さが他の2辺の長さの和よりおおきい
+    //3角形の種類を確認する
+    int a,b,c
+    scanf(""%d %d %d"",&a,&b,&c);
+    if(a>b+c){
+        printf(""Error\n"");
+    }else{
+        if(a*a==b*b+c*c){
+            printf(""直角三角形\n"");
+        }else if(a*a<*b+c*c){
+            printf(""鋭角三角形\n"");
+        }else{
+            printf(""鈍角三角形\n"");
+        }
+    }
+    return 0;
+
+    return 0;
+}",,,,,,
+2025-12-18T06:22:14.471Z,user_021,user21,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数値, 出力:三角形の種類またはError*/
+    //入力を受け取る
+    //3角形が成立するか確かめる
+        //入力1の長さが他の2辺の長さの和よりおおきい
+    //3角形の種類を確認する
+    int a,b,c；
+    scanf(""%d %d %d"",&a,&b,&c);
+    if(a>b+c){
+        printf(""Error\n"");
+    }else{
+        if(a*a==b*b+c*c){
+            printf(""直角三角形\n"");
+        }else if(a*a<*b+c*c){
+            printf(""鋭角三角形\n"");
+        }else{
+            printf(""鈍角三角形\n"");
+        }
+    }
+    return 0;
+
+    return 0;
+}",,,,,,
+2025-12-18T06:22:17.324Z,user_021,user21,14,run,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数値, 出力:三角形の種類またはError*/
+    //入力を受け取る
+    //3角形が成立するか確かめる
+        //入力1の長さが他の2辺の長さの和よりおおきい
+    //3角形の種類を確認する
+    int a,b,c;
+    scanf(""%d %d %d"",&a,&b,&c);
+    if(a>b+c){
+        printf(""Error\n"");
+    }else{
+        if(a*a==b*b+c*c){
+            printf(""直角三角形\n"");
+        }else if(a*a<*b+c*c){
+            printf(""鋭角三角形\n"");
+        }else{
+            printf(""鈍角三角形\n"");
+        }
+    }
+    return 0;
+
+    return 0;
+}",,"file0.code.c: In function 'main':
+file0.code.c:16:22: error: invalid type argument of unary '*' (have 'int')
+   16 |         }else if(a*a<*b+c*c){
+      |                      ^~
+chmod: cannot access 'a.out': No such file or directory
+",,,,
+2025-12-18T06:22:24.478Z,user_021,user21,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数値, 出力:三角形の種類またはError*/
+    //入力を受け取る
+    //3角形が成立するか確かめる
+        //入力1の長さが他の2辺の長さの和よりおおきい
+    //3角形の種類を確認する
+    int a,b,c;
+    scanf(""%d %d %d"",&a,&b,&c);
+    if(a>b+c){
+        printf(""Error\n"");
+    }else{
+        if(a*a==b*b+c*c){
+            printf(""直角三角形\n"");
+        }else if(a*a<*b+c*c){
+            printf(""鋭角三角形\n"");
+        }else{
+            printf(""鈍角三角形\n"");
+        }
+    }
+    return 0;
+
+    return 0;
+}",,,,,,
+2025-12-18T06:22:42.541Z,user_021,user21,14,ai-help,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数値, 出力:三角形の種類またはError*/
+    //入力を受け取る
+    //3角形が成立するか確かめる
+        //入力1の長さが他の2辺の長さの和よりおおきい
+    //3角形の種類を確認する
+    int a,b,c;
+    scanf(""%d %d %d"",&a,&b,&c);
+    if(a>b+c){
+        printf(""Error\n"");
+    }else{
+        if(a*a==b*b+c*c){
+            printf(""直角三角形\n"");
+        }else if(a*a<*b+c*c){
+            printf(""鋭角三角形\n"");
+        }else{
+            printf(""鈍角三角形\n"");
+        }
+    }
+    return 0;
+
+    return 0;
+}",,,コード化,コードの整合性確認,"[{""level"": 1, ""text"": ""main関数で全体の処理を行う"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""入力を受け取る（3つの実数、最初が最大であると仮定）"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""三角形が成立するか判定（最大辺と他の2辺の和を比較）"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""成立した場合に直角・鋭角・鈍角を判定して出力する"", ""status"": ""in_progress""}]","[{""level"": 1, ""text"": ""型や比較の向きに注意しよう。入力は実数で扱うべきか確認してね。""}, {""level"": 2, ""text"": ""scanfの書式や変数の型を合わせ、三角不等式（最大辺 >= 他辺の和がError）を見直してみて。""}, {""level"": 3, ""text"": ""変数をdoubleにしてscanfで実数を読み、条件は if (a >= b + c) をErrorにする。角の判定は a*a == b*b + c*c や a*a < b*b + c*c の形で比較（小数の誤差を考慮する）。""}]"
+2025-12-18T06:22:44.478Z,user_021,user21,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数値, 出力:三角形の種類またはError*/
+    //入力を受け取る
+    //3角形が成立するか確かめる
+        //入力1の長さが他の2辺の長さの和よりおおきい
+    //3角形の種類を確認する
+    int a,b,c;
+    scanf(""%d %d %d"",&a,&b,&c);
+    if(a>b+c){
+        printf(""Error\n"");
+    }else{
+        if(a*a==b*b+c*c){
+            printf(""直角三角形\n"");
+        }else if(a*a<*b+c*c){
+            printf(""鋭角三角形\n"");
+        }else{
+            printf(""鈍角三角形\n"");
+        }
+    }
+    return 0;
+
+}",,,,,,
+2025-12-18T06:22:45.598Z,user_021,user21,14,run,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数値, 出力:三角形の種類またはError*/
+    //入力を受け取る
+    //3角形が成立するか確かめる
+        //入力1の長さが他の2辺の長さの和よりおおきい
+    //3角形の種類を確認する
+    int a,b,c;
+    scanf(""%d %d %d"",&a,&b,&c);
+    if(a>b+c){
+        printf(""Error\n"");
+    }else{
+        if(a*a==b*b+c*c){
+            printf(""直角三角形\n"");
+        }else if(a*a<*b+c*c){
+            printf(""鋭角三角形\n"");
+        }else{
+            printf(""鈍角三角形\n"");
+        }
+    }
+    return 0;
+
+}",,"file0.code.c: In function 'main':
+file0.code.c:16:22: error: invalid type argument of unary '*' (have 'int')
+   16 |         }else if(a*a<*b+c*c){
+      |                      ^~
+chmod: cannot access 'a.out': No such file or directory
+",,,,
+2025-12-18T06:23:30.212Z,user_021,user21,14,ai-help,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数値, 出力:三角形の種類またはError*/
+    //入力を受け取る
+    //3角形が成立するか確かめる
+        //入力1の長さが他の2辺の長さの和よりおおきい
+    //3角形の種類を確認する
+    int a,b,c;
+    scanf(""%d %d %d"",&a,&b,&c);
+    if(a>b+c){
+        printf(""Error\n"");
+    }else{
+        if(a*a==b*b+c*c){
+            printf(""直角三角形\n"");
+        }else if(a*a<*b+c*c){
+            printf(""鋭角三角形\n"");
+        }else{
+            printf(""鈍角三角形\n"");
+        }
+    }
+    return 0;
+
+}",,,コード化,コードの整合性確認,"[{""level"": 1, ""text"": ""main関数と課題の目的をコメントで記述（入力3つの実数、出力:三角形の種類またはError）"", ""status"": ""done""}, {""level"": 2, ""text"": ""入力を受け取る（scanfで3つの値を読み込む）"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""三角形が成立するか確かめる（最大辺と他2辺の和を比較してError判定）"", ""status"": ""in_progress""}, {""level"": 3, ""text"": ""三角形の種類を判定する（最大辺の二乗と他2辺の二乗和を比較して直角/鋭角/鈍角を判定）"", ""status"": ""in_progress""}]","[{""level"": 1, ""text"": ""まず課題の要件を再確認して、入力は『実数』であることと最初の値が最大である点を意識しましょう。""}, {""level"": 2, ""text"": ""実装の問題点を探してください：型とscanf書式、三角形成立条件（>=の扱い）、比較の誤りやタイプミスに注意です。""}, {""level"": 3, ""text"": ""変数をdoubleにし、scanfは\""%lf\""を使う・不成立はif (a >= b + c) とする・実数比較は許容誤差（fabsで差を比較）を使って直角判定を行ってください。""}]"
+2025-12-18T06:23:52.465Z,user_021,user21,14,run,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数値, 出力:三角形の種類またはError*/
+    //入力を受け取る
+    //3角形が成立するか確かめる
+        //入力1の長さが他の2辺の長さの和よりおおきい
+    //3角形の種類を確認する
+    int a,b,c;
+    scanf(""%d %d %d"",&a,&b,&c);
+    if(a>b+c){
+        printf(""Error\n"");
+    }else{
+        if(a*a==b*b+c*c){
+            printf(""直角三角形\n"");
+        }else if(a*a<*b+c*c){
+            printf(""鋭角三角形\n"");
+        }else{
+            printf(""鈍角三角形\n"");
+        }
+    }
+    return 0;
+
+}",,"file0.code.c: In function 'main':
+file0.code.c:16:22: error: invalid type argument of unary '*' (have 'int')
+   16 |         }else if(a*a<*b+c*c){
+      |                      ^~
+chmod: cannot access 'a.out': No such file or directory
+",,,,
+2025-12-18T06:24:12.378Z,user_021,user21,14,run,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数値, 出力:三角形の種類またはError*/
+    //入力を受け取る
+    //3角形が成立するか確かめる
+        //入力1の長さが他の2辺の長さの和よりおおきい
+    //3角形の種類を確認する
+    int a,b,c;
+    scanf(""%d %d %d"",&a,&b,&c);
+    if(a>b+c){
+        printf(""Error\n"");
+    }else{
+        if(a*a==b*b+c*c){
+            printf(""直角三角形\n"");
+        }else if(a*a<b*b+c*c){
+            printf(""鋭角三角形\n"");
+        }else{
+            printf(""鈍角三角形\n"");
+        }
+    }
+    return 0;
+
+}","直角三角形
+",,,,,
+2025-12-18T06:24:14.475Z,user_021,user21,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数値, 出力:三角形の種類またはError*/
+    //入力を受け取る
+    //3角形が成立するか確かめる
+        //入力1の長さが他の2辺の長さの和よりおおきい
+    //3角形の種類を確認する
+    int a,b,c;
+    scanf(""%d %d %d"",&a,&b,&c);
+    if(a>b+c){
+        printf(""Error\n"");
+    }else{
+        if(a*a==b*b+c*c){
+            printf(""直角三角形\n"");
+        }else if(a*a<b*b+c*c){
+            printf(""鋭角三角形\n"");
+        }else{
+            printf(""鈍角三角形\n"");
+        }
+    }
+    return 0;
+
+}",,,,,,

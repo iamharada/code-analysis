@@ -1,0 +1,36 @@
+{
+  "timestamp": "2025-12-17T10:14:26.722Z",
+  "username": "user2",
+  "userId": "user_002",
+  "taskNumber": "84",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数のひな型がある（コメントと return 0 を含む）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力と出力を示すコメント（/*入力:○○, 出力:△△*/）が未具体化",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題文をもう一度読み、やること（入力と出力、配列で桁ごとに足す）を確認しよう。"
+    },
+    {
+      "level": 2,
+      "text": "具体例で考えてみよう。例: 入力 '11211' と '80985' の出力は '92196' になる。"
+    },
+    {
+      "level": 3,
+      "text": "コメントの○○を「2つの数字文字列（各10文字以内、先頭は0でない）」、△△を「それらの和を文字列で出力(改行のみ)」と明記して次に進もう。"
+    }
+  ]
+}

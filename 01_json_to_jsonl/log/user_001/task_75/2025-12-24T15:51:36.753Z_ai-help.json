@@ -1,0 +1,36 @@
+{
+  "timestamp": "2025-12-24T15:51:36.753Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数の雛形（プログラム開始・returnはある）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "コメントで入力(1つの整数)と出力(パスカルの三角形)の意図を記述",
+      "status": "done"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題文をもう一度読み、入力は1つの整数、出力はその行数分のパスカルの三角形であることを確認しましょう。"
+    },
+    {
+      "level": 2,
+      "text": "具体例を紙に書いてみてください（例:入力4なら4行の三角形をどう表示するかを列挙）。"
+    },
+    {
+      "level": 3,
+      "text": "入力は1行の整数n(1〜10)。出力はn行のパスカルの三角形で、各数は%3dで右寄せ、行末は改行のみにしてください。"
+    }
+  ]
+}

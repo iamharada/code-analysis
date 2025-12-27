@@ -1,0 +1,55 @@
+{
+  "timestamp": "2025-10-30T00:58:10.902Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": 1,
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：なし, 出力：Hello,world!*/\n    aaaaaaaa;\n    printf(\"\")\n    \n    return 0;\n}",
+  "estimated_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "ヘッダのインクルード（stdio.h）",
+      "status": "done"
+    },
+    {
+      "level": 1,
+      "text": "main関数の定義",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力・出力を示すコメント（課題理解）",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "不正な文（aaaaaaaa;）がある",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "printf呼び出しがあるが内容が未完成（文字列と改行が必要）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "return 0; の記述",
+      "status": "done"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まず課題の出力を確かめてください：出力は Hello,world!ようこそ で最後に改行が必要です。"
+    },
+    {
+      "level": 2,
+      "text": "mainの中の不要な行（aaaaaaaa;）は削除し、printfで何を表示するかをはっきりさせましょう。"
+    },
+    {
+      "level": 3,
+      "text": "printfの引数に表示したい文字列を入れ、文字列の末尾に改行文字（\\n）を含め、文末にセミコロンを付けてコンパイルして確認してください。"
+    }
+  ]
+}

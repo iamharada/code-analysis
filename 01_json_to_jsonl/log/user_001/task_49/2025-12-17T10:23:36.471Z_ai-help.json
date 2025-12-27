@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-12-17T10:23:36.471Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数,\n      出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n    // 1. 入力を受け取る\n    // 2. tri3を呼ぶ\n    return 0;\n}\n\n// tri3関数を作成する\n    // for文で1行ずつ回す\n    // lineで*を出す\n    // COUNTは最後にまとめて計算\n\n// line関数を作成する\n    // for文で*をn個出す\n    // 改行する",
+  "estimated_stage": "処理の詳細化",
+  "next_stage": "処理の大枠決定",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main: 整数を読み取り、再帰関数tri3を呼ぶ準備をする（入力と呼び出しのコメントあり）",
+      "status": "in_progress"
+    },
+    {
+      "level": 1,
+      "text": "tri3関数: 各行を出力する役割（コメントでは「for文で1行ずつ回す、lineで*を出す、COUNTは最後にまとめて計算」と記載）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "line（line3相当）: 1行分の'*'を出力する（コメントでは「for文で*をn個出す、改行する」と記載）",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題の必須条件（再帰関数tri3とline3を使うこと、再帰内で'*'の個数を数えること）をもう一度確認しましょう。"
+    },
+    {
+      "level": 2,
+      "text": "tri3は行数を減らす再帰、line3は1行分の'*'を出す再帰に設計し、カウントは関数間で受け渡す方法を考えてください（例: ポインタで渡す）。"
+    },
+    {
+      "level": 3,
+      "text": "大枠コメント例: mainでnを入力してcount=0、tri3(n,&count)を呼ぶ。tri3は n==0 で終了、そうでなければ line3(n,&count) を呼んでから tri3(n-1,&count) を呼ぶ。line3は再帰で'*'を1つ出してcount++し残りを出す。"
+    }
+  ]
+}

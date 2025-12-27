@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-11-27T02:08:06.337Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数の雛形（戻り値return 0を含む）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力・出力を示すプレースホルダコメント (/*入力:○○, 出力:△△*/)",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "return 0; の記述",
+      "status": "done"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題の条件をもう一度確認しよう：関数名、二次元配列、繰り返し、%3dで整形する点を意識して。"
+    },
+    {
+      "level": 2,
+      "text": "入力と出力を具体的に書いてみよう：何を入力し、どんな出力が期待されるかをコメントで明記する。"
+    },
+    {
+      "level": 3,
+      "text": "コメントを具体化して書くと良い：/*入力: 整数 n(1-10), 出力: 上から n 行分のパスカルの三角形を各要素を%3dで右揃えで出力*/"
+    }
+  ]
+}

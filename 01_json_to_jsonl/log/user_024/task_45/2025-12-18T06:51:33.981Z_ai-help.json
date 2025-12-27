@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-12-18T06:51:33.981Z",
+  "username": "user24",
+  "userId": "user_024",
+  "taskNumber": "45",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:一つの整数値, 出力:上位・下位を入れ替えた値*/\n    int a;\n    scanf(\"%d\",&a);//出力を読み込む\n    int reverse4(int )\n    //再起関数を用いて位を入れ替える\n    //出力する\n\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数の開始（ヘッダとmainの骨組みがある）",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "main内で整数を読み込む（scanf）",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "reverse4関数の宣言／実装（未完成の宣言がある）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "reverse4を使って値を変換し出力する（コメントのみ）",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "reverse4関数（別関数として作成予定）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "再帰を用いて位を入れ替える処理（具体実装未記入）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "今あるコメントと行ったことを見比べ、何が未定義か確認しよう。"
+    },
+    {
+      "level": 2,
+      "text": "reverse4が何を受け取り何を返すか、基本ケースと再帰ケースを紙に短く書いてみてください。"
+    },
+    {
+      "level": 3,
+      "text": "reverse4はintを受けてintを返す仕様にして、1桁ならそのまま返す（ベースケース）、それ以外は末尾の桁を取り出して再帰で組み立てる手順をコメントで書いてから実装を始めましょう。"
+    }
+  ]
+}

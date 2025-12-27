@@ -1,0 +1,11 @@
+services:
+  log-flattener:
+    build: .
+    container_name: log-flattener
+    working_dir: /work
+    volumes:
+      # 入力ログ（ホストの ./log をコンテナの /work/log に）
+      - ./log:/work/log:ro
+      # 出力先（ホストの ./log_jsonl をコンテナの /work/log_jsonl に）
+      - ./log_jsonl:/work/log_jsonl
+    command: ["--in", "/work/log", "--out", "/work/log_jsonl", "--sort"]

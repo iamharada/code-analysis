@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-12-09T07:09:49.483Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n    //入力をパスカルの三角形の段数として受け付ける。\n    //入力値（段数）をpascal関数に渡す。\n    return 0;\n}\n//入力された段数分のパスカルの三角形を出力するpascal関数を作る\n",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：プログラム開始、入力を受け取りpascal関数を呼ぶ",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力を読み取る（整数を受け取る）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "受け取った段数をpascal関数に渡して呼び出す",
+      "status": "in_progress"
+    },
+    {
+      "level": 1,
+      "text": "pascal関数：二次元配列と繰り返しでパスカルの三角形を作り出力する",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まずコメントのうち『入力を受け取る』『関数を呼ぶ』を実際に書けるか確認しよう。"
+    },
+    {
+      "level": 2,
+      "text": "scanfで整数を読み取り、その値を引数にしてpascal関数を呼ぶ設計にしよう。関数名と引数の型を決めておくと実装しやすい。"
+    },
+    {
+      "level": 3,
+      "text": "mainでscanf(\"%d\", &n)を入れ、void pascal(int n)を作って関数内でint a[10][10];と二重ループで計算しprintf(\"%3d\", a[i][j])で出力する実装をしてみよう。"
+    }
+  ]
+}

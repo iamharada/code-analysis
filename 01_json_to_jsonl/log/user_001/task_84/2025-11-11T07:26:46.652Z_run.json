@@ -1,0 +1,10 @@
+{
+  "timestamp": "2025-11-11T07:26:46.652Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "84",
+  "event": "run",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:２つの文字列（char型）, 出力:二つの合計（int型）*/\n    //入力を行う（文字列）\n    char s1[1005];\n    char s2[1005];\n    scanf(\"%s %s\",s1,s2)\n    //入力された文字列をint型の配列に一桁ずつ格納する\n    //配列同士を足し算し、繰り上げも考慮する\n    //合計を出力する\n    return 0;\n}",
+  "stdout": "",
+  "stderr": "file0.code.c: In function 'main':\nfile0.code.c:8:25: error: expected ';' before 'return'\n    8 |     scanf(\"%s %s\",s1,s2)\n      |                         ^\n      |                         ;\n......\n   12 |     return 0;\n      |     ~~~~~~               \nchmod: cannot access 'a.out': No such file or directory\n"
+}

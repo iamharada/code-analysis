@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-12-23T03:17:59.094Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, \n    出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n    // 1. 入力を受け取る\n    // 2. tri3を呼ぶ\n    return 0;\n}\n\n// tri3関数を作成する\n//     1行目からn行目まで順に出力する\n//     行数はforみたいに1ずつ増やす\n//     各行でlineを呼ぶ\n\n// line関数を作成する\n//     *をn個出力する\n//     for文でn回*を出す\n",
+  "estimated_stage": "処理の詳細化",
+  "next_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main: 整数を入力し、tri3を呼び、最後にCOUNTを表示する（コメントありだが実装は未）",
+      "status": "in_progress"
+    },
+    {
+      "level": 1,
+      "text": "tri3関数: 1行目からn行目まで順に出力する（コメント: 行数はforみたいに1ずつ増やす）",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "line関数: *をn個出力する（コメント: for文でn回*を出す、カウント増加を考慮）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "mainの「入力を受け取る」と「tri3を呼ぶ」コメントがそのまま実装できると気づきましょう。"
+    },
+    {
+      "level": 2,
+      "text": "tri3とlineの関数プロトタイプを決め、星の合計を保持するカウンタはポインタで渡す設計にしてみてください。"
+    },
+    {
+      "level": 3,
+      "text": "実装方針の例: tri3(cur,n,&cnt){ if(cur>n) return; line(cur,&cnt); putchar('\\n'); tri3(cur+1,n,&cnt); } line(k,&cnt){ if(k==0) return; putchar('*'); (*cnt)++; line(k-1,&cnt); }"
+    }
+  ]
+}

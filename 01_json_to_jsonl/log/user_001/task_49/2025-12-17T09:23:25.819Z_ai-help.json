@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-12-17T09:23:25.819Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, \n    出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n    // 1. 入力を受け取る\n    // 2. tri3を呼ぶ\n    // 3. COUNTは n*(n+1)/2 で計算して表示\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の大枠決定",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数: 入力を読み取り tri3 を呼び、最後に COUNT を表示する",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力を読み取る（整数 n）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "tri3 を呼ぶ（再帰で各行を出力）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "COUNT を計算して表示する（現コメントでは公式を使うとある）",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "tri3（再帰関数）: 各行を作るために line3 を利用して行ごとに '*' を出力する設計",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "line3（再帰関数）: 指定個数の '*' を出力し、出力時にカウンタを1増やす",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まず全体の流れを確認しよう：入力→三角形を出力する再帰呼び出し→COUNT出力の順だよ。"
+    },
+    {
+      "level": 2,
+      "text": "必要なステップを分けて書こう：mainで入力・呼び出し・出力、tri3で行ごとの処理、line3で'*'を出す役割にする。"
+    },
+    {
+      "level": 3,
+      "text": "コメントとして3〜5行の大枠を書こう：1) nを読み取る、2) tri3(n) を呼ぶ、3) tri3は行数を再帰で減らし各行で line3 を呼ぶ、4) line3は'*'を出力してカウントを増やす、5) 最後に\"COUNT=%d\"を出力する。"
+    }
+  ]
+}

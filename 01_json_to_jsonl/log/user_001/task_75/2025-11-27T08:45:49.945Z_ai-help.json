@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-11-27T08:45:49.945Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n    //入力を受け付ける。\n    int n;\n    scanf(\"%d\", &n);\n    //パスカルの三角形を計算する。\n    //出力する。\n    return 0;\n}\n\n//パスカルの三角形を計算する関数を作成する",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main: 入力を受け取る（1つの整数）",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "main: パスカルの三角形を計算する（関数を呼ぶ／計算を行う）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "main: 計算結果を整形して出力する（%3dで右揃え）",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "pascal関数: 二次元配列と繰り返しで三角形を作る（関数作成のコメントあり）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "今のコードは入力までできています。次は『コメント→実装』の流れに移しましょう。"
+    },
+    {
+      "level": 2,
+      "text": "まずpascalという関数の宣言を作り、mainでは入力を受け取ってその関数を呼ぶようにしてください。"
+    },
+    {
+      "level": 3,
+      "text": "pascalでは二次元配列を用意し、各行の両端を1にして内側は上の行の左右の和で埋め、printf(\"%3d\", ...)で行ごとに出力して改行します。"
+    }
+  ]
+}

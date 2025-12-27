@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-12-17T10:33:24.402Z",
+  "username": "user2",
+  "userId": "user_002",
+  "taskNumber": "84",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:二つの文字列, 出力:文字列を数値とみなした和*/\n\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数（開始点）に入力と出力の意図をコメントで記述している",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力: 二つの文字列を受け取る（コメントに記載あり）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "出力: 文字列を数値とみなした和を出力する（コメントに記載あり）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "今のコメント（入力・出力）を見て、どの処理を細かく書くべきかに気づいてください。"
+    },
+    {
+      "level": 2,
+      "text": "全体を小さな手順に分けて考えてください：読み取り→桁配列化→桁ごとの加算（繰り上げ）→出力、という流れを想像してください。"
+    },
+    {
+      "level": 3,
+      "text": "具体案：1) scanfで2つの文字列を読む 2) strlenで長さ取得 3) 右端からint配列に1桁ずつ入れ（短い方は0埋め）4) 最大桁数で繰り上げを考えつつ加算し、結果を逆順に出力する。"
+    }
+  ]
+}

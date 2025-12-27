@@ -1,0 +1,2770 @@
+ts,user_id,username,task,event,code,stdout,stderr,estimated_stage,next_stage,processing_structure,advice
+2025-12-18T04:15:55.467Z,user_010,user10,45,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:一つの整数値, 出力:△*/
+
+    return 0;
+}",,,,,,
+2025-12-18T04:16:05.470Z,user_010,user10,45,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:一つの整数値, 出力:*/
+
+    return 0;
+}",,,,,,
+2025-12-18T04:16:15.481Z,user_010,user10,45,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+
+    return 0;
+}",,,,,,
+2025-12-18T04:16:25.471Z,user_010,user10,45,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //
+    return 0;
+}",,,,,,
+2025-12-18T04:16:35.479Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//n
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:16:45.469Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数rever
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:16:55.467Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:17:05.468Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    ・・
+    return 0;
+}",,,,,,
+2025-12-18T04:17:15.475Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+    //
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //
+    return 0;
+}",,,,,,
+2025-12-18T04:17:55.473Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+    //4
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //
+    return 0;
+}",,,,,,
+2025-12-18T04:18:15.477Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+    //pr
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //
+    return 0;
+}",,,,,,
+2025-12-18T04:18:25.480Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+    //
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //
+    return 0;
+}",,,,,,
+2025-12-18T04:19:05.471Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+    //10で割り続け
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //
+    return 0;
+}",,,,,,
+2025-12-18T04:19:15.482Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+    //入力値を10で割り続け
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //
+    return 0;
+}",,,,,,
+2025-12-18T04:19:55.475Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+    //入力値を
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //
+    return 0;
+}",,,,,,
+2025-12-18T04:20:05.479Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+    //入力値を５回10で割る
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //
+    return 0;
+}",,,,,,
+2025-12-18T04:20:15.467Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+    //入力値を5回、10で割る
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //
+    return 0;
+}",,,,,,
+2025-12-18T04:20:25.471Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+    //入力値を5回
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //
+    return 0;
+}",,,,,,
+2025-12-18T04:20:35.468Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+    //5回繰り返す
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //
+    return 0;
+}",,,,,,
+2025-12-18T04:20:45.467Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+    //5回繰り返す
+        入力値を1
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //
+    return 0;
+}",,,,,,
+2025-12-18T04:20:55.467Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+    //5回繰り返す
+        入力値を10で割ったあまりを
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //
+    return 0;
+}",,,,,,
+2025-12-18T04:21:05.481Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+    //5回繰り返す
+        入力値を10で割ったあまりを保存する
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //
+    return 0;
+}",,,,,,
+2025-12-18T04:21:15.467Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+    //5回繰り返す
+        //入力値を10で割ったあまりを保存する
+        //nyuuryo
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //
+    return 0;
+}",,,,,,
+2025-12-18T04:21:25.475Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+    //5回繰り返す
+        //入力値を10で割ったあまりを保存する
+        //入力値を
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //
+    return 0;
+}",,,,,,
+2025-12-18T04:21:35.473Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+    //5回繰り返す
+        //入力値を10で割ったあまりを保存する
+        //入力値を、入力値を10で割った商に
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //
+    return 0;
+}",,,,,,
+2025-12-18T04:21:45.467Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+    //5回繰り返す
+        //入力値を10で割ったあまりを保存する
+        //入力値を、入力値を10で割った商に上書きする
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //
+    return 0;
+}",,,,,,
+2025-12-18T04:22:05.468Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+    //
+    //5回繰り返す
+        //入力値を10で割ったあまりを保存する
+        //入力値を、入力値を10で割った商に上書きする
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //
+    return 0;
+}",,,,,,
+2025-12-18T04:22:15.478Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+    //５このようそｗ
+    //5回繰り返す
+        //入力値を10で割ったあまりを保存する
+        //入力値を、入力値を10で割った商に上書きする
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //
+    return 0;
+}",,,,,,
+2025-12-18T04:22:25.481Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+    //5個の要素を持つ配列を定義する
+    //5回繰り返す
+        //入力値を10で割ったあまりを保存する
+        //入力値を、入力値を10で割った商に上書きする
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //
+    return 0;
+}",,,,,,
+2025-12-18T04:23:35.479Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+    //5個の要素を持つ配列を定義する
+    //入力値を繰り返す
+        //入力値を10で割ったあまりを保存する
+        //入力値を、入力値を10で割った商に上書きする
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //
+    return 0;
+}",,,,,,
+2025-12-18T04:23:45.468Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+    //5個の要素を持つ配列を定義する
+    //入力値が0に繰り返す
+        //入力値を10で割ったあまりを保存する
+        //入力値を、入力値を10で割った商に上書きする
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //
+    return 0;
+}",,,,,,
+2025-12-18T04:23:55.467Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+    //5個の要素を持つ配列を定義する
+    //入力値が0になるまで繰り返す
+        //入力値を10で割ったあまりを保存する
+        //入力値を、入力値を10で割った商に上書きする
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //
+    return 0;
+}",,,,,,
+2025-12-18T04:24:05.468Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+    //5個の要素を持つ配列を定義する
+    //入力値が0になるまで繰り返す
+        //入力値を10で割ったあまりをｈ保存する
+        //入力値を、入力値を10で割った商に上書きする
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //
+    return 0;
+}",,,,,,
+2025-12-18T04:24:15.473Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+    //5個の要素を持つ配列を定義する
+    //入力値が0になるまで繰り返す
+        //入力値を10で割ったあまりを配列に保存する
+        //入力値を、入力値を10で割った商に上書きする
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //
+    return 0;
+}",,,,,,
+2025-12-18T04:24:25.470Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+    //5個の要素を持つ配列を定義する
+    /
+        //入力値を10で割ったあまりを配列に保存する
+        //入力値を、入力値を10で割った商に上書きする
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //
+    return 0;
+}",,,,,,
+2025-12-18T04:24:35.469Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+    //5個の要素を持つ配列を定義する
+        //入力値を10で割ったあまりを配列に保存する
+        //入力値を、入力値を10で割った商に上書きする
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //
+    return 0;
+}",,,,,,
+2025-12-18T04:24:45.469Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+    //5個の要素を持つ配列を定義する
+        //入力値を10で割ったあまりを配列に保存する
+        //入力値を、入力値を10で割った商に上書きする
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //再帰関数を用いる
+    ・・
+    return 0;
+}",,,,,,
+2025-12-18T04:24:55.481Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+    //5個の要素を持つ配列を定義する
+        //入力値を10で割ったあまりを配列に保存する
+        //入力値を、入力値を10で割った商に上書きする
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //再帰関数
+    return 0;
+}",,,,,,
+2025-12-18T04:25:35.016Z,user_010,user10,45,ai-help,"#include <stdio.h>
+//再帰関数reverse4をつくる
+    //5個の要素を持つ配列を定義する
+        //入力値を10で割ったあまりを配列に保存する
+        //入力値を、入力値を10で割った商に上書きする
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //再帰関数
+    return 0;
+}",,,処理の詳細化,コード化,"[{""level"": 1, ""text"": ""再帰関数 reverse4 を作る準備（コメントで仕様を書いている）"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""reverse4内で5個の要素を持つ配列を定義する（コメントあり）"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""配列に入力値の下位桁を input % 10 で保存するという処理（コメントあり）"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""入力値を input / 10 で上書きして次の桁を処理するという処理（コメントあり）"", ""status"": ""in_progress""}, {""level"": 1, ""text"": ""main関数：入力を受け取り再帰関数を呼ぶ部分（コメントのみ、実装未）"", ""status"": ""todo""}, {""level"": 2, ""text"": ""mainで一つの整数値を読み取る処理（コメントはあるが未実装）"", ""status"": ""todo""}, {""level"": 2, ""text"": ""reverse4を呼んで結果を出力する処理（コメントのみで未実装）"", ""status"": ""todo""}]","[{""level"": 1, ""text"": ""コメントに書いた処理をそのまま一つずつ実装していこう。まずは入力と出力を動かすことを目標に。""}, {""level"": 2, ""text"": ""reverse4を別関数として作り、mainではscanfで読み取り、その戻り値か配列で結果を受け取ってprintfで出力する流れを考えてみて。""}, {""level"": 3, ""text"": ""reverse4は引数で数値（と必要なら配列／インデックス）を受け、n%10で桁を取り配列に入れ、n/=10で進めながら再帰し終わったら配列を逆順に使って出力を組み立てよう。""}]"
+2025-12-18T04:26:15.477Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+
+    //5個の要素を持つ配列を定義する
+        //入力値を10で割ったあまりを配列に保存する
+        //入力値を、入力値を10で割った商に上書きする
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //再帰関数
+    return 0;
+}",,,,,,
+2025-12-18T04:26:25.467Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+in
+    //5個の要素を持つ配列を定義する
+        //入力値を10で割ったあまりを配列に保存する
+        //入力値を、入力値を10で割った商に上書きする
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //再帰関数
+    return 0;
+}",,,,,,
+2025-12-18T04:26:35.469Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+void
+    //5個の要素を持つ配列を定義する
+        //入力値を10で割ったあまりを配列に保存する
+        //入力値を、入力値を10で割った商に上書きする
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //再帰関数
+    return 0;
+}",,,,,,
+2025-12-18T04:27:05.478Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int reverse4
+    //5個の要素を持つ配列を定義する
+        //入力値を10で割ったあまりを配列に保存する
+        //入力値を、入力値を10で割った商に上書きする
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //再帰関数
+    return 0;
+}",,,,,,
+2025-12-18T04:27:15.472Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int reverse4(int n,)
+    //5個の要素を持つ配列を定義する
+        //入力値を10で割ったあまりを配列に保存する
+        //入力値を、入力値を10で割った商に上書きする
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //再帰関数
+    return 0;
+}",,,,,,
+2025-12-18T04:27:25.479Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int reverse4(int n){
+    
+   //5個の要素を持つ配列を定義する
+        //入力値を10で割ったあまりを配列に保存する
+        //入力値を、入力値を10で割った商に上書きする
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //再帰関数
+    return 0;
+}",,,,,,
+2025-12-18T04:27:35.479Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int reverse4(int n){
+    //5個の要素を持つ配列を定義する
+    int 
+        //入力値を10で割ったあまりを配列に保存する
+        //入力値を、入力値を10で割った商に上書きする
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //再帰関数
+    return 0;
+}",,,,,,
+2025-12-18T04:27:55.470Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int reverse4(int n){
+    //5個の要素を持つ配列を定義する
+    int re[5];
+        //入力値を10で割ったあまりを配列に保存する
+        //入力値を、入力値を10で割った商に上書きする
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //再帰関数
+    return 0;
+}",,,,,,
+2025-12-18T04:28:05.479Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int reverse4(int n){
+    //5個の要素を持つ配列を定義する
+    int re[5];
+      //入力値を10で割ったあまりを配列に保存する
+        //入力値を、入力値を10で割った商に上書きする
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //再帰関数
+    return 0;
+}",,,,,,
+2025-12-18T04:28:15.475Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int reverse4(int n){
+    //5個の要素を持つ配列を定義する
+    int re[5];
+    //入力値を10で割ったあまりを配列に保存する
+    
+    //入力値を、入力値を10で割った商に上書きする
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //再帰関数
+    return 0;
+}",,,,,,
+2025-12-18T04:28:25.467Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int reverse4(int n){
+    //5個の要素を持つ配列を定義する
+    //入力値を10で割ったあまりを配列に保存する
+    
+    //入力値を、入力値を10で割った商に上書きする
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //再帰関数
+    return 0;
+}",,,,,,
+2025-12-18T04:28:35.476Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int reverse4(int n){
+    //入力値を10で割ったあまりを配列に保存する
+    n
+    //入力値を、入力値を10で割った商に上書きする
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //再帰関数
+    return 0;
+}",,,,,,
+2025-12-18T04:28:45.480Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int reverse4(int n){
+    //入力値を10で割ったあまりを配列に保存する
+    
+    //入力値を、入力値を10で割った商に上書きする
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //再帰関数
+    return 0;
+}",,,,,,
+2025-12-18T04:29:45.483Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int reverse4(int n, int re){
+    //入力値を10で割ったあまりを配列に保存する
+    
+    //入力値を、入力値を10で割った商に上書きする
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //再帰関数
+    return 0;
+}",,,,,,
+2025-12-18T04:29:55.476Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int reverse4(int n, int re){
+    //入力値を10で割ったあまりを配列に保存する
+    
+    
+    //入力値を、入力値を10で割った商に上書きする
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //再帰関数
+    return 0;
+}",,,,,,
+2025-12-18T04:30:05.471Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int reverse4(int n, int re, int i){
+    //入力値を10で割ったあまりを配列に保存する
+    
+    
+    //入力値を、入力値を10で割った商に上書きする
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //再帰関数
+    return 0;
+}",,,,,,
+2025-12-18T04:30:15.479Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int reverse4(int n, int re, int i){
+    //入力値を10で割ったあまりを配列に保存する
+    re[i
+    
+    //入力値を、入力値を10で割った商に上書きする
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //再帰関数
+    return 0;
+}",,,,,,
+2025-12-18T04:30:25.477Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int reverse4(int n, int re, int i){
+    //入力値を10で割ったあまりを配列に保存する
+    re[i] = 
+    
+    //入力値を、入力値を10で割った商に上書きする
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //再帰関数
+    rev
+    return 0;
+}",,,,,,
+2025-12-18T04:30:35.480Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int reverse4(int n, int re, int i){
+    //入力値を10で割ったあまりを配列に保存する
+    re[i] = 
+    
+    //入力値を、入力値を10で割った商に上書きする
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //再帰関数
+    reverse4()
+    return 0;
+}",,,,,,
+2025-12-18T04:30:45.473Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int reverse4(int n, int re, int i){
+    //入力値を10で割ったあまりを配列に保存する
+    re[i] = 
+    
+    //入力値を、入力値を10で割った商に上書きする
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //にゅうｒ
+    //再帰関数
+    reverse4()
+    return 0;
+}",,,,,,
+2025-12-18T04:30:55.467Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int reverse4(int n, int re, int i){
+    //入力値を10で割ったあまりを配列に保存する
+    re[i] = 
+    
+    //入力値を、入力値を10で割った商に上書きする
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+        //入力
+        
+    //再帰関数
+    reverse4()
+    return 0;
+}",,,,,,
+2025-12-18T04:31:05.474Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int reverse4(int n, int re, int i){
+    //入力値を10で割ったあまりを配列に保存する
+    re[i] = 
+    
+    //入力値を、入力値を10で割った商に上書きする
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+        //入力
+        int 
+        //再帰関数
+    reverse4()
+    return 0;
+}",,,,,,
+2025-12-18T04:31:15.471Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int reverse4(int n, int re, int i){
+    //入力値を10で割ったあまりを配列に保存する
+    re[i] = 
+    
+    //入力値を、入力値を10で割った商に上書きする
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+        //入力
+        int n;
+        scanf(""%d"", )
+        //再帰関数
+    reverse4()
+    return 0;
+}",,,,,,
+2025-12-18T04:31:25.472Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int reverse4(int n, int re, int i){
+    //入力値を10で割ったあまりを配列に保存する
+    re[i] = 
+    
+    //入力値を、入力値を10で割った商に上書きする
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+        //入力
+        int n;
+        scanf(""%d"", &n);
+        
+        //再帰関数
+    reverse4()
+    return 0;
+}",,,,,,
+2025-12-18T04:31:35.470Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int reverse4(int n, int re, int i){
+    //入力値を10で割ったあまりを配列に保存する
+    re[i] = 
+    
+    //入力値を、入力値を10で割った商に上書きする
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+        //入力
+        int n;
+        scanf(""%d"", &n);
+        int i = 0;
+        int 
+        //再帰関数
+    reverse4()
+    return 0;
+}",,,,,,
+2025-12-18T04:31:45.478Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int reverse4(int n, int re, int i){
+    //入力値を10で割ったあまりを配列に保存する
+    re[i] = 
+    
+    //入力値を、入力値を10で割った商に上書きする
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+        //入力
+        int n;
+        scanf(""%d"", &n);
+        int i = 0;
+        int re[5];
+        //再帰関数reverse4()
+    return 0;
+}",,,,,,
+2025-12-18T04:31:55.468Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int reverse4(int n, int re, int i){
+    //入力値を10で割ったあまりを配列に保存する
+    re[i] = 
+    
+    //入力値を、入力値を10で割った商に上書きする
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+        //入力
+        int n;
+        scanf(""%d"", &n);
+        int i = 0;
+        int re[5];
+        //再帰関数
+        reverse4()
+    return 0;
+}",,,,,,
+2025-12-18T04:32:05.475Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int reverse4(int n, int re, int i){
+    //入力値を10で割ったあまりを配列に保存する
+    re[i] = n
+    
+    //入力値を、入力値を10で割った商に上書きする
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+        //入力
+        int n;
+        scanf(""%d"", &n);
+        int i = 0;
+        int re[5];
+        //再帰関数
+        reverse4()
+    return 0;
+}",,,,,,
+2025-12-18T04:32:15.481Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int reverse4(int n, int re, int i){
+    if(n)
+    //入力値を10で割ったあまりを配列に保存する
+    re[i] = n 
+    
+    //入力値を、入力値を10で割った商に上書きする
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+        //入力
+        int n;
+        scanf(""%d"", &n);
+        int i = 0;
+        int re[5];
+        //再帰関数
+        reverse4()
+    return 0;
+}",,,,,,
+2025-12-18T04:32:25.470Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int reverse4(int n, int re, int i){
+    if(n > 0)
+    //入力値を10で割ったあまりを配列に保存する
+    re[i] = n 
+    
+    //入力値を、入力値を10で割った商に上書きする
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+        //入力
+        int n;
+        scanf(""%d"", &n);
+        int i = 0;
+        int re[5];
+        //再帰関数
+        reverse4()
+    return 0;
+}",,,,,,
+2025-12-18T04:32:35.468Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int reverse4(int n, int re, int i){
+    if(n > 0){
+        //入力値を10で割ったあまりを配列に保存する
+        re[i] = n 
+    
+    //入力値を、入力値を10で割った商に上書きする
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+        //入力
+        int n;
+        scanf(""%d"", &n);
+        int i = 0;
+        int re[5];
+        //再帰関数
+        reverse4()
+    return 0;
+}",,,,,,
+2025-12-18T04:32:45.468Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int reverse4(int n, int re, int i){
+    if(n > 0){
+        //入力値を10で割ったあまりを配列に保存する
+        re[i] = n 
+           //入力値を、入力値を10で割った商に上書きする
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+        //入力
+        int n;
+        scanf(""%d"", &n);
+        int i = 0;
+        int re[5];
+        //再帰関数
+        reverse4()
+    return 0;
+}",,,,,,
+2025-12-18T04:32:55.467Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int reverse4(int n, int re, int i){
+    if(n > 0){
+        //入力値を10で割ったあまりを配列に保存する
+        re[i] = n 
+        //入力値を、入力値を10で割った商に上書きする
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+        //入力
+        int n;
+        scanf(""%d"", &n);
+        int i = 0;
+        int re[5];
+        //再帰関数
+        reverse4()
+    return 0;
+}",,,,,,
+2025-12-18T04:33:05.471Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int reverse4(int n, int re, int i){
+    if(n > 0){
+        //入力値を10で割ったあまりを配列に保存する
+        re[i] = n / 
+        //入力値を、入力値を10で割った商に上書きする
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+        //入力
+        int n;
+        scanf(""%d"", &n);
+        int i = 0;
+        int re[5];
+        //再帰関数
+        reverse4()
+    return 0;
+}",,,,,,
+2025-12-18T04:33:15.469Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int reverse4(int n, int re, int i){
+    if(n > 0){
+        //入力値を10で割ったあまりを配列に保存する
+        re[i] = n / 10;
+        //入力値を、入力値を10で割った商に上書きする
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+        //入力
+        int n;
+        scanf(""%d"", &n);
+        int i = 0;
+        int re[5];
+        //再帰関数
+        reverse4()
+    return 0;
+}",,,,,,
+2025-12-18T04:33:35.481Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int reverse4(int n, int re, int i){
+    if(n > 0){
+        //入力値を10で割ったあまりを配列に保存する
+        re[i] = n / 10;
+        //入力値を、入力値を10で割った商に上書きす
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+        //入力
+        int n;
+        scanf(""%d"", &n);
+        int i = 0;
+        int re[5];
+        //再帰関数
+        reverse4()
+    return 0;
+}",,,,,,
+2025-12-18T04:33:45.481Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int reverse4(int n, int re, int i){
+    if(n > 0){
+        //入力値を10で割ったあまりを配列に保存する
+        re[i] = n / 10;
+        //入力値を、入力値を10で割った商に上書きする
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+        //入力
+        int n;
+        scanf(""%d"", &n);
+        int i = 0;
+        int re[5];
+        //再帰関数
+        reverse4()
+    return 0;
+}",,,,,,
+2025-12-18T04:36:15.479Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int reverse4(int n){
+    if(n > 0){
+        //入力値を10で割ったあまりを配列に保存する
+        re[i] = n / 10;
+        //入力値を、入力値を10で割った商に上書きする
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+        //入力
+        int n;
+        scanf(""%d"", &n);
+        int i = 0;
+        int re[5];
+        //再帰関数
+        reverse4()
+    return 0;
+}",,,,,,
+2025-12-18T04:36:25.468Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int reverse4(int n){
+    if(n > 0){
+        //入力値を10で割ったあまりを配列に保存する
+        re[i] = n / 10;
+        //入力値を、入力値を10で割った商に上書きする
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+        //入力
+        int n;
+        scanf(""%d"", &n);
+        //再帰関数
+        reverse4()
+    return 0;
+}",,,,,,
+2025-12-18T04:36:35.467Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int reverse4(int n){
+    if(n > 0){
+   
+        //入力値を、入力値を10で割った商に上書きする
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+        //入力
+        int n;
+        scanf(""%d"", &n);
+        //再帰関数
+        reverse4()
+    return 0;
+}",,,,,,
+2025-12-18T04:36:45.474Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int reverse4(int n){
+    if(n > 0){
+        n / 10
+        //入力値を、入力値を10で割った商に上書きする
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+        //入力
+        int n;
+        scanf(""%d"", &n);
+        //再帰関数
+        reverse4()
+    return 0;
+}",,,,,,
+2025-12-18T04:36:55.481Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int reverse4(int n){
+    if(n > 0){
+        pr
+        //入力値を、入力値を10で割った商に上書きする
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+        //入力
+        int n;
+        scanf(""%d"", &n);
+        //再帰関数
+        reverse4()
+    return 0;
+}",,,,,,
+2025-12-18T04:37:05.473Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int reverse4(int n){
+    if(n > 0){
+        printf("""")
+        //入力値を、入力値を10で割った商に上書きする
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+        //入力
+        int n;
+        scanf(""%d"", &n);
+        //再帰関数
+        reverse4()
+    return 0;
+}",,,,,,
+2025-12-18T04:37:15.478Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int reverse4(int n){
+    if(n > 0){
+        printf(""%d"", n )
+        //入力値を、入力値を10で割った商に上書きする
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+        //入力
+        int n;
+        scanf(""%d"", &n);
+        //再帰関数
+        reverse4()
+    return 0;
+}",,,,,,
+2025-12-18T04:37:25.475Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int reverse4(int n){
+    if(n > 0){
+        printf(""%d"", n % 10);
+        r
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+        //入力
+        int n;
+        scanf(""%d"", &n);
+        //再帰関数
+        reverse4()
+    return 0;
+}",,,,,,
+2025-12-18T04:37:35.468Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int reverse4(int n){
+    if(n > 0){
+        printf(""%d"", n % 10);
+        reverse4()
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+        //入力
+        int n;
+        scanf(""%d"", &n);
+        //再帰関数
+        reverse4()
+    return 0;
+}",,,,,,
+2025-12-18T04:37:45.482Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int reverse4(int n){
+    if(n > 0){
+        printf(""%d"", n % 10);
+        reverse4(n / 10)
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+        //入力
+        int n;
+        scanf(""%d"", &n);
+        //再帰関数
+        reverse4()
+    return 0;
+}",,,,,,
+2025-12-18T04:37:55.473Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int reverse4(int n){
+    if(n > 0){
+        printf(""%d"", n % 10);
+        reverse4(n / 10);
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+        //入力
+        int n;
+        scanf(""%d"", &n);
+        //再帰関数
+        reverse4()
+    return 0;
+}",,,,,,
+2025-12-18T04:38:05.470Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int reverse4(int n){
+    if(n > 0){
+        printf(""%d"", n % 10);
+        reverse4(n / 10);
+        
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+        //入力
+        int n;
+        scanf(""%d"", &n);
+        //再帰関数
+        reverse4(n)
+    return 0;
+}",,,,,,
+2025-12-18T04:38:15.468Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+void reverse4(int n){
+    if(n > 0){
+        printf(""%d"", n % 10);
+        reverse4(n / 10);
+    }
+    
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+        //入力
+        int n;
+        scanf(""%d"", &n);
+        //再帰関数
+        reverse4(n)
+    return 0;
+}",,,,,,
+2025-12-18T04:38:25.474Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+void reverse4(int n){
+    if(n > 0){
+        printf(""%d"", n % 10);
+        reverse4(n / 10);
+    }
+    return
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+        //入力
+        int n;
+        scanf(""%d"", &n);
+        //再帰関数
+        reverse4(n)
+    return 0;
+}",,,,,,
+2025-12-18T04:38:35.467Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+void reverse4(int n){
+    if(n > 0){
+        printf(""%d"", n % 10);
+        reverse4(n / 10);
+    }else{
+        return
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+        //入力
+        int n;
+        scanf(""%d"", &n);
+        //再帰関数
+        reverse4(n)
+    return 0;
+}",,,,,,
+2025-12-18T04:38:45.474Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+void reverse4(int n){
+    if(n > 0){
+        printf(""%d"", n % 10);
+        reverse4(n / 10);
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+        //入力
+        int n;
+        scanf(""%d"", &n);
+        //再帰関数
+        reverse4(n)
+    return 0;
+}",,,,,,
+2025-12-18T04:38:55.467Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+void reverse4(int n){
+    if(n > 0){
+        printf(""%d"", n % 10);
+        reverse4(n / 10);
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+        //入力
+        int n;
+        scanf(""%d"", &n);
+        //再帰関数
+        reverse4(n)
+    return 0;
+}",,,,,,
+2025-12-18T04:39:15.470Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+void reverse4(int n){
+    if(n > 0){
+        printf(""%d"", n % 10);
+        reverse4(n / 10);
+    }else{
+    
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+        //入力
+        int n;
+        scanf(""%d"", &n);
+        //再帰関数
+        reverse4(n)
+    return 0;
+}",,,,,,
+2025-12-18T04:39:25.479Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+void reverse4(int n){
+    if(n > 0){
+        printf(""%d"", n % 10);
+        reverse4(n / 10);
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+        //入力
+        int n;
+        scanf(""%d"", &n);
+        //再帰関数
+        reverse4(n);
+    printf("""")
+    return 0;
+}",,,,,,
+2025-12-18T04:39:35.483Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+void reverse4(int n){
+    if(n > 0){
+        printf(""%d"", n % 10);
+        reverse4(n / 10);
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+        //入力
+        int n;
+ scanf(""%d"", &n);
+        //再帰関数
+        reverse4(n);
+    printf(""\n"");
+    return 0;
+}",,,,,,
+2025-12-18T04:39:45.467Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+void reverse4(int n){
+    if(n > 0){
+        printf(""%d"", n % 10);
+        reverse4(n / 10);
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+        //再帰関数
+        reverse4(n);
+    printf(""\n"");
+    return 0;
+}",,,,,,
+2025-12-18T04:39:55.478Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+void reverse4(int n){
+    if(n > 0){
+        printf(""%d"", n % 10);
+        reverse4(n / 10);
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    //再帰関数
+  reverse4(n);
+    printf(""\n"");
+    return 0;
+}",,,,,,
+2025-12-18T04:40:04.145Z,user_010,user10,45,run,"#include <stdio.h>
+//再帰関数reverse4をつくる
+void reverse4(int n){
+    if(n > 0){
+        printf(""%d"", n % 10);
+        reverse4(n / 10);
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    //再帰関数
+    reverse4(n);
+    printf(""\n"");
+    return 0;
+}","5
+",,,,,
+2025-12-18T04:40:05.473Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+void reverse4(int n){
+    if(n > 0){
+        printf(""%d"", n % 10);
+        reverse4(n / 10);
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    //再帰関数
+    reverse4(n);
+    printf(""\n"");
+    return 0;
+}",,,,,,
+2025-12-18T04:40:06.294Z,user_010,user10,45,run,"#include <stdio.h>
+//再帰関数reverse4をつくる
+void reverse4(int n){
+    if(n > 0){
+        printf(""%d"", n % 10);
+        reverse4(n / 10);
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    //再帰関数
+    reverse4(n);
+    printf(""\n"");
+    return 0;
+}","
+",,,,,
+2025-12-18T04:40:43.137Z,user_010,user10,45,ai-help,"#include <stdio.h>
+//再帰関数reverse4をつくる
+void reverse4(int n){
+    if(n > 0){
+        printf(""%d"", n % 10);
+        reverse4(n / 10);
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    //再帰関数
+    reverse4(n);
+    printf(""\n"");
+    return 0;
+}",,,コード化,コードの整合性確認,"[{""level"": 1, ""text"": ""関数 reverse4 の定義：引数 n の桁を再帰で逆順に出力する"", ""status"": ""done""}, {""level"": 2, ""text"": ""reverse4 の分岐: n>0 のとき末尾の数字を出力して再帰呼び出しを行う"", ""status"": ""done""}, {""level"": 1, ""text"": ""main 関数：入力を受け取り reverse4 を呼び出して改行を出力する"", ""status"": ""done""}, {""level"": 2, ""text"": ""main の処理: scanf で整数を読み取る"", ""status"": ""done""}, {""level"": 2, ""text"": ""main の処理: reverse4 を呼び出して数字を逆順に出力する"", ""status"": ""done""}, {""level"": 2, ""text"": ""main の処理: 出力の最後に改行を出力して return 0 で終了する"", ""status"": ""done""}]","[{""level"": 1, ""text"": ""まず実行して例の入力（1234）で期待どおり 4321 が出るか確かめよう。""}, {""level"": 2, ""text"": ""他の入力（1、50000、末尾に0がある数など）でも動かして、出力が要件どおりか確認しよう。""}, {""level"": 3, ""text"": ""もし末尾の0で先頭に0が出るのが問題なら、出力前に桁数扱いを変えるか文字列にして不要な先頭0を除く方法を検討して修正してみよう。""}]"
+2025-12-18T04:41:31.873Z,user_010,user10,45,run,"#include <stdio.h>
+//再帰関数reverse4をつくる
+void reverse4(int n){
+    if(n > 0){
+        printf(""%d"", n % 10);
+        reverse4(n / 10);
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    //再帰関数
+    reverse4(n);
+    printf(""\n"");
+    return 0;
+}","4321
+",,,,,
+2025-12-18T04:42:19.410Z,user_010,user10,45,run,"#include <stdio.h>
+//再帰関数reverse4をつくる
+void reverse4(int n){
+    if(n > 0){
+        printf(""%d"", n % 10);
+        reverse4(n / 10);
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    //再帰関数
+    reverse4(n);
+    printf(""\n"");
+    return 0;
+}","2031
+",,,,,
+2025-12-18T04:42:37.443Z,user_010,user10,45,run,"#include <stdio.h>
+//再帰関数reverse4をつくる
+void reverse4(int n){
+    if(n > 0){
+        printf(""%d"", n % 10);
+        reverse4(n / 10);
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    //再帰関数
+    reverse4(n);
+    printf(""\n"");
+    return 0;
+}","031
+",,,,,
+2025-12-18T04:51:25.476Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+voi reverse4(int n){
+    if(n > 0){
+        printf(""%d"", n % 10);
+        reverse4(n / 10);
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    //再帰関数
+    reverse4(n);
+    printf(""\n"");
+    return 0;
+}",,,,,,
+2025-12-18T04:51:35.481Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int  reverse4(int n){
+    if(n > 0){
+        printf(""%d"", n % 10);
+        reverse4(n / 10);
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    //再帰関数
+    reverse4(n);
+    printf(""\n"");
+    return 0;
+}",,,,,,
+2025-12-18T04:51:45.469Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int  reverse4(int n){
+    if(n > 0){
+        printf(""%d"", n % 10);
+        reverse4(n / 10);
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    
+    reverse4(n);
+    printf(""\n"");
+    return 0;
+}",,,,,,
+2025-12-18T04:51:55.475Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int  reverse4(int n){
+    if(n > 0){
+        printf(""%d"", n % 10);
+        reverse4(n / 10);
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    int [5] = 
+    reverse4(n);
+    printf(""\n"");
+    return 0;
+}",,,,,,
+2025-12-18T04:52:05.478Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int  reverse4(int n){
+    if(n > 0){
+        printf(""%d"", n % 10);
+        reverse4(n / 10);
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    int [5];
+    reverse4(n);
+    printf(""\n"");
+    return 0;
+}",,,,,,
+2025-12-18T04:52:15.470Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int  reverse4(int n){
+    if(n > 0){
+        printf(""%d"", n % 10);
+        reverse4(n / 10);
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    int re[5];
+    reverse4(n);
+    printf(""\n"");
+    return 0;
+}",,,,,,
+2025-12-18T04:52:45.469Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int  reverse4(int n, re){
+    if(n > 0){
+        printf(""%d"", n % 10);
+        reverse4(n / 10);
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    int re[5];
+    reverse4(n);
+    printf(""\n"");
+    return 0;
+}",,,,,,
+2025-12-18T04:52:55.468Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int  reverse4(int n, int re){
+    if(n > 0){
+        printf(""%d"", n % 10);
+        reverse4(n / 10);
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    int re[5];
+    reverse4(n);
+    printf(""\n"");
+    return 0;
+}",,,,,,
+2025-12-18T04:53:05.471Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int  reverse4(int n, int re){
+    if(n > 0){
+        re
+        //printf(""%d"", n % 10);
+        reverse4(n / 10);
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    int re[5];
+    reverse4(n);
+    printf(""\n"");
+    return 0;
+}",,,,,,
+2025-12-18T04:53:15.469Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int  reverse4(int n, int re){
+    if(n > 0){
+        re
+        //printf(""%d"", n % 10);
+        reverse4(n / 10);
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    int re[5];
+    reverse4(n, re, 0);
+    printf(""\n"");
+    return 0;
+}",,,,,,
+2025-12-18T04:53:25.479Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int  reverse4(int n, int re, int i){
+    if(n > 0){
+        re[i] =
+        //printf(""%d"", n % 10);
+        reverse4(n / 10);
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    int re[5];
+    reverse4(n, re, 0);
+    printf(""\n"");
+    return 0;
+}",,,,,,
+2025-12-18T04:53:35.469Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int  reverse4(int n, int re, int i){
+    if(n > 0){
+        re[i] = 
+        //printf(""%d"", n % 10);
+        reverse4(n / 10);
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    int re[5];
+    reverse4(n, re, 0);
+    printf(""\n"");
+    return 0;
+}",,,,,,
+2025-12-18T04:53:55.481Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int  reverse4(int n, int re, int i){
+    if(n > 0){
+        re[i]
+        //printf(""%d"", n % 10);
+        reverse4(n / 10);
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    int re[5];
+    reverse4(n, re, 0);
+    printf(""\n"");
+    return 0;
+}",,,,,,
+2025-12-18T04:54:05.474Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int  reverse4(int n, int re, int i){
+    if(n > 0){
+        printf(""%d"", n % 10);
+        reverse4(n / 10);
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    int re[5];
+    reverse4(n, re, 0);
+    printf(""\n"");
+    return 0;
+}",,,,,,
+2025-12-18T04:55:28.890Z,user_010,user10,45,ai-help,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int  reverse4(int n, int re, int i){
+    if(n > 0){
+        printf(""%d"", n % 10);
+        reverse4(n / 10);
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    int re[5];
+    reverse4(n, re, 0);
+    printf(""\n"");
+    return 0;
+}",,,処理の大枠決定,コード化,"[{""level"": 1, ""text"": ""関数 reverse4 の定義（再帰関数を作る目的のコメントあり）"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""reverse4 の本体：n>0 のとき末尾の桁を扱い再帰呼び出しを行っている（実装が不正確）"", ""status"": ""in_progress""}, {""level"": 1, ""text"": ""main 関数：入力を受け取り reverse4 を呼ぶ流れ"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""scanfでnを読み込む（実装済み）"", ""status"": ""done""}, {""level"": 2, ""text"": ""int re[5]; を宣言している（存在するが使い方が未整理）"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""reverse4を呼んでいる（呼び出し引数が定義と合っていない）"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""改行を printf(\""\\n\"") で出力（実装済み）"", ""status"": ""done""}]","[{""level"": 1, ""text"": ""今のコメントとコードで何が済んでいるか確認してね：入力処理と改行出力はあるよ。""}, {""level"": 2, ""text"": ""reverse4 は再帰で「末尾の桁を取り出して出力し、n/10で次を処理する」形が自然だよ。基底ケースも考えてね。""}, {""level"": 3, ""text"": ""reverse4 を一つの引数で受ける形にし、n が 0 のとき終了、それ以外は末尾 n%10 を出力して reverse4(n/10) を呼ぶよう実装し、main からは reverse4(n) を呼ぶように直そう。""}]"
+2025-12-18T04:56:55.487Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int  reverse4(int n){
+    if(n > 0){
+        printf(""%d"", n % 10);
+        reverse4(n / 10);
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    int re[5];
+    reverse4(n, re, 0);
+    printf(""\n"");
+    return 0;
+}",,,,,,
+2025-12-18T04:57:05.467Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int  reverse4(int n){
+    if(n > 0){
+        printf(""%d"", n % 10);
+        reverse4(n / 10);
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    int re[5];
+    reverse4(n);
+    printf(""\n"");
+    return 0;
+}",,,,,,
+2025-12-18T04:57:15.471Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int  reverse4(int n){
+    if(n > 0){
+        printf(""%d"", n % 10);
+        reverse4(n / 10);
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    reverse4(n);
+    printf(""\n"");
+    return 0;
+}",,,,,,
+2025-12-18T04:57:50.991Z,user_010,user10,45,ai-help,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int  reverse4(int n){
+    if(n > 0){
+        printf(""%d"", n % 10);
+        reverse4(n / 10);
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    reverse4(n);
+    printf(""\n"");
+    return 0;
+}",,,コード化,コードの整合性確認,"[{""level"": 1, ""text"": ""main関数：整数を入力してreverse4を呼び出し、改行を出力する"", ""status"": ""done""}, {""level"": 2, ""text"": ""main内：scanfで整数を読み取る"", ""status"": ""done""}, {""level"": 2, ""text"": ""main内：reverse4(n)を呼び出す"", ""status"": ""done""}, {""level"": 2, ""text"": ""main内：printf(\""\\n\"")で改行を出力する"", ""status"": ""done""}, {""level"": 1, ""text"": ""reverse4関数：再帰で下位桁から順にprintfで出力する"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""reverse4内部：if(n > 0)で末尾の桁を出力し、reverse4(n/10)で再帰する"", ""status"": ""done""}]","[{""level"": 1, ""text"": ""まずプログラムをコンパイル・実行して出力が期待どおりか確認しましょう。警告が出ていないかも見てください。""}, {""level"": 2, ""text"": ""reverse4は値を返していない実装になっています。関数の役割（出力するだけ）を意識して設計を見直しましょう。""}, {""level"": 3, ""text"": ""関数宣言をintではなくvoidに変更することを検討してください（例: void reverse4(int n)）。その上で警告が消えるか確認しましょう。""}]"
+2025-12-18T04:58:22.513Z,user_010,user10,45,run,"#include <stdio.h>
+//再帰関数reverse4をつくる
+int  reverse4(int n){
+    if(n > 0){
+        printf(""%d"", n % 10);
+        reverse4(n / 10);
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    reverse4(n);
+    printf(""\n"");
+    return 0;
+}","031
+",,,,,
+2025-12-18T04:59:15.475Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+void  reverse4(int n){
+    if(n > 0){
+        printf(""%d"", n % 10);
+        reverse4(n / 10);
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    reverse4(n);
+    printf(""\n"");
+    return 0;
+}",,,,,,
+2025-12-18T04:59:56.621Z,user_010,user10,45,ai-help,"#include <stdio.h>
+//再帰関数reverse4をつくる
+void  reverse4(int n){
+    if(n > 0){
+        printf(""%d"", n % 10);
+        reverse4(n / 10);
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    reverse4(n);
+    printf(""\n"");
+    return 0;
+}",,,コード化,コードの整合性確認,"[{""level"": 1, ""text"": ""関数 reverse4: 引数 n を受け取り再帰で桁を出力する"", ""status"": ""done""}, {""level"": 2, ""text"": ""base case: n が 0 以下なら何もしない（終了）"", ""status"": ""done""}, {""level"": 2, ""text"": ""recursive step: 最後の桁を printf で出力し reverse4(n/10) を呼ぶ"", ""status"": ""done""}, {""level"": 1, ""text"": ""main: 入力を読み取り reverse4 を呼び，改行を出力する"", ""status"": ""done""}, {""level"": 2, ""text"": ""入力処理: scanf で整数 n を読み取る"", ""status"": ""done""}, {""level"": 2, ""text"": ""処理呼び出し: reverse4(n) を呼ぶ"", ""status"": ""done""}, {""level"": 2, ""text"": ""出力整形: 最後に改行を出力する"", ""status"": ""done""}]","[{""level"": 1, ""text"": ""まず実際にコンパイルしてプログラムを実行し、期待どおりの出力になるか確認しましょう。""}, {""level"": 2, ""text"": ""代表例（1234）と境界値（1, 50000）で動かして、余計な空白や改行がないか確かめてください。""}, {""level"": 3, ""text"": ""コンパイル警告がないか確認し、出力が違う場合は再帰の終了条件や printf の書式（余分な文字）を見直して修正しましょう。""}]"
+2025-12-18T05:00:23.068Z,user_010,user10,45,run,"#include <stdio.h>
+//再帰関数reverse4をつくる
+void  reverse4(int n){
+    if(n > 0){
+        printf(""%d"", n % 10);
+        reverse4(n / 10);
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    reverse4(n);
+    printf(""\n"");
+    return 0;
+}","0951
+",,,,,
+2025-12-18T05:02:15.477Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+void  reverse4(int n){
+    if(n > 0){
+        printf(""%d"", n % 10);
+        reverse4(n / 10);
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    reverse4(n);
+    //先頭の０を消したい
+    printf(""\n"");
+    return 0;
+}",,,,,,
+2025-12-18T05:02:46.130Z,user_010,user10,45,ai-help,"#include <stdio.h>
+//再帰関数reverse4をつくる
+void  reverse4(int n){
+    if(n > 0){
+        printf(""%d"", n % 10);
+        reverse4(n / 10);
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    reverse4(n);
+    //先頭の０を消したい
+    printf(""\n"");
+    return 0;
+}",,,コード化,コードの整合性確認,"[{""level"": 1, ""text"": ""reverse4 関数：再帰で下位桁から順に n%10 を出力し n/10 で再帰する"", ""status"": ""done""}, {""level"": 1, ""text"": ""main 関数：整数を読み取り reverse4 を呼び、最後に改行を出力する"", ""status"": ""done""}, {""level"": 2, ""text"": ""先頭の0を消す処理（コメントありだが実装されていない）"", ""status"": ""todo""}]","[{""level"": 1, ""text"": ""まずサンプル入力で実行し、出力が仕様通りか確認しましょう（改行や余計な文字がないかも確認）。""}, {""level"": 2, ""text"": ""特に 1000 や 1200 のような入力で出力が先頭に0を含まないかを確かめ、期待する出力を決めましょう。""}, {""level"": 3, ""text"": ""先頭の0を消すには「最初の非ゼロ桁が出るまで0の出力をスキップするフラグ」を使うか、出力を一度数値として扱う方法を実装して検証してみてください。""}]"
+2025-12-18T05:04:35.470Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+void  reverse4(int n){
+    if(n > 0){
+        printf(""%d"", n % 10);
+        reverse4(n / 10);
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    int r
+    reverse4(n);
+    //先頭の０を消したい
+    printf(""\n"");
+    return 0;
+}",,,,,,
+2025-12-18T05:04:45.467Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+void  reverse4(int n){
+    if(n > 0){
+        printf(""%d"", n % 10);
+        reverse4(n / 10);
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    int re[5];
+    reverse4(n, re, 0);
+    //先頭の０を消したい
+    printf(""\n"");
+    return 0;
+}",,,,,,
+2025-12-18T05:05:05.472Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+void  reverse4(int n, int re, int o){
+    if(n > 0){
+        printf(""%d"", n % 10);
+        reverse4(n / 10);
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    int re[5];
+    reverse4(n, re, 0);
+    //先頭の０を消したい
+    printf(""\n"");
+    return 0;
+}",,,,,,
+2025-12-18T05:05:15.475Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+void  reverse4(int n, int re, int i){
+    if(n > 0){
+        re[
+        //printf(""%d"", n % 10);
+        reverse4(n / 10);
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    int re[5];
+    reverse4(n, re, 0);
+    //先頭の０を消したい
+    printf(""\n"");
+    return 0;
+}",,,,,,
+2025-12-18T05:05:25.475Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+void  reverse4(int n, int re, int i){
+    if(n > 0){
+        re[i] = n % 
+        //printf(""%d"", n % 10);
+        reverse4(n / 10);
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    int re[5];
+    reverse4(n, re, 0);
+    //先頭の０を消したい
+    printf(""\n"");
+    return 0;
+}",,,,,,
+2025-12-18T05:05:35.468Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+void  reverse4(int n, int re, int i){
+    if(n > 0){
+        re[i] = n % 10;
+        //printf(""%d"", n % 10);
+        reverse4(n / 10, re, i++);
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    int re[5];
+    reverse4(n, re, 0);
+    //先頭の０を消したい
+    printf(""\n"");
+    return 0;
+}",,,,,,
+2025-12-18T05:06:15.477Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+void  reverse4(int n, int re, int i){
+    if(n > 0){
+        re[i] = n % 10;
+        //printf(""%d"", n % 10);
+        reverse4(n / 10, re, i++
+                );
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    int re[5];
+    reverse4(n, re, 0);
+    //先頭の０を消したい
+    printf(""\n"");
+    return 0;
+}",,,,,,
+2025-12-18T05:06:25.472Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+void  reverse4(int n, int re, int i){
+    if(n > 0){
+        re[i] = n % 10;
+        //printf(""%d"", n % 10);
+        reverse4(n / 10, re, i++);
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    int re[5];
+    reverse4(n, re, 0);
+    //先頭の０を消したい
+    printf(""\n"");
+    return 0;
+}",,,,,,
+2025-12-18T05:06:35.471Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+void  reverse4(int n, int re, int i){
+    if(n > 0){
+        re[i] = n % 10;
+        //printf(""%d"", n % 10);
+        reverse4(n / 10, re, i++);
+        
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    int re[5];
+    reverse4(n, re, 0);
+    //先頭の０を消したい
+    printf(""\n"");
+    return 0;
+}",,,,,,
+2025-12-18T05:06:45.469Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+void  reverse4(int n, int re, int i){
+    if(n > 0){
+        re[i] = n % 10;
+        //printf(""%d"", n % 10);
+        reverse4(n / 10, re, i++);
+        for(int j = )
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    int re[5];
+    reverse4(n, re, 0);
+    //先頭の０を消したい
+    printf(""\n"");
+    return 0;
+}",,,,,,
+2025-12-18T05:06:55.474Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+void  reverse4(int n, int re, int i){
+    if(n > 0){
+        re[i] = n % 10;
+        //printf(""%d"", n % 10);
+        reverse4(n / 10, re, i++);
+        for(int j = 0; )
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    int re[5];
+    reverse4(n, re, 0);
+    //先頭の０を消したい
+    printf(""\n"");
+    return 0;
+}",,,,,,
+2025-12-18T05:07:15.472Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+void  reverse4(int n, int re, int i){
+    if(n > 0){
+        re[i] = n % 10;
+        //printf(""%d"", n % 10);
+        reverse4(n / 10, re, i++);
+        for(int j = 0; j < i; )
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    int re[5];
+    reverse4(n, re, 0);
+    //先頭の０を消したい
+    printf(""\n"");
+    return 0;
+}",,,,,,
+2025-12-18T05:07:25.478Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+void  reverse4(int n, int re, int i){
+    if(n > 0){
+        re[i] = n % 10;
+        //printf(""%d"", n % 10);
+        reverse4(n / 10, re, i++);
+        for(int j = 0; j < i; j++){
+            
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    int re[5];
+    reverse4(n, re, 0);
+    //先頭の０を消したい
+    printf(""\n"");
+    return 0;
+}",,,,,,
+2025-12-18T05:07:45.478Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+void  reverse4(int n, int re, int i){
+    if(n > 0){
+        re[i] = n % 10;
+        //printf(""%d"", n % 10);
+        reverse4(n / 10, re, i++);
+        for(int j = 0; j < i; j++){
+            if
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    int re[5];
+    reverse4(n, re, 0);
+    //先頭の０を消したい
+    printf(""\n"");
+    return 0;
+}",,,,,,
+2025-12-18T05:07:55.471Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+void  reverse4(int n, int re, int i){
+    if(n > 0){
+        re[i] = n % 10;
+        //printf(""%d"", n % 10);
+        reverse4(n / 10, re, i++);
+        for(int j = 0; re[j]; j++){
+            if
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    int re[5];
+    reverse4(n, re, 0);
+    //先頭の０を消したい
+    printf(""\n"");
+    return 0;
+}",,,,,,
+2025-12-18T05:08:05.477Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+void  reverse4(int n, int re, int i){
+    if(n > 0){
+        re[i] = n % 10;
+        //printf(""%d"", n % 10);
+        reverse4(n / 10, re, i++);
+        for(int j = 0; re[j] == 0; j++){
+            if
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    int re[5];
+    reverse4(n, re, 0);
+    //先頭の０を消したい
+    printf(""\n"");
+    return 0;
+}",,,,,,
+2025-12-18T05:08:15.470Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+void  reverse4(int n, int re, int i){
+    if(n > 0){
+        re[i] = n % 10;
+        //printf(""%d"", n % 10);
+        reverse4(n / 10, re, i++);
+        for(int j = 0; re[j] != 0; j++){
+            if
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    int re[5];
+    reverse4(n, re, 0);
+    //先頭の０を消したい
+    printf(""\n"");
+    return 0;
+}",,,,,,
+2025-12-18T05:08:25.468Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+void  reverse4(int n, int re, int i){
+    if(n > 0){
+        re[i] = n % 10;
+        //printf(""%d"", n % 10);
+        reverse4(n / 10, re, i++);
+        for(int j = 0; re[j] != 0; j++){
+            
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    int re[5];
+    reverse4(n, re, 0);
+    //先頭の０を消したい
+    printf(""\n"");
+    return 0;
+}",,,,,,
+2025-12-18T05:08:45.469Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+void  reverse4(int n, int re, int i){
+    if(n > 0){
+        re[i] = n % 10;
+        //printf(""%d"", n % 10);
+        reverse4(n / 10, re, i++);
+        for(int j = 0; re[j] != 0; j++){
+        }
+        
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    int re[5];
+    reverse4(n, re, 0);
+    //先頭の０を消したい
+    printf(""\n"");
+    return 0;
+}",,,,,,
+2025-12-18T05:08:55.479Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+void  reverse4(int n, int re, int i){
+    if(n > 0){
+        re[i] = n % 10;
+        //printf(""%d"", n % 10);
+        reverse4(n / 10, re, i++);
+        for(int j = 0; re[j] != 0; j++){
+        }
+        for(j = )
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    int re[5];
+    reverse4(n, re, 0);
+    //先頭の０を消したい
+    printf(""\n"");
+    return 0;
+}",,,,,,
+2025-12-18T05:09:05.473Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+void  reverse4(int n, int re, int i){
+    if(n > 0){
+        re[i] = n % 10;
+        //printf(""%d"", n % 10);
+        reverse4(n / 10, re, i++);
+        for(int j = 0; re[j] != 0; j++){
+        }
+        for(j; )
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    int re[5];
+    reverse4(n, re, 0);
+    //先頭の０を消したい
+    printf(""\n"");
+    return 0;
+}",,,,,,
+2025-12-18T05:09:15.469Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+void  reverse4(int n, int re, int i){
+    if(n > 0){
+        re[i] = n % 10;
+        //printf(""%d"", n % 10);
+        reverse4(n / 10, re, i++);
+        for(int j = 0; re[j] != 0; j++){
+        }
+        for(j; j < i; )
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    int re[5];
+    reverse4(n, re, 0);
+    //先頭の０を消したい
+    printf(""\n"");
+    return 0;
+}",,,,,,
+2025-12-18T05:09:25.477Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+void  reverse4(int n, int re, int i){
+    if(n > 0){
+        re[i] = n % 10;
+        //printf(""%d"", n % 10);
+        reverse4(n / 10, re, i++);
+        for(int j = 0; re[j] != 0; j++){
+        }
+        for(j; j < i; j++){
+            printf("""")
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    int re[5];
+    reverse4(n, re, 0);
+    //先頭の０を消したい
+    printf(""\n"");
+    return 0;
+}",,,,,,
+2025-12-18T05:09:35.467Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+void  reverse4(int n, int re, int i){
+    if(n > 0){
+        re[i] = n % 10;
+        //printf(""%d"", n % 10);
+        reverse4(n / 10, re, i++);
+        for(int j = 0; re[j] != 0; j++){
+        }
+        for(j; j < i; j++){
+            printf(""%d"", re)
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    int re[5];
+    reverse4(n, re, 0);
+    //先頭の０を消したい
+    printf(""\n"");
+    return 0;
+}",,,,,,
+2025-12-18T05:09:45.467Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+void  reverse4(int n, int re, int i){
+    if(n > 0){
+        re[i] = n % 10;
+        //printf(""%d"", n % 10);
+        reverse4(n / 10, re, i++);
+        for(int j = 0; re[j] != 0; j++){
+        }
+        for(j; j < i; j++){
+            printf(""%d"", re[j]);
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    int re[5];
+    reverse4(n, re, 0);
+    //先頭の０を消したい
+    printf(""\n"");
+    return 0;
+}",,,,,,
+2025-12-18T05:09:50.947Z,user_010,user10,45,run,"#include <stdio.h>
+//再帰関数reverse4をつくる
+void  reverse4(int n, int re, int i){
+    if(n > 0){
+        re[i] = n % 10;
+        //printf(""%d"", n % 10);
+        reverse4(n / 10, re, i++);
+        for(int j = 0; re[j] != 0; j++){
+        }
+        for(j; j < i; j++){
+            printf(""%d"", re[j]);
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    int re[5];
+    reverse4(n, re, 0);
+    //先頭の０を消したい
+    printf(""\n"");
+    return 0;
+}",,"file0.code.c: In function 'reverse4':
+file0.code.c:5:11: error: subscripted value is neither array nor pointer nor vector
+    5 |         re[i] = n % 10;
+      |           ^
+file0.code.c:8:26: error: subscripted value is neither array nor pointer nor vector
+    8 |         for(int j = 0; re[j] != 0; j++){
+      |                          ^
+file0.code.c:10:13: error: 'j' undeclared (first use in this function)
+   10 |         for(j; j < i; j++){
+      |             ^
+file0.code.c:10:13: note: each undeclared identifier is reported only once for each function it appears in
+file0.code.c: In function 'main':
+file0.code.c:21:17: warning: passing argument 2 of 'reverse4' makes integer from pointer without a cast [-Wint-conversion]
+   21 |     reverse4(n, re, 0);
+      |                 ^~
+      |                 |
+      |                 int *
+file0.code.c:3:27: note: expected 'int' but argument is of type 'int *'
+    3 | void  reverse4(int n, int re, int i){
+      |                       ~~~~^~
+",,,,
+2025-12-18T05:11:16.545Z,user_010,user10,45,ai-help,"#include <stdio.h>
+//再帰関数reverse4をつくる
+void  reverse4(int n, int re, int i){
+    if(n > 0){
+        re[i] = n % 10;
+        //printf(""%d"", n % 10);
+        reverse4(n / 10, re, i++);
+        for(int j = 0; re[j] != 0; j++){
+        }
+        for(j; j < i; j++){
+            printf(""%d"", re[j]);
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    int re[5];
+    reverse4(n, re, 0);
+    //先頭の０を消したい
+    printf(""\n"");
+    return 0;
+}",,,コード化,コードの整合性確認,"[{""level"": 1, ""text"": ""main: 整数を読み取り、配列 re を宣言し reverse4 を呼び、改行を出力する"", ""status"": ""in_progress""}, {""level"": 1, ""text"": ""reverse4 関数の定義（再帰で桁を処理している）"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""if (n > 0) の条件で再帰処理を開始している"", ""status"": ""done""}, {""level"": 2, ""text"": ""re[i] = n % 10; として配列に桁を格納している"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""再帰呼び出し reverse4(n / 10, re, i++); で次の桁へ進めようとしている"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""for ループで配列から出力しようとする処理が書かれている（変数スコープや未初期化がある）"", ""status"": ""in_progress""}]","[{""level"": 1, ""text"": ""まずコンパイルして出るエラーや警告を確認しましょう。エラーメッセージが直すべき箇所を教えてくれます。""}, {""level"": 2, ""text"": ""関数の引数の型（配列を渡すときの書き方）、ループ変数の宣言場所、波括弧の対応を点検してみてください。""}, {""level"": 3, ""text"": ""簡単にするなら reverse4 を int n だけ受け取り、if (n>0) { printf(\""%d\"", n%10); reverse4(n/10); } として main から reverse4(n) を呼ぶように直してみてください。""}]"
+2025-12-18T05:12:15.480Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+void  reverse4(int n, int re, int i){
+    if(n > 0){
+        re[i] = n % 10;
+        //printf(""%d"", n % 10);
+        reverse4(n / 10, re, i++);
+        for(int j = 0; re[j] == 0; j++){
+        }
+        for(j; j < i; j++){
+            printf(""%d"", re[j]);
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    int re[5];
+    reverse4(n, re, 0);
+    //先頭の０を消したい
+    printf(""\n"");
+    return 0;
+}",,,,,,
+2025-12-18T05:12:35.474Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+void  reverse4(int n, int re[], int i){
+    if(n > 0){
+        re[i] = n % 10;
+        //printf(""%d"", n % 10);
+        reverse4(n / 10, re, i++);
+        for(int j = 0; re[j] == 0; j++){
+        }
+        for(j; j < i; j++){
+            printf(""%d"", re[j]);
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    int re[5];
+    reverse4(n, re, 0);
+    //先頭の０を消したい
+    printf(""\n"");
+    return 0;
+}",,,,,,
+2025-12-18T05:12:52.934Z,user_010,user10,45,run,"#include <stdio.h>
+//再帰関数reverse4をつくる
+void  reverse4(int n, int re[], int i){
+    if(n > 0){
+        re[i] = n % 10;
+        //printf(""%d"", n % 10);
+        reverse4(n / 10, re, i++);
+        for(int j = 0; re[j] == 0; j++){
+        }
+        for(j; j < i; j++){
+            printf(""%d"", re[j]);
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    int re[5];
+    reverse4(n, re[], 0);
+    //先頭の０を消したい
+    printf(""\n"");
+    return 0;
+}",,"file0.code.c: In function 'reverse4':
+file0.code.c:10:13: error: 'j' undeclared (first use in this function)
+   10 |         for(j; j < i; j++){
+      |             ^
+file0.code.c:10:13: note: each undeclared identifier is reported only once for each function it appears in
+file0.code.c: In function 'main':
+file0.code.c:21:20: error: expected expression before ']' token
+   21 |     reverse4(n, re[], 0);
+      |                    ^
+file0.code.c: In function 'reverse4':
+file0.code.c:25:1: error: expected declaration or statement at end of input
+   25 | }
+      | ^
+chmod: cannot access 'a.out': No such file or directory
+",,,,
+2025-12-18T05:12:55.467Z,user_010,user10,45,auto_save,"#include <stdio.h>
+//再帰関数reverse4をつくる
+void  reverse4(int n, int re[], int i){
+    if(n > 0){
+        re[i] = n % 10;
+        //printf(""%d"", n % 10);
+        reverse4(n / 10, re, i++);
+        for(int j = 0; re[j] == 0; j++){
+        }
+        for(j; j < i; j++){
+            printf(""%d"", re[j]);
+    }
+}
+
+int main(void) {
+    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/
+    //入力
+    int n;
+    scanf(""%d"", &n);
+    int re[5];
+    reverse4(n, re[], 0);
+    //先頭の０を消したい
+    printf(""\n"");
+    return 0;
+}",,,,,,

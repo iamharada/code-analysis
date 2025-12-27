@@ -1,0 +1,61 @@
+{
+  "timestamp": "2025-12-09T07:07:31.369Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n    //入力をパスカルの三角形の段数として受け付ける。\n    int n;\n    scanf(\"%d\",&n);\n    //入力値（段数）をpascal関数に渡す。\n    pascal(n);\n    return 0;\n}\n//入力された段数分のパスカルの三角形を出力するpascal関数を作る",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数: 整数を読み取りpascal関数を呼び出す",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "main内: scanfでnを取得する",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "main内: pascal(n)を呼び出す",
+      "status": "done"
+    },
+    {
+      "level": 1,
+      "text": "pascal関数: パスカルの三角形を作成して出力する（未実装）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "pascal内: 二次元配列の宣言と初期化を行う",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "pascal内: 繰り返しで各要素を計算して配列に格納する",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "pascal内: %3dで整形して各行を出力する",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "mainの呼び出しはできているので、pascal関数の中身を詳しく考えよう。"
+    },
+    {
+      "level": 2,
+      "text": "二次元配列のサイズとループの順序（行ごとに計算→出力）、端の値が1になることを考えてみてください。"
+    },
+    {
+      "level": 3,
+      "text": "pascal(int n)内で int a[11][11]={0}; とし、各行iで a[i][0]=a[i][i]=1、内側は a[i][j]=a[i-1][j-1]+a[i-1][j] と計算し、printf(\"%3d\",a[i][j])で出力して改行する流れにしてください。"
+    }
+  ]
+}

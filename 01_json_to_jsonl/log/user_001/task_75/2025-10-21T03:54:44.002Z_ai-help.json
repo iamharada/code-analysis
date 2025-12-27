@@ -1,0 +1,35 @@
+{
+  "timestamp": "2025-10-21T03:54:44.002Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数の定義（プログラムの開始点）",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "入力・出力に関するコメント（'入力:○○, 出力:△△' の記述）",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題文をもう一度読み、入力（n の範囲）と出力（パスカルの三角形の形式）をはっきり書き出しましょう。"
+    },
+    {
+      "level": 2,
+      "text": "具体的な入出力例（例：n=4 のときの出力）をコメントに書き、期待する出力を確認しましょう。"
+    },
+    {
+      "level": 3,
+      "text": "次は処理の大枠を書く段階です：配列の準備、値の計算ルール、表示（%3dで右揃え）を3〜5ステップでコメントにまとめてから進んでください。"
+    }
+  ]
+}

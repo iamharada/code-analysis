@@ -1,0 +1,45 @@
+{
+  "timestamp": "2025-11-11T07:12:30.392Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "84",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:２つの文字列（char型）, 出力:二つの合計（int型）*/\n    //入力を行う（文字列）\n    //入力された文字列をint型の配列に一桁ずつ格納する\n    //配列同士を足し算し、繰り上げも考慮する\n    //合計を出力する\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "入力を行う（文字列）",
+      "status": "in_progress"
+    },
+    {
+      "level": 1,
+      "text": "入力された文字列をint型の配列に一桁ずつ格納する",
+      "status": "in_progress"
+    },
+    {
+      "level": 1,
+      "text": "配列同士を足し算し、繰り上げも考慮する",
+      "status": "in_progress"
+    },
+    {
+      "level": 1,
+      "text": "合計を出力する",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題の要件をもう一度確認して、入力（文字列の長さ・先頭の0禁止）と出力（改行だけ）をはっきりさせましょう。"
+    },
+    {
+      "level": 2,
+      "text": "大まかな手順はできています。次は配列の向き（右端を index 0 にするか）や短い方の埋め方を具体的に考えてください。"
+    },
+    {
+      "level": 3,
+      "text": "まずコメントで3〜5の詳細手順を書く（例：文字列を逆順にして配列に入れる、右から順に足す、繰り上げを保持、最後に残りの繰り上げを処理して出力）。その後、各コメントを順に実装しましょう。"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "timestamp": "2025-12-18T05:09:48.910Z",
+  "username": "user18",
+  "userId": "user_018",
+  "taskNumber": "32",
+  "event": "run",
+  "code": "#include <stdio.h>\n\nint checktri(float a,float b,float c);\n\nint main(void) {\n    /*入力:3つの実数値, 出力:三角形の形状*/\n    //三角形の形状を判定する関数checktriを作成\n    　//三角形が成立しない：Error\n    　//三角形が成立する：三平方の定理を用いて判定\n    　　//鈍角三角形、直角三角形、鋭角三角形に分類\n    //chectri関数の戻り値をmain関数内のswitch_case文で指定\n    　//直角三角形：1\n    　//鋭角三角形：2\n    　//鈍角三角形：3\n    　//Error：0\n    float a;\n    float b;\n    float c;\n    int n;\n    scanf(\"%f %f %f\",&a,&b,&c);\n    n=checktri(a,b,c);\n    switch(n){\n        case 0:\n            printf(\"Error\\n\");\n            break;\n        case 1:\n            printf(\"直角三角形\\n\");\n            break;\n        case 2:\n            printf(\"鋭角三角形\\n\");\n            break;\n        case 3:\n            printf(\"鈍角三角形\\n\");\n            break;\n    }\n    return 0;\n}\n\nint checktri(float a,float b,float c){\n    int n;\n    if(b + c > a){\n        if(c*c + b*b == a*a){\n            n=1;\n        }else if(c*c + b*b > a*a){\n            n=2;\n        }else if(c*c + b*b < a*a){\n            n=3;\n        }\n    }else{\n        n=0;\n    }\n    \n    return n;\n}\n\n//なんで出力できないんだろうな",
+  "stdout": "",
+  "stderr": "file0.code.c: In function 'main':\nfile0.code.c:8:5: error: stray '\\343' in program\n    8 |     　//三角形が成立しない：Error\n      |     ^~\nfile0.code.c:9:5: error: stray '\\343' in program\n    9 |     　//三角形が成立する：三平方の定理を用いて判定\n      |     ^~\nfile0.code.c:10:5: error: stray '\\343' in program\n   10 |     　　//鈍角三角形、直角三角形、鋭角三角形に分類\n      |     ^~\nfile0.code.c:10:8: error: stray '\\343' in program\n   10 |     　　//鈍角三角形、直角三角形、鋭角三角形に分類\n      |       ^~\nfile0.code.c:12:5: error: stray '\\343' in program\n   12 |     　//直角三角形：1\n      |     ^~\nfile0.code.c:13:5: error: stray '\\343' in program\n   13 |     　//鋭角三角形：2\n      |     ^~\nfile0.code.c:14:5: error: stray '\\343' in program\n   14 |     　//鈍角三角形：3\n      |     ^~\nfile0.code.c:15:5: error: stray '\\343' in program\n   15 |     　//Error：0\n      |     ^~\nchmod: cannot access 'a.out': No such file or directory\n"
+}

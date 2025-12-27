@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-12-18T05:18:30.878Z",
+  "username": "user19",
+  "userId": "user_019",
+  "taskNumber": "14",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:3つの整数値, 出力:三角形の種類*/\n    //3つの整数値を入力する\n    float a,b,c;\n    scanf(\"%f%f%f\",&a,&b,&c);\n    //成立するか判定\n    if(a<b+c){\n        //成立・・・三角形の種類を判定\n        if(a*a==b*b+c*c)\n            printf(\"直角三角形\");\n        else if(a*a<=b*b+c*c)\n            printf(\"鋭角三角形\");\n        else if(a*a>=b*b+c*c)\n            printf(\"鈍角三角形\");\n    }else{\n        //不成立・・・Error\n        printf(\"Error\");\n    }\n    //結果の表示\n    return 0;\n}",
+  "estimated_stage": "コード化",
+  "next_stage": "コードの整合性確認",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数で入力を読み取り判定して出力する全体の処理",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "3つの数値をscanfで読み取る（a,b,c）",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "三角形成立判定（a < b + c を使う）",
+      "status": "in_progress"
+    },
+    {
+      "level": 3,
+      "text": "成立時に a*a と b*b + c*c を比較して種類を判定する",
+      "status": "in_progress"
+    },
+    {
+      "level": 3,
+      "text": "各場合に応じて printf で文字列を出力する（直角/鋭角/鈍角）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "不成立時に \"Error\" を出力する",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まずコメントと実際の入力型が合っているか、出力に改行があるかを確認しよう。"
+    },
+    {
+      "level": 2,
+      "text": "浮動小数点ではそのまま == を使うと誤差で判定がずれるので、等号判定は許容誤差（epsilon）で考えると安全だよ。"
+    },
+    {
+      "level": 3,
+      "text": "具体的に直す順序：コメントを「実数」に直す、直角は等号、鋭角は <、鈍角は > の比較を使う、等号は |a*a-(b*b+c*c)|<epsilon の形で判定し、出力の末尾に改行を付けること。"
+    }
+  ]
+}

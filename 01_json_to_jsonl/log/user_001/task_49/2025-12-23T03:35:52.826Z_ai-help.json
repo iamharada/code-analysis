@@ -1,0 +1,76 @@
+{
+  "timestamp": "2025-12-23T03:35:52.826Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, \n    出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n    // 1. 入力を受け取る\n        // 段数を格納する変数（n）を定義する。\n        // scanfを用いて整数を入力し、nに代入する。\n    // 2. tri3を呼ぶ\n        // nを引数として tri3 関数を呼び出し、三角形の描画処理を開始する。\n    return 0;\n}\n\n// tri3関数を作成する\n    // 再帰の終了条件をチェックする（n > 0 のときだけ実行）。\n        // 【再帰呼び出し】自分より小さい三角形（n-1段）を先に描画させるため、tri3(n-1) を呼ぶ。\n        // 現在の行（n個の星）を描画するため、line3(n) を呼ぶ。\n\n// line関数を作成する\n    // 再帰の条件分岐を行う。\n        // もし n > 0 なら（星を描く場合）：\n            // 画面に '*' を1つ出力する。\n            // 課題の要件に従い、星のカウンタ（count）を1増やす。\n            // 残りの星（n-1個）を描画するため、line3(n-1) を再帰的に呼ぶ。\n        // もし n == 0 なら（行の終わりの場合）：\n            // 行末の改行（\\n）を出力して再帰を終了する。",
+  "estimated_stage": "処理の詳細化",
+  "next_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main: 入力を受け取り tri3 を呼ぶ設計がコメントである",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main -> 入力を読み取る (n を scanf で受ける)",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "main -> tri3(n) を呼び出す",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "tri3 関数: 再帰で上から順に行を描画する (tri3(n-1) の後に line3(n) 呼び出し)",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "tri3 -> 終了条件チェック (n>0 のときだけ処理する)",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "tri3 -> 再帰呼び出し tri3(n-1)",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "tri3 -> 現在行の描画のため line3(n) を呼ぶ",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "line3 関数: 1 行分の '*' を出力しカウンタを増やす再帰処理",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "line3 -> n>0 のとき '*' を出力し count を増やし line3(n-1) を呼ぶ",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "line3 -> n==0 のとき改行を出力して終了",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "今あるコメントの中で「入力を読む」「tri3を呼ぶ」「tri3／line3 の処理」をまずコード化できる箇所に注目しましょう。"
+    },
+    {
+      "level": 2,
+      "text": "main に int n, count を用意し scanf で n を読み取り、count を初期化して tri3 に渡す方法（ポインタかグローバル）を決めてください。"
+    },
+    {
+      "level": 3,
+      "text": "tri3 は if(n>0){ tri3(n-1, &count); line3(n, &count); } の形にし、line3 は if(n>0){ putchar('*'); (*count)++; line3(n-1,&count);} else putchar('\\n'); と実装するとよいです。"
+    }
+  ]
+}

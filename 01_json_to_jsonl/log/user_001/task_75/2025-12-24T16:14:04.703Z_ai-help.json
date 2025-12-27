@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-12-24T16:14:04.703Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n    //入力をパスカルの三角形の段数として受け付ける。\n    //入力値（段数）をpascal関数に渡す。\n    return 0;\n}\n//入力された段数分のパスカルの三角形を出力するpascal関数を作る",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数: 入力を受け取りpascal関数に渡す流れをコメントで記述している",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main内: 整数を読み取る（scanfなど）というコメント",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main内: 読んだ値をpascal関数に渡すというコメント",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main内: return 0で終了している",
+      "status": "done"
+    },
+    {
+      "level": 1,
+      "text": "pascal関数: 入力された段数分のパスカルの三角形を出力する関数を作るというコメントのみ",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "今のコメントで何が未決か確認しよう: 入力・出力は書けているが処理の細部がない点に注目して下さい。"
+    },
+    {
+      "level": 2,
+      "text": "大まかな処理を小さな手順に分けてみて下さい: 入力->配列準備->値の計算->整形出力 の順に分解します。"
+    },
+    {
+      "level": 3,
+      "text": "具体的にはpascal関数内で二次元配列を用意し、各行iと列jのループで端は1、それ以外は上の2つを足す式で埋め、printf(\"%3d\", ...)で出力して改行するようコメント化して下さい。"
+    }
+  ]
+}

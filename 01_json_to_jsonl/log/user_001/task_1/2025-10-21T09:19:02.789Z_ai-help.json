@@ -1,0 +1,45 @@
+{
+  "timestamp": "2025-10-21T09:19:02.789Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "1",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：〇〇, 出力：△△*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "#include <stdio.h>（標準入出力ヘッダのインクルード）",
+      "status": "done"
+    },
+    {
+      "level": 1,
+      "text": "int main(void) の定義（main 関数の開始）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "/*入力：〇〇, 出力：△△*/（課題の入出力を示すコメント）",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "return 0;（main 関数の終了処理）",
+      "status": "done"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まず課題を確認しましょう：printf関数を使って画面に Hello,world!ようこそ を出力し、出力の最後に改行を付けることが求められています。現在は入力／出力のコメントだけが書かれています。"
+    },
+    {
+      "level": 2,
+      "text": "処理の大枠は簡単です。既に <stdio.h> がインクルードされているので、main 関数の中（return 0; の前）に printf を呼び出して文字列を出力する、という流れにします。"
+    },
+    {
+      "level": 3,
+      "text": "具体的な実装のヒント：printfには出力したい内容をダブルクオートで囲んだ文字列リテラルとして渡します（例：\"...\"）。文字列の末尾に改行を入れるには改行文字 \\n を加えます。コメント部分を削除または置き換えて、main の return の前に printf の呼び出しを書き、文の終わりにはセミコロンを忘れないでください。保存してコンパイル・実行し、出力が期待通り（行末に改行ありで文字列が正確に一致）か確認しましょう。"
+    }
+  ]
+}

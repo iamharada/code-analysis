@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-12-24T15:41:25.208Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数の定義（プログラムの開始と終了）",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "入力・出力の説明コメント（/*入力:○○, 出力:△△*/）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "return 0; による正常終了",
+      "status": "done"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題の要件をもう一度見直しましょう。何を入力して何を出力するかをはっきりさせてください。"
+    },
+    {
+      "level": 2,
+      "text": "入力と出力を具体例で書いてみましょう。例えば入力が4なら出力は4行のパスカルの三角形になります。"
+    },
+    {
+      "level": 3,
+      "text": "入力は1つの整数n(1≤n≤10)、出力はn行分のパスカルの三角形で各値は'%3d'で右揃え、関数pascal内で二次元配列と繰り返しを使って作ると説明します。"
+    }
+  ]
+}

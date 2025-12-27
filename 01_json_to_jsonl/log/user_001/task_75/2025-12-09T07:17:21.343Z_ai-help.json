@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-12-09T07:17:21.343Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n    //入力をパスカルの三角形の段数として受け付ける。\n    //入力値（段数）をpascal関数に渡す。\n    return 0;\n}\n//入力された段数分のパスカルの三角形を出力するpascal関数を作る\n",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：プログラム全体の開始点（入力を受け取りpascal関数に渡す）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main内の処理：標準入力から段数を読み取る",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "main内の処理：読み取った値をpascal関数に渡す呼び出し",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "pascal関数：入力された段数分のパスカルの三角形を二次元配列と繰り返しで作り出力する関数",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "コメントのどれを詳しく書くべきか確認して、まずmainで何をするか決めてください。"
+    },
+    {
+      "level": 2,
+      "text": "mainでは入力を読み取り、pascal関数を呼ぶ流れを明確にし、pascal内部でやることを項目化してください。"
+    },
+    {
+      "level": 3,
+      "text": "pascal関数では int a[10][10] などの配列を用意し a[0][0]=1 から上の行の左右を足して埋め、各行を printf(\"%3d\", a[i][j]) で出力して改行する手順を実装してください。"
+    }
+  ]
+}

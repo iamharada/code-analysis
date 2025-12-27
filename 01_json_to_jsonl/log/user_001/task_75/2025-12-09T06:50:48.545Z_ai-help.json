@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-12-09T06:50:48.545Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n    //入力をパスカルの三角形の段数として受け付ける。\n    //入力値（段数）をpascal関数に渡す。\n    return 0;\n}\n//入力された段数分のパスカルの三角形を出力するpascal関数を作る",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数: 入力を受け取りpascal関数に渡す",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力をパスカルの三角形の段数として受け付ける（scanfで整数を読む）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "入力値（段数）をpascal関数に渡して処理を任せる（関数呼び出し）",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "pascal関数: 二次元配列と繰り返しでパスカルの三角形を作り%3dで整形して出力する",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "どのコメントがすぐにコードにできるか探そう。\nmainの「入力を受け取る」と「pascalを呼ぶ」は実装対象です。"
+    },
+    {
+      "level": 2,
+      "text": "mainで scanf を使って整数を読み、void pascal(int n) を宣言して呼び出す流れを考えよう。\npascal内では2次元配列と二重ループで値を計算し、各行ごとに改行して出力することを意識して。"
+    },
+    {
+      "level": 3,
+      "text": "関数は例えば void pascal(int n) とし、int a[10][10] を用意する。\na[i][0]=a[i][i]=1、他は a[i][j]=a[i-1][j-1]+a[i-1][j] と計算し printf(\"%3d\", a[i][j]) で出力、行末で改行する。"
+    }
+  ]
+}

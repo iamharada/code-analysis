@@ -1,0 +1,31 @@
+{
+  "timestamp": "2025-11-27T07:53:40.827Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数の雛形があるが、入力・出力はプレースホルダのコメントのまま",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題文をもう一度読み、求められている入力と出力の条件をはっきりさせましょう。"
+    },
+    {
+      "level": 2,
+      "text": "いくつかの具体的な入力例（例:1,4,5）を想定し、それぞれの出力がどうなるか具体的に考えてみてください。"
+    },
+    {
+      "level": 3,
+      "text": "入力は1つの整数n(1〜10)。出力は上からn行のパスカルの三角形で、各数を%3dで右寄せして表示し最後に改行のみを入れることを意識してください。"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "timestamp": "2025-12-23T03:04:47.976Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数,\n    出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n    // 1. 入力を受け取る\n    // 2. tri3を呼ぶ\n    return 0;\n}\n\n// tri3関数を作成する\n//     n==0になったら終了\n//     tri3(n-1)してからline(n)\n\n// line関数を作成する\n//     n==0で改行して終わり\n//     *を出してline(n-1)",
+  "estimated_stage": "処理の詳細化",
+  "next_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main: 入力を受け取り、tri3を呼び、最後にCOUNTを出力する",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力を受け取る (scanfで整数nを読む)",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "tri3を呼ぶ (各行を出力するための再帰呼び出し)",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "COUNTを出力する (合計を表示する)",
+      "status": "in_progress"
+    },
+    {
+      "level": 1,
+      "text": "tri3関数: n==0で終了、tri3(n-1)の後にline(n)を呼ぶ設計",
+      "status": "in_progress"
+    },
+    {
+      "level": 1,
+      "text": "line関数: '*'を出力して再帰でnを減らし、n==0で改行する",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "星の個数を数える処理が必要（出力時にカウンタを増やす）",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "tri3とlineのコメントは具体的なので、これらをそのままコード化できます。mainでは入力とCOUNT表示の実装を優先しましょう。"
+    },
+    {
+      "level": 2,
+      "text": "lineはnとカウンタへのポインタを引数にして、'*'を出力したらカウンタを増やし再帰します。tri3はn==0で戻り、tri3(n-1)の後にlineを呼ぶ形にします。"
+    },
+    {
+      "level": 3,
+      "text": "関数の形は例えば void tri3(int n, int *cnt) と void line3(int n, int *cnt) にする。line3では if(n==0){ putchar('\\n'); return; } putchar('*'); (*cnt)++; line3(n-1,cnt); mainでは int count=0; scanf(\"%d\", &n); tri3(n,&count); printf(\"COUNT=%d\\n\", count);"
+    }
+  ]
+}

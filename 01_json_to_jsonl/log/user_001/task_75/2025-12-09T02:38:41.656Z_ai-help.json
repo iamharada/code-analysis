@@ -1,0 +1,36 @@
+{
+  "timestamp": "2025-12-09T02:38:41.656Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数の骨組みがある（stdioをインクルードし、mainとreturnが記述されている）",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "入力・出力についてのコメントが残っているが具体化されていない（/*入力:○○, 出力:△△*/）",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題の要件をもう一度読み直しましょう。整数を受け取りパスカルの三角形を出力する点を確認してください。"
+    },
+    {
+      "level": 2,
+      "text": "入力と出力の具体例を書いてみましょう。例：入力4のときに出力がどうなるかをノートに示してください。"
+    },
+    {
+      "level": 3,
+      "text": "コメントを具体化して置き換えましょう（例：/*入力: 整数 n (1<=n<=10), 出力: n行のパスカルの三角形を各要素を%3dで右揃えして表示*/）。"
+    }
+  ]
+}

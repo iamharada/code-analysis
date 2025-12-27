@@ -1,0 +1,1 @@
+{"timestamp":"2025-12-18T05:02:55.216Z","username":"user11","userId":"user_011","taskNumber":"39","event":"auto_save","code":"#include <stdio.h>\n\nint yakusum1(int n,int m) {\n    int s;\n    if (m < n) {\n        \n        s = \n    }\n        return s;\n}\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n\n    return 0;\n}"}

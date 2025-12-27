@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-12-18T04:23:31.554Z",
+  "username": "user16",
+  "userId": "user_016",
+  "taskNumber": "14",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    float a,b,c;/*入力:3つの実数, 出力:三角形の形状判定*/\n    scanf(\"%f %f %f,&a,&b,&c);\n    //三角形の成立を判定\n    　　//三角形の種類を判定\n    //エラー\n\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：全体の処理の流れをまとめる",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力を受け取る（3つの実数）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "三角形が成立するか判定する（コメントあり）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "三角形の種類を判定する（直角/鋭角/鈍角）（コメントあり）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "結果を出力する（'Error' または 種類名）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "今のコメントを見て、どの部分をさらに細かく書けるか探そう。例：成立判定と種類判定は別々に詳しく書けるはず。"
+    },
+    {
+      "level": 2,
+      "text": "aが最大と仮定できるので、成立判定は a < b + c、種類判定は a^2 と b^2 + c^2 の大小比較で考えてみてください。"
+    },
+    {
+      "level": 3,
+      "text": "まず scanf の書式を直して a,b,c を読み取るコメントを書き、次に「成立判定: if (a >= b + c) -> Error」と「成立なら平方を比較して出力する」コメントを詳細に書いてからコードに変換してください。"
+    }
+  ]
+}

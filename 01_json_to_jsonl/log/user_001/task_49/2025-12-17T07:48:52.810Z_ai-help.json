@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-12-17T07:48:52.810Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, \n    出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n    // 1. 入力を受け取る\n    // 2. tri3を呼ぶ\n    return 0;\n}\n\n// tri3関数を作成する",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main：整数を読み取り、三角形描画用の関数を呼び、最後にCOUNT=合計を出力する",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "tri3関数：再帰で各行の長さを決めて行出力関数を呼ぶ役割（雛形が未作成）",
+      "status": "todo"
+    },
+    {
+      "level": 3,
+      "text": "line3関数：実際に'*'を出力し、出力した'*'の個数をカウンタで増やす役割（未作成）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "mainのコメント（入力を受け取る、tri3を呼ぶ、COUNTを出力する）はそのまま実装できます。"
+    },
+    {
+      "level": 2,
+      "text": "まずscanfで整数nを読み、tri3を呼ぶための関数プロトタイプと空のtri3, line3を作ってコンパイルしてみてください。"
+    },
+    {
+      "level": 3,
+      "text": "tri3は現在の行番号を引数に取り再帰で1→nの順に呼び、line3は引数の数だけ'*'を出力してグローバルか参照渡しのカウンタを1ずつ増やす設計にしてください。"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-11-26T20:26:25.882Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数n（1〜10）, 出力:各行を%3dで右揃えしてパスカルの三角形*/\n\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：プログラム全体の開始点（入力→処理→出力を担う）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力を受け取る：整数n（1〜10）を読み取る",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "二次元配列でパスカルの三角形を作る：配列を初期化し、繰り返しで値を計算する",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "結果を出力する：各値を%3dで右揃えして表示し、最後に改行する",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まずはコメントに従ってmainに入力処理を書こう。scanfで整数nを読み取る準備をしよう。"
+    },
+    {
+      "level": 2,
+      "text": "二次元配列と二重ループを使ってみよう。端の要素は1、その他は上の2つの和になると考えると良い。"
+    },
+    {
+      "level": 3,
+      "text": "実際にコードを書き始めてください。配列サイズはn<=10を想定し、出力はprintfの\"%3d\"で右揃え、行末は必ず改行にすること。"
+    }
+  ]
+}

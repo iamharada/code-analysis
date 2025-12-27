@@ -1,0 +1,31 @@
+{
+  "timestamp": "2025-11-27T01:58:09.987Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：コメント /*入力:○○, 出力:△△*/ があるが、実際の入力受け取りや出力処理は未実装",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題の要件をもう一度確認しよう：1〜10の整数を入力し、パスカルの三角形を%3dで右揃えで出力すること。"
+    },
+    {
+      "level": 2,
+      "text": "入出力の具体例を考えよう：入力4なら各行は '1'、'1 1'、'1 2 1'、'1 3 3 1' になることを確認しておく。"
+    },
+    {
+      "level": 3,
+      "text": "まずコメントを具体化して、入力を読み取ること・pascal関数で三角形を作ること・%3dで整形して出力する、という要点を書き出そう。"
+    }
+  ]
+}

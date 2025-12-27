@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-12-18T06:21:19.975Z",
+  "username": "user23",
+  "userId": "user_023",
+  "taskNumber": "14",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:3つの実数値, 出力:三角形の種類かError*/\n    /*三角形が成立するかを判定する*/\n    /*三角形が直角三角形か鈍角三角形か鋭角三角形かを判定する*/\n\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：プログラム全体の流れを記述する場所",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力を受け取る（3つの実数）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "三角形が成立するか判定する（最初の入力が最大値と仮定）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "角の種類を判定して出力する（直角／鋭角／鈍角／Error）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "今あるコメントを見て、処理を入力・成立判定・角判定の3ブロックに分けられると気づこう。"
+    },
+    {
+      "level": 2,
+      "text": "各ブロックで何をするか具体化しよう：入力はdoubleで受け、成立判定→角判定→出力の順にするイメージで考える。"
+    },
+    {
+      "level": 3,
+      "text": "コメントに詳細手順を書こう：1) scanfで3つのdoubleを読み込む。2) if (a >= b + c) はError。3) 比較はa*a と b*b + c*c（等しいときは直角、より小さいと鋭角、より大きいと鈍角）; 等価判定は小さなEPSで行う。"
+    }
+  ]
+}

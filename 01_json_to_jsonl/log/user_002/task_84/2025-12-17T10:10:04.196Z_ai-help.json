@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-12-17T10:10:04.196Z",
+  "username": "user2",
+  "userId": "user_002",
+  "taskNumber": "84",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数の雛形がある",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "入力と出力を示すコメント /*入力:○○, 出力:△△*/（未記入）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "正常終了の return 0; がある",
+      "status": "done"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題文をもう一度読み、入力が「2つの数字文字列」で出力が「その和の数値だけの行」であることを確認しよう。"
+    },
+    {
+      "level": 2,
+      "text": "具体例を自分で書いてみよう（例: 入力 '112118' と '098513' → 出力 '210631'）。入力形式も行や空白のどちらかを決めよう。"
+    },
+    {
+      "level": 3,
+      "text": "コメントの○○に「2つの数字文字列（それぞれ最大10桁、先頭は0でない）」、△△に「それらの和を改行付きで出力」と具体的に書き込んでから次へ進もう。"
+    }
+  ]
+}

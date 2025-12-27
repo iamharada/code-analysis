@@ -1,0 +1,18 @@
+services:
+  api:
+    build: ./api
+    container_name: log-viewer-api
+    ports:
+      - "8000:8000"
+    environment:
+      - LOG_ROOT=/data/log_jsonl
+    volumes:
+      - ./log_jsonl:/data/log_jsonl:ro
+
+  web:
+    build: ./web
+    container_name: log-viewer-web
+    ports:
+      - "5173:5173"
+    depends_on:
+      - api

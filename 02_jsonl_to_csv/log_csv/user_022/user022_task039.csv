@@ -1,0 +1,3094 @@
+ts,user_id,username,task,event,code,stdout,stderr,estimated_stage,next_stage,processing_structure,advice
+2025-12-18T06:29:50.427Z,user_022,user22,39,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1つの整数, 出力:*/
+
+    return 0;
+}",,,,,,
+2025-12-18T06:30:10.431Z,user_022,user22,39,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1つの整数, 出力:n値の約数の総和*/
+
+    return 0;
+}",,,,,,
+2025-12-18T06:30:20.433Z,user_022,user22,39,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1つの整数, 出力:入力値の約数の総和*/
+    
+    
+    return 0;
+}",,,,,,
+2025-12-18T06:31:30.428Z,user_022,user22,39,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1つの整数, 出力:入力値の約数の総和*/
+    /**/
+    
+    return 0;
+}",,,,,,
+2025-12-18T06:31:40.432Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1()
+
+int main(void) {
+    /*入力:1つの整数, 出力:入力値の約数の総和*/
+    /**/
+    
+    return 0;
+}",,,,,,
+2025-12-18T06:31:50.427Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int x);
+
+int main(void) {
+    /*入力:1つの整数, 出力:入力値の約数の総和*/
+    /**/
+    
+    return 0;
+}",,,,,,
+2025-12-18T06:32:30.442Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int x);
+
+int main(void) {
+    /*入力:1つの整数, 出力:入力値の約数の総和*/
+    /*くりｓ*/
+    
+    return 0;
+}",,,,,,
+2025-12-18T06:32:40.426Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int x);
+
+int main(void) {
+    /*入力:1つの整数, 出力:入力値の約数の総和*/
+    /**/
+    
+    return 0;
+}",,,,,,
+2025-12-18T06:33:00.422Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int x);
+
+int main(void) {
+    /*入力:1つの整数, 出力:入力値の約数の総和*/
+    /*n*/
+    
+    return 0;
+}",,,,,,
+2025-12-18T06:33:10.423Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int x);
+
+int main(void) {
+    /*入力:1つの整数, 出力:入力値の約数の総和*/
+    /**/
+    
+    return 0;
+}",,,,,,
+2025-12-18T06:33:40.424Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int x);
+
+int main(void) {
+    /*入力:1つの整数, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める*/
+    
+    return 0;
+}",,,,,,
+2025-12-18T06:33:50.436Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int x);
+
+int main(void) {
+    /*入力:1つの整数, 出力:入力値の約数の総和*/
+    /*入力値の約数を求めるために、*/
+    
+    return 0;
+}",,,,,,
+2025-12-18T06:34:30.426Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int x);
+
+int main(void) {
+    /*入力:1つの整数, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば、*/
+    
+    return 0;
+}",,,,,,
+2025-12-18T06:34:40.432Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int x);
+
+int main(void) {
+    /*入力:1つの整数, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば、10の約数は、*/
+    
+    return 0;
+}",,,,,,
+2025-12-18T06:34:50.424Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int x);
+
+int main(void) {
+    /*入力:1つの整数, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    
+    return 0;
+}",,,,,,
+2025-12-18T06:35:00.437Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int x);
+
+int main(void) {
+    /*入力:1つの整数, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /**/
+    
+    return 0;
+}",,,,,,
+2025-12-18T06:35:40.431Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int x);
+
+int main(void) {
+    /*入力:1つの整数, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*10%n*/
+    
+    return 0;
+}",,,,,,
+2025-12-18T06:35:50.429Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int x);
+
+int main(void) {
+    /*入力:1つの整数, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し部10%n*/
+    
+    return 0;
+}",,,,,,
+2025-12-18T06:36:00.425Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int x);
+
+int main(void) {
+    /*入力:1つの整数, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、nが10%n*/
+    
+    return 0;
+}",,,,,,
+2025-12-18T06:36:10.427Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int x);
+
+int main(void) {
+    /*入力:1つの整数, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、nが010%n*/
+    
+    return 0;
+}",,,,,,
+2025-12-18T06:36:20.423Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int x);
+
+int main(void) {
+    /*入力:1つの整数, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、nが0~10%n*/
+    
+    return 0;
+}",,,,,,
+2025-12-18T06:36:30.425Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int x);
+
+int main(void) {
+    /*入力:1つの整数, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、nが0~までの間、10%n*/
+    
+    return 0;
+}",,,,,,
+2025-12-18T06:36:40.427Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int x);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、nが0~xまでの間、10%n*/
+    
+    return 0;
+}",,,,,,
+2025-12-18T06:36:50.424Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int x);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、nが0~xまでの間、10%n==0のとｋ*/
+    
+    return 0;
+}",,,,,,
+2025-12-18T06:37:00.432Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int x);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、nが0~xまでの間、10%n==0のとき、10/nを*/
+    
+    return 0;
+}",,,,,,
+2025-12-18T06:37:10.424Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int x);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、nが0~xまでの間、10%n==0のとき、10/nをカウント*/
+    /*
+    
+    return 0;
+}",,,,,,
+2025-12-18T06:37:20.431Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int x);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、nが0~xまでの間、10%n==0のとき、10/nをカウント*/
+    /**/
+    
+    return 0;
+}",,,,,,
+2025-12-18T06:37:50.435Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int x);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、nが~xまでの間、10%n==0のとき、10/nをカウント*/
+    /**/
+    
+    return 0;
+}",,,,,,
+2025-12-18T06:38:00.435Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int x);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、nが1~xまでの間、10%n==0のとき、10/nをカウント*/
+    /**/
+    
+    return 0;
+}",,,,,,
+2025-12-18T06:38:40.425Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int x);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、nが1~xまでの間、10%n==0のとき、10/nをカウント*/
+    
+    りあ
+    
+    return 0;
+}",,,,,,
+2025-12-18T06:38:50.423Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int x);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、nが1~xまでの間、10%n==0のとき、10/nをカウント*/
+    
+    int x;
+    sca
+    
+    return 0;
+}",,,,,,
+2025-12-18T06:39:00.436Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int x);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、nが1~xまでの間、10%n==0のとき、10/nをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    return 0;
+}",,,,,,
+2025-12-18T06:39:10.425Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int x);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、nが1~xまでの間、10%n==0のとき、10/nをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    
+    
+    return 0;
+}",,,,,,
+2025-12-18T06:39:40.433Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int x);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、nが1~xまでの間、10%n==0のとき、10/nをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    in
+    
+    return 0;
+}",,,,,,
+2025-12-18T06:39:50.431Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int x);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、nが1~xまでの間、10%n==0のとき、10/nをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int yakusum1(int x);
+    
+    return 0;
+}",,,,,,
+2025-12-18T06:40:00.421Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int x);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、nが1~xまでの間、10%n==0のとき、10/nをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int yakusum1(int x);
+    
+    return 0;
+}
+",,,,,,
+2025-12-18T06:40:10.434Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int x);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、nが1~xまでの間、10%n==0のとき、10/nをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int yakusum1(int x);
+    
+    return 0;
+}
+
+int yakusum1(int x){
+}",,,,,,
+2025-12-18T06:40:20.428Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、nが1~xまでの間、10%n==0のとき、10/nをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int yakusum1(int x);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+}",,,,,,
+2025-12-18T06:40:30.422Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、nが1~xまでの間、10%n==0のとき、10/nをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int yakusum1(int x);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    
+}",,,,,,
+2025-12-18T06:40:40.424Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、nが1~xまでの間、10%n==0のとき、10/nをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int yakusum1(int x);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    for(i=1){
+    }
+}",,,,,,
+2025-12-18T06:40:50.425Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、nが1~xまでの間、10%n==0のとき、10/nをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int yakusum1(int x);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    for(i=1;i<=x;i++){
+    }
+}",,,,,,
+2025-12-18T06:41:00.424Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、nが1~xまでの間、10%n==0のとき、10/nをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int yakusum1(int x);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    for(i=1;i<=a;i++){
+        if
+    }
+}",,,,,,
+2025-12-18T06:41:10.424Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、nが1~xまでの間、10%n==0のとき、10/nをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int yakusum1(int x);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    for(i=1;i<=a;i++){
+        if(10){
+        }
+    }
+}",,,,,,
+2025-12-18T06:41:20.432Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、nが1~xまでの間、10%n==0のとき、10/nをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int yakusum1(int x);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    for(i=1;i<=a;i++){
+        if(10%n == 0){
+            
+        }
+    }
+}",,,,,,
+2025-12-18T06:41:30.423Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、nが1~xまでの間、10%n==0のとき、10/nをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int yakusum1(int x);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    for(i=1;i<=a;i++){
+        if(10%n == 0){
+     
+    }
+}",,,,,,
+2025-12-18T06:41:40.427Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、nが1~xまでの間、10%n==0のとき、10/nをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int yakusum1(int x);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    int count =
+    for(i=1;i<=a;i++){
+        if(10%n == 0) count++;
+    }
+}",,,,,,
+2025-12-18T06:41:50.424Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、nが1~xまでの間、10%n==0のとき、10/nをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int yakusum1(int x);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    int count = 0;
+    for(i=1;i<=a;i++){
+        if(10%n == 0) count++;
+    }
+}",,,,,,
+2025-12-18T06:42:10.425Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、nが1~xまでの間、10%n==0のとき、10/nをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int yakusum1(int x);
+    
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    int count = 0;
+    for(i=1;i<=a;i++){
+        if(10%n == 0) count++;
+    }
+}",,,,,,
+2025-12-18T06:42:20.437Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、nが1~xまでの間、10%n==0のとき、10/nをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int yakusum1(int x);
+    printf(""%d"",);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    int count = 0;
+    for(i=1;i<=a;i++){
+        if(10%n == 0) count++;
+    }
+}",,,,,,
+2025-12-18T06:42:30.427Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、nが1~xまでの間、10%n==0のとき、10/nをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int yakusum1(int x);
+    printf(""%d"",x);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    int count = 0;
+    for(i=1;i<=a;i++){
+        if(10%n == 0) count++;
+    }
+}",,,,,,
+2025-12-18T06:43:20.424Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、nが1~xまでの間、10%n==0のとき、10/nをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int yakusum1(int x);
+    printf(""%d"",x);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    int count = 0;
+    for(i=1;i<=a;i++){
+        if(10%n == 0) count++;
+    }
+    return count;
+}",,,,,,
+2025-12-18T06:43:30.426Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、nが1~xまでの間、10%n==0のとき、10/nをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int yakusum1(int x);
+    printf(""%d"",x);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(10%n == 0) count++;
+    }
+    return count;
+}",,,,,,
+2025-12-18T06:43:50.422Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、nが1~xまでの間、10%n==0のとき、10/nをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int yakusum1(int x);
+    printf(""%d"",x);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(10%i == 0) count++;
+    }
+    return count;
+}",,,,,,
+2025-12-18T06:44:30.426Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、10%i==0のとき、10/iをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int yakusum1(int x);
+    printf(""%d"",x);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(10%i == 0) count++;
+    }
+    return count;
+}",,,,,,
+2025-12-18T06:44:50.435Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、10%i==0のとき、10/i個をカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int yakusum1(int x);
+    printf(""%d"",x);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(10%i == 0) count++;
+    }
+    return count;
+}",,,,,,
+2025-12-18T06:45:00.437Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、10%i==0のとき、10/iをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int yakusum1(int x);
+    printf(""%d"",x);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(10%i == 0) count++;
+    }
+    return count;
+}",,,,,,
+2025-12-18T06:45:10.427Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、10%i==0のとき、10/iをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int yakusum1(int x);
+    printf(""%d"",x);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(10%i == 0){
+            
+    }
+    return count;
+}",,,,,,
+2025-12-18T06:45:20.431Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、10%i==0のとき、10/iをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int yakusum1(int x);
+    printf(""%d"",x);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(10%i == 0){
+            count = 
+        }
+    }
+    return count;
+}",,,,,,
+2025-12-18T06:45:30.424Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、10%i==0のとき、10/iをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int yakusum1(int x);
+    printf(""%d"",x);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(10%i == 0){
+            count = count + ;
+        }
+    }
+    return count;
+}",,,,,,
+2025-12-18T06:45:40.437Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、10%i==0のとき、10/iをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int yakusum1(int x);
+    printf(""%d"",x);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(10%i == 0){
+            10/i;
+            count = count + ;
+        }
+    }
+    return count;
+}",,,,,,
+2025-12-18T06:45:50.423Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、10%i==0のとき、10/iをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int yakusum1(int x);
+    printf(""%d"",x);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(10%i == 0){
+            wari = 10/i;
+            count = count + ;
+        }
+    }
+    return count;
+}",,,,,,
+2025-12-18T06:46:00.431Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、10%i==0のとき、10/iをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int yakusum1(int x);
+    printf(""%d"",x);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(10%i == 0){
+            wari = 10/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}",,,,,,
+2025-12-18T06:47:10.422Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、10%i==0のとき、10/iをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int yakusum1(int x);
+    printf(""%d"",x);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(10%i == 0){
+            int wari = 10/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}",,,,,,
+2025-12-18T06:48:01.841Z,user_022,user22,39,run,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、10%i==0のとき、10/iをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int yakusum1(int x);
+    printf(""%d"",x);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(10%i == 0){
+            int wari = 10/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}",10,,,,,
+2025-12-18T06:48:40.435Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、10%i==0のとき、10/iをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int yakusum1(int x);
+    printf(""%dの約数のを"",x);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(10%i == 0){
+            int wari = 10/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}",,,,,,
+2025-12-18T06:48:50.421Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、10%i==0のとき、10/iをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int yakusum1(int x);
+    printf(""%dの約数の総和は%d"",x,x);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(10%i == 0){
+            int wari = 10/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}",,,,,,
+2025-12-18T06:49:00.429Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、10%i==0のとき、10/iをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int yakusum1(int count);
+    printf(""%dの約数の総和は%d"",x,count);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(10%i == 0){
+            int wari = 10/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}",,,,,,
+2025-12-18T06:49:10.424Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、10%i==0のとき、10/iをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int yakusum1(int count);
+    printf(""%dの約数の総和は%d"",x,count);
+    
+    return 0;
+}
+
+int yakusum1(int count){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(10%i == 0){
+            int wari = 10/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}",,,,,,
+2025-12-18T06:49:22.641Z,user_022,user22,39,run,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、10%i==0のとき、10/iをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int yakusum1(int count);
+    printf(""%dの約数の総和は%d"",x,count);
+    
+    return 0;
+}
+
+int yakusum1(int count){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(10%i == 0){
+            int wari = 10/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}",,"file0.code.c: In function 'main':
+file0.code.c:13:42: error: 'count' undeclared (first use in this function)
+   13 |     printf(""%dの約数の総和は%d"",x,count);
+      |                                   ^~~~~
+file0.code.c:13:42: note: each undeclared identifier is reported only once for each function it appears in
+file0.code.c: In function 'yakusum1':
+file0.code.c:19:9: error: 'count' redeclared as different kind of symbol
+   19 |     int count = 0;
+      |         ^~~~~
+file0.code.c:18:18: note: previous definition of 'count' was here
+   18 | int yakusum1(int count){
+      |              ~~~~^~~~~
+file0.code.c:20:20: error: 'a' undeclared (first use in this function)
+   20 |     for(int i=1;i<=a;i++){
+      |                    ^
+chmod: cannot access 'a.out': No such file or directory
+",,,,
+2025-12-18T06:49:40.422Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、10%i==0のとき、10/iをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int yakusum1(int count);
+    printf(""%dの約数の総和は%d"",x,count);
+    
+    return 0;
+}
+
+int yakusum1(int ){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(10%i == 0){
+            int wari = 10/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}",,,,,,
+2025-12-18T06:49:50.432Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、10%i==0のとき、10/iをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int yakusum1(int x);
+    printf(""%dの約数の総和は%d"",x,count);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(10%i == 0){
+            int wari = 10/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}",,,,,,
+2025-12-18T06:50:02.157Z,user_022,user22,39,run,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、10%i==0のとき、10/iをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int yakusum1(int x);
+    printf(""%dの約数の総和は%d"",x,count);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(10%i == 0){
+            int wari = 10/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}",,"file0.code.c: In function 'main':
+file0.code.c:13:42: error: 'count' undeclared (first use in this function)
+   13 |     printf(""%dの約数の総和は%d"",x,count);
+      |                                   ^~~~~
+file0.code.c:13:42: note: each undeclared identifier is reported only once for each function it appears in
+chmod: cannot access 'a.out': No such file or directory
+",,,,
+2025-12-18T06:50:56.606Z,user_022,user22,39,ai-help,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、10%i==0のとき、10/iをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int yakusum1(int x);
+    printf(""%dの約数の総和は%d"",x,count);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(10%i == 0){
+            int wari = 10/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}",,,コード化,コードの整合性確認,"[{""level"": 1, ""text"": ""main関数: 入力を読み、関数を呼び出して結果を出力する"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""入力を読み込む（scanf）"", ""status"": ""done""}, {""level"": 2, ""text"": ""yakusum1を呼び出して結果を受け取る"", ""status"": ""todo""}, {""level"": 2, ""text"": ""結果をprintfで出力する（改行を含める）"", ""status"": ""in_progress""}, {""level"": 1, ""text"": ""yakusum1関数: 引数aの約数の総和を計算して返す"", ""status"": ""in_progress""}]","[{""level"": 1, ""text"": ""まず何が未完成か探そう：コメントと実際の処理が一致しているか見てください。""}, {""level"": 2, ""text"": ""関数の呼び出しと戻り値の流れを点検し、使っている変数名が正しいか確認しましょう（countなど）。""}, {""level"": 3, ""text"": ""main内の余分な宣言を消し、int result = yakusum1(x);で戻り値を受け取りprintfでresultを表示（最後に改行）。yakusum1では'10'ではなく引数aを使い、if (a % i == 0) count += i;で合計を返すように修正してください。""}]"
+2025-12-18T06:55:49.939Z,user_022,user22,39,run,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、10%i==0のとき、10/iをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    count = yakusum1(int x);
+    printf(""%dの約数の総和は%d"",x,count);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(10%i == 0){
+            int wari = 10/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}",,"file0.code.c: In function 'main':
+file0.code.c:12:5: error: 'count' undeclared (first use in this function)
+   12 |     count = yakusum1(int x);
+      |     ^~~~~
+file0.code.c:12:5: note: each undeclared identifier is reported only once for each function it appears in
+file0.code.c:12:22: error: expected expression before 'int'
+   12 |     count = yakusum1(int x);
+      |                      ^~~
+chmod: cannot access 'a.out': No such file or directory
+",,,,
+2025-12-18T06:55:50.429Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、10%i==0のとき、10/iをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    count = yakusum1(int x);
+    printf(""%dの約数の総和は%d"",x,count);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(10%i == 0){
+            int wari = 10/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}",,,,,,
+2025-12-18T06:56:00.424Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、10%i==0のとき、10/iをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int count = yakusum1(int x);
+    printf(""%dの約数の総和は%d"",x,count);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(10%i == 0){
+            int wari = 10/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}",,,,,,
+2025-12-18T06:56:03.177Z,user_022,user22,39,run,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、10%i==0のとき、10/iをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int count = yakusum1(int x);
+    printf(""%dの約数の総和は%d"",x,count);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(10%i == 0){
+            int wari = 10/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}",,"file0.code.c: In function 'main':
+file0.code.c:12:26: error: expected expression before 'int'
+   12 |     int count = yakusum1(int x);
+      |                          ^~~
+chmod: cannot access 'a.out': No such file or directory
+",,,,
+2025-12-18T06:56:09.809Z,user_022,user22,39,run,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、10%i==0のとき、10/iをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int count = yakusum1(int x);
+    printf(""%dの約数の総和は%d"",x,count);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(10%i == 0){
+            int wari = 10/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}",,"file0.code.c: In function 'main':
+file0.code.c:12:26: error: expected expression before 'int'
+   12 |     int count = yakusum1(int x);
+      |                          ^~~
+chmod: cannot access 'a.out': No such file or directory
+",,,,
+2025-12-18T06:56:46.285Z,user_022,user22,39,run,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、10%i==0のとき、10/iをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int count = yakusum1(int x);
+    printf(""%dの約数の総和は%d"",x,count);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(10%i == 0){
+            int wari = 10/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}",,"file0.code.c: In function 'main':
+file0.code.c:12:26: error: expected expression before 'int'
+   12 |     int count = yakusum1(int x);
+      |                          ^~~
+chmod: cannot access 'a.out': No such file or directory
+",,,,
+2025-12-18T06:57:30.423Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、10%i==0のとき、10/iをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    count = yakusum1(int x);
+    printf(""%dの約数の総和は%d"",x,count);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(10%i == 0){
+            int wari = 10/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}",,,,,,
+2025-12-18T06:57:31.527Z,user_022,user22,39,run,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、10%i==0のとき、10/iをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    count = yakusum1(int x);
+    printf(""%dの約数の総和は%d"",x,count);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(10%i == 0){
+            int wari = 10/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}",,"file0.code.c: In function 'main':
+file0.code.c:12:5: error: 'count' undeclared (first use in this function)
+   12 |     count = yakusum1(int x);
+      |     ^~~~~
+file0.code.c:12:5: note: each undeclared identifier is reported only once for each function it appears in
+file0.code.c:12:22: error: expected expression before 'int'
+   12 |     count = yakusum1(int x);
+      |                      ^~~
+chmod: cannot access 'a.out': No such file or directory
+",,,,
+2025-12-18T06:57:40.424Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、10%i==0のとき、10/iをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    charcount = yakusum1(int x);
+    printf(""%dの約数の総和は%d"",x,count);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(10%i == 0){
+            int wari = 10/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}",,,,,,
+2025-12-18T06:57:50.427Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、10%i==0のとき、10/iをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int count = yakusum1(int x);
+    printf(""%dの約数の総和は%d"",x,count);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(10%i == 0){
+            int wari = 10/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}",,,,,,
+2025-12-18T06:58:11.570Z,user_022,user22,39,run,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、10%i==0のとき、10/iをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int count = yakusum1(int x);
+    printf(""%dの約数の総和は%d"",x,count);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(10%i == 0){
+            int wari = 10/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}",,"file0.code.c: In function 'main':
+file0.code.c:12:26: error: expected expression before 'int'
+   12 |     int count = yakusum1(int x);
+      |                          ^~~
+chmod: cannot access 'a.out': No such file or directory
+",,,,
+2025-12-18T06:59:04.873Z,user_022,user22,39,run,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、10%i==0のとき、10/iをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int count = yakusum1(int a);
+    printf(""%dの約数の総和は%d"",x,count);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(10%i == 0){
+            int wari = 10/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}",,"file0.code.c: In function 'main':
+file0.code.c:12:26: error: expected expression before 'int'
+   12 |     int count = yakusum1(int a);
+      |                          ^~~
+chmod: cannot access 'a.out': No such file or directory
+",,,,
+2025-12-18T06:59:10.429Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、10%i==0のとき、10/iをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int count = yakusum1(int a);
+    printf(""%dの約数の総和は%d"",x,count);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(10%i == 0){
+            int wari = 10/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}",,,,,,
+2025-12-18T06:59:20.424Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、10%i==0のとき、10/iをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int count = yakusum1(int x);
+    printf(""%dの約数の総和は%d"",x,count);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(10%i == 0){
+            int wari = 10/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}",,,,,,
+2025-12-18T06:59:58.014Z,user_022,user22,39,ai-help,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、10%i==0のとき、10/iをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int count = yakusum1(int x);
+    printf(""%dの約数の総和は%d"",x,count);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(10%i == 0){
+            int wari = 10/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}",,,コード化,コードの整合性確認,"[{""level"": 1, ""text"": ""main関数：入力を読み込む"", ""status"": ""done""}, {""level"": 2, ""text"": ""main関数：yakusum1を呼び出して結果を受け取る"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""main関数：結果を表示する"", ""status"": ""in_progress""}, {""level"": 1, ""text"": ""関数yakusum1：約数の総和を計算する（count変数の初期化、ループ、条件判定、加算、戻り値）"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""yakusum1内：forループで1からaまで回す処理"", ""status"": ""done""}, {""level"": 3, ""text"": ""yakusum1内：割り算や条件で約数判定（現在は定数10を使っている）"", ""status"": ""in_progress""}, {""level"": 3, ""text"": ""yakusum1内：約数を合計する処理（現在は10/iを足している）"", ""status"": ""in_progress""}]","[{""level"": 1, ""text"": ""実行できる形になっているか確認しよう：コンパイルエラーや実行時の不具合をチェックしてみてください。""}, {""level"": 2, ""text"": ""呼び出しや表示の細部を見直そう：関数呼び出しの書き方やprintfの末尾の改行を確認すると正しく動きます。""}, {""level"": 3, ""text"": ""具体的に直す順序：1) mainでyakusum1を呼ぶときは型を入れずにyakusum1(x)とする。2) yakusum1内部で定数10ではなく引数aを使い、割り切れるかは(a % i == 0)で判定し、合計にはiを足す。3) 課題通り再帰で書くなら、yakusum1に現在調べる添字を渡す（例：yakusum1(n,i)）で、i>nのとき0を返すなどの基底を作る。""}]"
+2025-12-18T07:00:40.423Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、10%i==0のとき、10/iをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int count = yakusum1(x);
+    printf(""%dの約数の総和は%d"",x,count);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(10%i == 0){
+            int wari = 10/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}",,,,,,
+2025-12-18T07:01:00.422Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、10%i==0のとき、10/iをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int count = yakusum1(x);
+    printf(""%dの約数の総和は%d"",x,count);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(a%i == 0){
+            int wari = a/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}",,,,,,
+2025-12-18T07:01:10.421Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、a%i==0のとき、a/iをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int count = yakusum1(x);
+    printf(""%dの約数の総和は%d"",x,count);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(a%i == 0){
+            int wari = a/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}",,,,,,
+2025-12-18T07:01:49.239Z,user_022,user22,39,run,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、a%i==0のとき、a/iをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int count = yakusum1(x);
+    printf(""%dの約数の総和は%d"",x,count);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(a%i == 0){
+            int wari = a/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}",10の約数の総和は18,,,,,
+2025-12-18T07:02:30.424Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、a%i==0のとき、a/iをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int count = yakusum1(x);
+    printf(""%dの約数の総和は%d"",x,count);
+    
+    return 0;
+}
+
+int yakusum1(a,i){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(a%i == 0){
+            int wari = a/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}",,,,,,
+2025-12-18T07:02:36.738Z,user_022,user22,39,run,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、a%i==0のとき、a/iをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int count = yakusum1(x);
+    printf(""%dの約数の総和は%d"",x,count);
+    
+    return 0;
+}
+
+int yakusum1(a,i){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(a%i == 0){
+            int wari = a/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}",,"file0.code.c: In function 'yakusum1':
+file0.code.c:18:5: warning: type of 'a' defaults to 'int' [-Wimplicit-int]
+   18 | int yakusum1(a,i){
+      |     ^~~~~~~~
+file0.code.c:18:5: warning: type of 'i' defaults to 'int' [-Wimplicit-int]
+file0.code.c:18:1: error: number of arguments doesn't match prototype
+   18 | int yakusum1(a,i){
+      | ^~~
+file0.code.c:2:5: error: prototype declaration
+    2 | int yakusum1(int a);
+      |     ^~~~~~~~
+chmod: cannot access 'a.out': No such file or directory
+",,,,
+2025-12-18T07:02:50.425Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、a%i==0のとき、a/iをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int count = yakusum1(x);
+    printf(""%dの約数の総和は%d"",x,count);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(a%i == 0){
+            int wari = a/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}",,,,,,
+2025-12-18T07:04:13.365Z,user_022,user22,39,run,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、a%i==0のとき、a/iをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int count = yakusum1(x);
+    printf(""%dの約数の総和は%d"",x,count);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(a%i == 0){
+            int wari = a/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}",10の約数の総和は18,,,,,
+2025-12-18T08:45:10.422Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、%i==0のとき、a/iをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int count = yakusum1(x);
+    printf(""%dの約数の総和は%d"",x,count);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(a%i == 0){
+            int wari = a/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}",,,,,,
+2025-12-18T08:45:20.599Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、x%i==0のとき、x/iをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int count = yakusum1(x);
+    printf(""%dの約数の総和は%d"",x,count);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(a%i == 0){
+            int wari = a/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}",,,,,,
+2025-12-18T08:47:40.426Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、x%i==0のとき、x/iをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int count = yakusum1(x);
+    printf(""%dの約数の総和は%d"",x,count);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(a%i == 0){
+            int wari = a/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}
+
+
+
+int yakusum1(int a){
+    static int n = 0;     // 元の入力値を保持
+    static int i = 1;     // 1～n を回すためのカウンタ
+    static int sum = 0;   // 約数の総和
+
+    // 最初の呼び出しだけ初期化
+    if (n == 0) {
+        if (a <= 0) return 0;  // 必要ならエラー処理に変えてOK
+        n = a;
+        i = 1;
+        sum = 0;
+    }
+
+    // 終了条件
+    if (i > n) {
+        int ans = sum;
+        n = 0;   // 次回呼び出しに備えてリセット
+        return ans;
+    }
+
+    // 元のforの中身
+    if (n % i == 0) {
+        sum += n / i;
+    }
+
+    i++;
+    return yakusum1(a); // 次へ（再帰）
+}
+※注意：static を使ってるので、同時に複数回計算したり（別スレッド等）には向かないけど、課題レベルならこれでOKです。
+
+
+
+
+
+
+
+
+
+
+Extended thinking
+
+
+",,,,,,
+2025-12-18T08:47:50.429Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、x%i==0のとき、x/iをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int count = yakusum1(x);
+    printf(""%dの約数の総和は%d"",x,count);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(a%i == 0){
+            int wari = a/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}
+
+
+
+int yakusum1(int a){
+    static int n = 0;     // 元の入力値を保持
+    static int i = 1;     // 1～n を回すためのカウンタ
+    static int sum = 0;   // 約数の総和
+
+    // 最初の呼び出しだけ初期化
+    if (n == 0) {
+        if (a <= 0) return 0;  // 必要ならエラー処理に変えてOK
+        n = a;
+        i = 1;
+        sum = 0;
+    }
+
+    // 終了条件
+    if (i > n) {
+        int ans = sum;
+        n = 0;   // 次回呼び出しに備えてリセット
+        return ans;
+    }
+
+    // 元のforの中身
+    if (n % i == 0) {
+        sum += n / i;
+    }
+
+    i++;
+    return yakusum1(a); // 次へ（再帰）
+}",,,,,,
+2025-12-18T08:49:20.426Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、x%i==0のとき、x/iをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int count = yakusum1(x);
+    printf(""%dの約数の総和は%d"",x,count);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(a%i == 0){
+            int wari = a/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}
+
+
+
+int yakusum1(int a, int i){
+    if (i > a) return 0;                // 終了条件
+
+    if (a % i == 0) {
+        return (a / i) + yakusum1(a, i + 1);
+    } else {
+        return yakusum1(a, i + 1);
+    }
+}",,,,,,
+2025-12-18T08:49:30.425Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a,int i);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、x%i==0のとき、x/iをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int count = yakusum1(x);
+    printf(""%dの約数の総和は%d"",x,count);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(a%i == 0){
+            int wari = a/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}
+
+
+
+int yakusum1(int a, int i){
+    if (i > a) return 0;                // 終了条件
+
+    if (a % i == 0) {
+        return (a / i) + yakusum1(a, i + 1);
+    } else {
+        return yakusum1(a, i + 1);
+    }
+}",,,,,,
+2025-12-18T08:49:40.597Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a,int i);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、x%i==0のとき、x/iをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int count = yakusum1(x,);
+    printf(""%dの約数の総和は%d"",x,count);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(a%i == 0){
+            int wari = a/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}
+
+
+
+int yakusum1(int a, int i){
+    if (i > a) return 0;                // 終了条件
+
+    if (a % i == 0) {
+        return (a / i) + yakusum1(a, i + 1);
+    } else {
+        return yakusum1(a, i + 1);
+    }
+}",,,,,,
+2025-12-18T08:49:50.428Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a,int i);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、x%i==0のとき、x/iをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int count = yakusum1(x,1);
+    printf(""%dの約数の総和は%d"",x,count);
+    
+    return 0;
+}
+
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(a%i == 0){
+            int wari = a/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}
+
+
+
+int yakusum1(int a, int i){
+    if (i > a) return 0;                // 終了条件
+
+    if (a % i == 0) {
+        return (a / i) + yakusum1(a, i + 1);
+    } else {
+        return yakusum1(a, i + 1);
+    }
+}",,,,,,
+2025-12-18T08:50:00.422Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a,int i);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、x%i==0のとき、x/iをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int count = yakusum1(x,1);
+    printf(""%dの約数の総和は%d"",x,count);
+    
+    return 0;
+}
+
+/*
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(a%i == 0){
+            int wari = a/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}*/
+
+
+
+int yakusum1(int a, int i){
+    if (i > a) return 0;                // 終了条件
+
+    if (a % i == 0) {
+        return (a / i) + yakusum1(a, i + 1);
+    } else {
+        return yakusum1(a, i + 1);
+    }
+}",,,,,,
+2025-12-18T08:51:41.269Z,user_022,user22,39,run,"#include <stdio.h>
+int yakusum1(int a,int i);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、x%i==0のとき、x/iをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int count = yakusum1(x,1);
+    printf(""%dの約数の総和は%d"",x,count);
+    
+    return 0;
+}
+
+/*
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(a%i == 0){
+            int wari = a/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}*/
+
+
+
+int yakusum1(int a, int i){
+    if (i > a) return 0;                // 終了条件
+
+    if (a % i == 0) {
+        return (a / i) + yakusum1(a, i + 1);
+    } else {
+        return yakusum1(a, i + 1);
+    }
+}",10の約数の総和は18,,,,,
+2025-12-18T08:51:42.253Z,user_022,user22,39,run,"#include <stdio.h>
+int yakusum1(int a,int i);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、x%i==0のとき、x/iをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int count = yakusum1(x,1);
+    printf(""%dの約数の総和は%d"",x,count);
+    
+    return 0;
+}
+
+/*
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(a%i == 0){
+            int wari = a/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}*/
+
+
+
+int yakusum1(int a, int i){
+    if (i > a) return 0;                // 終了条件
+
+    if (a % i == 0) {
+        return (a / i) + yakusum1(a, i + 1);
+    } else {
+        return yakusum1(a, i + 1);
+    }
+}",10の約数の総和は18,,,,,
+2025-12-18T08:52:00.430Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a,int i);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、x%i==0のとき、x/iをカウント*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int count = yakusum1(x,1);
+    printf(""%dの約数の総和は%d"",x,count);
+    
+    return 0;
+}
+
+/*
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(a%i == 0){
+            int wari = a/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}*/
+
+
+
+int yakusum1(int a, int i){
+    if (i > a) return 0;
+
+    if (a % i == 0) {
+        return (a / i) + yakusum1(a, i + 1);
+    } else {
+        return yakusum1(a, i + 1);
+    }
+}",,,,,,
+2025-12-18T08:54:50.427Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a,int i);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、x%i==0のとき、x/iをカウント*/
+    /*x%i==0のとき、x/iをｓ*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int count = yakusum1(x,1);
+    printf(""%dの約数の総和は%d"",x,count);
+    
+    return 0;
+}
+
+/*
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(a%i == 0){
+            int wari = a/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}*/
+
+
+
+int yakusum1(int a, int i){
+    if (i > a) return 0;
+
+    if (a % i == 0) {
+        return (a / i) + yakusum1(a, i + 1);
+    } else {
+        return yakusum1(a, i + 1);
+    }
+}",,,,,,
+2025-12-18T08:55:00.428Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a,int i);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、x%i==0のとき、x/iをカウント*/
+    /*x%i==0のとき、x/iを再帰関数で*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int count = yakusum1(x,1);
+    printf(""%dの約数の総和は%d"",x,count);
+    
+    return 0;
+}
+
+/*
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(a%i == 0){
+            int wari = a/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}*/
+
+
+
+int yakusum1(int a, int i){
+    if (i > a) return 0;
+
+    if (a % i == 0) {
+        return (a / i) + yakusum1(a, i + 1);
+    } else {
+        return yakusum1(a, i + 1);
+    }
+}",,,,,,
+2025-12-18T08:55:10.429Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a,int i);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、x%i==0のとき、x/iをカウント*/
+    /*x%i==0のとき、x/iを再帰関数でたしｓ*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int count = yakusum1(x,1);
+    printf(""%dの約数の総和は%d"",x,count);
+    
+    return 0;
+}
+
+/*
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(a%i == 0){
+            int wari = a/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}*/
+
+
+
+int yakusum1(int a, int i){
+    if (i > a) return 0;
+
+    if (a % i == 0) {
+        return (a / i) + yakusum1(a, i + 1);
+    } else {
+        return yakusum1(a, i + 1);
+    }
+}",,,,,,
+2025-12-18T08:55:20.427Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a,int i);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、x%i==0のとき、x/iをカウント*/
+    ・＊：？
+    /*x%i==0のとき、x/iを再帰関数で足し合わせる*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int count = yakusum1(x,1);
+    printf(""%dの約数の総和は%d"",x,count);
+    
+    return 0;
+}
+
+/*
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(a%i == 0){
+            int wari = a/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}*/
+
+
+
+int yakusum1(int a, int i){
+    if (i > a) return 0;
+
+    if (a % i == 0) {
+        return (a / i) + yakusum1(a, i + 1);
+    } else {
+        return yakusum1(a, i + 1);
+    }
+}",,,,,,
+2025-12-18T08:55:30.421Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a,int i);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、x%i==0のとき、x/iをカウント*/
+    /**/
+    /*x%i==0のとき、x/iを再帰関数で足し合わせる*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int count = yakusum1(x,1);
+    printf(""%dの約数の総和は%d"",x,count);
+    
+    return 0;
+}
+
+/*
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(a%i == 0){
+            int wari = a/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}*/
+
+
+
+int yakusum1(int a, int i){
+    if (i > a) return 0;
+
+    if (a % i == 0) {
+        return (a / i) + yakusum1(a, i + 1);
+    } else {
+        return yakusum1(a, i + 1);
+    }
+}",,,,,,
+2025-12-18T08:55:50.434Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a,int i);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、x%i==0のとき、x/iをカウント*/
+    /*x<*/
+    /*x%i==0のとき、x/iを再帰関数で足し合わせる*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int count = yakusum1(x,1);
+    printf(""%dの約数の総和は%d"",x,count);
+    
+    return 0;
+}
+
+/*
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(a%i == 0){
+            int wari = a/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}*/
+
+
+
+int yakusum1(int a, int i){
+    if (i > a) return 0;
+
+    if (a % i == 0) {
+        return (a / i) + yakusum1(a, i + 1);
+    } else {
+        return yakusum1(a, i + 1);
+    }
+}",,,,,,
+2025-12-18T08:56:00.427Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a,int i);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、x%i==0のとき、x/iをカウント*/
+    /*x < */
+    /*x%i==0のとき、x/iを再帰関数で足し合わせる*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int count = yakusum1(x,1);
+    printf(""%dの約数の総和は%d"",x,count);
+    
+    return 0;
+}
+
+/*
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(a%i == 0){
+            int wari = a/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}*/
+
+
+
+int yakusum1(int a, int i){
+    if (i > a) return 0;
+
+    if (a % i == 0) {
+        return (a / i) + yakusum1(a, i + 1);
+    } else {
+        return yakusum1(a, i + 1);
+    }
+}",,,,,,
+2025-12-18T08:56:20.426Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a,int i);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、x%i==0のとき、x/iをカウント*/
+    /*入力値x < */
+    /*x%i==0のとき、x/iを再帰関数で足し合わせる*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int count = yakusum1(x,1);
+    printf(""%dの約数の総和は%d"",x,count);
+    
+    return 0;
+}
+
+/*
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(a%i == 0){
+            int wari = a/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}*/
+
+
+
+int yakusum1(int a, int i){
+    if (i > a) return 0;
+
+    if (a % i == 0) {
+        return (a / i) + yakusum1(a, i + 1);
+    } else {
+        return yakusum1(a, i + 1);
+    }
+}",,,,,,
+2025-12-18T08:56:50.431Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a,int i);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、x%i==0のとき、x/iをカウント*/
+    /*入力値xi*/
+    /*x%i==0のとき、x/iを再帰関数で足し合わせる*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int count = yakusum1(x,1);
+    printf(""%dの約数の総和は%d"",x,count);
+    
+    return 0;
+}
+
+/*
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(a%i == 0){
+            int wari = a/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}*/
+
+
+
+int yakusum1(int a, int i){
+    if (i > a) return 0;
+
+    if (a % i == 0) {
+        return (a / i) + yakusum1(a, i + 1);
+    } else {
+        return yakusum1(a, i + 1);
+    }
+}",,,,,,
+2025-12-18T08:57:10.425Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a,int i);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、x%i==0のとき、x/iをカウント*/
+    /*入力値xよりもi*/
+    /*x%i==0のとき、x/iを再帰関数で足し合わせる*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int count = yakusum1(x,1);
+    printf(""%dの約数の総和は%d"",x,count);
+    
+    return 0;
+}
+
+/*
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(a%i == 0){
+            int wari = a/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}*/
+
+
+
+int yakusum1(int a, int i){
+    if (i > a) return 0;
+
+    if (a % i == 0) {
+        return (a / i) + yakusum1(a, i + 1);
+    } else {
+        return yakusum1(a, i + 1);
+    }
+}",,,,,,
+2025-12-18T08:58:20.421Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a,int i);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、x%i==0のとき、x/iをカウント*/
+    /*入力値xよりもi++していくとき*/
+    /*x%i==0のとき、x/iを再帰関数で足し合わせる*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int count = yakusum1(x,1);
+    printf(""%dの約数の総和は%d"",x,count);
+    
+    return 0;
+}
+
+/*
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(a%i == 0){
+            int wari = a/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}*/
+
+
+
+int yakusum1(int a, int i){
+    if (i > a) return 0;
+
+    if (a % i == 0) {
+        return (a / i) + yakusum1(a, i + 1);
+    } else {
+        return yakusum1(a, i + 1);
+    }
+}",,,,,,
+2025-12-18T08:58:40.427Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a,int i);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、x%i==0のとき、x/iをカウント*/
+    /*入力値xよりもi=1からi++していくときi<x*/
+    /*x%i==0のとき、x/iを再帰関数で足し合わせる*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int count = yakusum1(x,1);
+    printf(""%dの約数の総和は%d"",x,count);
+    
+    return 0;
+}
+
+/*
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(a%i == 0){
+            int wari = a/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}*/
+
+
+
+int yakusum1(int a, int i){
+    if (i > a) return 0;
+
+    if (a % i == 0) {
+        return (a / i) + yakusum1(a, i + 1);
+    } else {
+        return yakusum1(a, i + 1);
+    }
+}",,,,,,
+2025-12-18T08:58:50.426Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a,int i);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*繰り返し文で、iが1~xまでの間、x%i==0のとき、x/iをカウント*/
+    /*入力値xよりもi=1からi++していくときi<xである範囲*/
+    /*x%i==0のとき、x/iを再帰関数で足し合わせる*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int count = yakusum1(x,1);
+    printf(""%dの約数の総和は%d"",x,count);
+    
+    return 0;
+}
+
+/*
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(a%i == 0){
+            int wari = a/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}*/
+
+
+
+int yakusum1(int a, int i){
+    if (i > a) return 0;
+
+    if (a % i == 0) {
+        return (a / i) + yakusum1(a, i + 1);
+    } else {
+        return yakusum1(a, i + 1);
+    }
+}",,,,,,
+2025-12-18T09:00:40.433Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a,int i);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /*×繰り返し文で、iが1~xまでの間、x%i==0のとき、x/iをカウント*/
+    /*入力値xよりもi=1からi++していくときi<xである範囲*/
+    /*x%i==0のとき、x/iを再帰関数で足し合わせる*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int count = yakusum1(x,1);
+    printf(""%dの約数の総和は%d"",x,count);
+    
+    return 0;
+}
+
+/*
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(a%i == 0){
+            int wari = a/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}*/
+
+
+
+int yakusum1(int a, int i){
+    if (i > a) return 0;
+
+    if (a % i == 0) {
+        return (a / i) + yakusum1(a, i + 1);
+    } else {
+        return yakusum1(a, i + 1);
+    }
+}",,,,,,
+2025-12-18T09:00:50.428Z,user_022,user22,39,auto_save,"#include <stdio.h>
+int yakusum1(int a,int i);
+
+int main(void) {
+    /*入力:1つの整数x, 出力:入力値の約数の総和*/
+    /*入力値の約数を求める　たとえば10の約数は、1,2,5,10*/
+    /* ×繰り返し文で、iが1~xまでの間、x%i==0のとき、x/iをカウント*/
+    /*入力値xよりもi=1からi++していくときi<xである範囲*/
+    /*x%i==0のとき、x/iを再帰関数で足し合わせる*/
+    
+    int x;
+    scanf(""%d"",&x);
+    
+    int count = yakusum1(x,1);
+    printf(""%dの約数の総和は%d"",x,count);
+    
+    return 0;
+}
+
+/*
+int yakusum1(int a){
+    int count = 0;
+    for(int i=1;i<=a;i++){
+        if(a%i == 0){
+            int wari = a/i;
+            count = count + wari;
+        }
+    }
+    return count;
+}*/
+
+
+
+int yakusum1(int a, int i){
+    if (i > a) return 0;
+
+    if (a % i == 0) {
+        return (a / i) + yakusum1(a, i + 1);
+    } else {
+        return yakusum1(a, i + 1);
+    }
+}",,,,,,

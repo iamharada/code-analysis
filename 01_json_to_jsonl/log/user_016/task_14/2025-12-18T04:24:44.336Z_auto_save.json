@@ -1,0 +1,1 @@
+{"timestamp":"2025-12-18T04:24:44.336Z","username":"user16","userId":"user_016","taskNumber":"14","event":"auto_save","code":"#include <stdio.h>\n\nint main(void) {\n    float a,b,c;/*入力:3つの実数, 出力:三角形の形状判定*/\n    scanf(\"%f %f %f,&a,&b,&c);\n    //三角形の成立を判定\n    　　//成立なら三角形の種類を判定\n    //エラー\n\n    return 0;\n}"}

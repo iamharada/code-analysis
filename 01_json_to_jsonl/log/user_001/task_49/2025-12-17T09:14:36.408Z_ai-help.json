@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-12-17T09:14:36.408Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, \n    出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n    // 1. 入力を受け取る\n    // 2. tri3を呼ぶ\n    // 3. COUNTは n*(n+1)/2 で計算して表示\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：処理全体の入口（入力受け取り、tri3呼び出し、COUNT表示）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力を受け取る（整数nをscanfで読む）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "tri3を呼び出す（再帰で三角形を出力）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "COUNTの計算・表示（合計を出力する）",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "tri3関数（設計のみコメントあり、未実装）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "line3関数（1行分の'*'を出力しカウンタを増やす処理、未実装）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まずコメントの中で「何を実装できるか」を見つけてください。入力読み取りやCOUNTの計算はすぐ書けます。"
+    },
+    {
+      "level": 2,
+      "text": "mainでscanfでnを読み取り、tri3を呼ぶ形を先に書いてみましょう。COUNT用の変数を用意して渡す方法を考えてください。"
+    },
+    {
+      "level": 3,
+      "text": "tri3は引数にnとカウンタへの参照（またはポインタ）を取り、n==0で終了、そうでなければline3で'*'を出力してカウンタを増やしtri3(n-1,...)を呼ぶ設計にしてください。"
+    }
+  ]
+}

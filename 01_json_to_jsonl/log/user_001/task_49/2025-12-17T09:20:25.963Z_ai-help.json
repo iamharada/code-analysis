@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-12-17T09:20:25.963Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, \n    出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n    // 1. 入力を受け取る\n    // 2. tri3を呼ぶ\n    // 3. COUNTは n*(n+1)/2 で計算して表示\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数: 入力を受け取り、tri3を呼び、COUNTを表示する流れをコメントで記述している",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力を受け取る（scanfで整数を読む）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "tri3を呼ぶ（再帰で各行を出力する関数を使う）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "COUNTを計算して表示する（コメントでは n*(n+1)/2 とある）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "今書いてあるコメントのうち、そのままコードにできる部分を見つけてください。"
+    },
+    {
+      "level": 2,
+      "text": "tri3 と line3 の関数を用意し、カウント増加のためにカウンタを参照で渡す設計を考えてみてください。"
+    },
+    {
+      "level": 3,
+      "text": "関数案：tri3(int n,int *count)は行数nを再帰で処理し、各行でline3(k,count)を呼ぶ。line3は'*'を1つ出力するごとに(*count)++する。mainはscanfでnを読みtri3(n,&count)後に printf(\"COUNT=%d\\n\",count) を行ってください。"
+    }
+  ]
+}

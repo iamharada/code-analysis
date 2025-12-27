@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-12-24T16:01:18.357Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n    //入力を受け付ける。\n    //計算する。\n    //出力する。\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の大枠決定",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：プログラム全体の流れを管理する",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力を受け付ける（整数 n を読み取る）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "計算する（パスカルの三角形を二次元配列と繰り返しで作る）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "出力する（%3d で各要素を右揃えして印字する）",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "全体の流れをもう一度確認しよう：入力 → 生成（計算） → 出力 の順で考えてください。"
+    },
+    {
+      "level": 2,
+      "text": "必要な大きなステップを書き出そう：入力取得、二次元配列の用意、要素の計算、整形して出力、の順で分けて考えると楽です。"
+    },
+    {
+      "level": 3,
+      "text": "まず main で n を読み取り、別に pascal(n) 関数を作る。pascal 内で二次元配列を用意し、端は1、内部は上の行の左右を足して埋め、printf(\"%3d\",…)で出力する。"
+    }
+  ]
+}

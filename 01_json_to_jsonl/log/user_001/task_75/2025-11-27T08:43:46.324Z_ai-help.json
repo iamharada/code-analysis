@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-11-27T08:43:46.324Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n    //入力を受け付ける。\n    //パスカルの三角形を計算する。\n    //出力する。\n    return 0;\n}\n\n//パスカルの三角形を計算する関数を作成する",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：入力を受け取り、計算して出力する全体の流れをコメントで記述している",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main内の処理：入力を受け付ける（scanfなどで整数を読む）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "main内の処理：パスカルの三角形を計算する（コメントで示しているが未実装）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "main内の処理：計算結果を整形して出力する（%3dを使う旨の指示あり、未実装）",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "pascal関数（別関数）の作成：作成を示すコメントのみで、関数本体は未実装",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まずはコメントの順（入力→計算→出力）をそのまま実装してみましょう。小さなステップで動作を確認してください。"
+    },
+    {
+      "level": 2,
+      "text": "計算部分は別関数にまとめると分かりやすくなります。関数は n と二次元配列を受け取り、ループで値を埋める設計を考えてください。"
+    },
+    {
+      "level": 3,
+      "text": "scanfでnを読み、int a[10][10]などの配列を用意。pascalでは a[i][0]=a[i][i]=1、内側は a[i][j]=a[i-1][j-1]+a[i-1][j]で計算し、printfで%3dを使って各行を出力、行末で改行してください。"
+    }
+  ]
+}

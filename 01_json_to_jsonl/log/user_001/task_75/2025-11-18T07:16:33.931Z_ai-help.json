@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-11-18T07:16:33.931Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:その行数までのパスカルの三角形*/\n    \n}\n\n\n",
+  "estimated_stage": "課題の理解",
+  "next_stage": "処理の大枠決定",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数の雛形がある（入力と出力の目的がコメントに記載）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "整数を標準入力から読み取る処理",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "その行数までのパスカルの三角形を作成して出力する処理",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題の要件をもう一度確認しよう：入力は1〜10、出力は余計な空白や空行を入れないこと。"
+    },
+    {
+      "level": 2,
+      "text": "まず大枠を書こう：入力取得 → 三角形の値を作る → 指定の書式（%3d）で出力、の順にコメント化してみて。"
+    },
+    {
+      "level": 3,
+      "text": "各ステップを細分化してコメントに書こう：配列のサイズ決定、端の1の設定、隣接要素の和で計算するループ、出力の整形など。"
+    }
+  ]
+}

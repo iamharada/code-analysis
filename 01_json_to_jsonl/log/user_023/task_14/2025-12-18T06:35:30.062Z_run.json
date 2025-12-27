@@ -1,0 +1,10 @@
+{
+  "timestamp": "2025-12-18T06:35:30.062Z",
+  "username": "user23",
+  "userId": "user_023",
+  "taskNumber": "14",
+  "event": "run",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    int a,b,c;\n    /*入力:3つの実数値, 出力:三角形の種類かError*/\n    scanf(\"%d %d %d\",&a,&b,&c);\n    /*三角形が成立するかを判定する*/\n    if(a>b+c){\n        printf(\"Error\");\n      /*三角形が直角三角形か鈍角三角形か鋭角三角形かを判定する*/\n    else{\n        if(a^2<b^2+c^2){\n            printf(\"鋭角三角形\");\n        }else if(a^2=b^2+c^2){\n            printf(\"直角三角形\");\n        }else{\n            printf(\"鈍角三角形\");\n        }  \n    return 0;\n}",
+  "stdout": "",
+  "stderr": "file0.code.c: In function 'main':\nfile0.code.c:11:5: error: expected '}' before 'else'\n   11 |     else{\n      |     ^~~~\nfile0.code.c:14:21: error: lvalue required as left operand of assignment\n   14 |         }else if(a^2=b^2+c^2){\n      |                     ^\nfile0.code.c:20:1: error: expected declaration or statement at end of input\n   20 | }\n      | ^\nchmod: cannot access 'a.out': No such file or directory\n"
+}

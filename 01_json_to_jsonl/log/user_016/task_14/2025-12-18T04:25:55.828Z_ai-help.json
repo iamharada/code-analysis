@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-12-18T04:25:55.828Z",
+  "username": "user16",
+  "userId": "user_016",
+  "taskNumber": "14",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    float a,b,c;/*入力:3つの実数, 出力:三角形の形状判定*/\n    scanf(\"%f %f %f,&a,&b,&c);\n    //三角形の成立を判定\n    　　//成立なら三角形の種類を判定\n        //不成立ならエラーを出力\n\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数全体（変数宣言・入力・判定・出力の流れ）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "変数宣言 (float a, b, c)",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "入力を受け取る（scanf）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "三角形の成立を判定する（コメントあり）",
+      "status": "todo"
+    },
+    {
+      "level": 3,
+      "text": "成立なら三角形の種類を判定する（コメントあり）",
+      "status": "todo"
+    },
+    {
+      "level": 3,
+      "text": "不成立ならエラーを出力する（コメントあり）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "今のコメントを見て、どれを細かく決める必要があるかを確認しよう。特に「成立判定」と「種類判定」を分けて考えてください。"
+    },
+    {
+      "level": 2,
+      "text": "手順は：入力を読み、（問題文の通りaが最大と仮定して）成立判定をし、成立なら角の判定をして出力する、という順序を考えてみてください。"
+    },
+    {
+      "level": 3,
+      "text": "まずscanfの書式を直し（例: scanf(\"%f %f %f\", &a, &b, &c);）、a < b + c なら成立。成立時は a*a と b*b + c*c を比較して直角/鋭角/鈍角を判定し、不成立なら \"Error\\n\" を出力してください。"
+    }
+  ]
+}

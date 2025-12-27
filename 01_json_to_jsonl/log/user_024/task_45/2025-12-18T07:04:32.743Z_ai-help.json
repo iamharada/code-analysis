@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-12-18T07:04:32.743Z",
+  "username": "user24",
+  "userId": "user_024",
+  "taskNumber": "45",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:一つの整数値, 出力:上位・下位を入れ替えた値*/\n    int a,b;\n    scanf(\"%d\",&a);//出力を読み込む\n    b=a;\n    for(int i;b>10;i++){\n        b==b/10;\n    }\n    int reverse4(int n){\n        \n    //再起関数を用いて位を入れ替える\n    //出力する\n\n    return 0;\n}",
+  "estimated_stage": "コード化",
+  "next_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：入力読み込みと処理の起点",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "scanfで整数を読み込む",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "変数bにaを代入する",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "桁数を求めようとするforループ（実装が誤っている）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main内にreverse4を定義している（本体未実装）",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "reverse4関数：再帰で位を入れ替える処理を担当（本体が空）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "コメント通りにまず役割を整理しよう：入力を受け取り、reverse4で反転して出力する流れを意識して。"
+    },
+    {
+      "level": 2,
+      "text": "関数はmainの外に置き、必要ならプロトタイプを上に宣言してからmainで呼ぶようにしよう。"
+    },
+    {
+      "level": 3,
+      "text": "reverse4は再帰で n%10 を出力してから reverse4(n/10) を呼ぶ実装にし、mainで呼んだ後に改行を出そう。"
+    }
+  ]
+}

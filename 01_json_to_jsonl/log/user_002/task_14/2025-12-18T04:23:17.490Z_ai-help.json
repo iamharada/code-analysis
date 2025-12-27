@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-12-18T04:23:17.490Z",
+  "username": "user2",
+  "userId": "user_002",
+  "taskNumber": "14",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:三つの実数, 出力:三角形の形状判定*/\n    float a;//入力を受け付ける\n    //三角形の成立判定\n        //成立する場合：三角形の種類の判定\n            //\n        //成立しない場合：エラー\n    //出力\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数全体の骨組み（入力・判定・出力）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力を受け付ける（コメントあり、変数宣言が途中）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "三角形の成立判定（コメントのみ）",
+      "status": "todo"
+    },
+    {
+      "level": 3,
+      "text": "成立する場合：三角形の種類の判定（コメントのみ）",
+      "status": "todo"
+    },
+    {
+      "level": 3,
+      "text": "成立しない場合：エラー出力（コメントのみ）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "出力（コメントのみ）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "今のコメントが大枠を書いているか確認して、どの部分が未具体化か見つけよう。"
+    },
+    {
+      "level": 2,
+      "text": "具体化すべきは「入力で何を受け取るか」「成立条件」「成立したときの判定方法」「出力内容」の4点だと考えてみてください。"
+    },
+    {
+      "level": 3,
+      "text": "まず3つの実数を変数a,b,cで読み込み、問題文通り最初の入力aが最大と仮定して:a<b+cなら成立、そうでなければ\"Error\"を出力。成立時はa*aとb*b+c*cを比較して直角/鋭角/鈍角を決めて改行で出力してください。"
+    }
+  ]
+}

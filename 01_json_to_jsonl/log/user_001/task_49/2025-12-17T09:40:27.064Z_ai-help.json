@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-12-17T09:40:27.064Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, \n    出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n    // 1. 入力を受け取る\n    // 2. tri3を呼ぶ\n    // 3. COUNTは n*(n+1)/2 で計算して表示\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の大枠決定",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：入力を受け取り、tri3を呼び、最後にCOUNTを表示する計画がコメントである",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "tri3（再帰）: 各行を処理するために行番号を増やしながらline3を呼ぶ役割（未実装）",
+      "status": "todo"
+    },
+    {
+      "level": 3,
+      "text": "line3（再帰）: 1行分の'*'を出力し、その出力タイミングでカウンタを増やす（未実装）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題の要件をもう一度確認して、再帰で'*'を出力しつつカウントする必要があることを確認しよう。"
+    },
+    {
+      "level": 2,
+      "text": "大きな手順を分けて考えよう：入力読み取り→再帰tri3で行ごと処理→line3で'*'出力とカウント→COUNT表示、を意識する。"
+    },
+    {
+      "level": 3,
+      "text": "大枠コメント例：1) nを読みcountを0に初期化。2) tri3(現在行=1,n,&count)を呼ぶ（行>nで終了）。3) 各行でline3が'*'を出力し出力時にcount++。最後にCOUNT=countを表示する。"
+    }
+  ]
+}

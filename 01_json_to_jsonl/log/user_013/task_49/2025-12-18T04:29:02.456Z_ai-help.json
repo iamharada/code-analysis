@@ -1,0 +1,76 @@
+{
+  "timestamp": "2025-12-18T04:29:02.456Z",
+  "username": "user13",
+  "userId": "user_013",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\nint tri(int n,int m); //tri関数\nint line(int n,int m); //line関数\n\nint main(void) {\n    /*入力:1つの整数値を入力, 出力:二等辺三角形をアスタリスクで作る*/\n    //入力をする\n    //整数n,mを定義する\n    //tri関数を再帰する\n    //line関数を再帰する\n    return 0;\n}\n\nint tri(int n,int m){\n    //一行目から入力値の行まで考える\n    　//line関数を呼び出す\n    　//n+1として再度呼び出し\n}\n\nint line(int n,int m){\n    //一列目から入力値の列まで考える\n    　//アスタリスクを出力\n    　//n+1として再度line関数を呼び出す\n}\n    ",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main: 全体の制御（変数定義・入力・再帰関数の呼び出し）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "変数定義（整数 n, m を定義する）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "入力を受け取る（scanf 等）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "tri 関数を呼び出して再帰的に行を作る",
+      "status": "in_progress"
+    },
+    {
+      "level": 1,
+      "text": "tri(int n,int m): 三角形の各行を処理する再帰関数（関数本体は未実装）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "tri の中で line を呼び出す（1行分を出力）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "tri の再帰呼び出しで次の行へ進める",
+      "status": "in_progress"
+    },
+    {
+      "level": 1,
+      "text": "line(int n,int m): 1行分のアスタリスクを出力する再帰関数（本体は未実装）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "line の中で '*' を出力して再帰で次の列へ進む",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "line の再帰終了条件（列が指定数に達したら戻る）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まずどのコメントを詳しく書くか決めよう：mainの入力、triとlineの中身が未定です。"
+    },
+    {
+      "level": 2,
+      "text": "tri と line の引数が何を表すか（行番号・列番号・カウンタ）と各関数の終了条件を決めてください。"
+    },
+    {
+      "level": 3,
+      "text": "具体的には：tri は現在の行を受け取り base case は行が入力値を超えたら終了、そうでなければ line を呼んでから tri の次行を呼ぶ。line は現在列を受け取り '*' を出力してカウンタを増やし、列が行数に達したら戻るようコメント化してから実装を始めてください。"
+    }
+  ]
+}

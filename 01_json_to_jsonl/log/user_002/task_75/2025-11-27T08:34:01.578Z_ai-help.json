@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-11-27T08:34:01.578Z",
+  "username": "user2",
+  "userId": "user_002",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n    //入力を受け付ける。\n    //パスカルの三角形を計算する。\n    //出力する。\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数の雛形（コメントで全体の流れを記述）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力を受け付ける（1つの整数を読み取る）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "パスカルの三角形を計算する（2次元配列と繰り返しを使う）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "出力する（%3dで右揃え、行ごとに改行、余計な空白なし）",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "パスカルの三角形のルールをもう一度確認しよう：端は1、内部は上の行の左右の和になるよ。"
+    },
+    {
+      "level": 2,
+      "text": "2次元配列のサイズ（最大10行）と初期値、ループの範囲（行iと列jの関係）を決めよう。"
+    },
+    {
+      "level": 3,
+      "text": "コメントで処理手順を書こう：nを読み取り、配列を初期化して、i=1..n-1, j=0..iで値を計算し、各行を%3dで出力する流れを明記してから実装を始めて。"
+    }
+  ]
+}

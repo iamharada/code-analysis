@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-11-26T20:23:34.760Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数n（1〜10）, 出力:各行を%3dで右揃えしてパスカルの三角形*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数: 入力を受け取り、パスカルの三角形を生成して出力する",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力値nを読み取る（1〜10）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "二次元配列を用意する（パスカルの三角形を格納）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "繰り返しで配列にパスカルの値を計算して格納する（隣接要素の和）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "配列の内容を%3dで右揃えして出力し、最後に改行で終える",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "return 0; で終了する",
+      "status": "done"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題文をもう一度読み、要求（関数名・二次元配列・%3dでの出力）を確認しましょう。"
+    },
+    {
+      "level": 2,
+      "text": "入力は整数n（1〜10）で、出力はn行のパスカルの三角形を%3dで右揃えして印字することを意識してください。"
+    },
+    {
+      "level": 3,
+      "text": "例を確認しましょう: 入力4なら行は「1」「1 1」「1 2 1」「1 3 3 1」と出力されます（各数を%3dで整形）。"
+    }
+  ]
+}

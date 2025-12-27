@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-12-18T05:02:46.130Z",
+  "username": "user10",
+  "userId": "user_010",
+  "taskNumber": "45",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n//再帰関数reverse4をつくる\nvoid  reverse4(int n){\n    if(n > 0){\n        printf(\"%d\", n % 10);\n        reverse4(n / 10);\n    }\n}\n\nint main(void) {\n    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/\n    //入力\n    int n;\n    scanf(\"%d\", &n);\n    reverse4(n);\n    //先頭の０を消したい\n    printf(\"\\n\");\n    return 0;\n}",
+  "estimated_stage": "コード化",
+  "next_stage": "コードの整合性確認",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "reverse4 関数：再帰で下位桁から順に n%10 を出力し n/10 で再帰する",
+      "status": "done"
+    },
+    {
+      "level": 1,
+      "text": "main 関数：整数を読み取り reverse4 を呼び、最後に改行を出力する",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "先頭の0を消す処理（コメントありだが実装されていない）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まずサンプル入力で実行し、出力が仕様通りか確認しましょう（改行や余計な文字がないかも確認）。"
+    },
+    {
+      "level": 2,
+      "text": "特に 1000 や 1200 のような入力で出力が先頭に0を含まないかを確かめ、期待する出力を決めましょう。"
+    },
+    {
+      "level": 3,
+      "text": "先頭の0を消すには「最初の非ゼロ桁が出るまで0の出力をスキップするフラグ」を使うか、出力を一度数値として扱う方法を実装して検証してみてください。"
+    }
+  ]
+}

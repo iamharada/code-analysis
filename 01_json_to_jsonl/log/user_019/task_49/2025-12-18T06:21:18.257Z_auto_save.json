@@ -1,0 +1,1 @@
+{"timestamp":"2025-12-18T06:21:18.257Z","username":"user19","userId":"user_019","taskNumber":"49","event":"auto_save","code":"#include <stdio.h>\nint tri3();\nint line3();\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n\n    return 0;\n}\n\n"}

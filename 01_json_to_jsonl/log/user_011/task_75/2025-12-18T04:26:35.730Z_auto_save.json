@@ -1,0 +1,1 @@
+{"timestamp":"2025-12-18T04:26:35.730Z","username":"user11","userId":"user_011","taskNumber":"75","event":"auto_save","code":"#include <stdio.h>\n\nint pascal(int n){\n    int i,j;\n    int pas[10][11];\n    /\n    for (i=0;i<n;i++){ //縦\n        \n    }\n}\n\nint main(void) {\n    /*入力:整数(三角形の高さ), 出力:パスカルの三角形(関数pascalを呼び出して表示)*/\n    int n;\n    return 0;\n}"}

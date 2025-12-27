@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-12-18T01:22:20.670Z",
+  "username": "user2",
+  "userId": "user_002",
+  "taskNumber": "84",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:二つの文字列, 出力:文字列を数値とみなした和*/\n    // 2つの文字列を受け付ける\n    // 出力する\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：プログラム全体の開始と終了を持つ",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "2つの文字列を受け付ける（コメントのみ）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "結果を出力する（コメントのみ）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "今あるコメントのどれを詳しく分解すべきか確認しよう: 入力→処理→出力の順を意識して。"
+    },
+    {
+      "level": 2,
+      "text": "処理を小さなステップに分けて書いてみよう: 文字列の桁分解、桁ごとの足し算、出力の順で考えると良い。"
+    },
+    {
+      "level": 3,
+      "text": "具体的には: 文字列長を取得→右端から逆順にint配列へ格納→最大桁までループで桁同士と繰り上がりを足し結果配列へ保存→結果配列を上位桁から出力する。"
+    }
+  ]
+}

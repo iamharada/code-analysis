@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-12-18T04:18:21.984Z",
+  "username": "user14",
+  "userId": "user_014",
+  "taskNumber": "84",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:int型の配列２つ, 出力:int型の配列１つ*/\n\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数の骨組みがある（処理の入口）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力: int型の配列2つ、出力: int型の配列1つ をコメントで想定している",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "プログラム終了を示す return 0; が実装済み",
+      "status": "done"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "今のコメントは入力と出力を示していますが、どの処理が必要か明確にしましょう。"
+    },
+    {
+      "level": 2,
+      "text": "文字列を桁ごとの配列に変換し、桁を揃えて繰り上げを考慮しながら足す手順を考えてみてください。"
+    },
+    {
+      "level": 3,
+      "text": "まずコメントで次の手順を書いてください：1) 入力文字列を読み取る 2) 各文字を数字(配列)に格納(下位桁を先頭に) 3) 最大桁まで繰り上げを含めて足す 4) 結果を出力する。"
+    }
+  ]
+}

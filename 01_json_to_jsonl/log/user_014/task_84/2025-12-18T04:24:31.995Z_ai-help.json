@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-12-18T04:24:31.995Z",
+  "username": "user14",
+  "userId": "user_014",
+  "taskNumber": "84",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:int型の配列２つ, 出力:int型の配列１つ*/\n    //int型の配列を２つ作成、入力\n    //int型の出力結果を格納する配列を作成\n    //ループを用いて各桁の文字をを足す\n        //もし繰り上がりが発生するが場合は、一つ上の位に1を足す\n    //結果を出力\n    \n\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：入力を受け取り配列で桁ごとに足し算を行い結果を出力する",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "int型の配列を2つ作成して入力を格納する（コメントあり）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "結果格納用のint型配列を作成する（コメントあり）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "ループで各桁を足し繰り上がりを処理する（コメントあり）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "計算結果を出力する（コメントあり）",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "今あるコメントは処理の大枠です。その流れで実装を始める準備ができています。"
+    },
+    {
+      "level": 2,
+      "text": "各コメントを細かく分けて、例えば「文字列読み込み→桁を配列に格納（逆順）→桁ごとに加算と繰上げ→結果出力」と書いてみてください。"
+    },
+    {
+      "level": 3,
+      "text": "まず文字列で入力を受け、末尾から1桁ずつ '0' を引いてint配列に入れ、配列同士をループで足して繰上げを処理し、最後に桁順を整えて出力を始めてください。"
+    }
+  ]
+}

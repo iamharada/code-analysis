@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-12-17T09:15:46.069Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, \n    出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n    // 1. 入力を受け取る\n    // 2. tri3を呼ぶ\n    // 3. COUNTは n*(n+1)/2 で計算して表示\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main: 入力を受け取り、tri3を呼び、COUNTを表示する全体制御",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main内: 入力を受け取る（整数nをscanfで取得）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "main内: tri3を呼んで三角形を出力する",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "main内: COUNTの計算・表示（コメントで n*(n+1)/2 とある）",
+      "status": "in_progress"
+    },
+    {
+      "level": 1,
+      "text": "tri3関数（再帰）: 各行を順に出力する役割（コメントで呼び出しが示されている）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "line3関数: '*'を指定個数出力し、出力した回数をカウントする処理（再帰内でカウンタを増やす）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "今あるコメントで実装できる部分を見つけよう: mainで入力を読み、tri3を呼ぶ流れは明確です。"
+    },
+    {
+      "level": 2,
+      "text": "tri3とline3の関数を用意して、tri3は行を順に処理し、line3は'＊'をn個出力すると考えてみてください。"
+    },
+    {
+      "level": 3,
+      "text": "具体的には、mainでnとcount=0を用意しtri3(n,&count)を呼ぶ。tri3は再帰でtri3(n-1,cnt)→line3(n,cnt)、line3はループで'*'を出力しそのたびに*cntを増やして最後にCOUNTを表示します。"
+    }
+  ]
+}

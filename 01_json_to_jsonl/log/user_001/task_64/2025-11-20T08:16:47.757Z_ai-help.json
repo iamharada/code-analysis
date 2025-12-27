@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-11-20T08:16:47.757Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "64",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\nint main(void) {\n    // input:〇〇, output:△△\n}\n\n\n\n\n\n\n",
+  "estimated_stage": "Requirement Understanding",
+  "next_stage": "Requirement Understanding",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "Include directive '#include <stdio.h>' present",
+      "status": "done"
+    },
+    {
+      "level": 1,
+      "text": "main function defined (int main(void))",
+      "status": "done"
+    },
+    {
+      "level": 1,
+      "text": "Comment for input and output: 'input:〇〇, output:△△' (placeholders)",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "Carefully re-read the task: you must compute the sum of all divisors of a single integer N (1 to 1000)."
+    },
+    {
+      "level": 2,
+      "text": "Be concrete about input and output: decide the exact input type (one integer) and the exact output sentence format."
+    },
+    {
+      "level": 3,
+      "text": "Use the example to fill placeholders: input '10' => output 'The sum of the divisors of 10 is 18'. After that, write top-level steps as comments and then refine them."
+    }
+  ]
+}

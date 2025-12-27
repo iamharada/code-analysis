@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-12-18T04:03:56.358Z",
+  "username": "user10",
+  "userId": "user_010",
+  "taskNumber": "32",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint checktri(int a, int b, int c){\n    //三角形の種類判定\n    if(a < b + c){\n        if(a * a == b * b + c * c){\n            return 1;\n        }else if(a * a < b * b + c * c){\n            return 2;\n        }else if(a * a > b * b + c * c){\n            return 3;\n        }else{\n            return 0;\n        }\n    }\n}\n\nint main(void) {\n    /*入力:3つの実数, 出力:三角形の種類*/\n    //入力の受付\n    int a,b,c;\n    scanf(\"%d\", &a);\n    scanf(\"%d\", &b);\n    scanf(\"%d\", &c);\n    //三角形の種類判定と出力\n    switch(checktri(a,b,c)){\n            case 1;\n            printf(\"直角三角形\");\n            break:\n            case 2;\n            printf(\"鋭角三角形\");\n            break:\n            case 3;\n            printf(\"鈍角三角形\");\n            break:\n            case 0;\n            printf(\"Error\");\n            break:\n    }\n    return 0;\n}",
+  "estimated_stage": "コード化",
+  "next_stage": "コードの整合性確認",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "checktri関数：三角形の種類を判定する関数（最初の引数が最大辺と仮定）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "checktri内：三角形成立条件の判定（a < b + c）",
+      "status": "in_progress"
+    },
+    {
+      "level": 3,
+      "text": "checktri内：辺の二乗を比較して直角・鋭角・鈍角を判定（a*a == b*b + c*c等）",
+      "status": "in_progress"
+    },
+    {
+      "level": 1,
+      "text": "main関数：入力を受け取り、checktriを呼び出して結果をswitchで出力",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main内：入力処理（scanfでa,b,cを読む）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main内：switchで戻り値に応じた文字列をprintfで出力",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まずコンパイルして出るエラーを確認しよう。\nエラーメッセージは直すべき行と原因を教えてくれるよ。"
+    },
+    {
+      "level": 2,
+      "text": "型と入出力形式を見直して、実数を扱うならintではなくdoubleとscanf(\"%lf\")を使おう。\n関数が必ずどの経路でも値を返すか（returnが漏れていないか）確認してね。"
+    },
+    {
+      "level": 3,
+      "text": "checktriでは三角形成立しない場合に必ず0を返すelseを追加し、二乗比較は浮動小数点誤差を考えて差の絶対値で判定しよう（例：|lhs-rhs|<eps）。\nmainのswitchは文法通りに 'case 1:' のようにコロン、breakは 'break;' にして、出力文字列の後に改行を入れること。"
+    }
+  ]
+}

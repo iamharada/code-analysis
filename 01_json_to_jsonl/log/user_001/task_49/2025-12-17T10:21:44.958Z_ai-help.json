@@ -1,0 +1,61 @@
+{
+  "timestamp": "2025-12-17T10:21:44.958Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数,\n      出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n    // 1. 入力を受け取る\n    // 2. tri3を呼ぶ\n    return 0;\n}\n\n// tri3関数を作成する\n// for文で1行ずつ回す\n// lineで*を出す\n// COUNTは最後にまとめて計算\n\n// line関数を作成する\n// for文で*をn個出す\n// 改行する",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の大枠決定",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main: 入力を受け取り tri3 を呼ぶ（main は雛形のみ）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main -> 入力を受け取る（コメントありが未実装）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main -> tri3 を呼ぶ（呼び出しコメントあり）",
+      "status": "in_progress"
+    },
+    {
+      "level": 1,
+      "text": "tri3 関数: 各行を生成・出力する（コメントでは for 文想定）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "tri3 -> 各行ごとに line を呼ぶ（コメントあり、未実装）",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "line 関数: 1 行分の '*' を出力して改行する（コメントのみ）",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "COUNT の扱い: '*' の個数を数えて最後に出力（コメントで言及）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題は再帰関数 tri3 と line を使うことが必須です。今のコメントは for を想定している点に注意しましょう。"
+    },
+    {
+      "level": 2,
+      "text": "tri3 が「行を再帰で作る」、line が「その行の '*' を出す」役割になることを考え、関数の引数と返り値を決めてください。"
+    },
+    {
+      "level": 3,
+      "text": "例：main で n を読み tri3(n, &count) を呼ぶ。tri3 は n==0 を終端にし、tri3(n-1,&count) の後に line(n,&count) を呼ぶ、と具体的にコメント化してください。"
+    }
+  ]
+}

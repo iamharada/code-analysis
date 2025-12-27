@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-11-20T07:50:03.065Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "64",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\nint main(void) {\n    //\n}\n\n\n\n\n\n\n",
+  "estimated_stage": "Determining the Overall Structure",
+  "next_stage": "Determining the Overall Structure",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "stdio.h include directive present",
+      "status": "done"
+    },
+    {
+      "level": 1,
+      "text": "main function declared",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "single placeholder comment inside main",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "Think about the overall flow: get the input N, compute the sum of its divisors using a for loop, then print the result."
+    },
+    {
+      "level": 2,
+      "text": "Decide the top-level steps you need (3–5), for example: read input, loop to test divisors, add to sum, print output."
+    },
+    {
+      "level": 3,
+      "text": "Write those 3–5 high-level steps as comments inside main so you can translate each comment into code next."
+    }
+  ]
+}

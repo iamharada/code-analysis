@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-12-18T04:53:36.013Z",
+  "username": "user11",
+  "userId": "user_011",
+  "taskNumber": "32",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nvoid checktri(float a,float b,float c){\n    //三角形が成立するかを検証する\n    if (a < b + c){\n        //直角三角形\n        if (a*a == b*b + c*c) {\n            return 1;\n        }\n        //鋭角三角形\n        else if (a*a < b*b + c*c) {\n            return 2;\n        }\n        //鈍角三角形\n        else if (a*a > b*b + c*c) {\n            return 3;\n        }\n    //成立しない場合\n    } else {\n        //error\n        return 0;\n    }\n}\n\nint main(void) {\n    //aを最大値として辺の長さを作成\n    float a,b,c;\n    int r; //戻り値代入用\n    \n    //入力\n    scanf(\"%f\",&a);\n    scanf(\"%f\",&b);\n    scanf(\"%f\",&c);\n    \n    r = checktri(a,b,c);\n    switch(r){\n        case 1:\n            printf(\"直角三角形\\n\");\n            break;\n        case 2:\n            printf(\"鋭角三角形\\n\");\n            break;\n        case 3:\n            printf(\"鈍角三角形\\n\");\n            break;\n        default:\n            printf(\"Error\\n\");\n            break;\n    }\n    \n    return 0;\n}",
+  "estimated_stage": "コード化",
+  "next_stage": "コードの整合性確認",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "関数 checktri を定義して三角形判定を行う",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "三角形が成立するかを検査 (a < b + c)",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "直角・鋭角・鈍角の判定を a^2 と b^2+c^2 の比較で行う",
+      "status": "in_progress"
+    },
+    {
+      "level": 1,
+      "text": "main で入力を読み取り checktri を呼び出し結果を switch で出力",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力を scanf で受け取る (a,b,c)",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "checktri の戻り値を受け取り switch-case で表示する",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まずコンパイルエラーや警告が出ていないか確認しましょう。"
+    },
+    {
+      "level": 2,
+      "text": "関数の戻り値の型と return を一致させ、浮動小数点の比較に注意してください。"
+    },
+    {
+      "level": 3,
+      "text": "checktri を int 型で定義し、等号判定は fabs(a*a - (b*b + c*c)) < 1e-6 のように差の絶対値で行う。math.h を使って実装・再コンパイルして確認してください。"
+    }
+  ]
+}

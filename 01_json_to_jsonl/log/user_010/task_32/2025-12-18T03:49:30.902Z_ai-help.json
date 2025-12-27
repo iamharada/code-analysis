@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-12-18T03:49:30.902Z",
+  "username": "user10",
+  "userId": "user_010",
+  "taskNumber": "32",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint checktri(int a, int b, int c){\n    //三角形の\n\nint main(void) {\n    /*入力:3つの実数, 出力:三角形の種類*/\n    //入力の受付\n    int a,b,c;\n    scanf(\"%d\", &a);\n    scanf(\"%d\", &b);\n    scanf(\"%d\", &c);\n    //三角形の種類判定\n    //出力\n    \n    return 0;\n}",
+  "estimated_stage": "コード化",
+  "next_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "checktri関数の宣言（引数と戻り値）はあるが、判定ロジックの本体が未実装",
+      "status": "in_progress"
+    },
+    {
+      "level": 1,
+      "text": "main関数の全体構造（入力→判定→出力）を用意している",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力の受付（コードにscanfがあるが整数で読み取っている）",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "三角形の種類判定を行うためのchecktri呼び出しとその利用",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "出力（判定結果を文字列で表示）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まずコメントと現状のコードを比べ、未実装の箇所を一つずつ確認しましょう。"
+    },
+    {
+      "level": 2,
+      "text": "checktriに「三角形成立(a < b + c)の判定」と「角度判定(a^2 と b^2 + c^2 の比較)」を入れることを考えてください。"
+    },
+    {
+      "level": 3,
+      "text": "具体的には main で double 型を使い scanf(\"%lf\",...) で読み、checktri は成立判定で 0 を返し、成立なら a*a と b*b+c*c を比較して 1/2/3 を返すよう実装し、main でその戻り値を switch で出力してください（出力は末尾に改行）。"
+    }
+  ]
+}

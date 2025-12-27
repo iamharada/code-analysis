@@ -1,0 +1,1 @@
+{"timestamp":"2025-12-18T03:11:30.789Z","username":"user2","userId":"user_002","taskNumber":"15","event":"auto_save","code":"#include <stdio.h>\n\nint main(void) {\n    /*入力:○○, 出力:三角形の判定結果または三角形にならない場合（Error）*/\n    \n    return 0;\n}"}

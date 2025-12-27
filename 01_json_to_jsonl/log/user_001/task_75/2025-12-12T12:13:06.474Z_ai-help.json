@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-12-12T12:13:06.474Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, \n      出力:1つの整数の行数分のパスカルの三角形*/\n    //入力をパスカルの三角形の段数として受けとる。\n    //入力値（段数）をpascal関数に渡す。\n    return 0;\n}\n//入力段数分のパスカル三角形を出力する関数を作る\n\n\n\n\n\n",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：入力を受け取ってpascal関数を呼ぶ役割",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "標準入力から整数を読み取る（段数）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "読み取った値をpascal関数に渡す呼び出し",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "pascal関数：二次元配列と繰り返しでパスカルの三角形を作り%3dで出力する",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "今のコメントを見て、どの部分がまだ具体的でないか気づこう。"
+    },
+    {
+      "level": 2,
+      "text": "出力に必要な具体的なステップ（配列宣言、初期化、二重ループ、出力書式）を箇条書きにしてみよう。"
+    },
+    {
+      "level": 3,
+      "text": "pascal関数のサブコメント例を作ってから実装しよう：'配列を宣言する'、'1行目を1で初期化'、'各行の各列を前行の左右の和で計算'、'各要素を%3dで出力する'。"
+    }
+  ]
+}

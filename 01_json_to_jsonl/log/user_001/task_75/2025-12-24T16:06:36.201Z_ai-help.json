@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-12-24T16:06:36.201Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n    //入力をパスカルの三角形の段数として受け付ける。\n    //入力値（段数）をpascal関数に渡す。\n    return 0;\n}\n//入力された段数分のパスカルの三角形を出力するpascal関数を作る",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：入力を受け取りpascal関数に渡す役割",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main内コメント：入力をパスカルの段数として受け付ける",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main内コメント：入力値（段数）をpascal関数に渡す",
+      "status": "in_progress"
+    },
+    {
+      "level": 1,
+      "text": "pascal関数：入力された段数分のパスカルの三角形を出力する関数（未作成）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "今のコメントのどれを具体的に実装するかを決めよう。たとえばまず入力の読み取りから着手するか考えてください。"
+    },
+    {
+      "level": 2,
+      "text": "pascal関数は「配列準備→値の計算→整形して出力」の順で処理を分けて考えると実装しやすいです。"
+    },
+    {
+      "level": 3,
+      "text": "詳細化：pascal内で二次元配列を用意し、各行は両端を1、中間は上の行の左右和で計算し、%3dで出力して改行する流れにしてください。"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "timestamp": "2025-12-17T09:10:01.551Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, \n    出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n    // 1. 入力を受け取る\n    // 2. tri3を呼ぶ\n    // 3. COUNTは n*(n+1)/2 で計算して表示\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main: プログラムの起点。入力を受け取り tri3 を呼び、COUNT を表示する役割",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main内: 入力を受け取る（scanfで整数nを読む）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "main内: tri3を呼び出す（カウンタのアドレスを渡す）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "main内: COUNT を計算・表示する（tri3で数えた値か n*(n+1)/2）",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "tri3関数: 三角形の各行を再帰で出力する関数（問題で指定）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "tri3内: 再帰で行を上から出力し、各行ごとに line3 を呼ぶ設計",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "line3関数: 1行分の'*'を再帰で出力し、出力ごとにカウンタを1増やす関数（問題で指定）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "今あるコメントを見ると「入力を受ける・tri3を呼ぶ・COUNTを表示する」は実装可能だと気づこう。"
+    },
+    {
+      "level": 2,
+      "text": "mainで scanf を使って n を読み、int count = 0 を用意してから tri3(n, &count) を呼ぶ流れを考えてみて。"
+    },
+    {
+      "level": 3,
+      "text": "scanfで整数を読み countを初期化し tri3(n,&count) を呼び、最後に printf で COUNT=値 を改行付きで出力する。tri3は再帰で各行を作り、line3は'*'を1個ずつ出力して(*p)++でカウントする設計にするとよい。"
+    }
+  ]
+}

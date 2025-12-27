@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-12-12T12:09:51.203Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, \n      出力:1つの整数の行数分のパスカルの三角形*/\n    //入力をパスカルの三角形の段数として受けとる。\n    //入力値（段数）をpascal関数に渡す。\n    return 0;\n}\n//入力段数分のパスカル三角形を出力する関数を作る\n\n\n\n\n\n",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：プログラムの入口",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "mainで入力を受け取る（段数を読み取る）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "mainで読み取った値をpascal関数に渡す",
+      "status": "in_progress"
+    },
+    {
+      "level": 1,
+      "text": "pascal関数：入力段数分のパスカル三角形を出力する関数を作る（未実装）",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "mainのコメント（入力を受け取る／pascalに渡す）を見て、どれを詳しく書けるか確認しましょう。処理の順序（入力→計算→出力）を意識してください。"
+    },
+    {
+      "level": 2,
+      "text": "処理を小さな手順に分けて書き出しましょう：1) 入力読み取り 2) pascal関数の作成 3) 配列とループで値を計算 4) printfで整形出力、の順で考えてください。"
+    },
+    {
+      "level": 3,
+      "text": "mainでscanfでnを読みpascal(n)を呼ぶ。pascalではint a[10][10]を0で初期化しa[0][0]=1とし、a[i][j]=a[i-1][j-1]+a[i-1][j]で埋め、printf(\"%3d\", a[i][j])で出力し行ごとに改行してください。"
+    }
+  ]
+}

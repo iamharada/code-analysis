@@ -1,0 +1,272 @@
+ts,user_id,username,task,event,code,stdout,stderr,estimated_stage,next_stage,processing_structure,advice
+2025-12-18T07:51:40.980Z,user_020,user20,4,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:な, 出力:△△*/
+
+    return 0;
+}",,,,,,
+2025-12-18T07:51:50.986Z,user_020,user20,4,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:*/
+
+    return 0;
+}",,,,,,
+2025-12-18T07:52:00.983Z,user_020,user20,4,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:a,b,a+の値*/
+
+    return 0;
+}",,,,,,
+2025-12-18T07:52:10.977Z,user_020,user20,4,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:a,b,a+bの値*/
+    //
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T07:52:20.973Z,user_020,user20,4,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:a,b,a+bの値*/
+    //
+    //
+
+    return 0;
+}",,,,,,
+2025-12-18T07:53:20.976Z,user_020,user20,4,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:a,b,a+bの値*/
+    //変数の作成
+    //
+
+    return 0;
+}",,,,,,
+2025-12-18T07:53:30.977Z,user_020,user20,4,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:a,b,a+bの値*/
+    //変数の作成
+    //変数への代入
+
+    return 0;
+}",,,,,,
+2025-12-18T07:53:40.977Z,user_020,user20,4,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:a,b,a+bの値*/
+    //変数の作成
+    //変数への代入
+    //
+
+    return 0;
+}",,,,,,
+2025-12-18T07:53:50.975Z,user_020,user20,4,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:a,b,a+bの値*/
+    //変数の作成
+    //変数への代入
+    //a,b,a+bの値のしゅっつｒ
+
+    return 0;
+}",,,,,,
+2025-12-18T07:54:01.004Z,user_020,user20,4,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:a,b,a+bの値*/
+    //変数の作成
+    //変数への代入
+    //a,b,a+bの値の出力
+
+    return 0;
+}",,,,,,
+2025-12-18T07:54:10.983Z,user_020,user20,4,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:a,b,a+bの値*/
+    //変数の作成
+    
+    //変数への代入
+    //a,b,a+bの値の出力
+
+    return 0;
+}",,,,,,
+2025-12-18T07:54:20.976Z,user_020,user20,4,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:a,b,a+bの値*/
+    //変数の作成
+    float a,b;
+    //変数への代入
+    //a,b,a+bの値の出力
+
+    return 0;
+}",,,,,,
+2025-12-18T07:54:30.973Z,user_020,user20,4,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:a,b,a+bの値*/
+    //変数の作成
+    float a,b;
+    //変数への代入
+    a=3.14;
+    b=16
+    //a,b,a+bの値の出力
+
+    return 0;
+}",,,,,,
+2025-12-18T07:54:40.987Z,user_020,user20,4,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:a,b,a+bの値*/
+    //変数の作成
+    float a,b;
+    //変数への代入
+    a=3.14;
+    b=16;
+    //a,b,a+bの値の出力
+    printf("""")
+    return 0;
+}",,,,,,
+2025-12-18T07:54:50.987Z,user_020,user20,4,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:a,b,a+bの値*/
+    //変数の作成
+    float a,b;
+    //変数への代入
+    a=3.14;
+    b=16;
+    //a,b,a+bの値の出力
+    printf(""%"")
+    return 0;
+}",,,,,,
+2025-12-18T07:55:00.975Z,user_020,user20,4,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:a,b,a+bの値*/
+    //変数の作成
+    float a,b;
+    //変数への代入
+    a=3.14;
+    b=16;
+    //a,b,a+bの値の出力
+    printf(""%.6f\n "")
+    return 0;
+}",,,,,,
+2025-12-18T07:55:10.986Z,user_020,user20,4,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:a,b,a+bの値*/
+    //変数の作成
+    float a,b;
+    //変数への代入
+    a=3.14;
+    b=16;
+    //a,b,a+bの値の出力
+    printf(""%.6f\n %."")
+    return 0;
+}",,,,,,
+2025-12-18T07:55:20.987Z,user_020,user20,4,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:a,b,a+bの値*/
+    //変数の作成
+    float a,b;
+    //変数への代入
+    a=3.14;
+    b=16;
+    //a,b,a+bの値の出力
+    printf(""%.6f\n %.6f\n "")
+    return 0;
+}",,,,,,
+2025-12-18T07:55:30.987Z,user_020,user20,4,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:a,b,a+bの値*/
+    //変数の作成
+    float a,b;
+    //変数への代入
+    a=3.14;
+    b=16;
+    //a,b,a+bの値の出力
+    printf(""%.6f\n%.6f\n%."")
+    return 0;
+}",,,,,,
+2025-12-18T07:55:40.981Z,user_020,user20,4,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:a,b,a+bの値*/
+    //変数の作成
+    float a,b;
+    //変数への代入
+    a=3.14;
+    b=16;
+    //a,b,a+bの値の出力
+    printf(""%.6f\n%.6f\n%.6f\n"",a,b,a+b)
+    return 0;
+}",,,,,,
+2025-12-18T07:55:42.312Z,user_020,user20,4,run,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:a,b,a+bの値*/
+    //変数の作成
+    float a,b;
+    //変数への代入
+    a=3.14;
+    b=16;
+    //a,b,a+bの値の出力
+    printf(""%.6f\n%.6f\n%.6f\n"",a,b,a+b);
+    return 0;
+}","3.140000
+16.000000
+19.139999
+",,,,,
+2025-12-18T07:55:50.975Z,user_020,user20,4,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:a,b,a+bの値*/
+    //変数の作成
+    float a,b;
+    //変数への代入
+    a=3.14;
+    b=16;
+    //a,b,a+bの値の出力
+    printf(""%.6f\n%.6f\n%.6f\n"",a,b,a+b);
+    return 0;
+}",,,,,,
+2025-12-18T07:55:55.559Z,user_020,user20,4,run,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:a,b,a+bの値*/
+    //変数の作成
+    float a,b;
+    //変数への代入
+    a=3.14;
+    b=16;
+    //a,b,a+bの値の出力
+    printf(""%.6f\n%.6f\n%.6f\n"",a,b,a*b);
+    return 0;
+}","3.140000
+16.000000
+50.240002
+",,,,,
+2025-12-18T07:56:00.988Z,user_020,user20,4,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:a,b,a+bの値*/
+    //変数の作成
+    float a,b;
+    //変数への代入
+    a=3.14;
+    b=16;
+    //a,b,a+bの値の出力
+    printf(""%.6f\n%.6f\n%.6f\n"",a,b,a*b);
+    return 0;
+}",,,,,,

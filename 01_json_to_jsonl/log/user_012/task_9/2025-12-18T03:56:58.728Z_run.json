@@ -1,0 +1,10 @@
+{
+  "timestamp": "2025-12-18T03:56:58.728Z",
+  "username": "user12",
+  "userId": "user_012",
+  "taskNumber": "9",
+  "event": "run",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:2つの整数値, 出力:1か0*/\n    //2つの整数値の入力\n    int a,b;\n    scanf(\"%d &d\",&a,&b);\n    //a>bまたはa+b=0になっているかの判定\n    //判定の結果に応じて1か0を出力\n    if(a>b||a+b=0)printf(\"1\");\n    else printf(\"0\");\n    \n    return 0;\n}",
+  "stdout": "",
+  "stderr": "file0.code.c: In function 'main':\nfile0.code.c:10:16: error: lvalue required as left operand of assignment\n   10 |     if(a>b||a+b=0)printf(\"1\");\n      |                ^\nchmod: cannot access 'a.out': No such file or directory\n"
+}

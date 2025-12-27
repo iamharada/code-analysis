@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-12-18T02:05:37.456Z",
+  "username": "user2",
+  "userId": "user_002",
+  "taskNumber": "84",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:二つの文字列, 出力:文字列を数値とみなした和*/\n    //2つの文字列を入力として受け取る。\n    //文字列を、計算しやすいように「位」を揃えて数値配列に格納する。\n    //配列の要素ごとに足し算を行い、繰り上がりを処理する。\n    //計算結果の配列を、人間が読める形式（左から右）で出力する。\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：プログラム全体の流れをコメントで記述",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力：二つの文字列を受け取る",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "配列化：桁を揃えて int 型配列に１桁ずつ格納する",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "計算：配列要素ごとに足し算を行い繰り上がりを処理する",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "出力：計算結果配列を左から右の形式で出力する",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "今あるコメントのどれがまだ具体的でないかを確認しよう。入力→配列化→加算→出力の順を意識して見てみて。"
+    },
+    {
+      "level": 2,
+      "text": "各コメントを細かい手順に分けて書こう：文字列長取得、配列サイズ決定、文字→数値変換、逆順格納、繰り上がりを考えるループ、出力の順に分けると良い。"
+    },
+    {
+      "level": 3,
+      "text": "配列長は max(len1,len2)+1 にし、文字は '0' を引いて数値にする。ループで sum=a[i]+b[i]+carry; result[i]=sum%10; carry=sum/10; 最後は上位桁から出力し先頭の0を省く。"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "timestamp": "2025-12-18T03:32:59.284Z",
+  "username": "user2",
+  "userId": "user_002",
+  "taskNumber": "14",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力: 出力:*/\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数の雛形がある（処理部分は未実装）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main内に入力・出力を示すコメント /*入力: 出力:*/ があるが内容が未記入",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題をもう一度確認して、何を入力し何を出力するかはっきりさせましょう。"
+    },
+    {
+      "level": 2,
+      "text": "入力は実数3つ（最初の値が最大値でよい）、出力は判定文字列のみ（最後に改行）という具体例を考えてみてください。"
+    },
+    {
+      "level": 3,
+      "text": "入力を a,b,c（a が最大）として、まず a < b + c なら三角形成立、そうでなければ \"Error\" を出力し、成立するなら a*a と b*b + c*c を比較して直角/鋭角/鈍角を決めてください。"
+    }
+  ]
+}

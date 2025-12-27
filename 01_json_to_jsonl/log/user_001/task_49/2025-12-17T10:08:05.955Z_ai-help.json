@@ -1,0 +1,66 @@
+{
+  "timestamp": "2025-12-17T10:08:05.955Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, \n    出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n    // 1. 入力を受け取る\n    // 2. tri3を呼ぶ\n    return 0;\n}\n\n// tri3関数を作成する\n\n// line関数を作成する",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "ファイル先頭のインクルード（stdio.h）",
+      "status": "done"
+    },
+    {
+      "level": 1,
+      "text": "main関数：全体の流れ（入力を受け取り、tri3を呼ぶ、終了）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main内：整数nを入力として受け取る処理（コメントあり）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main内：tri3を呼ぶ（コメントで呼び出し予定と明示）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main内：COUNT=合計を出力する位置（コメントでは触れられているが未実装）",
+      "status": "in_progress"
+    },
+    {
+      "level": 1,
+      "text": "tri3関数（再帰で各行を制御して'*'を出力する役割）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "tri3内部：各行の'*'個数を決めてline3を呼ぶ（未実装）",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "line3関数（1行分の'*'を出力し、カウンタを増やす役割）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "tri3とline3の役割をはっきりさせて、どの処理を関数に任せるか気づこう。"
+    },
+    {
+      "level": 2,
+      "text": "tri3は行の進行管理、line3は1行分の'*'出力とカウント増加と考えると分けやすいよ。"
+    },
+    {
+      "level": 3,
+      "text": "tri3には現在の行番号やnと合計カウントを渡し、終了条件と再帰の順序を決めて、line3を呼んで'*'を出力させてカウントを更新しよう。"
+    }
+  ]
+}

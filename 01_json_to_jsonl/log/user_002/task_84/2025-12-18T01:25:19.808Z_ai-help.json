@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-12-18T01:25:19.808Z",
+  "username": "user2",
+  "userId": "user_002",
+  "taskNumber": "84",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:二つの文字列, 出力:文字列を数値とみなした和*/\n    // 2つの文字列を受け付ける\n    // 出力する\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：課題の要約コメント（入力2つの文字列、出力は和）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "2つの文字列を受け付ける（コメントあり、実装なし）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "出力する（コメントあり、実装なし）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "今あるコメントのうちどれを詳しく書けるか見つけよう（例えば「受け付ける」や「出力する」）。"
+    },
+    {
+      "level": 2,
+      "text": "各コメントの下に細かい手順を箇条書きで書こう（文字列→桁配列、桁ごとの足し算、繰り上げ、表示）。"
+    },
+    {
+      "level": 3,
+      "text": "具体的には：scanfで文字列を読み、長さを比べて桁配列に逆順で格納し、ループで桁ごとに加算・繰り上げを行い、最上位から出力する手順を書こう。"
+    }
+  ]
+}

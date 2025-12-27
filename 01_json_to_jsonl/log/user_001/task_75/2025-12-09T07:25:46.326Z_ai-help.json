@@ -1,0 +1,61 @@
+{
+  "timestamp": "2025-12-09T07:25:46.326Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n    //入力をパスカルの三角形の段数として受け付ける。\n    //入力値（段数）をpascal関数に渡す。\n    return 0;\n}\n//入力された段数分のパスカルの三角形を出力するpascal関数を作る\n",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：入力を受け取りpascal関数に渡す役割",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main内で整数を読み取る（scanf）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "読み取った値をpascal関数に渡して呼び出す",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "pascal関数：二次元配列と繰り返しでパスカルの三角形を作り出して出力する",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "二次元配列を用意して初期値（端は1）を設定する",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "内部ループで各要素を上の行の左右の和で計算する",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "printf(\"%3d\")を使って行ごとに整形して出力する",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "今のコメントで何をするかは書けていますか？まずmainとpascalの役割分担を確認しましょう。"
+    },
+    {
+      "level": 2,
+      "text": "pascal関数内で何を何回繰り返すか考えて、配列のサイズやループの入れ子（行と列）を決めてみてください。"
+    },
+    {
+      "level": 3,
+      "text": "配列 a[n][n] を用意し、a[0][0]=1、各行の端は1、内側は a[i][j]=a[i-1][j-1]+a[i-1][j] と計算し、printf(\"%3d\")で行ごとに出力する流れをコードに落としてください。"
+    }
+  ]
+}

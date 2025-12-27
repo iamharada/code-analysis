@@ -1,0 +1,31 @@
+{
+  "timestamp": "2025-12-24T15:49:15.638Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "処理の大枠決定",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数があり、入力と出力の目的がコメントで書かれている（実装はまだない）",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "全体の流れを確認しよう。入力→計算→出力の順で何をするかを意識して。"
+    },
+    {
+      "level": 2,
+      "text": "必要なステップを洗い出そう。例：行数の読み取り、配列の用意、パスカルの値の計算、整形して出力。"
+    },
+    {
+      "level": 3,
+      "text": "mainでnを読み取り、pascalという関数を作って呼ぶ。pascal内で二次元配列を用意し、先頭を1にして左右上の和で各要素を埋め、%3dで各行を印字する。"
+    }
+  ]
+}

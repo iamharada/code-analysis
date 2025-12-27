@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-11-27T08:44:03.530Z",
+  "username": "user2",
+  "userId": "user_002",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n    //入力を受け付ける。\n    //パスカルの三角形を計算する。\n    //出力する。\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の大枠決定",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数（プログラム全体の入り口）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力を受け付ける（1つの整数 n）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "パスカルの三角形を計算する（コメントで記述済み）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "計算結果を整形して出力する（%3dで右揃え、最後に改行）",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まず全体の流れを再確認しよう：入力→計算→出力の順で考えると整理しやすいよ。"
+    },
+    {
+      "level": 2,
+      "text": "必要なステップを具体化してみよう：mainで入力、計算は別関数で、最後にmainで出力する構成を検討してみて。"
+    },
+    {
+      "level": 3,
+      "text": "コメントを3〜5個の手順に落とし込もう：例）1) nを読む 2) pascal関数を作る（配列とnを渡す） 3) 関数内で二次元配列に値を計算 4) mainで%3dを使って出力"
+    }
+  ]
+}

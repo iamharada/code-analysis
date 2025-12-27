@@ -1,0 +1,1 @@
+{"timestamp":"2025-12-18T07:45:10.979Z","username":"user20","userId":"user_020","taskNumber":"3","event":"auto_save","code":"#include <stdio.h>\n\nint main(void) {\n    /*入力:なし, 出力:a、b、a+bの値*/\n    //変数の作成（a,b）\n    int a,b;\n    //変数に代入\n    a=3;\n    b=5;\n    //出力：a、b、a+bの値\n    pritnf(\"%d\\n%d\\n%d\\n\",a,b,a+b);\n    return 0;\n}"}

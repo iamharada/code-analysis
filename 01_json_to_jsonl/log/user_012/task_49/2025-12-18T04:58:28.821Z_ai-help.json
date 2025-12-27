@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-12-18T04:58:28.821Z",
+  "username": "user12",
+  "userId": "user_012",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:一つの整数値, 出力:*を用いた二等辺三角形＆*の数*/\n    \n    //tri3\n        //1から入力した整数値までiを1つずつ足しながら繰り返す\n        //その分だけline3関数を実行\n        //line3\n            //i（line3に代入する予定）の値の分だけ*を並べる\n        //COUNTを足し続ける\n    \n    //出力\n    \n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main：入力を受け取り、三角形描画関数を呼び、最後にCOUNTを出力する",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "tri3関数：1から入力値までの各行を順に処理してline3を呼ぶ役割（再帰で実装する予定）",
+      "status": "in_progress"
+    },
+    {
+      "level": 3,
+      "text": "tri3内のループ処理：各行の長さを決めてその回数だけline3を呼び、COUNTを累積する（コメントあり）",
+      "status": "in_progress"
+    },
+    {
+      "level": 3,
+      "text": "line3関数：与えられた数だけ'*'を出力し、出力時にカウンタを1ずつ増やす（再帰で実装予定）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "COUNTの管理：全体でカウントする変数を用意し、line3から増やして最後に表示する（コメントあり）",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "今書いているコメント通りに、まずは1行ずつ順にコードに置き換えることを考えてみよう。"
+    },
+    {
+      "level": 2,
+      "text": "tri3とline3を別関数にして、mainは入力受け取りとカウント初期化と呼び出しだけにする設計を意識しよう。"
+    },
+    {
+      "level": 3,
+      "text": "mainでint count=0を作り、そのアドレスをtri3／line3に渡す。line3は再帰で'*'を出力しつつカウントを増やし、各行の後に改行、最後にCOUNT=数値を出力しよう。"
+    }
+  ]
+}

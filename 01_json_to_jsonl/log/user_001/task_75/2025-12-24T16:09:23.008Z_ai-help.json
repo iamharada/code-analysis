@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-12-24T16:09:23.008Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n    //入力をパスカルの三角形の段数として受け付ける。\n    //入力値（段数）をpascal関数に渡す。\n    return 0;\n}\n//入力された段数分のパスカルの三角形を出力するpascal関数を作る",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：入力を受け取り、pascal関数を呼び出す",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力をパスカルの段数として読み取る（コメントあり）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "読み取った段数をpascal関数に渡す（コメントあり）",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "pascal関数：与えられた段数分のパスカルの三角形を出力する（作成予定）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "二次元配列と繰り返しを用いて三角形の値を計算する（課題仕様）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "%3d指定で整形して各行を出力する（課題仕様）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "今あるコメントのうち『入力を受け付ける』と『pascal関数を作る』を詳細化すべき箇所だと気づきましょう。"
+    },
+    {
+      "level": 2,
+      "text": "具体的に決めること：mainで何を読み取るか、pascalで配列の大きさ・ループの範囲・出力方法を決めてください。"
+    },
+    {
+      "level": 3,
+      "text": "pascal内では int a[n][n] を用意し a[0][0]=1、辺は1、内部は a[i][j]=a[i-1][j-1]+a[i-1][j] で計算し printfで%3d表示、行末で改行してください。"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"timestamp":"2025-12-21T14:57:20.416Z","username":"user2","userId":"user_002","taskNumber":"49","event":"auto_save","code":"#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, \n    出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n    // 1. 入力を受け取る\n    // 2. tri3を呼ぶ\n    return 0;\n}\n\n// tri3関数を作成する\n\n// line関数を作成する"}

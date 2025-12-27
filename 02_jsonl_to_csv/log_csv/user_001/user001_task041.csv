@@ -1,0 +1,8 @@
+ts,user_id,username,task,event,code,stdout,stderr,estimated_stage,next_stage,processing_structure,advice
+2025-12-12T03:32:04.856Z,user_001,user01,41,ai-help,"#include <stdio.h>
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+
+    return 0;
+}",,,課題の理解,課題の理解,"[{""level"": 1, ""text"": ""main関数の骨組みのみ（入力・出力の説明コメントがプレースホルダのまま）"", ""status"": ""in_progress""}]","[{""level"": 1, ""text"": ""課題の要件をもう一度確認しましょう：何を入力して何を出力するかをはっきりさせてください。""}, {""level"": 2, ""text"": ""具体的な入出力例をいくつか考えてみましょう（例：入力1→出力*改行、入力3→出力***改行）。""}, {""level"": 3, ""text"": ""入力は1つの整数n（1〜30）、出力はそのn個分の'*'を連続表示して最後に改行するだけで、余計な文字や空白は入れないでください。""}]"

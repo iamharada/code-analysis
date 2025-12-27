@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-12-24T16:05:57.427Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n    //入力をパスカルの三角形の段数として受け付ける。\n    //入力値（段数）をpascal関数に渡す。\n    return 0;\n}\n//入力された段数分のパスカルの三角形を出力するpascal関数を作る",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：プログラム全体の入口",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力：1つの整数を読み取る（段数）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "pascal関数に入力値を渡す（呼び出し）",
+      "status": "in_progress"
+    },
+    {
+      "level": 1,
+      "text": "pascal関数：入力された段数分のパスカルの三角形を出力する（作成予定）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "今あるコメントのうち『入力を受け取る』と『pascal関数を作る』部分を詳細化しようと気づいてください。"
+    },
+    {
+      "level": 2,
+      "text": "pascal関数内で何をするかを小さな手順に分けて書こう（配列の用意、値の決め方、出力方法、改行の扱いなど）。"
+    },
+    {
+      "level": 3,
+      "text": "具体的には：配列サイズを決める、先頭要素を1にする、各行の端を1にして内側は上の行の左右を足す、printfで%3dを使い行ごとに改行する、という順にコメントを書き込んでください。"
+    }
+  ]
+}

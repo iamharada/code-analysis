@@ -1,0 +1,10 @@
+{
+  "timestamp": "2025-12-24T01:01:09.553Z",
+  "username": "user28",
+  "userId": "user_028",
+  "taskNumber": "14",
+  "event": "run",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:3つの実数, 出力:３角形の形状*/\n    float a,b,c;\n    //３つの実数を受け取る\n    scanf(\"%f%f%f\",&a,&b,&c);\n    //三角形が成り立つかどうか（成立する場合）\n    if(a>b+c){\n           //三角形の形状判定\n        if(a*a>=b*b+c*c){\n            printf(\"鋭角三角形\");\n        }\n        if(a*a<=b*b+c*c){\n            printf(\"鈍角三角形\");\n       }\n        if(a*a=b*b+c*c){\n            printf(\"直角三角形\");\n        }\n    //成立しない場合\n    　　　 //error\n    　if{\n         printf(\"error\");\n     }\n}\n    return 0;\n    \n}",
+  "stdout": "",
+  "stderr": "file0.code.c: In function 'main':\nfile0.code.c:17:15: error: lvalue required as left operand of assignment\n   17 |         if(a*a=b*b+c*c){\n      |               ^\nfile0.code.c:21:5: error: stray '\\343' in program\n   21 |     　　　 //error\n      |     ^~\nfile0.code.c:21:8: error: stray '\\343' in program\n   21 |     　　　 //error\n      |       ^~\nfile0.code.c:21:11: error: stray '\\343' in program\n   21 |     　　　 //error\n      |         ^~\nfile0.code.c:22:5: error: stray '\\343' in program\n   22 |     　if{\n      |     ^~\nfile0.code.c:22:10: error: expected '(' before '{' token\n   22 |     　if{\n      |         ^\n      |         (\nchmod: cannot access 'a.out': No such file or directory\n"
+}

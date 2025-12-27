@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-12-24T15:43:11.818Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数: 入力を読み取り結果を出力する処理の起点にする",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "pascal関数: 二次元配列と繰り返しでパスカルの三角形を作り印字する（問題要求）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "pascal内で配列を初期化し、上の行から値を計算して格納する",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "計算した各要素を%3dで右揃えにして出力し、行末で改行する",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題文をもう一度読み、入力は整数1つ、出力はパスカルの三角形であることを確認しましょう。"
+    },
+    {
+      "level": 2,
+      "text": "入出力例（例えば入力4なら出力が4行になる）を紙に書いて、期待する出力の形を具体的に確認してください。"
+    },
+    {
+      "level": 3,
+      "text": "入力は1つの整数 n(1〜10)。出力は n 行のパスカルの三角形で、各数は幅3で右揃え（%3d）し行末は改行のみとします。"
+    }
+  ]
+}

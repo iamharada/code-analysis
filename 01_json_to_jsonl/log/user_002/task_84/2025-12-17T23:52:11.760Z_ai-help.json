@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-12-17T23:52:11.760Z",
+  "username": "user2",
+  "userId": "user_002",
+  "taskNumber": "84",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:二つの文字列, 出力:文字列を数値とみなした和*/\n    // 2つの文字列を受け付ける\n    // 2つの文字列を足し算する\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数の雛形（プログラム全体の開始点）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力と出力の要件をコメントで記述（入力:二つの文字列, 出力:和）",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "2つの文字列を受け付ける（入力処理）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "2つの文字列を配列に1桁ずつ格納して繰り上がりを考慮しながら足す（計算処理）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "今あるコメントを見て、どの部分がまだ詳しく書かれていないか気づきましょう。"
+    },
+    {
+      "level": 2,
+      "text": "「入力を受け取る」「文字を桁に変換する」「右端から足す」「繰り上がりを扱う」「結果を出力する」の順で細かい手順を考えてください。"
+    },
+    {
+      "level": 3,
+      "text": "実装方針：最大桁数+1のint配列を用意し、右端からループで sum = a_digit + b_digit + carry; result[i] = sum % 10; carry = sum / 10; ループ後に先頭の繰り上がりを扱い、先頭の不要な0を飛ばして出力します。"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-12-24T15:59:36.884Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n    //入力を受け付ける。\n    //計算する。\n    //出力する。\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の大枠決定",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：プログラム全体の枠（入力・計算・出力）の配置",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力を受け付ける。",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "計算する（パスカルの三角形を作る）。",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "出力する（%3dで整形して印字）。",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まず全体の流れを頭に描こう：入力を読み、三角形を作り、整形して出力する順序を意識して下さい。"
+    },
+    {
+      "level": 2,
+      "text": "必要なステップを洗い出そう：入力を受ける、2次元配列を用意する、値を埋める、%3dで出力する、関数化する、の順で考えるとよいです。"
+    },
+    {
+      "level": 3,
+      "text": "具体的には：1) nを読み取る。2) int a[10][10]={0}; のような2次元配列を用意。3) a[i][0]=a[i][i]=1、内部は a[i][j]=a[i-1][j-1]+a[i-1][j]で埋める。4) printf(\"%3d\",a[i][j])で行ごとに出力し改行。関数pascalを作ると整理しやすいです。"
+    }
+  ]
+}

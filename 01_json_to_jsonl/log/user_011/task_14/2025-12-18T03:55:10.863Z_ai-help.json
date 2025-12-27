@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-12-18T03:55:10.863Z",
+  "username": "user11",
+  "userId": "user_011",
+  "taskNumber": "14",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    //aを最大値として辺の長さを作成\n    int a,b,c;\n    \n    //入力\n    scanf(\"%d\",&a);\n    scanf(\"%d\",&b);\n    scanf(\"%d\",&c);\n    \n    //三角形が成立するかを検証する\n    if (a < b + c){\n        //直角三角形\n        if (a^2 == b^2 + c^2) {\n            printf(\"直角三角形\\n\");\n        }\n        //鋭角三角形\n        else if (a^2 < b^2 + c^2) {\n            printf(\"鋭角三角形\\n\");\n        }\n        //鈍角三角形\n        else if (a^2 > b^2 + c^2) {\n            printf(\"鈍角三角形\\n\");\n        }\n    //成立しない場合\n    } else {\n        //error\n        printf(\"Error\\n\");\n    }\n    return 0;\n}",
+  "estimated_stage": "コード化",
+  "next_stage": "コードの整合性確認",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数: プログラム全体の流れ（宣言→入力→判定→出力）",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "変数宣言: a,b,c を辺の長さとして用意",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "入力: scanfで3つの値を読み取る",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "三角形成立判定: a < b + c をチェック",
+      "status": "done"
+    },
+    {
+      "level": 3,
+      "text": "角の種類判定: a^2 と b^2 + c^2 を比較して直角/鋭角/鈍角を判定",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "成立しない場合の処理: Error を出力",
+      "status": "done"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "コード全体を一度読み返して、入力の型や使っている演算子に間違いがないか気づこう。\n特に実数扱いと^演算子の意味に注意してね。"
+    },
+    {
+      "level": 2,
+      "text": "入力は実数なので int ではなく double を使い、scanf の書式は %lf にすることを考えよう。\n二乗の計算は ^ ではなく a*a のように書く必要がある点を確認して。"
+    },
+    {
+      "level": 3,
+      "text": "直す順番：1) 変数を double に変更、2) scanf を %lf にする、3) 比較は a*a と b*b + c*c にする。\n等号比較は浮動小数点誤差に注意して小さい許容誤差（epsilon）で判定するようにしよう。"
+    }
+  ]
+}

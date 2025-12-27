@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-11-25T06:36:27.226Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "64",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:, 出力:*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main 関数の雛形がある",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力を受け取る箇所（コメントで示されている）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "出力を行う箇所（コメントで示されている）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題の要件をもう一度確認しましょう：整数1つの約数の総和を求め、結果を出力すること（出力は改行で終える）。"
+    },
+    {
+      "level": 2,
+      "text": "入力と出力の形をコメントに具体的に書いてください。例：入力は1つの整数(1〜1000)、出力は「nの約数の総和はS」。"
+    },
+    {
+      "level": 3,
+      "text": "入出力例で確認したら、次は処理の大まかな流れ（読み取り→計算→表示）をコメントで書いてから進みましょう。"
+    }
+  ]
+}

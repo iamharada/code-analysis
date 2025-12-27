@@ -1,0 +1,81 @@
+ts,user_id,username,task,event,code,stdout,stderr,estimated_stage,next_stage,processing_structure,advice
+2025-12-18T07:39:50.983Z,user_020,user20,2,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:△△*/
+
+    return 0;
+}",,,,,,
+2025-12-18T07:40:00.975Z,user_020,user20,2,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:印字*/
+    //put
+    return 0;
+}",,,,,,
+2025-12-18T07:40:10.972Z,user_020,user20,2,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:印字*/
+    //puts    wo
+    
+    return 0;
+}",,,,,,
+2025-12-18T07:40:20.986Z,user_020,user20,2,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:印字*/
+    //putsを使う
+    return 0;
+}",,,,,,
+2025-12-18T07:40:50.974Z,user_020,user20,2,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:印字*/
+    //putsを使う
+   
+    return 0;
+}",,,,,,
+2025-12-18T07:41:00.983Z,user_020,user20,2,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:印字*/
+    //putsを使う
+    puts("""")
+    return 0;
+}",,,,,,
+2025-12-18T07:41:20.979Z,user_020,user20,2,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:印字*/
+    //putsを使う
+    puts(""初めま\n"")
+    return 0;
+}",,,,,,
+2025-12-18T07:41:30.982Z,user_020,user20,2,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:印字*/
+    //putsを使う
+    puts(""はじめましてよろしくおねがいしま\n"")
+    return 0;
+}",,,,,,
+2025-12-18T07:41:40.611Z,user_020,user20,2,run,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:印字*/
+    //putsを使う
+    puts(""はじめまして\nよろしくお願いします\n"");
+    return 0;
+}","はじめまして
+よろしくお願いします
+
+",,,,,
+2025-12-18T07:41:40.982Z,user_020,user20,2,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:印字*/
+    //putsを使う
+    puts(""はじめまして\nよろしくお願いします\n"");
+    return 0;
+}",,,,,,

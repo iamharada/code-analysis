@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-12-24T00:42:27.808Z",
+  "username": "user28",
+  "userId": "user_028",
+  "taskNumber": "14",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:3つの実数, 出力:３角形の形状*/\n    float a,b,c;\n    //３つの実数を受け取る\n    scanf(\"%f\",a,b,c);\n    //三角形が成り立つかどうか（成立する場合）\n    if(a>b+c){\n           //三角形の形状判定\n        if(a*a>=b*b+c*c){\n            \n    //成立しない場合\n    　　　 //error\n    \n    return 0;\n    \n}",
+  "estimated_stage": "コード化",
+  "next_stage": "コードの整合性確認",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：入力を読み、三角形の成立を判定し、種類を出力する全体処理",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "3つの実数を受け取る（scanf）処理",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "三角形が成立するか判定する（最大辺と他辺の和の比較）",
+      "status": "in_progress"
+    },
+    {
+      "level": 3,
+      "text": "成立する場合に直角・鋭角・鈍角を判定する（辺の二乗比較）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "成立しない場合は\"Error\"を出力する処理",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まず今のコードの誤りを探しましょう：入力読み取りやif条件、中括弧の対応を見直してください。"
+    },
+    {
+      "level": 2,
+      "text": "scanfの書き方と三角形成立条件（最大辺 < 他の2辺の和）を確認し、判定の流れを整理してください。"
+    },
+    {
+      "level": 3,
+      "text": "scanfには変数のアドレス（例: &a, &b, &c）を渡す。三角形成立は if (a < b + c) 、直角/鋭角/鈍角は a*a ==/< / > b*b + c*c の比較で判定し、対応する文字列をprintfで出力して最後に改行する。"
+    }
+  ]
+}

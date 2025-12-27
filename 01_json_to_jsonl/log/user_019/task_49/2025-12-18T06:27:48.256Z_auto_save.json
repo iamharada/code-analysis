@@ -1,0 +1,1 @@
+{"timestamp":"2025-12-18T06:27:48.256Z","username":"user19","userId":"user_019","taskNumber":"49","event":"auto_save","code":"#include <stdio.h>\nint lime3(int i);\nint tri3(int n,int m);\n\nint main(void) {\n    /*入力:1つの整数値, 出力:*の三角形*/\n    //整数値の入力\n    //tri3入力値を代入\n    return 0;\n}\n\nint line3(int i){\n    //i個の*を表示\n    //countを返す\n}"}

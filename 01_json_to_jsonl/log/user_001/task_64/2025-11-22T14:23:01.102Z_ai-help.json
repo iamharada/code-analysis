@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-11-22T14:23:01.102Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "64",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\nint main(void) {\n    // Input:one integer, Output:sum of its divisors\n    // 1. Receive the input\n    // 2. Initialize the sum to 0\n    // 3. Loop from 1 to the input value\n    // 4. Output the total sum\n    return 0;\n}\n\n\n\n\n\n\n\n// Current process: Determining the Overall Structure | Next Process: Codingになるようにアドバイスください\n//1個目のコメントを実装してください的な",
+  "estimated_stage": "Determining the Overall Structure",
+  "next_stage": "Coding",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "Comment: Input: one integer, Output: sum of its divisors",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "Step 1: Receive the input",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "Step 2: Initialize the sum to 0",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "Step 3: Loop from 1 to the input value",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "Step 4: Output the total sum",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "You already wrote clear top-level steps; this means you can move to coding now. Start by implementing the first comment: reading the input."
+    },
+    {
+      "level": 2,
+      "text": "Decide a variable name to hold the input and how you'll read an integer from standard input before using it in the loop."
+    },
+    {
+      "level": 3,
+      "text": "Declare an int variable, use the standard input function to store the user's number into it, then continue by initializing the sum and writing the for-loop; test the program after input is working."
+    }
+  ]
+}

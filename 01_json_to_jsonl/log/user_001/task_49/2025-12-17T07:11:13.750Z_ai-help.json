@@ -1,0 +1,36 @@
+{
+  "timestamp": "2025-12-17T07:11:13.750Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数: プログラムの入口（現在は雛形のみ）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main内のコメント: 入力・出力の説明を置く場所（内容が未記入）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題の要件をもう一度確認しよう: '*'で等辺の長さを表す二等辺三角形を出力し、最後にCOUNT=合計を出すことを忘れないで。"
+    },
+    {
+      "level": 2,
+      "text": "入力と出力の具体例をコメントに書こう: 例えば入力5なら1行目に'*'、2行目に'**'…5行目に'*****'、最後に'COUNT=15'になる。"
+    },
+    {
+      "level": 3,
+      "text": "今のコメントを具体化して置き換えよう: /*入力: int n (2-20), 出力: n行の三角形を'*'で表示し最後に COUNT=合計 と改行*/ と書くこと。"
+    }
+  ]
+}

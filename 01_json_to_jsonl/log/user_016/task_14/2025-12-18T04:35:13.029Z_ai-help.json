@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-12-18T04:35:13.029Z",
+  "username": "user16",
+  "userId": "user_016",
+  "taskNumber": "14",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    float a,b,c;/*入力:3つの実数, 出力:三角形の形状判定*/\n    scanf(\"%f %f %f\",&a,&b,&c);\n    if(a<b+c){//三角形の成立を判定\n        if(a*a==b*b+c*c){//成立なら三角形の種類を判定\n            printf(\"直角三角形\\n\");\n        }\n        else if(a*a>b*b+c*c){\n            printf(\"鈍角三角形\\n\");\n        }\n        else{\n            printf(\"鋭角三角形\\n\");\n        }\n     else{//不成立ならエラーを出力\n         printf(\"Error\\n\");\n    }\n        return 0;\n}",
+  "estimated_stage": "コード化",
+  "next_stage": "コードの整合性確認",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "変数宣言と入力読み取り (a, b, c を scanf で取得)",
+      "status": "done"
+    },
+    {
+      "level": 1,
+      "text": "三角形成立判定 (a < b + c をチェック)",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "成立時の角度判定 (a^2 と b^2 + c^2 を比較して直角/鈍角/鋭角を判定)",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "不成立時の出力 (Error を出力)",
+      "status": "in_progress"
+    },
+    {
+      "level": 1,
+      "text": "プログラム終了 (return 0)",
+      "status": "done"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まずはコンパイルして出るエラーを確認しよう。多くは波括弧の対応ミスや構文ミスで見つかるよ。"
+    },
+    {
+      "level": 2,
+      "text": "浮動小数点の比較や括弧位置を見直そう。== で比較する代わりに差の小ささで判定するのが安全だよ。"
+    },
+    {
+      "level": 3,
+      "text": "外側の if の閉じ括弧が抜けて else の位置がずれているから、括弧を正しく閉じて else を対応させてね。必要なら型を double にして fabs を使い、|a*a-(b*b+c*c)| < 1e-6 のような条件で直角判定し、サンプル入力で動作確認してみてください。"
+    }
+  ]
+}

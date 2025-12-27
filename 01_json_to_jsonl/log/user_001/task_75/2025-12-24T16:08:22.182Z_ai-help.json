@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-12-24T16:08:22.182Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n    //入力をパスカルの三角形の段数として受け付ける。\n    //入力値（段数）をpascal関数に渡す。\n    return 0;\n}\n//入力された段数分のパスカルの三角形を出力するpascal関数を作る",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：入力を受け取りpascal関数へ渡す枠組みがある",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力をパスカルの段数として受け取る（コメントあり）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力値をpascal関数に渡す（呼び出しは未実装）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "mainの終了処理（return 0）がある",
+      "status": "done"
+    },
+    {
+      "level": 1,
+      "text": "pascal関数：二次元配列と繰り返しで三角形を作り印字する（まだ作っていない）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "どのコメントを具体化すれば動くか探そう。まずは「入力を読む」「pascal関数を作る」は必須だよ。"
+    },
+    {
+      "level": 2,
+      "text": "pascal関数内を小さなステップに分けよう：配列宣言→初期化→値の計算→出力の順で考えると進めやすい。"
+    },
+    {
+      "level": 3,
+      "text": "具体的には：二次元配列を用意し（最大10行）、各行の両端を1で初期化、内側は上の行の左右和で埋め、printf(\"%3d\")で行ごとに出力して改行する手順を書いてみて。"
+    }
+  ]
+}

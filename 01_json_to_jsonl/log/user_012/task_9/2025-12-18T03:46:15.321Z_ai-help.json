@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-12-18T03:46:15.321Z",
+  "username": "user12",
+  "userId": "user_012",
+  "taskNumber": "9",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:2つの整数値, 出力:1か0*/\n    //2つの整数値の入力\n    //a>bまたはa+b=0になっているかの判定\n    //判定の結果に応じて1か0を出力\n    \n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：入力→判定→出力の全体の流れを担当",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "2つの整数値を入力する処理",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "a>b または a+b=0 の判定処理",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "判定結果に応じて1か0を出力（最後に改行）する処理",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "今書いているコメント通りに、入力→判定→出力の順で実装するつもりで進めましょう。"
+    },
+    {
+      "level": 2,
+      "text": "まずint型の変数を2つ用意して、入力を受け取ることを考えてください。判定は「a>b または a+b==0」を意識します。"
+    },
+    {
+      "level": 3,
+      "text": "具体的には変数宣言→scanfで2つ読み取る→ if (a>b || a+b==0) の条件で1を出力、そうでなければ0を出力し最後に改行を入れてください。"
+    }
+  ]
+}

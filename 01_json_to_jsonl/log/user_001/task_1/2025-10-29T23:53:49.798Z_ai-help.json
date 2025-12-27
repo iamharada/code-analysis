@@ -1,0 +1,50 @@
+{
+  "timestamp": "2025-10-29T23:53:49.798Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": 1,
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：〇〇, 出力：△△*/\n    aaaaaaaa;\n    \n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "#include <stdio.h> を記述している（ヘッダ読み込み）",
+      "status": "done"
+    },
+    {
+      "level": 1,
+      "text": "int main(void) の定義（プログラム本体の開始）",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "入力・出力についてのコメントを書いている（入力：〇〇, 出力：△△）",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "実際の出力処理の場所にプレースホルダ（aaaaaaaa;）がある（未実装）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "return 0; による終了処理が書かれている",
+      "status": "done"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "現在は「出力をどう書くか」を決める段階です。プレースホルダを削除して、main関数内でprintfを使って目的の文字列を出力する処理を書きましょう。"
+    },
+    {
+      "level": 2,
+      "text": "出力すべき文字列は正確に \"Hello,world!ようこそ\" で、最後に改行を入れる必要があります。printfには出力する文字列（ダブルクォートで囲む）を渡し、文の終わりにセミコロンを付けることを忘れないでください。stdio.hは既に読み込まれています。"
+    },
+    {
+      "level": 3,
+      "text": "手順：1) プレースホルダ行を消す。2) mainの中にprintfを呼ぶ文を入れる（ダブルクォートで文字列を作る、末尾に改行を入れるエスケープを忘れずに）。3) コンパイルして実行し、出力が課題の例と完全に一致するか確認する。もし違うなら、文字列の綴り・句読点・改行の有無・ファイルの文字エンコーディング（UTF-8等）を確認してください。"
+    }
+  ]
+}

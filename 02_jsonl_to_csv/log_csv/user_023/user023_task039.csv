@@ -1,0 +1,861 @@
+ts,user_id,username,task,event,code,stdout,stderr,estimated_stage,next_stage,processing_structure,advice
+2025-12-18T06:40:11.127Z,user_023,user23,39,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1, 出力:△△*/
+
+    return 0;
+}",,,,,,
+2025-12-18T06:40:21.125Z,user_023,user23,39,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1つの整数, 出力:△△*/
+
+    return 0;
+}",,,,,,
+2025-12-18T06:40:31.118Z,user_023,user23,39,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1つの整数, 出力:*/
+
+    return 0;
+}",,,,,,
+2025-12-18T06:40:51.130Z,user_023,user23,39,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1つの整数, 出力:約数の総和*/
+
+    return 0;
+}",,,,,,
+2025-12-18T06:41:11.132Z,user_023,user23,39,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1つの整数, 出力:約数の総和*/
+　　
+    return 0;
+}",,,,,,
+2025-12-18T06:41:21.126Z,user_023,user23,39,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1つの整数, 出力:約数の総和*/
+　　/*
+    return 0;
+}",,,,,,
+2025-12-18T06:45:01.120Z,user_023,user23,39,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1つの整数, 出力:約数の総和*/
+　　/*入力した整数のやくｓ
+    return 0;
+}",,,,,,
+2025-12-18T06:45:11.125Z,user_023,user23,39,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1つの整数, 出力:約数の総和*/
+　　/*入力した整数の約数を求める*/
+    /*
+    return 0;
+}",,,,,,
+2025-12-18T06:45:21.126Z,user_023,user23,39,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1つの整数, 出力:約数の総和*/
+　　/*入力した整数の約数を求める*/
+    /*その約数のそ
+    return 0;
+}",,,,,,
+2025-12-18T06:45:31.133Z,user_023,user23,39,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1つの整数, 出力:約数の総和*/
+　　/*入力した整数の約数を求める*/
+    /*その約数の総和を求める:
+    return 0;
+}",,,,,,
+2025-12-18T06:45:38.304Z,user_023,user23,39,run,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1つの整数, 出力:約数の総和*/
+　　/*入力した整数の約数を求める*/
+    /*その約数の総和を求める*/
+    return 0;
+}",,"file0.code.c: In function 'main':
+file0.code.c:5:1: error: stray '\343' in program
+    5 | 　　/*入力した整数の約数を求める*/
+      | ^~
+file0.code.c:5:4: error: stray '\343' in program
+    5 | 　　/*入力した整数の約数を求める*/
+      |   ^~
+chmod: cannot access 'a.out': No such file or directory
+",,,,
+2025-12-18T06:45:41.124Z,user_023,user23,39,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1つの整数, 出力:約数の総和*/
+　　/*入力した整数の約数を求める*/
+    /*その約数の総和を求める*/
+    return 0;
+}",,,,,,
+2025-12-18T06:46:08.869Z,user_023,user23,39,ai-help,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1つの整数, 出力:約数の総和*/
+　　/*入力した整数の約数を求める*/
+    /*その約数の総和を求める*/
+    return 0;
+}",,,処理の大枠決定,処理の大枠決定,"[{""level"": 1, ""text"": ""main関数: 入出力を受け取り、約数の総和を求めて出力する全体の枠"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""入力: 1つの整数を読み取る（コメントあり、未実装）"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""入力した整数の約数を求める（コメントあり、未実装）"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""約数の総和を求めて出力する（コメントあり、未実装）"", ""status"": ""in_progress""}]","[{""level"": 1, ""text"": ""全体の流れを確認しよう：入力→約数を調べる→和を計算→出力、の順序をイメージしてみてください。""}, {""level"": 2, ""text"": ""必要な処理を洗い出そう：入力読み取り、再帰関数 yakusum1 の設計（約数の和を計算）、結果の出力を考えてください。""}, {""level"": 3, ""text"": ""まずコメントで3〜5ステップを書こう：例）1) 入力読み取り 2) yakusum1(n, i) を実装（再帰で約数を足す） 3) 結果を printf で出力、のように具体化してください。""}]"
+2025-12-18T06:48:31.133Z,user_023,user23,39,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1つの整数, 出力:約数の総和*/
+    prin
+　　/*入力した整数の約数を求める*/
+    /*その約数の総和を求める*/
+    return 0;
+}",,,,,,
+2025-12-18T06:48:41.118Z,user_023,user23,39,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1つの整数, 出力:約数の総和*/
+    int a;
+    scanf(""
+　　/*入力した整数の約数を求める*/
+    /*その約数の総和を求める*/
+    return 0;
+}",,,,,,
+2025-12-18T06:48:51.121Z,user_023,user23,39,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1つの整数, 出力:約数の総和*/
+    int a;
+    scanf(""%d,&a
+　　/*入力した整数の約数を求める*/
+    /*その約数の総和を求める*/
+    return 0;
+}",,,,,,
+2025-12-18T06:49:01.131Z,user_023,user23,39,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1つの整数, 出力:約数の総和*/
+    int a;
+    scanf(""%d,&a"");
+　　/*入力した整数の約数を求める*/
+    /*その約数の総和を求める*/
+    return 0;
+}",,,,,,
+2025-12-18T06:49:31.125Z,user_023,user23,39,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1つの整数, 出力:約数の総和*/
+    int a;
+    scanf(""%d,&a"");
+　　/*入力した整数の約数を求める*/
+    /*その約数の総和を求める*/
+    return 0;
+}　　/*入力した整数の約数を求める*/",,,,,,
+2025-12-18T06:49:41.125Z,user_023,user23,39,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1つの整数, 出力:約数の総和*/
+    int a;
+    scanf(""%d,&a"");
+    /*その約数の総和を求める*/
+    return 0;
+}　　
+   /*入力した整数の約数を求める*/",,,,,,
+2025-12-18T06:49:51.122Z,user_023,user23,39,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1つの整数, 出力:約数の総和*/
+    int a;
+    scanf(""%d,&a"");
+    /*その約数の総和を求める*/
+    return 0;
+}　　
+     /*入力した整数の約数を求める*/
+int ",,,,,,
+2025-12-18T06:50:01.123Z,user_023,user23,39,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1つの整数, 出力:約数の総和*/
+    int a;
+    scanf(""%d,&a"");
+    /*その約数の総和を求める*/
+    return 0;
+}　　
+     /*入力した整数の約数を求める*/
+int yakusum",,,,,,
+2025-12-18T06:50:11.125Z,user_023,user23,39,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1つの整数, 出力:約数の総和*/
+    int a;
+    scanf(""%d,&a"");
+    /*その約数の総和を求める*/
+    return 0;
+}　　
+     /*入力した整数の約数を求める*/
+int yakusum1(){
+    ",,,,,,
+2025-12-18T06:50:57.968Z,user_023,user23,39,ai-help,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1つの整数, 出力:約数の総和*/
+    int a;
+    scanf(""%d,&a"");
+    /*その約数の総和を求める*/
+    return 0;
+}　　
+     /*入力した整数の約数を求める*/
+int yakusum1(){
+    ",,,処理の大枠決定,コード化,"[{""level"": 1, ""text"": ""main関数：入力を受け取り、約数和を計算して出力する役割"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""変数宣言（int a;）"", ""status"": ""done""}, {""level"": 2, ""text"": ""入力処理（scanf）"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""約数の総和を求める処理を呼ぶ／実装（コメントあり）"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""結果の出力（printf）の実装"", ""status"": ""todo""}, {""level"": 2, ""text"": ""return 0;"", ""status"": ""done""}, {""level"": 1, ""text"": ""yakusum1関数：約数の和を再帰で求めるはずの関数宣言がある"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""yakusum1 の本体（未実装）"", ""status"": ""todo""}]","[{""level"": 1, ""text"": ""まずは現在のコメント通りに、入力→計算→出力の順で実装することを意識しましょう。""}, {""level"": 2, ""text"": ""入力を正しく受け取り、yakusum1（再帰）で計算した結果を printf で改行付きで出す流れを考えてください。""}, {""level"": 3, ""text"": ""scanf は scanf(\""%d\"", &a); に直し、yakusum1 を例えば int yakusum1(int n,int i) として if(i>n) return 0; else return (n%i==0?i:0)+yakusum1(n,i+1); と実装して main で yakusum1(a,1) を呼び出し printf(\""%dの約数の総和は%d\\n\"", a, sum); と出力してください。""}]"
+2025-12-18T06:54:41.132Z,user_023,user23,39,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1つの整数, 出力:約数の総和*/
+    int a;
+    scanf(""%d,&a"");
+    /*その約数の総和を求める*/
+    return 0;
+}　　
+     /*入力した整数の約数を求める*/
+int yakusum1(){
+    in",,,,,,
+2025-12-18T06:54:51.123Z,user_023,user23,39,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1つの整数, 出力:約数の総和*/
+    int a;
+    scanf(""%d,&a"");
+    /*その約数の総和を求める*/
+    return 0;
+}　　
+     /*入力した整数の約数を求める*/
+int yakusum1(){
+    int ",,,,,,
+2025-12-18T06:56:01.117Z,user_023,user23,39,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1つの整数, 出力:約数の総和*/
+    int a;
+    scanf(""%d,&a"");
+    /*その約数の総和を求める*/
+    return 0;
+}　　
+     /*入力した整数の約数を求める*/
+int yakusum1(){
+    int n;
+    ",,,,,,
+2025-12-18T06:59:01.122Z,user_023,user23,39,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1つの整数, 出力:約数の総和*/
+    int num;
+    scanf(""%d,&num"");
+    /*その約数の総和を求める*/
+    return 0;
+}　　
+     /*入力した整数の約数を求める*/
+int yakusum1(){
+    int n;
+    ",,,,,,
+2025-12-18T06:59:11.127Z,user_023,user23,39,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1つの整数, 出力:約数の総和*/
+    int num;
+    int result
+    scanf(""%d,&num"");
+    /*その約数の総和を求める*/
+    return 0;
+}　　
+     /*入力した整数の約数を求める*/
+int yakusum1(){
+    int n;
+    ",,,,,,
+2025-12-18T06:59:21.121Z,user_023,user23,39,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1つの整数, 出力:約数の総和*/
+    int num;
+    int result;
+    scanf(""%d,&num"");
+    /*その約数の総和を求める*/
+    return 0;
+}　　
+     /*入力した整数の約数を求める*/
+int yakusum1(){
+    int n;
+    ",,,,,,
+2025-12-18T07:00:41.128Z,user_023,user23,39,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1つの整数, 出力:約数の総和*/
+    int num;
+    int result;
+    scanf(""%d,&num"");
+    result=
+    /*その約数の総和を求める*/
+    return 0;
+}　　
+     /*入力した整数の約数を求める*/
+int yakusum1(){
+    int n;
+    ",,,,,,
+2025-12-18T07:00:51.124Z,user_023,user23,39,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1つの整数, 出力:約数の総和*/
+    int num;
+    int result;
+    scanf(""%d,&num"");
+    result=yakusum(num,num);
+    /*その約数の総和を求める*/
+    return 0;
+}　　
+     /*入力した整数の約数を求める*/
+int yakusum1(){
+    int n;
+    ",,,,,,
+2025-12-18T07:01:01.128Z,user_023,user23,39,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1つの整数, 出力:約数の総和*/
+    int num;
+    int result;
+    scanf(""%d,&num"");
+    result=yakusum(num,num);
+    
+    /*その約数の総和を求める*/
+    return 0;
+}　　
+     /*入力した整数の約数を求める*/
+int yakusum1(){
+    int n;
+    ",,,,,,
+2025-12-18T07:01:11.118Z,user_023,user23,39,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1つの整数, 出力:約数の総和*/
+    int num;
+    int result;
+    scanf(""%d,&num"");
+    result=yakusum(num,num);
+    printf(""%dの
+    /*その約数の総和を求める*/
+    return 0;
+}　　
+     /*入力した整数の約数を求める*/
+int yakusum1(){
+    int n;
+    ",,,,,,
+2025-12-18T07:01:21.153Z,user_023,user23,39,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1つの整数, 出力:約数の総和*/
+    int num;
+    int result;
+    scanf(""%d,&num"");
+    result=yakusum(num,num);
+    printf(""%dの約数の総数は%d""
+    /*その約数の総和を求める*/
+    return 0;
+}　　
+     /*入力した整数の約数を求める*/
+int yakusum1(){
+    int n;
+    ",,,,,,
+2025-12-18T07:01:31.119Z,user_023,user23,39,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1つの整数, 出力:約数の総和*/
+    int num;
+    int result;
+    scanf(""%d,&num"");
+    result=yakusum(num,num);
+    printf(""%dの約数の総数は%d"",numnresult);
+    /*その約数の総和を求める*/
+    return 0;
+}　　
+     /*入力した整数の約数を求める*/
+int yakusum1(){
+    int n;
+    ",,,,,,
+2025-12-18T07:01:51.133Z,user_023,user23,39,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1つの整数, 出力:約数の総和*/
+    int num;
+    int result;
+    scanf(""%d,&num"");
+    /*その約数の総和を求める*/
+    result=yakusum(num,num);
+    printf(""%dの約数の総数は%d"",numnresult);
+    /*その約数の総和を求める*/
+    return 0;
+}　　
+     /*入力した整数の約数を求める*/
+int yakusum1(){
+    int n;
+    ",,,,,,
+2025-12-18T07:02:01.128Z,user_023,user23,39,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1つの整数, 出力:約数の総和*/
+    int num;
+    int result;
+    scanf(""%d,&num"");
+    /*その約数の総和を求める*/
+    result=yakusum(num,num);
+    printf(""%dの約数の総数は%d"",numnresult);
+    return 0;
+}　　
+     /*入力した整数の約数を求める*/
+int yakusum1(){
+    int n;
+    ",,,,,,
+2025-12-18T07:02:11.131Z,user_023,user23,39,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1つの整数, 出力:約数の総和*/
+    int num;
+    int result;
+    scanf(""%d,&num"");
+    /*その約数の総和を求める*/
+    result=yakusum(num,num);
+    printf(""%dの約数の総数は%d"",numnresult);
+    return 0;
+}　　
+     /*入力した整数の約数を求める*/
+int yakusum1(int n,){
+    int n;
+    ",,,,,,
+2025-12-18T07:02:21.130Z,user_023,user23,39,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1つの整数, 出力:約数の総和*/
+    int num;
+    int result;
+    scanf(""%d,&num"");
+    /*その約数の総和を求める*/
+    result=yakusum(num,num);
+    printf(""%dの約数の総数は%d"",numnresult);
+    return 0;
+}　　
+     /*入力した整数の約数を求める*/
+int yakusum1(int n,int i){
+    int n;
+    ",,,,,,
+2025-12-18T07:02:31.133Z,user_023,user23,39,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1つの整数, 出力:約数の総和*/
+    int num;
+    int result;
+    scanf(""%d,&num"");
+    /*その約数の総和を求める*/
+    result=yakusum(num,num);
+    printf(""%dの約数の総数は%d"",numnresult);
+    return 0;
+}　　
+     /*入力した整数の約数を求める*/
+int yakusum1(int n,int i){
+    int z;
+    int a;
+    if
+    ",,,,,,
+2025-12-18T07:02:41.128Z,user_023,user23,39,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1つの整数, 出力:約数の総和*/
+    int num;
+    int result;
+    scanf(""%d,&num"");
+    /*その約数の総和を求める*/
+    result=yakusum(num,num);
+    printf(""%dの約数の総数は%d"",numnresult);
+    return 0;
+}　　
+     /*入力した整数の約数を求める*/
+int yakusum1(int n,int i){
+    int z;
+    int a;
+    if(i>1){
+        
+    ",,,,,,
+2025-12-18T07:02:51.132Z,user_023,user23,39,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1つの整数, 出力:約数の総和*/
+    int num;
+    int result;
+    scanf(""%d,&num"");
+    /*その約数の総和を求める*/
+    result=yakusum(num,num);
+    printf(""%dの約数の総数は%d"",numnresult);
+    return 0;
+}　　
+     /*入力した整数の約数を求める*/
+int yakusum1(int n,int i){
+    int z;
+    int a;
+    if(i>1){
+        if(
+    ",,,,,,
+2025-12-18T07:03:01.118Z,user_023,user23,39,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1つの整数, 出力:約数の総和*/
+    int num;
+    int result;
+    scanf(""%d,&num"");
+    /*その約数の総和を求める*/
+    result=yakusum(num,num);
+    printf(""%dの約数の総数は%d"",numnresult);
+    return 0;
+}　　
+     /*入力した整数の約数を求める*/
+int yakusum1(int n,int i){
+    int z;
+    int a;
+    if(i>1){
+        if(n%i==
+    ",,,,,,
+2025-12-18T07:03:11.127Z,user_023,user23,39,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1つの整数, 出力:約数の総和*/
+    int num;
+    int result;
+    scanf(""%d,&num"");
+    /*その約数の総和を求める*/
+    result=yakusum(num,num);
+    printf(""%dの約数の総数は%d"",numnresult);
+    return 0;
+}　　
+     /*入力した整数の約数を求める*/
+int yakusum1(int n,int i){
+    int z;
+    int a;
+    if(i>1){
+        if(n%i==0){
+            
+    ",,,,,,
+2025-12-18T07:03:21.130Z,user_023,user23,39,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1つの整数, 出力:約数の総和*/
+    int num;
+    int result;
+    scanf(""%d,&num"");
+    /*その約数の総和を求める*/
+    result=yakusum(num,num);
+    printf(""%dの約数の総数は%d"",numnresult);
+    return 0;
+}　　
+     /*入力した整数の約数を求める*/
+int yakusum1(int n,int i){
+    int z;
+    int a;
+    if(i>1){
+        if(n%i==0){
+            a=i
+    ",,,,,,
+2025-12-18T07:03:31.123Z,user_023,user23,39,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1つの整数, 出力:約数の総和*/
+    int num;
+    int result;
+    scanf(""%d,&num"");
+    /*その約数の総和を求める*/
+    result=yakusum(num,num);
+    printf(""%dの約数の総数は%d"",numnresult);
+    return 0;
+}　　
+     /*入力した整数の約数を求める*/
+int yakusum1(int n,int i){
+    int z;
+    int a;
+    if(i>1){
+        if(n%i==0){
+            a=i;
+    ",,,,,,
+2025-12-18T07:03:41.123Z,user_023,user23,39,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1つの整数, 出力:約数の総和*/
+    int num;
+    int result;
+    scanf(""%d,&num"");
+    /*その約数の総和を求める*/
+    result=yakusum(num,num);
+    printf(""%dの約数の総数は%d"",numnresult);
+    return 0;
+}　　
+     /*入力した整数の約数を求める*/
+int yakusum1(int n,int i){
+    int z;
+    int a;
+    if(i>1){
+        if(n%i==0){
+            a=i;
+            z=a+yakusum
+    ",,,,,,
+2025-12-18T07:03:51.124Z,user_023,user23,39,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1つの整数, 出力:約数の総和*/
+    int num;
+    int result;
+    scanf(""%d,&num"");
+    /*その約数の総和を求める*/
+    result=yakusum(num,num);
+    printf(""%dの約数の総数は%d"",numnresult);
+    return 0;
+}　　
+     /*入力した整数の約数を求める*/
+int yakusum1(int n,int i){
+    int z;
+    int a;
+    if(i>1){
+        if(n%i==0){
+            a=i;
+            z=a+yakusum(n,i-1);
+           
+    ",,,,,,
+2025-12-18T07:04:01.134Z,user_023,user23,39,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1つの整数, 出力:約数の総和*/
+    int num;
+    int result;
+    scanf(""%d,&num"");
+    /*その約数の総和を求める*/
+    result=yakusum(num,num);
+    printf(""%dの約数の総数は%d"",numnresult);
+    return 0;
+}　　
+     /*入力した整数の約数を求める*/
+int yakusum1(int n,int i){
+    int z;
+    int a;
+    if(i>1){
+        if(n%i==0){
+            a=i;
+            z=a+yakusum(n,i-1);
+        }else{
+            a=0
+    ",,,,,,
+2025-12-18T07:04:11.132Z,user_023,user23,39,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1つの整数, 出力:約数の総和*/
+    int num;
+    int result;
+    scanf(""%d,&num"");
+    /*その約数の総和を求める*/
+    result=yakusum(num,num);
+    printf(""%dの約数の総数は%d"",numnresult);
+    return 0;
+}　　
+     /*入力した整数の約数を求める*/
+int yakusum1(int n,int i){
+    int z;
+    int a;
+    if(i>1){
+        if(n%i==0){
+            a=i;
+            z=a+yakusum(n,i-1);
+        }else{
+            a=0;
+            z=a+yakusum
+    ",,,,,,
+2025-12-18T07:04:21.130Z,user_023,user23,39,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1つの整数, 出力:約数の総和*/
+    int num;
+    int result;
+    scanf(""%d,&num"");
+    /*その約数の総和を求める*/
+    result=yakusum(num,num);
+    printf(""%dの約数の総数は%d"",numnresult);
+    return 0;
+}　　
+     /*入力した整数の約数を求める*/
+int yakusum1(int n,int i){
+    int z;
+    int a;
+    if(i>1){
+        if(n%i==0){
+            a=i;
+            z=a+yakusum(n,i-1);
+        }else{
+            a=0;
+            z=a+yakusum(n,i-1);
+       
+    ",,,,,,
+2025-12-18T07:04:31.119Z,user_023,user23,39,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1つの整数, 出力:約数の総和*/
+    int num;
+    int result;
+    scanf(""%d,&num"");
+    /*その約数の総和を求める*/
+    result=yakusum(num,num);
+    printf(""%dの約数の総数は%d"",numnresult);
+    return 0;
+}　　
+     /*入力した整数の約数を求める*/
+int yakusum1(int n,int i){
+    int z;
+    int a;
+    if(i>1){
+        if(n%i==0){
+            a=i;
+            z=a+yakusum(n,i-1);
+        }else{
+            a=0;
+            z=a+yakusum(n,i-1);
+        }
+    }else{
+        
+    ",,,,,,
+2025-12-18T07:04:41.129Z,user_023,user23,39,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1つの整数, 出力:約数の総和*/
+    int num;
+    int result;
+    scanf(""%d,&num"");
+    /*その約数の総和を求める*/
+    result=yakusum(num,num);
+    printf(""%dの約数の総数は%d"",numnresult);
+    return 0;
+}　　
+     /*入力した整数の約数を求める*/
+int yakusum1(int n,int i){
+    int z;
+    int a;
+    if(i>1){
+        if(n%i==0){
+            a=i;
+            z=a+yakusum(n,i-1);
+        }else{
+            a=0;
+            z=a+yakusum(n,i-1);
+        }
+    }else{
+        z=1;
+    }
+    re
+    ",,,,,,
+2025-12-18T07:04:51.121Z,user_023,user23,39,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1つの整数, 出力:約数の総和*/
+    int num;
+    int result;
+    scanf(""%d,&num"");
+    /*その約数の総和を求める*/
+    result=yakusum(num,num);
+    printf(""%dの約数の総数は%d"",numnresult);
+    return 0;
+}　　
+     /*入力した整数の約数を求める*/
+int yakusum1(int n,int i){
+    int z;
+    int a;
+    if(i>1){
+        if(n%i==0){
+            a=i;
+            z=a+yakusum(n,i-1);
+        }else{
+            a=0;
+            z=a+yakusum(n,i-1);
+        }
+    }else{
+        z=1;
+    }
+    return z;
+
+    ",,,,,,
+2025-12-18T07:05:00.821Z,user_023,user23,39,run,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1つの整数, 出力:約数の総和*/
+    int num;
+    int result;
+    scanf(""%d,&num"");
+    /*その約数の総和を求める*/
+    result=yakusum(num,num);
+    printf(""%dの約数の総数は%d"",numnresult);
+    return 0;
+}　　
+     /*入力した整数の約数を求める*/
+int yakusum1(int n,int i){
+    int z;
+    int a;
+    if(i>1){
+        if(n%i==0){
+            a=i;
+            z=a+yakusum(n,i-1);
+        }else{
+            a=0;
+            z=a+yakusum(n,i-1);
+        }
+    }else{
+        z=1;
+    }
+    return z;
+}
+    ",,"file0.code.c: In function 'main':
+file0.code.c:9:12: warning: implicit declaration of function 'yakusum' [-Wimplicit-function-declaration]
+    9 |     result=yakusum(num,num);
+      |            ^~~~~~~
+file0.code.c:10:40: error: 'numnresult' undeclared (first use in this function); did you mean 'result'?
+   10 |     printf(""%dの約数の総数は%d"",numnresult);
+      |                                 ^~~~~~~~~~
+      |                                 result
+file0.code.c:10:40: note: each undeclared identifier is reported only once for each function it appears in
+file0.code.c: At top level:
+file0.code.c:12:2: error: stray '\343' in program
+   12 | }　　
+      |  ^~
+file0.code.c:12:5: error: stray '\343' in program
+   12 | }　　
+      |    ^~
+chmod: cannot access 'a.out': No such file or directory
+",,,,
+2025-12-18T07:05:01.121Z,user_023,user23,39,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:1つの整数, 出力:約数の総和*/
+    int num;
+    int result;
+    scanf(""%d,&num"");
+    /*その約数の総和を求める*/
+    result=yakusum(num,num);
+    printf(""%dの約数の総数は%d"",numnresult);
+    return 0;
+}　　
+     /*入力した整数の約数を求める*/
+int yakusum1(int n,int i){
+    int z;
+    int a;
+    if(i>1){
+        if(n%i==0){
+            a=i;
+            z=a+yakusum(n,i-1);
+        }else{
+            a=0;
+            z=a+yakusum(n,i-1);
+        }
+    }else{
+        z=1;
+    }
+    return z;
+}
+    ",,,,,,

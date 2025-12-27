@@ -1,0 +1,10 @@
+{
+  "timestamp": "2025-12-18T06:49:48.779Z",
+  "username": "user19",
+  "userId": "user_019",
+  "taskNumber": "49",
+  "event": "run",
+  "code": "#include <stdio.h>\nint line3(int i);\nint tri3(int n,int m);\n\nint main(void) {\n    /*入力:1つの整数値, 出力:*の三角形*/\n    //整数値の入力\n    int n;\n    int count;\n    scanf(\"%d\",&n);\n    //tri3入力値を代入\n    count=tri3(n,1);\n    //countを表示\n    printf(\"COUNT=%d\",count);\n    return 0;\n}\n\nint line3(int i){\n    int count;\n    //i個の*を表示\n    //*を一つずつ表示、iが0になるまで再帰\n    //iが0かどうか判定\n    \n    if(i!=0){\n        //i!=0・・・*を表示\n        printf(\"*\");\n        //count = count+1\n        count = count+1;\n        //i-1をline3に代入\n        line(i-1);\n        }else{\n        //i==0・・・countを返す\n        return count;\n    }\n    return count;\n}\n\nint tri3(int n,int m){\n    int count;\n    //line3にmを代入\n    count=line3(m);\n    printf(\"\\n\");\n    //nがmと同値か判断\n    \n    if(n==m){\n        //同値・・・countを返す\n        return count;\n    }else{\n        //同値でない・・・tri3にn,m+1を代入\n        count=tri3(n,m+1);\n    }\n    return count;\n}",
+  "stdout": "",
+  "stderr": "file0.code.c: In function 'line3':\nfile0.code.c:30:9: warning: implicit declaration of function 'line'; did you mean 'line3'? [-Wimplicit-function-declaration]\n   30 |         line(i-1);\n      |         ^~~~\n      |         line3\n/usr/bin/ld: /tmp/ccDxrTsj.o: in function `line3':\nfile0.code.c:(.text+0x78): undefined reference to `line'\ncollect2: error: ld returned 1 exit status\nchmod: cannot access 'a.out': No such file or directory\n"
+}

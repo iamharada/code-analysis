@@ -1,0 +1,1 @@
+{"timestamp":"2025-12-18T04:17:52.173Z","username":"user15","userId":"user_015","taskNumber":"84","event":"auto_save","code":"#include <stdio.h>\n\nint main(void) {\n    /*入力:二つの文字列, 出力:文字列を10進数とみなしたときの和*/\n    //m\n    return 0;\n}"}

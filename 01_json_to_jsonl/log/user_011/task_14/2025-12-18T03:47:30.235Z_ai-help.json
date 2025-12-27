@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-12-18T03:47:30.235Z",
+  "username": "user11",
+  "userId": "user_011",
+  "taskNumber": "14",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    //aを最大値として辺の長さを作成\n    int a,b,c;\n    \n    //入力\n    scanf(\"%d\",&a);\n    scanf(\"%d\",&b);\n    scanf(\"%d\",&c);\n    \n    //三角形が成立するかを検証する\n        //成立する場合\n            //直角三角形\n            //鋭角三角形\n            //鈍角三角形\n        //成立しない場合\n            //error\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：変数宣言と入力の準備",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力処理：3つの値をscanfで読む",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "三角形成立／分類の処理（コメントのみ）",
+      "status": "todo"
+    },
+    {
+      "level": 3,
+      "text": "三角形が成立するか検証する（コメント）",
+      "status": "todo"
+    },
+    {
+      "level": 3,
+      "text": "成立した場合に直角・鋭角・鈍角に分類する（コメント）",
+      "status": "todo"
+    },
+    {
+      "level": 3,
+      "text": "成立しない場合に\"Error\"を出力する（コメント）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "入力は実数（0<値<=100）で、最初の値が最大と仮定する点を再確認しよう。"
+    },
+    {
+      "level": 2,
+      "text": "判定手順を具体化しよう：(1) 三角形成立か確認、(2) 二乗で角の種類を比較、(3) 結果を出力、の順で考える。"
+    },
+    {
+      "level": 3,
+      "text": "型をdoubleに変え、a*a と b*b + c*c を比較して直角／鋭角／鈍角を判定し、成立しなければ\"Error\"を出力して改行するよう実装してみよう。"
+    }
+  ]
+}

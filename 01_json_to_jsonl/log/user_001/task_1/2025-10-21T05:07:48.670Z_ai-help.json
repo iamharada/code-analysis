@@ -1,0 +1,50 @@
+{
+  "timestamp": "2025-10-21T05:07:48.670Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "1",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：〇〇, 出力：△△*/\n    int a;\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "プログラムの雛形（#include と main 関数の作成）",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "入力／出力をコメントで記述しようとしている（入力：〇〇, 出力：△△）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "不要な変数宣言（int a;）がある",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "printf を使って指定の文字列を印字し、末尾に改行を入れる処理",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "return 0; によるプログラム終了",
+      "status": "done"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "全体的には「標準出力へ決まった文字列を表示するだけ」の課題です。今はまず入出力が何かをはっきり書き出しましょう。"
+    },
+    {
+      "level": 2,
+      "text": "コメントの入力／出力欄を具体化します。ここでは入力は不要（なし）、出力は正確な文字列「Hello,world!ようこそ」と最後に改行です。次に printf 関数を使ってその文字列を出力する処理を main の中に書きます。不要な変数宣言は削除しておくと分かりやすいです。"
+    },
+    {
+      "level": 3,
+      "text": "具体的な手順：\n1) コメントを「入力：なし, 出力：Hello,world!ようこそ」と書き換える。\n2) int a; はこの課題では不要なので削除する。\n3) main 関数の中に printf を呼び出して、出力したい文字列を渡す（出力の最後に改行を入れること——改行文字は \\n で表します）。\n4) ファイルを保存してコンパイル・実行し、表示が「Hello,world!ようこそ」で改行されているか確認する。\n注意：表示する文字列は句読点やスペースも含めて課題と完全に一致させてください。"
+    }
+  ]
+}

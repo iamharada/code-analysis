@@ -1,0 +1,1735 @@
+ts,user_id,username,task,event,code,stdout,stderr,estimated_stage,next_stage,processing_structure,advice
+2025-12-24T00:15:13.610Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:, 出力:△△*/
+
+    return 0;
+}",,,,,,
+2025-12-24T00:15:23.609Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの整数, 出力:△△*/
+
+    return 0;
+}",,,,,,
+2025-12-24T00:15:33.624Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの整数, 出力:三角形の形状*/
+
+    return 0;
+}",,,,,,
+2025-12-24T00:15:43.619Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の*/
+
+    return 0;
+}",,,,,,
+2025-12-24T00:15:53.619Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件*/
+
+    return 0;
+}",,,,,,
+2025-12-24T00:16:43.623Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で*/
+
+    return 0;
+}",,,,,,
+2025-12-24T00:17:43.614Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件でじょうけｎ*/
+
+    return 0;
+}",,,,,,
+2025-12-24T00:17:53.612Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:20:18.732Z,user_026,user26,14,ai-help,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    */
+
+    return 0;
+}",,,課題の理解,課題の理解,"[{""level"": 1, ""text"": ""main関数: 入力受け取り・三角形判定・出力の流れを作る"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""入力: コメントに「3つの整数」とあるが、課題は実数を想定している"", ""status"": ""todo""}, {""level"": 2, ""text"": ""判定: コメントに「三角形の成立条件で条件分岐」とだけ記載されている"", ""status"": ""todo""}, {""level"": 2, ""text"": ""出力: 三角形の種類（直角/鋭角/鈍角）または Error を出す"", ""status"": ""todo""}]","[{""level"": 1, ""text"": ""課題文をもう一度読み、入力が実数であることと最初の値が最大で良いという条件を確認しよう。""}, {""level"": 2, ""text"": ""具体的な入力例をいくつか考えて、成立する三角形と成立しない場合の出力を想像してみよう。""}, {""level"": 3, ""text"": ""入力は3つの実数（最初が最大）で、出力は1行で「直角三角形」「鋭角三角形」「鈍角三角形」または成立しなければ「Error」と表示する。""}]"
+2025-12-24T00:21:43.616Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:24:53.615Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:27:43.610Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    scanf
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:27:53.612Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    scanf(""%d"",)
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:28:03.623Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    scanf(""%d"",&a)
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:28:33.612Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    scanf(""%d"",&a,)
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:29:03.623Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    scanf(""%d"",&a,&b,&)
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:29:13.608Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    scanf(""%d"",&a,&b,&c);
+    
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:29:33.613Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    scanf(""%d"",&a,&b,&c);
+    if()
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:29:43.614Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int
+    scanf(""%d"",&a,&b,&c);
+    if()
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:29:53.623Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int 
+    scanf(""%d"",&a,&b,&c);
+    if()
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:30:03.612Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a,&b,&c);
+    if()
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:30:43.619Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a,&b,&c);
+    if(a)
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:30:53.621Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a,&b,&c);
+    if(a<)
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:31:03.611Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a,&b,&c);
+    if(a<b)
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:31:43.617Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a,&b,&c);
+    if(a<b+c)
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:31:53.614Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a,&b,&c);
+    if(a<b+c ||)
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:32:03.612Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a,&b,&c);
+    if(a<b+c )
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:32:13.622Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a,&b,&c);
+    if(a<b+c && a<b-)
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:32:23.617Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a,&b,&c);
+    if(a<b+c && a<b-c)
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:33:03.619Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a,&b,&c);
+    if(a<b+c && a<b-c)
+        
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:33:33.612Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a,&b,&c);
+    if(a<b+c && a<b-c){
+        
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:33:43.612Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a,&b,&c);
+    if(a<b+c && a<b-c){
+     
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:33:53.616Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a,&b,&c);
+    if(a<b+c && a<b-c){
+    
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:34:03.617Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a,&b,&c);
+    if(a<b+c && a<b-c){
+    }
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:34:43.614Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a,&b,&c);
+    if(a<b+c && a<b-c){
+    }else
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:34:53.609Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a,&b,&c);
+    if(a<b+c && a<b-c){
+    }else{
+        printf()
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:35:03.614Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a,&b,&c);
+    if(a<b+c && a<b-c){
+    }else{
+        printf(er)
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:35:23.613Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a,&b,&c);
+    if(a<b+c && a<b-c){
+    }else{
+        printf(error)
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:36:03.617Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a,&b,&c);
+    if(a<b+c && a<b-c){
+    }else{
+        printf(""error"");
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:36:13.621Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a,&b,&c);
+    if(a<b+c && a<b-c){
+        
+    }else{
+        printf(""error"");
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:36:23.612Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a,&b,&c);
+    if(a<b+c && a<b-c){
+        
+    }else{
+        printf(""error"");
+    }
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:36:53.618Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a,&b,&c);
+    if(a<b+c && a<b-c){
+        if()
+    }else{
+        printf(""error"");
+    }
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:37:23.608Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a,&b,&c);
+    if(a<b+c && a<b-c){
+        if(a)
+    }else{
+        printf(""error"");
+    }
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:37:33.620Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a,&b,&c);
+    if(a<b+c && a<b-c){
+        if(a*a=b)
+    }else{
+        printf(""error"");
+    }
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:37:43.622Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a,&b,&c);
+    if(a<b+c && a<b-c){
+        if(a*a=b*b)
+    }else{
+        printf(""error"");
+    }
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:38:03.623Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a,&b,&c);
+    if(a<b+c && a<b-c){
+        if(a*a=b*b+c)
+    }else{
+        printf(""error"");
+    }
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:38:13.612Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a,&b,&c);
+    if(a<b+c && a<b-c){
+        if(a*a=b*b+c*c)
+    }else{
+        printf(""error"");
+    }
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:38:53.608Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a,&b,&c);
+    if(a<b+c && a<b-c){
+        if(a*a=b*b+c*c){
+            
+    }else{
+        printf(""error"");
+    }
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:39:03.618Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a,&b,&c);
+    if(a<b+c && a<b-c){
+        if(a*a=b*b+c*c){
+            printf
+    }else{
+        printf(""error"");
+    }
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:39:13.619Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a,&b,&c);
+    if(a<b+c && a<b-c){
+        if(a*a=b*b+c*c){
+            printf()
+    }else{
+        printf(""error"");
+    }
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:39:33.622Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a,&b,&c);
+    if(a<b+c && a<b-c){
+        if(a*a=b*b+c*c){
+            printf("""")
+    }else{
+        printf(""error"");
+    }
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:40:03.609Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a,&b,&c);
+    if(a<b+c && a<b-c){
+        if(a*a=b*b+c*c){
+            printf(""直角"")
+    }else{
+        printf(""error"");
+    }
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:40:13.616Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a,&b,&c);
+    if(a<b+c && a<b-c){
+        if(a*a=b*b+c*c){
+            printf(""直角"");
+        }
+    }else{
+        printf(""error"");
+    }
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:40:23.617Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a,&b,&c);
+    if(a<b+c && a<b-c){
+        if(a*a=b*b+c*c){
+            printf(""直角"");
+        }else if()
+    }else{
+        printf(""error"");
+    }
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:40:33.614Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a,&b,&c);
+    if(a<b+c && a<b-c){
+        if(a*a=b*b+c*c){
+            printf(""直角"");
+        }else if(a*a=b*b+c*c)
+    }else{
+        printf(""error"");
+    }
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:40:43.612Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a,&b,&c);
+    if(a<b+c && a<b-c){
+        if(a*a=b*b+c*c){
+            printf(""直角"");
+        }else if(a*a>b*b+c*c)
+    }else{
+        printf(""error"");
+    }
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:41:13.610Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a,&b,&c);
+    if(a<b+c && a<b-c){
+        if(a*a=b*b+c*c){
+            printf(""直角"");
+        }else if(a*a>b*b+c*c){
+            
+    }else{
+        printf(""error"");
+    }
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:41:23.621Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a,&b,&c);
+    if(a<b+c && a<b-c){
+        if(a*a=b*b+c*c){
+            printf(""直角"");
+        }else if(a*a>b*b+c*c){
+            printf("""");
+    }else{
+        printf(""error"");
+    }
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:41:53.610Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a,&b,&c);
+    if(a<b+c && a<b-c){
+        if(a*a=b*b+c*c){
+            printf(""直角"");
+        }else if(a*a>b*b+c*c){
+            printf(""鈍角三角形"");
+    }else{
+        printf(""error"");
+    }
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:42:03.610Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a,&b,&c);
+    if(a<b+c && a<b-c){
+        if(a*a=b*b+c*c){
+            printf(""直角"");
+        }else if(a*a>b*b+c*c){
+            printf(""鈍角三角形"")；
+    }else{
+        printf(""error"");
+    }
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:42:13.619Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a,&b,&c);
+    if(a<b+c && a<b-c){
+        if(a*a=b*b+c*c){
+            printf(""直角"");
+        }else if(a*a>b*b+c*c){
+            printf(""鈍角三角形"");
+        }else{
+        printf(""error"");
+    }
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:42:23.609Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a,&b,&c);
+    if(a<b+c && a<b-c){
+        if(a*a=b*b+c*c){
+            printf(""直角"");
+        }else if(a*a>b*b+c*c){
+            printf(""鈍角三角形"");
+        }
+        }else{
+        printf(""error"");
+    }
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:42:43.609Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a,&b,&c);
+    if(a<b+c && a<b-c){
+        if(a*a=b*b+c*c){
+            printf(""直角"");
+        }else if(a*a>b*b+c*c){
+            printf(""鈍角三角形"");
+            
+        }
+        }else{
+        printf(""error"");
+    }
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:42:53.611Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a,&b,&c);
+    if(a<b+c && a<b-c){
+        if(a*a=b*b+c*c){
+            printf(""直角"");
+        }else if(a*a>b*b+c*c){
+            printf(""鈍角三角形"");
+        else if(a*a<b*b+c*c)
+        }
+        }else{
+        printf(""error"");
+    }
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:43:03.617Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a,&b,&c);
+    if(a<b+c && a<b-c){
+        if(a*a=b*b+c*c){
+            printf(""直角"");
+        }else if(a*a>b*b+c*c){
+            printf(""鈍角三角形"");
+        else if(a*a<b*b+c*c){
+            printf()
+        }
+        }else{
+        printf(""error"");
+    }
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:43:13.621Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a,&b,&c);
+    if(a<b+c && a<b-c){
+        if(a*a=b*b+c*c){
+            printf(""直角"");
+        }else if(a*a>b*b+c*c){
+            printf(""鈍角三角形"");
+        else if(a*a<b*b+c*c){
+            printf("""")
+        }
+        }else{
+        printf(""error"");
+    }
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:43:33.609Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a,&b,&c);
+    if(a<b+c && a<b-c){
+        if(a*a=b*b+c*c){
+            printf(""直角"");
+        }else if(a*a>b*b+c*c){
+            printf(""鈍角三角形"");
+        else if(a*a<b*b+c*c){
+            printf(""鋭角
+                   "")
+        }
+        }else{
+        printf(""error"");
+    }
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:43:43.619Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a,&b,&c);
+    if(a<b+c && a<b-c){
+        if(a*a=b*b+c*c){
+            printf(""直角"");
+        }else if(a*a>b*b+c*c){
+            printf(""鈍角三角形"");
+        else if(a*a<b*b+c*c){
+            printf(""鋭角"");
+        }
+        }else{
+        printf(""error"");
+    }
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:44:03.620Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a,&b,&c);
+    if(a<b+c && a<b-c){
+        if(a*a=b*b+c*c){
+            printf(""直角"");
+        }else if(a*a>b*b+c*c){
+            printf(""鈍角三角形"");
+        else if(a*a<b*b+c*c){
+            printf(""鋭角"");
+        }
+        }else{
+            printf
+        printf(""error"");
+    }
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:44:13.611Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a,&b,&c);
+    if(a<b+c && a<b-c){
+        if(a*a=b*b+c*c){
+            printf(""直角"");
+        }else if(a*a>b*b+c*c){
+            printf(""鈍角三角形"");
+        else if(a*a<b*b+c*c){
+            printf(""鋭角"");
+        }
+        }else{
+            printf()
+        printf(""error"");
+    }
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:44:23.624Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a,&b,&c);
+    if(a<b+c && a<b-c){
+        if(a*a=b*b+c*c){
+            printf(""直角"");
+        }else if(a*a>b*b+c*c){
+            printf(""鈍角三角形"");
+        else if(a*a<b*b+c*c){
+            printf(""鋭角"");
+        }
+        }else{
+            printf(Error);
+        }
+        printf(""error"");
+    }
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:46:13.608Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a,&b,&c);
+    if(a<b+c && a<b-c){
+        if(a*a=b*b+c*c){
+            printf(""直角"");
+        }else if(a*a>b*b+c*c){
+            printf(""鈍角三角形"");
+        }else if(a*a<b*b+c*c){
+            printf(""鋭角"");
+        }
+        }else{
+            printf(Error);
+        }
+        printf(""error"");
+    }
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:46:23.616Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a,&b,&c);
+    if(a<b+c && a<b-c){
+        if(a*a=b*b+c*c){
+            printf(""直角"");
+        }else if(a*a>b*b+c*c){
+            printf(""鈍角三角形"");
+        }else if(a*a<b*b+c*c){
+            printf(""鋭角"");
+        }
+        }else{
+            printf(Error);
+        
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:46:33.612Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a,&b,&c);
+    if(a<b+c && a<b-c){
+        if(a*a=b*b+c*c){
+            printf(""直角"");
+        }else if(a*a>b*b+c*c){
+            printf(""鈍角三角形"");
+        }else if(a*a<b*b+c*c){
+            printf(""鋭角"");
+        }
+        }else{
+            printf(Error);
+    }
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+
+    return 0;
+}",,,,,,
+2025-12-24T00:46:48.529Z,user_026,user26,14,run,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a,&b,&c);
+    if(a<b+c && a<b-c){
+        if(a*a=b*b+c*c){
+            printf(""直角"");
+        }else if(a*a>b*b+c*c){
+            printf(""鈍角三角形"");
+        }else if(a*a<b*b+c*c){
+            printf(""鋭角"");
+        }
+        }else{
+            printf(Error);
+    }
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+    return 0;
+}",,"file0.code.c: In function 'main':
+file0.code.c:7:15: error: lvalue required as left operand of assignment
+    7 |         if(a*a=b*b+c*c){
+      |               ^
+file0.code.c:15:20: error: 'Error' undeclared (first use in this function); did you mean 'perror'?
+   15 |             printf(Error);
+      |                    ^~~~~
+      |                    perror
+file0.code.c:15:20: note: each undeclared identifier is reported only once for each function it appears in
+chmod: cannot access 'a.out': No such file or directory
+",,,,
+2025-12-24T00:46:53.608Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a,&b,&c);
+    if(a<b+c && a<b-c){
+        if(a*a=b*b+c*c){
+            printf(""直角"");
+        }else if(a*a>b*b+c*c){
+            printf(""鈍角三角形"");
+        }else if(a*a<b*b+c*c){
+            printf(""鋭角"");
+        }
+        }else{
+            printf(Error);
+    }
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+    return 0;
+}",,,,,,
+2025-12-24T00:47:11.947Z,user_026,user26,14,run,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a,&b,&c);
+    if(a<b+c && a<b-c){
+        if(a*a=b*b+c*c){
+            printf(""直角"");
+        }else if(a*a>b*b+c*c){
+            printf(""鈍角三角形"");
+        }else if(a*a<b*b+c*c){
+            printf(""鋭角"");
+        }
+        }else{
+            printf(Error);
+    }
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+    return 0;
+}",,"file0.code.c: In function 'main':
+file0.code.c:7:15: error: lvalue required as left operand of assignment
+    7 |         if(a*a=b*b+c*c){
+      |               ^
+file0.code.c:15:20: error: 'Error' undeclared (first use in this function); did you mean 'perror'?
+   15 |             printf(Error);
+      |                    ^~~~~
+      |                    perror
+file0.code.c:15:20: note: each undeclared identifier is reported only once for each function it appears in
+chmod: cannot access 'a.out': No such file or directory
+",,,,
+2025-12-24T00:47:55.373Z,user_026,user26,14,ai-help,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a,&b,&c);
+    if(a<b+c && a<b-c){
+        if(a*a=b*b+c*c){
+            printf(""直角"");
+        }else if(a*a>b*b+c*c){
+            printf(""鈍角三角形"");
+        }else if(a*a<b*b+c*c){
+            printf(""鋭角"");
+        }
+        }else{
+            printf(Error);
+    }
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+    return 0;
+}",,,コード化,コードの整合性確認,"[{""level"": 1, ""text"": ""main関数：プログラムの開始と全体制御"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""入力を読み取る（a,b,cをscanfで取得）"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""三角形の成立を判定する（成立条件のif文）"", ""status"": ""in_progress""}, {""level"": 3, ""text"": ""成立時に辺の二乗を比較して種類を判定する（直角/鋭角/鈍角）"", ""status"": ""in_progress""}, {""level"": 4, ""text"": ""直角判定（a*a == b*b + c*c）かどうかを判断する部分"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""不成立時にErrorを出力する部分（printf）"", ""status"": ""in_progress""}]","[{""level"": 1, ""text"": ""まず、全体の入出力と期待される結果をもう一度確認してね。""}, {""level"": 2, ""text"": ""入力は実数（double）で扱い、aが最大だと仮定しているので成立条件はa < b + cで十分だと意識しよう。""}, {""level"": 3, ""text"": ""具体的には：変数をdoubleにしてscanfは\""%lf\""を使う、成立判定は if (a < b + c)、直角は fabs(a*a - (b*b + c*c)) < 1e-9 で判定し、出力は\""直角三角形\\n\""等と正確な文字列で出すよう修正してみて。""}]"
+2025-12-24T00:48:23.616Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d "",&a,&b,&c);
+    if(a<b+c && a<b-c){
+        if(a*a=b*b+c*c){
+            printf(""直角"");
+        }else if(a*a>b*b+c*c){
+            printf(""鈍角三角形"");
+        }else if(a*a<b*b+c*c){
+            printf(""鋭角"");
+        }
+        }else{
+            printf(Error);
+    }
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+    return 0;
+}",,,,,,
+2025-12-24T00:48:33.612Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d %d %d"",&a,&b,&c);
+    if(a<b+c && a<b-c){
+        if(a*a=b*b+c*c){
+            printf(""直角"");
+        }else if(a*a>b*b+c*c){
+            printf(""鈍角三角形"");
+        }else if(a*a<b*b+c*c){
+            printf(""鋭角"");
+        }
+        }else{
+            printf(Error);
+    }
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+    return 0;
+}",,,,,,
+2025-12-24T00:48:53.609Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d %d %d"",&a,&b,&c);
+    if(a<b+c && a<b-c){
+        if(a*a==b*b+c*c){
+            printf(""直角"");
+        }else if(a*a>b*b+c*c){
+            printf(""鈍角三角形"");
+        }else if(a*a<b*b+c*c){
+            printf(""鋭角"");
+        }
+        }else{
+            printf(Error);
+    }
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+    return 0;
+}",,,,,,
+2025-12-24T00:49:33.583Z,user_026,user26,14,ai-help,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d %d %d"",&a,&b,&c);
+    if(a<b+c && a<b-c){
+        if(a*a=b*b+c*c){
+            printf(""直角"");
+        }else if(a*a>b*b+c*c){
+            printf(""鈍角三角形"");
+        }else if(a*a<b*b+c*c){
+            printf(""鋭角"");
+        }
+        }else{
+            printf(Error);
+    }
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+    return 0;
+}",,,コード化,コードの整合性確認,"[{""level"": 1, ""text"": ""ソース内コメントで課題の入力・出力を書いている"", ""status"": ""done""}, {""level"": 1, ""text"": ""変数宣言と入力の取得（int a,b,c; scanf）"", ""status"": ""in_progress""}, {""level"": 1, ""text"": ""三角形成立判定の if 文 (a < b + c 等)"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""成立時に角の種類を判定するための二乗の比較処理"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""直角・鋭角・鈍角それぞれの分岐と printf による出力"", ""status"": ""in_progress""}, {""level"": 1, ""text"": ""成立しない場合の else 節で Error を出力する部分"", ""status"": ""in_progress""}]","[{""level"": 1, ""text"": ""まず全体を見て、入力型や比較演算子、出力文字列など明らかにおかしい箇所を探しましょう。""}, {""level"": 2, ""text"": ""具体的には変数は実数型にする必要がある点や、= と == の違い、printf の文字列の書き方を確認してください。""}, {""level"": 3, ""text"": ""修正方針：変数を double にして scanf の書式を合わせる、三角形成立は最大辺 a < b + c を使う、二乗比較は浮動小数点誤差を考え許容誤差で比較し、出力は問題文通りの文字列と末尾の改行を必ず付ける。""}]"
+2025-12-24T00:49:53.507Z,user_026,user26,14,run,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d %d %d"",&a,&b,&c);
+    if(a<b+c && a<b-c){
+        if(a*a==b*b+c*c){
+            printf(""直角"");
+        }else if(a*a>b*b+c*c){
+            printf(""鈍角三角形"");
+        }else if(a*a<b*b+c*c){
+            printf(""鋭角"");
+        }
+        }else{
+            printf(Error);
+    }
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+    return 0;
+}",,"file0.code.c: In function 'main':
+file0.code.c:15:20: error: 'Error' undeclared (first use in this function); did you mean 'perror'?
+   15 |             printf(Error);
+      |                    ^~~~~
+      |                    perror
+file0.code.c:15:20: note: each undeclared identifier is reported only once for each function it appears in
+chmod: cannot access 'a.out': No such file or directory
+",,,,
+2025-12-24T00:50:13.616Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d %d %d"",&a,&b,&c);
+    if(a<b+c && a<b-c){
+        if(a*a==b*b+c*c){
+            printf(""直角"");
+        }else if(a*a>b*b+c*c){
+            printf(""鈍角三角形"");
+        }else if(a*a<b*b+c*c){
+            printf(""鋭角"");
+        }
+        }else{
+            printf(""Error);
+    }
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+    return 0;
+}",,,,,,
+2025-12-24T00:50:23.612Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d %d %d"",&a,&b,&c);
+    if(a<b+c && a<b-c){
+        if(a*a==b*b+c*c){
+            printf(""直角"");
+        }else if(a*a>b*b+c*c){
+            printf(""鈍角三角形"");
+        }else if(a*a<b*b+c*c){
+            printf(""鋭角"");
+        }
+        }else{
+            printf(""Error"");
+    }
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+    return 0;
+}",,,,,,
+2025-12-24T00:51:13.473Z,user_026,user26,14,run,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d %d %d"",&a,&b,&c);
+    if(a<b+c && a<b-c){
+        if(a*a==b*b+c*c){
+            printf(""直角"");
+        }else if(a*a>b*b+c*c){
+            printf(""鈍角三角形"");
+        }else if(a*a<b*b+c*c){
+            printf(""鋭角"");
+        }
+        }else{
+            printf(""Error"");
+    }
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+    return 0;
+}",Error,,,,,
+2025-12-24T00:51:15.444Z,user_026,user26,14,run,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d %d %d"",&a,&b,&c);
+    if(a<b+c && a<b-c){
+        if(a*a==b*b+c*c){
+            printf(""直角"");
+        }else if(a*a>b*b+c*c){
+            printf(""鈍角三角形"");
+        }else if(a*a<b*b+c*c){
+            printf(""鋭角"");
+        }
+        }else{
+            printf(""Error"");
+    }
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+    return 0;
+}",Error,,,,,
+2025-12-24T00:51:31.375Z,user_026,user26,14,run,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d %d %d"",&a,&b,&c);
+    if(a<b+c && a<b-c){
+        if(a*a==b*b+c*c){
+            printf(""直角"");
+        }else if(a*a>b*b+c*c){
+            printf(""鈍角三角形"");
+        }else if(a*a<b*b+c*c){
+            printf(""鋭角"");
+        }
+        }else{
+            printf(""Error"");
+    }
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+    return 0;
+}",Error,,,,,
+2025-12-24T00:52:53.620Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d %d %d"",&a,&b,&c);
+    if(a<b+c && a>b-c){
+        if(a*a==b*b+c*c){
+            printf(""直角"");
+        }else if(a*a>b*b+c*c){
+            printf(""鈍角三角形"");
+        }else if(a*a<b*b+c*c){
+            printf(""鋭角"");
+        }
+        }else{
+            printf(""Error"");
+    }
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+    return 0;
+}",,,,,,
+2025-12-24T00:52:55.443Z,user_026,user26,14,run,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d %d %d"",&a,&b,&c);
+    if(a<b+c && a>b-c){
+        if(a*a==b*b+c*c){
+            printf(""直角"");
+        }else if(a*a>b*b+c*c){
+            printf(""鈍角三角形"");
+        }else if(a*a<b*b+c*c){
+            printf(""鋭角"");
+        }
+        }else{
+            printf(""Error"");
+    }
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+    return 0;
+}",直角,,,,,
+2025-12-24T00:53:23.613Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d %d %d"",&a,&b,&c);
+    if(a<b+c && a>b-c){
+        if(a*a==b*b+c*c){
+            printf(""直角三角形"");
+        }else if(a*a>b*b+c*c){
+            printf(""鈍角三角形"");
+        }else if(a*a<b*b+c*c){
+            printf(""鋭角三角形"");
+        }
+        }else{
+            printf(""Error"");
+    }
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+    return 0;
+}",,,,,,
+2025-12-24T00:58:33.614Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""% %d %d"",&a,&b,&c);
+    if(a<b+c && a>b-c){
+        if(a*a==b*b+c*c){
+            printf(""直角三角形"");
+        }else if(a*a>b*b+c*c){
+            printf(""鈍角三角形"");
+        }else if(a*a<b*b+c*c){
+            printf(""鋭角三角形"");
+        }
+        }else{
+            printf(""Error"");
+    }
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+    return 0;
+}",,,,,,
+2025-12-24T00:58:43.610Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+     a,b,c;
+    scanf(""%f %f %f"",&a,&b,&c);
+    if(a<b+c && a>b-c){
+        if(a*a==b*b+c*c){
+            printf(""直角三角形"");
+        }else if(a*a>b*b+c*c){
+            printf(""鈍角三角形"");
+        }else if(a*a<b*b+c*c){
+            printf(""鋭角三角形"");
+        }
+        }else{
+            printf(""Error"");
+    }
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+    return 0;
+}",,,,,,
+2025-12-24T00:58:51.503Z,user_026,user26,14,run,"#include <stdio.h>
+
+int main(void) {
+    float a,b,c;
+    scanf(""%f %f %f"",&a,&b,&c);
+    if(a<b+c && a>b-c){
+        if(a*a==b*b+c*c){
+            printf(""直角三角形"");
+        }else if(a*a>b*b+c*c){
+            printf(""鈍角三角形"");
+        }else if(a*a<b*b+c*c){
+            printf(""鋭角三角形"");
+        }
+        }else{
+            printf(""Error"");
+    }
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+    return 0;
+}",直角三角形,,,,,
+2025-12-24T00:58:53.617Z,user_026,user26,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    float a,b,c;
+    scanf(""%f %f %f"",&a,&b,&c);
+    if(a<b+c && a>b-c){
+        if(a*a==b*b+c*c){
+            printf(""直角三角形"");
+        }else if(a*a>b*b+c*c){
+            printf(""鈍角三角形"");
+        }else if(a*a<b*b+c*c){
+            printf(""鋭角三角形"");
+        }
+        }else{
+            printf(""Error"");
+    }
+    /*入力:3つの整数, 出力:三角形の形状
+    三角形の成立条件で条件分岐
+    
+    
+    */
+    return 0;
+}",,,,,,

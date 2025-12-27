@@ -1,0 +1,61 @@
+{
+  "timestamp": "2025-12-18T04:25:35.016Z",
+  "username": "user10",
+  "userId": "user_010",
+  "taskNumber": "45",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n//再帰関数reverse4をつくる\n    //5個の要素を持つ配列を定義する\n        //入力値を10で割ったあまりを配列に保存する\n        //入力値を、入力値を10で割った商に上書きする\n        \n\nint main(void) {\n    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/\n    //再帰関数\n    return 0;\n}",
+  "estimated_stage": "処理の詳細化",
+  "next_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "再帰関数 reverse4 を作る準備（コメントで仕様を書いている）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "reverse4内で5個の要素を持つ配列を定義する（コメントあり）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "配列に入力値の下位桁を input % 10 で保存するという処理（コメントあり）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力値を input / 10 で上書きして次の桁を処理するという処理（コメントあり）",
+      "status": "in_progress"
+    },
+    {
+      "level": 1,
+      "text": "main関数：入力を受け取り再帰関数を呼ぶ部分（コメントのみ、実装未）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "mainで一つの整数値を読み取る処理（コメントはあるが未実装）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "reverse4を呼んで結果を出力する処理（コメントのみで未実装）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "コメントに書いた処理をそのまま一つずつ実装していこう。まずは入力と出力を動かすことを目標に。"
+    },
+    {
+      "level": 2,
+      "text": "reverse4を別関数として作り、mainではscanfで読み取り、その戻り値か配列で結果を受け取ってprintfで出力する流れを考えてみて。"
+    },
+    {
+      "level": 3,
+      "text": "reverse4は引数で数値（と必要なら配列／インデックス）を受け、n%10で桁を取り配列に入れ、n/=10で進めながら再帰し終わったら配列を逆順に使って出力を組み立てよう。"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-12-17T09:56:15.636Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, \n    出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n    // 1. 入力を受け取る\n    // 2. tri3を呼ぶ\n    return 0;\n}\n\n// tri3関数を作成する\n\n// line関数を作成する",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main: 入力を受け取り、三角形出力のための関数を呼ぶ",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main -> 入力を受け取る（scanfなどで整数を取得）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "main -> tri3 を呼ぶ（三角形出力処理を起動）",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "tri3 関数: 再帰で各行を決めて出力・カウント管理する役割",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "tri3 -> 各行の出力は line3 に任せる（行数やカウンタを渡す）",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "line3 関数: 1行分の '*' を再帰で出力し、出力時にカウンタを増やす",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "どのコメントを細かく書き換えるべきか確認して、まず main の入力と tri3 呼び出しを明確にしましょう。"
+    },
+    {
+      "level": 2,
+      "text": "tri3 と line3 の役割・引数（行数とカウンタの受け渡し方法）と再帰の終了条件を決めてください。"
+    },
+    {
+      "level": 3,
+      "text": "例: tri3(n,&count): if n==0 return; tri3(n-1,&count); line3(n,&count);  line3(k,&count): if k==0 {putchar('\\n'); return;} putchar('*'); (*count)++; line3(k-1,&count);"
+    }
+  ]
+}

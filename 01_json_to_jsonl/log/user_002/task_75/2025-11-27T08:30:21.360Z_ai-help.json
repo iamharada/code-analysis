@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-11-27T08:30:21.360Z",
+  "username": "user2",
+  "userId": "user_002",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n    //入力を受け付ける。\n    //パスカルの三角形を計算する。\n    //出力する。\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数の開始と全体コメント（入力・計算・出力の大まかな流れ）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力を受け付ける（整数nをscanfで読む）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "パスカルの三角形を計算する（2次元配列と繰り返しを使う）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "計算した値を整形して出力する（%3dで右寄せ、行ごとに改行）",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "今のコメントは全体の流れだけなので、各処理をもう少し細かく分けてみましょう。"
+    },
+    {
+      "level": 2,
+      "text": "必要な具体手順を考えて：入力→配列宣言と初期化→三角形の計算（境界処理含む）→整形出力、を意識してください。"
+    },
+    {
+      "level": 3,
+      "text": "まずはコメントで詳細手順を書く：scanfでnを読み、int a[10][10]（または十分なサイズ）を宣言、a[0][0]=1、各行の両端を1にして内側はa[i][j]=a[i-1][j-1]+a[i-1][j]、出力はprintf(\"%3d\",a[i][j])で行末に改行、の順で書いてから実装を始めてください。"
+    }
+  ]
+}

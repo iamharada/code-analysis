@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-12-17T07:21:49.762Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, \n    出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：全体の流れを管理する",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力値 n を読み取る（scanfなど）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "n 行分の三角形出力を行う（行を順に作る）",
+      "status": "todo"
+    },
+    {
+      "level": 3,
+      "text": "1 行分の '*' を出力しながら合計カウントを増やす処理",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "最後に COUNT=合計 を出力する",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "今のコメントを見て、処理を入力・行出力・カウント出力の3つに分けると整理しやすいと気づきましょう。"
+    },
+    {
+      "level": 2,
+      "text": "再帰で作るなら『行を制御する関数』と『1行分を出す関数（*を出すごとにカウント増）』に分けることを考えてください。"
+    },
+    {
+      "level": 3,
+      "text": "具体案：tri3(n,&count) は行を再帰で出し、line3(k,&count) は1行分を再帰で '*' を出して都度 count++、main は n を読み tri3 を呼ぶ。"
+    }
+  ]
+}

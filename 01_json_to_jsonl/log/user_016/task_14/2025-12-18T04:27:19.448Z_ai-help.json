@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-12-18T04:27:19.448Z",
+  "username": "user16",
+  "userId": "user_016",
+  "taskNumber": "14",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    float a,b,c;/*入力:3つの実数, 出力:三角形の形状判定*/\n    scanf(\"%f %f %f\",&a,&b,&c);\n    if(a<b+c)//三角形の成立を判定\n    　　//成立なら三角形の種類を判定\n        //不成立ならエラーを出力\n\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：変数宣言(a,b,c)と全体の流れを定義",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "入力を受け取る（scanfで3つの実数を読む）",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "三角形成立判定（if(a < b + c)）",
+      "status": "in_progress"
+    },
+    {
+      "level": 3,
+      "text": "成立時：三角形の種類を判定（直角・鋭角・鈍角）",
+      "status": "todo"
+    },
+    {
+      "level": 3,
+      "text": "不成立時：\"Error\" を出力して改行する",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "終了処理（return 0）",
+      "status": "done"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "コメントをそのままコードにしてみましょう。ifの中身とelseを実装することを目標にしてください。"
+    },
+    {
+      "level": 2,
+      "text": "三角形判定の比較は平方を使うと分かりやすいです（a*a と b*b + c*c を比べる）。出力文字列は課題の通り正確に書いてください。"
+    },
+    {
+      "level": 3,
+      "text": "if の真の部分で float sa=a*a, sb=b*b, sc=c*c を計算し、sa==sb+sc → \"直角三角形\"、sa<sb+sc → \"鋭角三角形\"、sa>sb+sc → \"鈍角三角形\" を printf で出力し、else では printf(\"Error\\n\"); として終端に必ず改行を付けてください。"
+    }
+  ]
+}

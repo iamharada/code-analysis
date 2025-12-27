@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-12-18T06:42:05.636Z",
+  "username": "user24",
+  "userId": "user_024",
+  "taskNumber": "45",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:一つの整数値, 出力:上位・下位を入れ替えた値*/\n    //出力を読み込む\n    //再起関数を用いて位を入れ替える\n    //出力する\n\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：全体の流れを制御する",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力を読み込む（1つの整数）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "再帰関数 reverse4 を用いて上位・下位を入れ替える処理を行う",
+      "status": "todo"
+    },
+    {
+      "level": 3,
+      "text": "reverse4（再帰関数）の実装（まだ作成されていない）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "結果を出力する（改行のみ、余計な空白や文字なし）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "今のコメントは処理の大枠になっているので、まずはその順序（入力→変換→出力）を確認しよう。"
+    },
+    {
+      "level": 2,
+      "text": "コメントごとに実装できる最小単位を書き出し、まずは入力を読み取るコードから書き始めてみてください。"
+    },
+    {
+      "level": 3,
+      "text": "reverse4は再帰で数字を逆順に作る関数にし、累積値を引数に持つ（例：reverse4(n, acc)）形で n==0 のとき acc を返す実装を使い、mainから呼んで出力してください。"
+    }
+  ]
+}

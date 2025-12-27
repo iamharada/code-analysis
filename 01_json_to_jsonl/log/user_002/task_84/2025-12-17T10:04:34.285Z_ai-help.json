@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-12-17T10:04:34.285Z",
+  "username": "user2",
+  "userId": "user_002",
+  "taskNumber": "84",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数の雛形（#include, main の開始と終了）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main内の入力・出力を説明するコメント（/*入力:○○, 出力:△△*/ が未記入）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "main内の return 0; による終了処理",
+      "status": "done"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題の要件をもう一度確認しよう：文字列2つを読み、それらを10進数として足して出力することだよ。"
+    },
+    {
+      "level": 2,
+      "text": "具体的な入出力を考えよう：例えば '123' と '789' を入れたら出力は '912' になるはずだと想像してみて。"
+    },
+    {
+      "level": 3,
+      "text": "入力は各行（または区切り）で1つの数字文字列を読み、出力は余計な空白や文字を入れずに和を10進で表示し最後に改行する、とコメントに書いておこう。"
+    }
+  ]
+}

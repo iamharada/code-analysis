@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-12-09T05:57:56.159Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n    //入力を受け付ける。\n    //計算する。\n    //出力する。\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の大枠決定",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：プログラム全体の流れをまとめる",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力を受け付ける（1つの整数を読む）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "計算する（パスカルの三角形の要素を二次元配列で計算）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "出力する（%3dで整形して各行を出力）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "全体の流れをもう一度確認しよう：入力→計算→出力の順を頭に入れてください。"
+    },
+    {
+      "level": 2,
+      "text": "必要なステップを箇条書きにしよう：入力読み取り、配列の準備と計算、整形して出力、の3つに分けて考えてください。"
+    },
+    {
+      "level": 3,
+      "text": "mainに3〜5の具体的なコメントを追加して下さい（例：1) nを読む 2) 二次元配列を宣言・初期化 3) 三角形をループで計算 4) %3dで整形して出力）。"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"timestamp":"2025-12-09T07:06:18.487Z","username":"user1","userId":"user_001","taskNumber":"75","event":"auto_save","code":"#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n    //入力をパスカルの三角形の段数として受け付ける。\n    int n;\n    scanf(\"%d\",n);\n    pascal(n);\n    //入力値（段数）をpascal関数に渡す。\n    return 0;\n}\n//入力された段数分のパスカルの三角形を出力するpascal関数を作る"}

@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-11-21T05:03:19.450Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n    //入力をパスカルの三角形の段数として受け付ける。\n    //入力値（段数）をpascal関数に渡す。\n    return 0;\n}\n//入力された段数分のパスカルの三角形を出力するpascal関数を作る\n",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "#include の記述（ヘッダの導入）",
+      "status": "done"
+    },
+    {
+      "level": 1,
+      "text": "main関数の枠（入力を受け取り pascal 関数へ渡す）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力をパスカルの段数として読み取る（コメントあり、未実装）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "読み取った値を pascal 関数に渡す（コメントあり、未実装）",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "pascal 関数の作成（パスカルの三角形を出力する関数、本体は未作成）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まず課題要件をもう一度確認しましょう：入力は1〜10、関数内で二次元配列と繰り返しを使い、印字は%3dで右揃え・最後は改行のみです。"
+    },
+    {
+      "level": 2,
+      "text": "大まかな処理を細かく分けて書き出しましょう：入力読み取り → pascal呼び出し → 関数内で配列初期化 → 値計算 → 出力の順です。"
+    },
+    {
+      "level": 3,
+      "text": "各ステップをコメントで具体化してください：配列サイズ決定、先頭と末尾の1の扱い、内側は隣り合う和を代入、%3dで行ごとに印字して改行、これが整えばコード化に進めます。"
+    }
+  ]
+}

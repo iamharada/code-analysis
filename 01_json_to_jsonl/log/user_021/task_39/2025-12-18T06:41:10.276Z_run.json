@@ -1,0 +1,10 @@
+{
+  "timestamp": "2025-12-18T06:41:10.276Z",
+  "username": "user21",
+  "userId": "user_021",
+  "taskNumber": "39",
+  "event": "run",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:約数の総和*/\n    //入力値を受け取る\n    //1から入力値の値になるまで1ずつ増やしながら入力値をわる\n    //あまりが0になる数を足す\n    int x,y;\n    int yakusum1(int a,int b){\n        for(int i=0;i<a;i++){\n            if(a%b==0){\n                y=y+yakusum1(a-1,1);\n            }\n        }\n        return y;\n    }\n      scanf(\"%d\",&x);\n      printf(\"%d\",yakusum1(x,1));\n    retuern 0;\n}\n    \n\n    return 0;\n}",
+  "stdout": "",
+  "stderr": "file0.code.c: In function 'main':\nfile0.code.c:19:5: error: 'retuern' undeclared (first use in this function)\n   19 |     retuern 0;\n      |     ^~~~~~~\nfile0.code.c:19:5: note: each undeclared identifier is reported only once for each function it appears in\nfile0.code.c:19:12: error: expected ';' before numeric constant\n   19 |     retuern 0;\n      |            ^~\n      |            ;\nfile0.code.c: At top level:\nfile0.code.c:23:5: error: expected identifier or '(' before 'return'\n   23 |     return 0;\n      |     ^~~~~~\nfile0.code.c:24:1: error: expected identifier or '(' before '}' token\n   24 | }\n      | ^\nchmod: cannot access 'a.out': No such file or directory\n"
+}

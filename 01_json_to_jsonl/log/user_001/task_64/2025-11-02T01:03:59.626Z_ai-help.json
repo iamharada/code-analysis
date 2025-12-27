@@ -1,0 +1,55 @@
+{
+  "timestamp": "2025-11-02T01:03:59.626Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "64",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\nint main(void) {\n    /*入力:1つの整数, 出力:入力値の約数の総和*/\n    // 1. 入力を受けとる\n    int n;\n    scanf(\"%d\", &n);\n    // 2. 総和を0にする\n    \n    // 3. 1から入力値まで繰り返す\n        // 3-1. 割り切れるか調べる\n        // 3-2. 割り切れたら合計にたす\n    // 4. 合計を表示する\n\n}\n\n",
+  "estimated_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "入力を受け取る（整数を読み込む）",
+      "status": "done"
+    },
+    {
+      "level": 1,
+      "text": "約数の総和を保持する変数を用意して0で初期化する",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "1から入力値までfor文で繰り返す",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "各繰り返しで割り切れるか調べる（剰余演算を使う）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "割り切れたら総和に足す",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "合計を出力し改行する",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "コメントで流れは書けています。まず合計用の変数を宣言して0で初期化しましょう。"
+    },
+    {
+      "level": 2,
+      "text": "for文で1からnまで回し、%演算（余り）で割り切れるかを判定して足し算する手順を意識してください。"
+    },
+    {
+      "level": 3,
+      "text": "今のコメントをそのまま実際のコードに置き換えて実装を始め、動作を確認してから微調整しましょう。"
+    }
+  ]
+}

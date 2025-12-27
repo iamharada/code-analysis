@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-11-27T08:47:38.488Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n    //入力を受け付ける。\n    int n;\n    scanf(\"%d\", &n);\n    //パスカルの三角形を計算する。\n    //出力する。\n    return 0;\n}\n\n//パスカルの三角形を計算する関数を作成する\nvoid pascal(int n){\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：入力を受け付ける（scanfでnを読み取る）",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "main関数内：パスカルの三角形を計算する（コメントのみ）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main関数内：出力する（コメントのみ、printf未実装）",
+      "status": "in_progress"
+    },
+    {
+      "level": 1,
+      "text": "pascal関数：パスカルの三角形を計算・出力するための関数（定義ありだが中身未実装）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "今のコメントを見て、まず何を実装すれば動くかを決めよう（入力は既にあるので次は関数の中身）。"
+    },
+    {
+      "level": 2,
+      "text": "pascal関数を作り、二次元配列と繰り返しで値を埋めてから、printfで行ごとに出力する手順を考えよう。"
+    },
+    {
+      "level": 3,
+      "text": "配列に a[i][0]=1 と a[i][i]=1 を入れ、内側ループで a[i][j]=a[i-1][j-1]+a[i-1][j] と計算し、出力は printf(\"%3d\", a[i][j]) で行末に改行を入れてください。"
+    }
+  ]
+}

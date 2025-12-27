@@ -1,0 +1,55 @@
+{
+  "timestamp": "2025-10-21T03:18:04.386Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": 1,
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：〇〇, 出力：△△*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "プログラム全体（ファイル）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "#include <stdio.h> の宣言（標準入出力ヘッダ）",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "main 関数の定義（int main(void) { ... }）",
+      "status": "in_progress"
+    },
+    {
+      "level": 3,
+      "text": "入力・出力の説明コメント（/*入力：〇〇, 出力：△△*/）",
+      "status": "in_progress"
+    },
+    {
+      "level": 3,
+      "text": "printf を使った出力処理（Hello,world!ようこそ を印字し改行する）",
+      "status": "todo"
+    },
+    {
+      "level": 3,
+      "text": "return 0; による終了",
+      "status": "done"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まずやることを整理しましょう：出力すべき文字列をコメントに書き、実際に printf を呼ぶ場所を決めます。今はコメントを書いている段階なので、次は出力処理を実装することを目標にしてください。"
+    },
+    {
+      "level": 2,
+      "text": "printf に渡す文字列は課題で指定された通り正確にします。最後に改行が必要なので、出力の末尾に改行を入れること（改行文字を含める）を忘れないでください。printf の呼び出しは main の中に書き、文末にセミコロンをつけます。"
+    },
+    {
+      "level": 3,
+      "text": "具体的に進めるときは：①コメントの \"出力\" に正しい文字列を書き換える、②その位置に printf を追加して文字列を渡す、③コンパイルして実行し、表示が \"Hello,world!ようこそ\"（行末で改行されていること）と正確に出るか確認する、という順で進めてください。コンパイルエラーが出たらエラーメッセージを読んで、忘れがちな点（セミコロン、ダブルクオート、ヘッダの有無）をチェックしましょう。"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "timestamp": "2025-12-18T06:21:41.638Z",
+  "username": "user21",
+  "userId": "user_021",
+  "taskNumber": "14",
+  "event": "run",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:3つの実数値, 出力:三角形の種類またはError*/\n    //入力を受け取る\n    //3角形が成立するか確かめる\n        //入力1の長さが他の2辺の長さの和よりおおきい\n    //3角形の種類を確認する\n    int a,b,c\n    scanf(\"%d %d %d\",&a,&b,&c);\n    if(a>b+c){\n        printf(\"Error\\n\");\n    }else{\n        if(a*a==b*b+c*c){\n            printf(\"直角三角形\\n\");\n        }else if(a*a<*b+c*c){\n            printf(\"鋭角三角形\\n\");\n        }else{\n            printf(\"鈍角三角形\\n\");\n        }\n    }\n    return 0;\n\n    return 0;\n}",
+  "stdout": "",
+  "stderr": "file0.code.c: In function 'main':\nfile0.code.c:10:5: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'scanf'\n   10 |     scanf(\"%d %d %d\",&a,&b,&c);\n      |     ^~~~~\nfile0.code.c:11:12: error: 'c' undeclared (first use in this function)\n   11 |     if(a>b+c){\n      |            ^\nfile0.code.c:11:12: note: each undeclared identifier is reported only once for each function it appears in\nfile0.code.c:16:22: error: invalid type argument of unary '*' (have 'int')\n   16 |         }else if(a*a<*b+c*c){\n      |                      ^~\nchmod: cannot access 'a.out': No such file or directory\n"
+}

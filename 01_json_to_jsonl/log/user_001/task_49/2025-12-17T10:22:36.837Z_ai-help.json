@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-12-17T10:22:36.837Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数,\n      出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n    // 1. 入力を受け取る\n    // 2. tri3を呼ぶ\n    return 0;\n}\n\n// tri3関数を作成する\n    // for文で1行ずつ回す\n    // lineで*を出す\n    // COUNTは最後にまとめて計算\n\n// line関数を作成する\n    // for文で*をn個出す\n    // 改行する",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：プログラムの開始点（入力受け取りとtri3呼び出し）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main内の「入力を受け取る」部分（コメントありが未実装）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "main内の「tri3を呼ぶ」部分（コメントありが未実装）",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "tri3／line関数（コメントで作成予定と記載）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "tri3の処理（コメント：for文で各行を回す・lineを呼ぶ・COUNTまとめ）",
+      "status": "todo"
+    },
+    {
+      "level": 3,
+      "text": "lineの処理（コメント：for文で'*'をn個出力し改行）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "mainのコメント「入力を受け取る」「tri3を呼ぶ」はすぐコードにできます。"
+    },
+    {
+      "level": 2,
+      "text": "まずscanfでnを読み、tri3を呼ぶ流れと関数のプロトタイプ（引数）を決めてから実装を始めてください。"
+    },
+    {
+      "level": 3,
+      "text": "tri3(int n, int *cnt) は n>0 のとき tri3(n-1, cnt) の後に line(n, cnt) を呼び、line(int n, int *cnt) は '*' を出すたびに (*cnt)++ して最後に改行する（再帰またはループで実装）。"
+    }
+  ]
+}

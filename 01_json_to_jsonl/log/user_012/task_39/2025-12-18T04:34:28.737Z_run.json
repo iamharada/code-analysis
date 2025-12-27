@@ -1,0 +1,10 @@
+{
+  "timestamp": "2025-12-18T04:34:28.737Z",
+  "username": "user12",
+  "userId": "user_012",
+  "taskNumber": "39",
+  "event": "run",
+  "code": "#include <stdio.h>\n\nint yakusum1(int n);\n\nint main(void) {\n    /*入力:一つの整数, 出力:入力した整数の約数の総和*/\n    //整数値の入力\n    int a,b;\n    scanf(\"%d\",&a);\n    //再帰関数の内容↓\n        //1から入力値まで繰り返して割り切れるかどうかの確認\n        //割り切れたら約数である\n        //約数SUM（現状の約数の総和）に約数を足す\n        //約数SUMを返す\n    b=yakusum1(a);\n    //出力\n    printf(\"%dの約数の総和は%d\",a,b);\n    \n    return 0;n\n}\n\nint yakusum1(int n){\n    int sum=0;\n    for(int i=1;i<=n;i++){\n        if(n%i==0)sum=sum+i\n    }\n    \n    return sum;\n}",
+  "stdout": "",
+  "stderr": "file0.code.c: In function 'main':\nfile0.code.c:19:14: error: 'n' undeclared (first use in this function)\n   19 |     return 0;n\n      |              ^\nfile0.code.c:19:14: note: each undeclared identifier is reported only once for each function it appears in\nfile0.code.c:19:15: error: expected ';' before '}' token\n   19 |     return 0;n\n      |               ^\n      |               ;\n   20 | }\n      | ~              \nfile0.code.c: In function 'yakusum1':\nfile0.code.c:25:28: error: expected ';' before '}' token\n   25 |         if(n%i==0)sum=sum+i\n      |                            ^\n      |                            ;\n   26 |     }\n      |     ~                       \nchmod: cannot access 'a.out': No such file or directory\n"
+}

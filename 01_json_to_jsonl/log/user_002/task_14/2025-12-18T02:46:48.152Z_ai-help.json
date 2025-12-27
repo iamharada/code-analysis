@@ -1,0 +1,31 @@
+{
+  "timestamp": "2025-12-18T02:46:48.152Z",
+  "username": "user2",
+  "userId": "user_002",
+  "taskNumber": "14",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:3つの実数, 出力:三角形の判定結果または三角形にならない場合（Error）*/\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "処理の大枠決定",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数: コメントで入力(3つの実数)と出力(三角形判定またはError)の要件が書かれているが、実装はない",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題の要件をもう一度確認して、入力と出力が何かをはっきりさせてください。"
+    },
+    {
+      "level": 2,
+      "text": "処理の流れを洗い出しましょう：入力を読み、最大辺を決め、三角形成立を判定し、角の種類を判定して出力する手順です。"
+    },
+    {
+      "level": 3,
+      "text": "具体的手順：1) double 変数に3つをscanfで読む 2) 最大が最初の入力である前提で三角形不等式 a < b + c を確認 3) a*a と b*b + c*c を比較して直角/鋭角/鈍角を判定し、結果をprintfで出力する（比較は丸め誤差対策に fabs の閾値を使うと安全）。"
+    }
+  ]
+}

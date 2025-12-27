@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-12-17T09:32:14.821Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, \n    出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n    // 1. 入力を受け取る\n    // 2. tri3を呼ぶ\n    // 3. COUNTは n*(n+1)/2 で計算して表示\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の大枠決定",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数（プログラムの入口、コメントで処理の流れを記述）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力と出力の説明コメント（/*入力:1つの整数, 出力:...*/）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力を受け取る（// 1. 入力を受け取る）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "tri3を呼ぶ（// 2. tri3を呼ぶ）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "COUNTを計算して表示する（// 3. COUNTは n*(n+1)/2 で計算して表示）",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "全体の流れ（入力 → 三角形を出力 → COUNT表示）を今のコメントと照らし合わせて確認しましょう。"
+    },
+    {
+      "level": 2,
+      "text": "tri3とline3の役割を決め、mainは入力読み取りと関数呼び出しだけにする設計にすると整理しやすいです。"
+    },
+    {
+      "level": 3,
+      "text": "大枠は例えば：1) nを読み取る。2) カウンタを0にしてtri3を呼ぶ。3) tri3は行数制御で各行にline3を呼び、'*'を出力するたびカウンタ++。4) 最後にCOUNT=カウンタを表示。"
+    }
+  ]
+}

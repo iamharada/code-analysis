@@ -1,0 +1,61 @@
+{
+  "timestamp": "2025-12-18T05:12:29.414Z",
+  "username": "user16",
+  "userId": "user_016",
+  "taskNumber": "32",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint checktri(float x,float y,float z){//関数の作成\n    int s;\n    if(a<b+c){\n        if(a*a==b*b+c*c){\n            s=1;\n        }else if(a*a<b*b+c*c){\n            s=2;\n        }else{\n            s=3;\n        }\n    }else{\n        s=0;\n    }\n        \nint main(void) {\n    /*入力:3つの実数, 出力:三角形の形状*/\n    float a,b,c;\n    int y;\n    scanf(\"%f %f %f\",&a,&b,&c);//入力する\n    \n    \n    \n    //関数から判定\n    \n\n    return 0;\n}",
+  "estimated_stage": "コード化",
+  "next_stage": "コードの整合性確認",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "関数 checktri の定義（3辺を受け取り三角形種別を判定）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "三角形成立条件の判定（最大辺 < 他2辺の和）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "辺の二乗を比較して直角・鋭角・鈍角を判定",
+      "status": "in_progress"
+    },
+    {
+      "level": 1,
+      "text": "main関数（変数宣言・入力・関数呼び出し・出力）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "変数宣言と scanf による入力取得",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "checktri を呼び出して戻り値で switch し出力する部分",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "戻り値に基づく出力（1→直角,2→鋭角,3→鈍角,0→Error）と改行",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "関数と main を作り始めているので、まず未実装・間違い箇所を見つけましょう。"
+    },
+    {
+      "level": 2,
+      "text": "checktri 内で渡した引数を使い、判定結果を return し、main でその戻り値を switch して出力する流れを意識しましょう。"
+    },
+    {
+      "level": 3,
+      "text": "checktri では関数引数（x,y,z）を使い a など未定義変数を使わない・最後に return s を書く。main では checktri(a,b,c) を呼び、戻り値に応じて「直角三角形」「鋭角三角形」「鈍角三角形」「Error」を出力して改行する。"
+    }
+  ]
+}

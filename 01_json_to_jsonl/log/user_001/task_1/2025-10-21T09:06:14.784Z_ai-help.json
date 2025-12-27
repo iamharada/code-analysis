@@ -1,0 +1,50 @@
+{
+  "timestamp": "2025-10-21T09:06:14.784Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "1",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：〇〇, 出力：△△*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "#include <stdio.h> がある（標準入出力ヘッダの読み込み）",
+      "status": "done"
+    },
+    {
+      "level": 1,
+      "text": "int main(void) { ... }（プログラム本体の関数定義）",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "コメントで入力・出力の欄を作成（入力：〇〇, 出力：△△）",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "printf 呼び出しでメッセージを出力する処理（未実装）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "return 0;（正常終了を返す）",
+      "status": "done"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まずやることは単純です：main 関数の中で printf を使って指定の文字列を出力し、最後に改行を付けること。"
+    },
+    {
+      "level": 2,
+      "text": "main の中のコメント部分を置き換える形で、printf を呼び出す位置を決める。出力する文字列は課題にある通り（Hello,world!ようこそ）で、末尾に改行文字を付けることを忘れない。"
+    },
+    {
+      "level": 3,
+      "text": "実装後はコンパイルして実行し、出力がちょうど一行で課題の文字列と改行だけになっているか確認する。よくあるミス：ヘッダを消す、末尾のセミコロン忘れ、改行文字の付け忘れ。日本語が文字化けする場合はファイルの文字コードを UTF-8 にするか、ターミナルのエンコーディング設定を確認すること。"
+    }
+  ]
+}

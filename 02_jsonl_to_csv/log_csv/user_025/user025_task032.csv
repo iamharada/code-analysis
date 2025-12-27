@@ -1,0 +1,1805 @@
+ts,user_id,username,task,event,code,stdout,stderr,estimated_stage,next_stage,processing_structure,advice
+2025-12-18T06:32:51.357Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの, 出力:△△*/
+
+    return 0;
+}",,,,,,
+2025-12-18T06:33:11.370Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数, 出力:*/
+
+    return 0;
+}",,,,,,
+2025-12-18T06:34:01.365Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数, 出力:さん*/
+
+    return 0;
+}",,,,,,
+2025-12-18T06:34:11.366Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数, 出力*/
+
+    return 0;
+}",,,,,,
+2025-12-18T06:34:21.360Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数, 出力:*/
+
+    return 0;
+}",,,,,,
+2025-12-18T06:34:31.369Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の形状*/
+
+    return 0;
+}",,,,,,
+2025-12-18T06:34:41.365Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //
+
+    return 0;
+}",,,,,,
+2025-12-18T06:37:51.371Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,/*入力:3つの実数, 出力:三角形の形状*/
+    //
+
+    return 0;
+}",,,,,,
+2025-12-18T06:38:01.368Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //
+
+    return 0;
+}",,,,,,
+2025-12-18T06:39:41.362Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //はんべえつ
+
+    return 0;
+}",,,,,,
+2025-12-18T06:39:51.361Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //判別式を
+
+    return 0;
+}",,,,,,
+2025-12-18T06:40:11.357Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //判別
+
+    return 0;
+}",,,,,,
+2025-12-18T06:40:21.362Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //さんかくけいの
+
+    return 0;
+}",,,,,,
+2025-12-18T06:40:31.364Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    ・・
+
+    return 0;
+}",,,,,,
+2025-12-18T06:40:41.363Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //
+
+    return 0;
+}",,,,,,
+2025-12-18T06:41:51.359Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し
+
+    return 0;
+}",,,,,,
+2025-12-18T06:42:01.359Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、
+
+    return 0;
+}",,,,,,
+2025-12-18T06:42:21.372Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻りつを割り当てる
+
+    return 0;
+}",,,,,,
+2025-12-18T06:42:41.360Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻りつを割り当てる
+    //
+
+    return 0;
+}",,,,,,
+2025-12-18T06:42:51.360Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻りを割り当てる
+    //
+
+    return 0;
+}",,,,,,
+2025-12-18T06:43:01.365Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻り値を割り当てる
+    //
+
+    return 0;
+}",,,,,,
+2025-12-18T06:43:31.362Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻り値を割り当てる
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T06:43:41.358Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    sca
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻り値を割り当てる
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T06:43:51.358Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d%d%d"")
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻り値を割り当てる
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T06:44:01.372Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d%d%d"",a,b,&c)
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻り値を割り当てる
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T06:44:11.370Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d%d%d"",&a,&b,&c);
+    
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻り値を割り当てる
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T06:45:21.357Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d%d%d"",&a,&b,&c);
+        if(x>=y+z){
+        printf(""Error"");
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*x>y*y+z*z){
+        printf(""鈍角三角形"");
+    }
+     else if(x*x<y*y+z*z){
+        printf(""鋭角三角形"");
+    }
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻り値を割り当てる
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T06:45:31.370Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d%d%d"",&a,&b,&c);
+    if(x>=y+z){
+        printf(""Error"");
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*x>y*y+z*z){
+        printf(""鈍角三角形"");
+    }
+     else if(x*x<y*y+z*z){
+        printf(""鋭角三角形"");
+    }
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻り値を割り当てる
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T06:45:41.361Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d%d%d"",&a,&b,&c);
+    if(x>=y+z){
+        
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*x>y*y+z*z){
+        printf(""鈍角三角形"");
+    }
+     else if(x*x<y*y+z*z){
+        printf(""鋭角三角形"");
+    }
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻り値を割り当てる
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T06:45:51.364Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d%d%d"",&a,&b,&c);
+    if(x>=y+z){
+        printf(""Error"");
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*x>y*y+z*z){
+        printf(""鈍角三角形"");
+    }
+     else if(x*x<y*y+z*z){
+        printf(""鋭角三角形"");
+    }
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻り値を割り当てる
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T06:46:01.357Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d%d%d"",&a,&b,&c);
+    if(x>=y+z){
+        
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*x>y*y+z*z){
+        printf(""鈍角三角形"");
+    }
+     else if(x*x<y*y+z*z){
+        printf(""鋭角三角形"");
+    }
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻り値を割り当てる
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T06:47:41.373Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d%d%d"",&a,&b,&c);
+    s
+    if(x>=y+z){
+        
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*x>y*y+z*z){
+        printf(""鈍角三角形"");
+    }
+     else if(x*x<y*y+z*z){
+        printf(""鋭角三角形"");
+    }
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻り値を割り当てる
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T06:47:51.369Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d%d%d"",&a,&b,&c);
+    switch
+    if(x>=y+z){
+        
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*x>y*y+z*z){
+        printf(""鈍角三角形"");
+    }
+     else if(x*x<y*y+z*z){
+        printf(""鋭角三角形"");
+    }
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻り値を割り当てる
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T06:49:01.358Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d%d%d"",&a,&b,&c);
+    switch(n)
+    if(x>=y+z){
+        
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*x>y*y+z*z){
+        printf(""鈍角三角形"");
+    }
+     else if(x*x<y*y+z*z){
+        printf(""鋭角三角形"");
+    }
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻り値を割り当てる
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T06:49:11.357Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d%d%d"",&a,&b,&c);
+    switch(num){
+            case
+    if(x>=y+z){
+        
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*x>y*y+z*z){
+        printf(""鈍角三角形"");
+    }
+     else if(x*x<y*y+z*z){
+        printf(""鋭角三角形"");
+    }
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻り値を割り当てる
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T06:49:21.373Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d%d%d"",&a,&b,&c);
+    switch(num){
+            case0 :
+            
+    if(x>=y+z){
+        
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*x>y*y+z*z){
+        printf(""鈍角三角形"");
+    }
+     else if(x*x<y*y+z*z){
+        printf(""鋭角三角形"");
+    }
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻り値を割り当てる
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T06:49:31.363Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d%d%d"",&a,&b,&c);
+    switch(num){
+            case0 :
+            case
+    if(x>=y+z){
+        
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*x>y*y+z*z){
+        printf(""鈍角三角形"");
+    }
+     else if(x*x<y*y+z*z){
+        printf(""鋭角三角形"");
+    }
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻り値を割り当てる
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T06:49:41.363Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d%d%d"",&a,&b,&c);
+    switch(num){
+            
+    if(x>=y+z){
+        
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*x>y*y+z*z){
+        printf(""鈍角三角形"");
+    }
+     else if(x*x<y*y+z*z){
+        printf(""鋭角三角形"");
+    }
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻り値を割り当てる
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T06:49:51.365Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d%d%d"",&a,&b,&c);
+    switch(num){
+            0
+    if(x>=y+z){
+        
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*x>y*y+z*z){
+        printf(""鈍角三角形"");
+    }
+     else if(x*x<y*y+z*z){
+        printf(""鋭角三角形"");
+    }
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻り値を割り当てる
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T06:50:01.369Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d%d%d"",&a,&b,&c);
+    switch(num){
+        case 0:
+            
+    if(x>=y+z){
+        
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*x>y*y+z*z){
+        printf(""鈍角三角形"");
+    }
+     else if(x*x<y*y+z*z){
+        printf(""鋭角三角形"");
+    }
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻り値を割り当てる
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T06:50:11.363Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d%d%d"",&a,&b,&c);
+    switch(num){
+        case 0:
+            printf("""")
+    if(x>=y+z){
+        
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*x>y*y+z*z){
+        printf(""鈍角三角形"");
+    }
+     else if(x*x<y*y+z*z){
+        printf(""鋭角三角形"");
+    }
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻り値を割り当てる
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T06:50:21.370Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d%d%d"",&a,&b,&c);
+    switch(num){
+        case 0:
+            printf(""Error"")
+    if(x>=y+z){
+        
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*x>y*y+z*z){
+        printf(""鈍角三角形"");
+    }
+     else if(x*x<y*y+z*z){
+        printf(""鋭角三角形"");
+    }
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻り値を割り当てる
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T06:50:31.371Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d%d%d"",&a,&b,&c);
+    switch(num){
+        case 0:
+            printf(""Error"");
+        case 1
+    if(x>=y+z){
+        
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*x>y*y+z*z){
+        printf(""鈍角三角形"");
+    }
+     else if(x*x<y*y+z*z){
+        printf(""鋭角三角形"");
+    }
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻り値を割り当てる
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T06:50:41.366Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d%d%d"",&a,&b,&c);
+    switch(num){
+        case 0:
+            printf(""Error"");
+        case 1:
+            printf("""")
+    if(x>=y+z){
+        
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*x>y*y+z*z){
+        printf(""鈍角三角形"");
+    }
+     else if(x*x<y*y+z*z){
+        printf(""鋭角三角形"");
+    }
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻り値を割り当てる
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T06:50:51.368Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d%d%d"",&a,&b,&c);
+    switch(num){
+        case 0:
+            printf(""Error"");
+        case 1:
+            printf(""ちょっかく"")
+    if(x>=y+z){
+        
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*x>y*y+z*z){
+        printf(""鈍角三角形"");
+    }
+     else if(x*x<y*y+z*z){
+        printf(""鋭角三角形"");
+    }
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻り値を割り当てる
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T06:51:01.361Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d%d%d"",&a,&b,&c);
+    switch(num){
+        case 0:
+            printf(""Error"");
+        case 1:
+            printf(""直角三角形"");
+            
+    if(x>=y+z){
+        
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*x>y*y+z*z){
+        printf(""鈍角三角形"");
+    }
+     else if(x*x<y*y+z*z){
+        printf(""鋭角三角形"");
+    }
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻り値を割り当てる
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T06:51:11.366Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d%d%d"",&a,&b,&c);
+    switch(num){
+        case 0:
+            printf(""Error"");
+            
+        case 1:
+            printf(""直角三角形"");
+        
+    if(x>=y+z){
+        
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*x>y*y+z*z){
+        printf(""鈍角三角形"");
+    }
+     else if(x*x<y*y+z*z){
+        printf(""鋭角三角形"");
+    }
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻り値を割り当てる
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T06:51:21.358Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d%d%d"",&a,&b,&c);
+    switch(num){
+        case 0:
+            printf(""Error"");
+            break
+        case 1:
+            printf(""直角三角形"");
+        
+    if(x>=y+z){
+        
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*x>y*y+z*z){
+        printf(""鈍角三角形"");
+    }
+     else if(x*x<y*y+z*z){
+        printf(""鋭角三角形"");
+    }
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻り値を割り当てる
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T06:51:31.364Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d%d%d"",&a,&b,&c);
+    switch(num){
+        case 0:
+            printf(""Error"");
+            break;
+        case 1:
+            printf(""直角三角形"");
+        
+    if(x>=y+z){
+        
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*x>y*y+z*z){
+        printf(""鈍角三角形"");
+    }
+     else if(x*x<y*y+z*z){
+        printf(""鋭角三角形"");
+    }
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻り値を割り当てる
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T06:51:41.358Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d%d%d"",&a,&b,&c);
+    switch(num){
+        case 0:
+            printf(""Error"");
+            break;
+        case 1:
+            printf(""直角三角形"");
+            bre
+        
+    if(x>=y+z){
+        
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*x>y*y+z*z){
+        printf(""鈍角三角形"");
+    }
+     else if(x*x<y*y+z*z){
+        printf(""鋭角三角形"");
+    }
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻り値を割り当てる
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T06:51:51.371Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d%d%d"",&a,&b,&c);
+    switch(num){
+        case 0:
+            printf(""Error"");
+            break;
+        case 1:
+            printf(""直角三角形"");
+            break;
+            
+        
+    if(x>=y+z){
+        
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*x>y*y+z*z){
+        printf(""鈍角三角形"");
+    }
+     else if(x*x<y*y+z*z){
+        printf(""鋭角三角形"");
+    }
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻り値を割り当てる
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T06:52:01.358Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d%d%d"",&a,&b,&c);
+    switch(num){
+        case 0:
+            printf(""Error"");
+            break;
+        case 1:
+            printf(""直角三角形"");
+            break;
+        case 2:
+            printf(""Error"");
+            break;
+        case 3:
+            printf(""直角三角形"");
+            break;
+        
+    if(x>=y+z){
+        
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*x>y*y+z*z){
+        printf(""鈍角三角形"");
+    }
+     else if(x*x<y*y+z*z){
+        printf(""鋭角三角形"");
+    }
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻り値を割り当てる
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T06:52:11.370Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d%d%d"",&a,&b,&c);
+    switch(num){
+        case 0:
+            printf(""Error"");
+            break;
+        case 1:
+            printf(""直角三角形"");
+            break;
+        case 2:
+            printf(""えいか"");
+            break;
+        case 3:
+            printf(""直角三角形"");
+            break;
+        
+    if(x>=y+z){
+        
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*x>y*y+z*z){
+        printf(""鈍角三角形"");
+    }
+     else if(x*x<y*y+z*z){
+        printf(""鋭角三角形"");
+    }
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻り値を割り当てる
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T06:52:21.364Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d%d%d"",&a,&b,&c);
+    switch(num){
+        case 0:
+            printf(""Error"");
+            break;
+        case 1:
+            printf(""直角三角形"");
+            break;
+        case 2:
+            printf(""鋭角三角性"");
+            break;
+        case 3:
+            printf("""");
+            break;
+        
+    if(x>=y+z){
+        
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*x>y*y+z*z){
+        printf(""鈍角三角形"");
+    }
+     else if(x*x<y*y+z*z){
+        printf(""鋭角三角形"");
+    }
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻り値を割り当てる
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T06:52:31.371Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d%d%d"",&a,&b,&c);
+    switch(num){
+        case 0:
+            printf(""Error"");
+            break;
+        case 1:
+            printf(""直角三角形"");
+            break;
+        case 2:
+            printf(""鋭角三角性"");
+            break;
+        case 3:
+            printf(""鈍角三角形"");
+            break;
+        
+    if(x>=y+z){
+        
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*x>y*y+z*z){
+        printf(""鈍角三角形"");
+    }
+     else if(x*x<y*y+z*z){
+        printf(""鋭角三角形"");
+    }
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻り値を割り当てる
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T06:52:41.365Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d%d%d"",&a,&b,&c);
+    switch(num){
+        case 0:
+            printf(""Error"");
+            break;
+        case 1:
+            printf(""直角三角形"");
+            break;
+        case 2:
+            printf(""鋭角三角性"");
+            break;
+        case 3:
+            printf(""鈍角三角形"");
+            break;
+      
+    if(x>=y+z){
+        
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*x>y*y+z*z){
+        printf(""鈍角三角形"");
+    }
+     else if(x*x<y*y+z*z){
+        printf(""鋭角三角形"");
+    }
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻り値を割り当てる
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T06:52:51.357Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d%d%d"",&a,&b,&c);
+    switch(num){
+        case 0:
+            printf(""Error"");
+            break;
+        case 1:
+            printf(""直角三角形"");
+            break;
+        case 2:
+            printf(""鋭角三角性"");
+            break;
+        case 3:
+            printf(""鈍角三角形"");
+            break;
+    }
+    if(x>=y+z){
+        
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*x>y*y+z*z){
+        printf(""鈍角三角形"");
+    }
+     else if(x*x<y*y+z*z){
+        printf(""鋭角三角形"");
+    }
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻り値を割り当てる
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T06:53:11.370Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d%d%d"",&a,&b,&c);
+    switch(num){
+        case 0:
+            printf(""Error"");
+            break;
+        case 1:
+            printf(""直角三角形"");
+            break;
+        case 2:
+            printf(""鋭角三角性"");
+            break;
+        case 3:
+            printf(""鈍角三角形"");
+            break;
+    }
+    
+    if(x>=y+z){
+        
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*x>y*y+z*z){
+        printf(""鈍角三角形"");
+    }
+     else if(x*x<y*y+z*z){
+        printf(""鋭角三角形"");
+    }
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻り値を割り当てる
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T06:53:21.360Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d%d%d"",&a,&b,&c);
+    switch(num){
+        case 0:
+            printf(""Error"");
+            break;
+        case 1:
+            printf(""直角三角形"");
+            break;
+        case 2:
+            printf(""鋭角三角性"");
+            break;
+        case 3:
+            printf(""鈍角三角形"");
+            break;
+    }
+    
+
+    if(x>=y+z){
+        
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*x>y*y+z*z){
+        printf(""鈍角三角形"");
+    }
+     else if(x*x<y*y+z*z){
+        printf(""鋭角三角形"");
+    }
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻り値を割り当てる
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T06:57:11.362Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d%d%d"",&a,&b,&c);
+    switch(num){
+        case 0:
+            printf(""Error"");
+            break;
+        case 1:
+            printf(""直角三角形"");
+            break;
+        case 2:
+            printf(""鋭角三角性"");
+            break;
+        case 3:
+            printf(""鈍角三角形"");
+            break;
+    }
+  
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻り値を割り当てる
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T06:57:21.361Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d%d%d"",&a,&b,&c);
+    switch(num){
+        case 0:
+            printf(""Error"");
+            break;
+        case 1:
+            printf(""直角三角形"");
+            break;
+        case 2:
+            printf(""鋭角三角性"");
+            break;
+        case 3:
+            printf(""鈍角三角形"");
+            break;
+    }
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻り値を割り当てる
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T06:59:22.077Z,user_025,user25,32,ai-help,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d%d%d"",&a,&b,&c);
+    switch(num){
+        case 0:
+            printf(""Error"");
+            break;
+        case 1:
+            printf(""直角三角形"");
+            break;
+        case 2:
+            printf(""鋭角三角性"");
+            break;
+        case 3:
+            printf(""鈍角三角形"");
+            break;
+    }
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻り値を割り当てる
+    
+
+    return 0;
+}",,,コード化,コード化,"[{""level"": 1, ""text"": ""main関数：プログラムの流れを管理する"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""入力を読み取る（3つの実数）"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""三角形の成立検証（コメントのみ）"", ""status"": ""todo""}, {""level"": 2, ""text"": ""形状判定を行い戻り値を決める（コメントのみ）"", ""status"": ""todo""}, {""level"": 2, ""text"": ""戻り値に応じて出力する(switch文)（実装途中）"", ""status"": ""in_progress""}]","[{""level"": 1, ""text"": ""まずコメントに書いた順（入力→成立検証→形状判定→出力）で一つずつ実装しましょう。""}, {""level"": 2, ""text"": ""数値は実数なので double を使い、scanf は %lf を使うことを意識してください。最初の入力が最大値と仮定して処理を組みます。""}, {""level"": 3, ""text"": ""int checktri(double a,double b,double c) を作り、成立条件は a < b + c、角判定は a*a と b*b + c*c を比較（等しいなら1、小さいなら2、大きいなら3）して戻り値を返し、mainでその戻り値を switch して表示、最後に改行を出してください。""}]"
+2025-12-18T06:59:31.361Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d%d%d"",&a,&b,&c);
+    
+    switch(num){
+        case 0:
+            printf(""Error"");
+            break;
+        case 1:
+            printf(""直角三角形"");
+            break;
+        case 2:
+            printf(""鋭角三角性"");
+            break;
+        case 3:
+            printf(""鈍角三角形"");
+            break;
+    }
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻り値を割り当てる
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T07:01:01.362Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d%d%d"",&a,&b,&c);
+    
+    switch(num){
+        case 0:
+            printf(""Error"");
+            break;
+        case 1:
+            printf(""直角三角形"");
+            break;
+        case 2:
+            printf(""鋭角三角性"");
+            break;
+        case 3:
+            printf(""鈍角三角形"");
+            break;
+    }
+    
+int 
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻り値を割り当てる
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T07:01:11.356Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d%d%d"",&a,&b,&c);
+    
+    switch(num){
+        case 0:
+            printf(""Error"");
+            break;
+        case 1:
+            printf(""直角三角形"");
+            break;
+        case 2:
+            printf(""鋭角三角性"");
+            break;
+        case 3:
+            printf(""鈍角三角形"");
+            break;
+    }
+    
+int check
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻り値を割り当てる
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T07:01:21.360Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d%d%d"",&a,&b,&c);
+    
+    switch(num){
+        case 0:
+            printf(""Error"");
+            break;
+        case 1:
+            printf(""直角三角形"");
+            break;
+        case 2:
+            printf(""鋭角三角性"");
+            break;
+        case 3:
+            printf(""鈍角三角形"");
+            break;
+    }
+    
+int checktri()
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻り値を割り当てる
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T07:01:31.362Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d%d%d"",&a,&b,&c);
+    
+    switch(num){
+        case 0:
+            printf(""Error"");
+            break;
+        case 1:
+            printf(""直角三角形"");
+            break;
+        case 2:
+            printf(""鋭角三角性"");
+            break;
+        case 3:
+            printf(""鈍角三角形"");
+            break;
+    }
+    
+int checktri(double a)
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻り値を割り当てる
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T07:01:41.357Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d%d%d"",&a,&b,&c);
+    
+    switch(num){
+        case 0:
+            printf(""Error"");
+            break;
+        case 1:
+            printf(""直角三角形"");
+            break;
+        case 2:
+            printf(""鋭角三角性"");
+            break;
+        case 3:
+            printf(""鈍角三角形"");
+            break;
+    }
+    
+int checktri(double a,double b,)
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻り値を割り当てる
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T07:01:51.357Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d%d%d"",&a,&b,&c);
+    
+    switch(num){
+        case 0:
+            printf(""Error"");
+            break;
+        case 1:
+            printf(""直角三角形"");
+            break;
+        case 2:
+            printf(""鋭角三角性"");
+            break;
+        case 3:
+            printf(""鈍角三角形"");
+            break;
+    }
+    
+int checktri(double a,double b,double c))
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻り値を割り当てる
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T07:02:01.367Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d%d%d"",&a,&b,&c);
+    
+    switch(num){
+        case 0:
+            printf(""Error"");
+            break;
+        case 1:
+            printf(""直角三角形"");
+            break;
+        case 2:
+            printf(""鋭角三角性"");
+            break;
+        case 3:
+            printf(""鈍角三角形"");
+            break;
+    }
+    
+int checktri(double a,double b,double c)
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻り値を割り当てる
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T07:02:11.371Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d%d%d"",&a,&b,&c);
+    
+    switch(num){
+        case 0:
+            printf(""Error"");
+            break;
+        case 1:
+            printf(""直角三角形"");
+            break;
+        case 2:
+            printf(""鋭角三角性"");
+            break;
+        case 3:
+            printf(""鈍角三角形"");
+            break;
+    }
+    
+int checktri(double a,double b,double c){
+    
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻り値を割り当てる
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T07:02:31.361Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d%d%d"",&a,&b,&c);
+    checktri(double a,double b,double c)
+    switch(num){
+        case 0:
+            printf(""Error"");
+            break;
+        case 1:
+            printf(""直角三角形"");
+            break;
+        case 2:
+            printf(""鋭角三角性"");
+            break;
+        case 3:
+            printf(""鈍角三角形"");
+            break;
+    }
+    
+int checktri(double a,double b,double c){
+    
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻り値を割り当てる
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T07:02:41.367Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d%d%d"",&a,&b,&c);
+    checktri(double a,double b,double c)
+    switch(num){
+        case 0:
+            printf(""Error"");
+            break;
+        case 1:
+            printf(""直角三角形"");
+            break;
+        case 2:
+            printf(""鋭角三角性"");
+            break;
+        case 3:
+            printf(""鈍角三角形"");
+            break;
+    }
+    
+int checktri(double a,double b,double c){
+    
+    
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻り値を割り当てる
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T07:03:31.358Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d%d%d"",&a,&b,&c);
+    checktri(double a,double b,double c)
+    switch(num){
+        case 0:
+            printf(""Error"");
+            break;
+        case 1:
+            printf(""直角三角形"");
+            break;
+        case 2:
+            printf(""鋭角三角性"");
+            break;
+        case 3:
+            printf(""鈍角三角形"");
+            break;
+    }
+    
+int checktri(double a,double b,double c){
+     if(x>=y+z){
+        printf(""Error"");
+    }
+    else if(x*x==y*y+z*z){
+        printf(""直角三角形"");
+    }
+     else if(x*x>y*y+z*z){
+        printf(""鈍角三角形"");
+    }
+     else if(x*x<y*y+z*z){
+        printf(""鋭角三角形"");
+    }
+    
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻り値を割り当てる
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T07:04:51.359Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d%d%d"",&a,&b,&c);
+    checktri(double a,double b,double c)
+    switch(num){
+        case 0:
+            printf(""Error"");
+            break;
+        case 1:
+            printf(""直角三角形"");
+            break;
+        case 2:
+            printf(""鋭角三角性"");
+            break;
+        case 3:
+            printf(""鈍角三角形"");
+            break;
+    }
+    
+int checktri(double a,double b,double c){
+     if(x>=y+z){
+        
+    }
+    else if(x*x==y*y+z*z){
+        
+    }
+     else if(x*x>y*y+z*z){
+        printf(""鈍角三角形"");
+    }
+     else if(x*x<y*y+z*z){
+        printf(""鋭角三角形"");
+    }
+    
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻り値を割り当てる
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T07:05:01.358Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d%d%d"",&a,&b,&c);
+    checktri(double a,double b,double c)
+    switch(num){
+        case 0:
+            printf(""Error"");
+            break;
+        case 1:
+            printf(""直角三角形"");
+            break;
+        case 2:
+            printf(""鋭角三角性"");
+            break;
+        case 3:
+            printf(""鈍角三角形"");
+            break;
+    }
+    
+int checktri(double a,double b,double c){
+     if(x>=y+z){
+        
+    }
+    else if(x*x==y*y+z*z){
+        
+    }
+     else if(x*x>y*y+z*z){
+        
+    }
+     else if(x*x<y*y+z*z){
+        printf(""鋭角三角形"");
+    }
+    
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻り値を割り当てる
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T07:05:11.364Z,user_025,user25,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d%d%d"",&a,&b,&c);
+    checktri(double a,double b,double c)
+    switch(num){
+        case 0:
+            printf(""Error"");
+            break;
+        case 1:
+            printf(""直角三角形"");
+            break;
+        case 2:
+            printf(""鋭角三角性"");
+            break;
+        case 3:
+            printf(""鈍角三角形"");
+            break;
+    }
+    
+int checktri(double a,double b,double c){
+     if(x>=y+z){
+        
+    }
+    else if(x*x==y*y+z*z){
+        
+    }
+     else if(x*x>y*y+z*z){
+        
+    }
+     else if(x*x<y*y+z*z){
+        
+    }
+    
+    /*入力:3つの実数, 出力:三角形の形状*/
+    //三角形の存在有無検証
+    //形状判定し、戻り値を割り当てる
+    
+
+    return 0;
+}",,,,,,

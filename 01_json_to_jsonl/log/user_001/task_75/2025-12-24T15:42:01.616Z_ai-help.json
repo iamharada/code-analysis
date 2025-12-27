@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-12-24T15:42:01.616Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "プログラム全体の雛形（#include と main の宣言）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main 内の入力／出力仕様を示すコメント（/*入力:○○, 出力:△△*/）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "return 0; による正常終了の記述",
+      "status": "done"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題の要件をもう一度確認しよう。pascal 関数を作ることと、二次元配列・繰り返し・%3d 指定で出力する点を意識して。"
+    },
+    {
+      "level": 2,
+      "text": "具体的な入出力例を自分で考えてみよう。例えば n=4 のときにどんな行が何行出るかを想像してみてください。"
+    },
+    {
+      "level": 3,
+      "text": "入力は整数 n (1〜10)。出力は n 行分のパスカルの三角形で、各数値は幅3の右揃え（%3d）で出力し行ごとに改行する、という仕様で実装してください。"
+    }
+  ]
+}

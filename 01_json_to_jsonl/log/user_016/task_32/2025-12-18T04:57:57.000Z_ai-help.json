@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-12-18T04:57:57.000Z",
+  "username": "user16",
+  "userId": "user_016",
+  "taskNumber": "32",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\n//関数の作成\n\nint main(void) {\n    /*入力:3つの実数, 出力:三角形の形状*/\n    //入力する\n    //関数から判定\n    \n\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "checktri関数の作成（戻り値で三角形の種類を返す）",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "main関数（プログラムの入力と出力を担当）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "3つの実数を入力として読み取る",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "checktriを呼び出して戻り値をswitchで判定し出力する",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "今のコメントで入力と出力の役割は整理できています。実装を始める準備ができています。"
+    },
+    {
+      "level": 2,
+      "text": "まずchecktriの関数プロトタイプを決め（例: 引数3つのdouble）、mainで3つの変数にscanfで読み取る流れを固めましょう。"
+    },
+    {
+      "level": 3,
+      "text": "checktriの宣言を作り、mainでscanfで値を読み込みchecktriを呼び出して戻り値をswitchで判定し、指定の文字列（改行あり）をprintfで出力するコードを書き始めてください。"
+    }
+  ]
+}

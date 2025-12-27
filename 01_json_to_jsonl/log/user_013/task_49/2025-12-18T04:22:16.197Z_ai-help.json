@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-12-18T04:22:16.197Z",
+  "username": "user13",
+  "userId": "user_013",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\nint tri(int n,int m); //tri関数\nint line(int n,int m); //line関数\n\nint main(void) {\n    /*入力:1つの整数値を入力, 出力:二等辺三角形をアスタリスクで作る*/\n    //入力をする\n    //整数n,mを定義する\n    //tri関数を再帰する\n    //line関数を再帰する\n    return 0;\n}\n\nint tri(int n,int m){\n    //\n    ",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数: 入力を受け取り、変数を定義し、tri/line関数を呼び出す流れをコメントで記述している",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main内の処理（入力をする／整数n,mを定義する／tri関数を再帰する／line関数を再帰する）",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "tri関数: 定義の開始はあるが本体が未実装（再帰処理の中身がない）",
+      "status": "in_progress"
+    },
+    {
+      "level": 1,
+      "text": "line関数: プロトタイプのみ存在し、定義がまだない",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まず今のコメントをそのまま順に実装することを意識してください。入力→処理（関数呼び出し）→出力の流れを守りましょう。"
+    },
+    {
+      "level": 2,
+      "text": "mainでは整数を読み取り、カウンタ変数を用意してから再帰関数を呼ぶ位置を決めておくと楽です。関数の引数で行数やカウンタを渡すことを考えてください。"
+    },
+    {
+      "level": 3,
+      "text": "mainに int n,cnt=0; を用意して scanf で n を読み取り、tri(n, &cnt) のように呼ぶ設計にし、tri は各行で line を呼んで '*' を出力するたびに cnt++ し、最後に printf(\"COUNT=%d\\n\",cnt) を出力する形にしてください。"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-12-18T05:02:57.635Z",
+  "username": "user16",
+  "userId": "user_016",
+  "taskNumber": "32",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint checktri()//関数の作成\n\nint main(void) {\n    /*入力:3つの実数, 出力:三角形の形状*/\n    scanf(\"%f %f %f\",&a,&b,&c);//入力する\n    \n    \n    //関数から判定\n    \n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "処理の大枠決定",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：プログラムの入口（入力を受け取り、判定関数を呼び、出力する）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力処理：3つの実数を読み取る（scanf があるが変数宣言がない）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "checktri関数の宣言：三角形判定を行う関数の宣言のみ（実装なし）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "出力処理：checktriの戻り値をswitchで判定して文字列を出力する（未実装）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まず全体の流れをはっきりさせよう：入力→判定関数→出力、という順序を想像してみてください。"
+    },
+    {
+      "level": 2,
+      "text": "必要な大まかなステップをコメントで列挙してみよう：変数宣言・入力・関数呼び出し・switch出力など。"
+    },
+    {
+      "level": 3,
+      "text": "mainに変数(float a,b,c)を宣言し、scanfで読み取り、checktriを呼び戻り値でswitchして出力するコメントを3〜5行書こう。"
+    }
+  ]
+}

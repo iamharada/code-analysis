@@ -1,0 +1,31 @@
+{
+  "timestamp": "2025-12-17T09:56:36.267Z",
+  "username": "user2",
+  "userId": "user_002",
+  "taskNumber": "84",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数内に入力/出力仕様のコメントのみがある（具体処理は未実装）",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題文をもう一度読み、何を入力として受け取り何を出力するかをはっきりさせよう。"
+    },
+    {
+      "level": 2,
+      "text": "具体例を1〜2個選び、入力（2つの文字列）と期待する出力（合計の文字列）を書いてみよう。"
+    },
+    {
+      "level": 3,
+      "text": "入力は各行で10文字以内の数字列（先頭は0でない）、出力はその2つを足した十進数の結果を改行付きで表示することを書き加えよう。"
+    }
+  ]
+}

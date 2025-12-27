@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-12-09T02:49:51.617Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "処理の大枠決定",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数: 入力を受け取りパスカルの三角形を出力する役割",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main内: 整数nの入力を読み取る",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "main内: 2次元配列にパスカルの三角形を計算して格納する",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "main内: %3dで整形して各行を出力する（最後に改行）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まず全体の流れを確認しよう。入力→三角形の生成→整形して出力する順番を頭に入れてね。"
+    },
+    {
+      "level": 2,
+      "text": "必要な大まかな手順を書き出そう。入力読み取り、配列の用意と計算、フォーマットして出力の順で考えてみて。"
+    },
+    {
+      "level": 3,
+      "text": "mainに3〜5行のコメントで手順を書き、配列の端は1、内部は上の2つの和で計算し、printfで%3dを使って行ごとに出力するよう実装してね。"
+    }
+  ]
+}

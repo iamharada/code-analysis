@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-12-17T06:56:45.456Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：プログラムの開始点。入力を受け取り再帰関数を呼び出して出力をまとめる役割。",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "入力の読み取り：整数値 n を標準入力から取得する処理（scanfなど）。",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "再帰関数 tri3：各行を順に出力する再帰処理と '*' の総数を管理する役割（定義がまだない）。",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "再帰関数 line3：1行分の '*' を出力し、出力タイミングでカウンタを増やす役割（定義がまだない）。",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "COUNT 表示：最後に COUNT=<合計> を出力する処理（未実装）。",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題文をもう一度読み、何を入力して何を出力するかをはっきりさせよう。"
+    },
+    {
+      "level": 2,
+      "text": "出力例を具体的に確認し、n=5なら各行が1〜5個の'*'、最後にCOUNT=15になることを確かめよう。"
+    },
+    {
+      "level": 3,
+      "text": "入力は整数 n (2〜20)。出力は1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計（n*(n+1)/2）。"
+    }
+  ]
+}

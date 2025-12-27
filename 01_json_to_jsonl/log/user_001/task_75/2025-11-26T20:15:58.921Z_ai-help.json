@@ -1,0 +1,31 @@
+{
+  "timestamp": "2025-11-26T20:15:58.921Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "処理の大枠決定",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：入力と出力に関するコメントのみがある（実装はない）",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まず課題全体を俯瞰しよう：入力を受け取り、パスカルの三角形を作成し、表示する流れを意識して。"
+    },
+    {
+      "level": 2,
+      "text": "必要なステップを書き出そう：入力取得、二次元配列確保、各要素の計算（上の行の左右を足す）、%3dでの表示、改行。"
+    },
+    {
+      "level": 3,
+      "text": "mainかpascal関数内に3〜5行のコメントで処理の大枠（例：入力→配列初期化→計算ループ→出力）を書いてから詳細化へ進もう。"
+    }
+  ]
+}

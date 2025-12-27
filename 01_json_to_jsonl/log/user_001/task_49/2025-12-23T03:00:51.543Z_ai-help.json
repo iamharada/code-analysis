@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-12-23T03:00:51.543Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数,\n    出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n    // 1. 入力を受け取る\n    // 2. tri3を呼ぶ\n    return 0;\n}\n\n// tri3関数を作成する\n// tri3(n):\n//   まずline(n)でn個の*を出す\n//   次にtri3(n-1)で残りを出す\n//   COUNTは line の戻り値を足していく\n\n// line関数を作成する\n// line(n):\n//   *を1個出してline(n-1)を呼ぶ\n//   最後に改行する",
+  "estimated_stage": "処理の詳細化",
+  "next_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main: 入力を受け取り tri3 を呼び、最終的にCOUNT=... を出力する部分（コメントはあるが実装はない）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "tri3(n): line(n) を呼んでその戻り値を合算し、tri3(n-1) を再帰呼び出しする（コメントで設計済み）",
+      "status": "todo"
+    },
+    {
+      "level": 3,
+      "text": "line(n): '*' を1個出力して line(n-1) を呼ぶ再帰で n 個の '*' を出力し、最後に改行して出力個数を返す（コメントで設計済み）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "今書いてあるコメントがそのままコードにできる部分を見つけよう：mainで入力を受け、tri3を呼ぶ流れを確認して下さい。"
+    },
+    {
+      "level": 2,
+      "text": "まず関数プロトタイプを上部に書き、mainで scanf して tri3 を呼び、戻り値を受けて printf で COUNT を出す流れを実装することを考えてみてください。"
+    },
+    {
+      "level": 3,
+      "text": "line: if(n==0){ putchar('\\n'); return 0; } else { putchar('*'); return 1 + line(n-1); } 、tri3: if(n==0) return 0; else { int c=line(n); return c + tri3(n-1); } を参考に実装してみましょう。"
+    }
+  ]
+}

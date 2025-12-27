@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-12-17T06:59:33.839Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "#include <stdio.h> によるヘッダの読み込み",
+      "status": "done"
+    },
+    {
+      "level": 1,
+      "text": "main関数の雛形（処理を書く場所）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "main内のコメント /*入力:○○, 出力:△△*/（入力・出力仕様の記述）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題の要件をもう一度確認しましょう：入力は整数（2〜20）、出力は等辺の長さを使った二等辺三角形と合計カウントです。"
+    },
+    {
+      "level": 2,
+      "text": "入力と期待される出力を具体例でコメントに書き出してください（例：入力5 → 1行目'*'〜5行目'*****'とCOUNT=15）。"
+    },
+    {
+      "level": 3,
+      "text": "コメント部分を具体化して置き換えてください。例：/* 入力: 整数 n (2..20), 出力: n行の左揃え二等辺三角形と\"COUNT=合計\" */"
+    }
+  ]
+}

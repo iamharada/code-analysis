@@ -1,0 +1,10 @@
+{
+  "timestamp": "2025-12-18T05:09:50.947Z",
+  "username": "user10",
+  "userId": "user_010",
+  "taskNumber": "45",
+  "event": "run",
+  "code": "#include <stdio.h>\n//再帰関数reverse4をつくる\nvoid  reverse4(int n, int re, int i){\n    if(n > 0){\n        re[i] = n % 10;\n        //printf(\"%d\", n % 10);\n        reverse4(n / 10, re, i++);\n        for(int j = 0; re[j] != 0; j++){\n        }\n        for(j; j < i; j++){\n            printf(\"%d\", re[j]);\n    }\n}\n\nint main(void) {\n    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/\n    //入力\n    int n;\n    scanf(\"%d\", &n);\n    int re[5];\n    reverse4(n, re, 0);\n    //先頭の０を消したい\n    printf(\"\\n\");\n    return 0;\n}",
+  "stdout": "",
+  "stderr": "file0.code.c: In function 'reverse4':\nfile0.code.c:5:11: error: subscripted value is neither array nor pointer nor vector\n    5 |         re[i] = n % 10;\n      |           ^\nfile0.code.c:8:26: error: subscripted value is neither array nor pointer nor vector\n    8 |         for(int j = 0; re[j] != 0; j++){\n      |                          ^\nfile0.code.c:10:13: error: 'j' undeclared (first use in this function)\n   10 |         for(j; j < i; j++){\n      |             ^\nfile0.code.c:10:13: note: each undeclared identifier is reported only once for each function it appears in\nfile0.code.c: In function 'main':\nfile0.code.c:21:17: warning: passing argument 2 of 'reverse4' makes integer from pointer without a cast [-Wint-conversion]\n   21 |     reverse4(n, re, 0);\n      |                 ^~\n      |                 |\n      |                 int *\nfile0.code.c:3:27: note: expected 'int' but argument is of type 'int *'\n    3 | void  reverse4(int n, int re, int i){\n      |                       ~~~~^~\n"
+}

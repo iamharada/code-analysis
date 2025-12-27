@@ -1,0 +1,36 @@
+{
+  "timestamp": "2025-12-17T07:17:33.652Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, \n    出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "処理の大枠決定",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数（プログラムの入口）。ここに入力読み取りや出力の大まかな処理を置く予定。",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "関数内コメントで入力(整数1つ)と出力(1行目'*'からn行目まで、最後にCOUNT=合計)を記述済み。",
+      "status": "done"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題の要件を再確認しよう：入力は1つの整数、出力は各行に増える'*'と最後にCOUNT=合計だと確認して下さい。"
+    },
+    {
+      "level": 2,
+      "text": "全体の流れを決めよう：入力を読む → 再帰で行ごとに'*'を出力して個数を数える → 最後にCOUNTを出力、という順番を意識して。"
+    },
+    {
+      "level": 3,
+      "text": "具体的な大枠コメント例：1) int n,count=0; scanfでn読み込み 2) tri3(1,n,&count)で1行目から順に出力（各行はline3が'*'を出力してcount++） 3) printf(\"COUNT=%d\\n\",count);"
+    }
+  ]
+}

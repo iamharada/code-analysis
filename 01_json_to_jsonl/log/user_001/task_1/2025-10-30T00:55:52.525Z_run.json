@@ -1,0 +1,10 @@
+{
+  "timestamp": "2025-10-30T00:55:52.525Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": 1,
+  "event": "run",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：なし, 出力：Hello,world!*/\n    printf(\"\")\n    \n    return 0;\n}",
+  "stdout": "",
+  "stderr": "file0.code.c: In function 'main':\nfile0.code.c:5:15: error: expected ';' before 'return'\n    5 |     printf(\"\")\n      |               ^\n      |               ;\n    6 | \n    7 |     return 0;\n      |     ~~~~~~     \nchmod: cannot access 'a.out': No such file or directory\n"
+}

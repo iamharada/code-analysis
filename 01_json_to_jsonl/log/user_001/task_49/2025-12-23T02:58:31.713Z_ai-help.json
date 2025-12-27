@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-12-23T02:58:31.713Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数,\n      出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n    // 1. 入力を受け取る\n    // 2. tri3を呼ぶ\n    return 0;\n}\n\n// tri3関数を作成する\n    // for文で1行ずつ回す\n    // lineで*を出す\n    // COUNTは最後にまとめて計算\n\n// line関数を作成する\n    // for文で*をn個出す\n    // 改行する",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数で入力を受け取り tri3 を呼ぶ設計のコメントがある",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "tri3関数（行を出力する役割）を作るというコメントがあるが未実装",
+      "status": "in_progress"
+    },
+    {
+      "level": 3,
+      "text": "line（line3）関数（1行の'*'を出力する役割）を作るというコメントがあるが未実装",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "tri3 と line3 のコメントが要点なので、まずどちらを詳細化するか決めましょう。"
+    },
+    {
+      "level": 2,
+      "text": "tri3 は「何行目を出すか」と「合計カウント」を受け取る設計、line3 はその行の '*' を出力してカウントを増やす振る舞いを考えてください。"
+    },
+    {
+      "level": 3,
+      "text": "tri3(int cur,int n,int *count): if(cur>n) return; call line3(cur,count); putchar('\\n'); tri3(cur+1,n,count);\nline3(int k,int *count): if(k==0) return; putchar('*'); (*count)++; line3(k-1,count);"
+    }
+  ]
+}

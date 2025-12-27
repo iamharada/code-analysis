@@ -1,0 +1,45 @@
+{
+  "timestamp": "2025-11-11T06:38:00.355Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "64",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\nint main(void) {\n    /*入力:1つの整数, 出力:入力値の約数の総和*/\n    //入力をする\n    //for文で約数を探索\n    //合計の出力\n}\n\n",
+  "estimated_stage": "処理の大枠決定",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "プログラム全体：入力を受け取り約数の総和を計算して出力する",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力をする（整数を読み取る）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "for文で約数を探索する（候補を順に調べる）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "合計を出力する（結果を表示して改行する）",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まず大きな流れを確認しましょう：入力→処理（約数探索）→出力、という順番です。"
+    },
+    {
+      "level": 2,
+      "text": "必要な手順を紙やコメントで書き出してください：入力を読む、forで調べる、合計に加える、出力する、の順です。"
+    },
+    {
+      "level": 3,
+      "text": "3〜5行のコメントで具体的な処理手順を書いてから、次は各行を細かく分解して実装に移りましょう。"
+    }
+  ]
+}

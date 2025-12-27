@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-12-23T03:02:07.418Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数,\n    出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n    // 1. 入力を受け取る\n    // 2. tri3を呼ぶ\n    return 0;\n}\n\n// tri3関数を作成する\n// tri3(n):\n//   まずline(n)でn個の*を出す\n//   次にtri3(n-1)で残りを出す\n//   COUNTは line の戻り値を足していく\n\n// line関数を作成する\n// line(n):\n//   *を1個出してline(n-1)を呼ぶ\n//   最後に改行する",
+  "estimated_stage": "処理の詳細化",
+  "next_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main: 入力を受け取り tri3 を呼び、最終的に COUNT を出力する",
+      "status": "in_progress"
+    },
+    {
+      "level": 1,
+      "text": "tri3(n): line(n) を呼んでその戻り値を足し、tri3(n-1) を再帰で呼ぶ（n が 0 で終了）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "tri3 内の処理: line(n) 呼び出しと tri3(n-1) の再帰呼び出しで合計を作る",
+      "status": "in_progress"
+    },
+    {
+      "level": 1,
+      "text": "line(n): '*' を再帰で出力し、最後に改行して出力した '*' の個数を戻す",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "line の再帰: n>0 のとき '*' を出力して line(n-1) を呼び、戻り値に 1 を足す",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まずどのコメントを先にコードにするか決めよう：main の入力処理と tri3 の呼び出しが良い出発点です。"
+    },
+    {
+      "level": 2,
+      "text": "関数の型と役割を決めよう：line と tri3 は int を返して、出力した '*' の個数を戻す設計にすると扱いやすいです。"
+    },
+    {
+      "level": 3,
+      "text": "実装手順の例：line(n) は n==0 で改行して0を返す、そうでなければ '*' を出力して 1+line(n-1) を返す。tri3(n) は n==0 で0を返し、そうでなければ line(n)+tri3(n-1) を返す。main は n を読み tri3(n) の戻り値を COUNT として表示する。"
+    }
+  ]
+}

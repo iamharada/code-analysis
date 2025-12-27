@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-12-24T00:20:18.732Z",
+  "username": "user26",
+  "userId": "user_026",
+  "taskNumber": "14",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:3つの整数, 出力:三角形の形状\n    三角形の成立条件で条件分岐\n    */\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数: 入力受け取り・三角形判定・出力の流れを作る",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力: コメントに「3つの整数」とあるが、課題は実数を想定している",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "判定: コメントに「三角形の成立条件で条件分岐」とだけ記載されている",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "出力: 三角形の種類（直角/鋭角/鈍角）または Error を出す",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題文をもう一度読み、入力が実数であることと最初の値が最大で良いという条件を確認しよう。"
+    },
+    {
+      "level": 2,
+      "text": "具体的な入力例をいくつか考えて、成立する三角形と成立しない場合の出力を想像してみよう。"
+    },
+    {
+      "level": 3,
+      "text": "入力は3つの実数（最初が最大）で、出力は1行で「直角三角形」「鋭角三角形」「鈍角三角形」または成立しなければ「Error」と表示する。"
+    }
+  ]
+}

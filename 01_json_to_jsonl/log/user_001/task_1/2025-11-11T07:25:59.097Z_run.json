@@ -1,0 +1,10 @@
+{
+  "timestamp": "2025-11-11T07:25:59.097Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": 1,
+  "event": "run",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：なし, 出力：Hello,world!*/\n    printf(\"Hello,world!\");\n    \n    return 0;\n}",
+  "stdout": "Hello,world!",
+  "stderr": ""
+}

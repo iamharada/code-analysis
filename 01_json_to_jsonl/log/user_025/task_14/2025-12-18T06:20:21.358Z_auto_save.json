@@ -1,0 +1,1 @@
+{"timestamp":"2025-12-18T06:20:21.358Z","username":"user25","userId":"user_025","taskNumber":"14","event":"auto_save","code":"#include <stdio.h>\n\nint main(void) {\n    int x.y.z;\n    scanf(\"%d\",&a,&b,&c);\n    if(x>y+z){\n        printf(\"\")/*入力:3つの実数, 出力:三角形の種類*/\n    //入力を受け取る\n    //長さ判定\n    //形状を判定する\n    //成立しないならError\n    //成立するなら、x*x+y*y=z*z\n\n    return 0;\n}"}

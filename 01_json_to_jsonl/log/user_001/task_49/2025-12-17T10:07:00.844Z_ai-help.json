@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-12-17T10:07:00.844Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, \n    出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n    // 1. 入力を受け取る\n    // 2. tri3を呼ぶ\n    return 0;\n}\n\n// tri3関数を作成する\n\n// line関数を作成する",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数: 整数を入力し、tri3を呼び、最後にCOUNT=合計を出力する部分",
+      "status": "in_progress"
+    },
+    {
+      "level": 1,
+      "text": "tri3関数: 各行を出力する再帰処理（各行でline3を呼ぶ役割）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "line3関数: 1行分の'*'を出力し、その都度カウントを増やす再帰処理",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "全体の流れを確認しよう：入力→三角形(各行を出力)→COUNTを出力する順番だよ。"
+    },
+    {
+      "level": 2,
+      "text": "tri3は行の繰り返し、line3は1行分の'*'出力とカウント増加、という役割分担を考えてみて。"
+    },
+    {
+      "level": 3,
+      "text": "tri3は n==0 で終わる再帰、そうでなければ line3(n, &count); 改行; tri3(n-1, &count); にする。\nline3は k==0 で終わり、そうでなければ '*' を出力してカウントを増やし line3(k-1, &count); にする。"
+    }
+  ]
+}

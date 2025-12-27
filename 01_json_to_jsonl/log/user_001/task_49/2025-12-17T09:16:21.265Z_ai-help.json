@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-12-17T09:16:21.265Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, \n    出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n    // 1. 入力を受け取る\n    // 2. tri3を呼ぶ\n    // 3. COUNTは n*(n+1)/2 で計算して表示\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：プログラムの入口（入力を受け取り、tri3を呼び、COUNTを表示する）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main内 - 入力を受け取る（整数n）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "main内 - tri3を呼んで三角形を出力する",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "main内 - COUNTを計算して表示する（コメントに式ありが未実装）",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "tri3関数：再帰で行を制御して各行でline3を呼ぶ（宣言はあるが未実装）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "line3関数：1行分の'*'を再帰で出力しながらカウントを増やす（未実装）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "コメントを見直して、どの部分がまだあいまいか確認しよう。tri3とline3の具体的な動作が未定だよ。"
+    },
+    {
+      "level": 2,
+      "text": "tri3は行番号を進める関数、line3はその行の'*'を出力してカウントする関数、という役割分担を決めよう。"
+    },
+    {
+      "level": 3,
+      "text": "たとえば tri3(cur,n,&cnt): cur>nなら終了、そうでなければ line3(cur,&cnt) を呼び cur+1で再帰する。line3(k,&cnt): k==0なら改行、そうでなければ '*' を出力して (*cnt)++ して line3(k-1,&cnt) を呼ぶ、という形に具体化してみて。"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "timestamp": "2025-12-12T12:06:55.171Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, \n      出力:1つの整数の行数分のパスカルの三角形*/\n    //入力をパスカルの三角形の段数として受けとる。\n    //入力値（段数）をpascal関数に渡す。\n    return 0;\n}\n//入力段数分のパスカル三角形を出力する関数を作る\n\n\n\n\n\n",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数: 入力を受け取りpascal関数に渡す",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "mainで整数を読み取る（入力）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "mainでpascal関数を呼び出す",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "mainで return 0 を返す",
+      "status": "done"
+    },
+    {
+      "level": 1,
+      "text": "pascal関数: 入力段数分のパスカル三角形を出力する（関数は未作成）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "pascalで二次元配列を宣言・初期化する",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "pascalで繰り返しを使って各要素を計算する",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "pascalで printf(\"%3d\") を使って整形して出力する",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "mainのコメントを見て、どの部分をそのままコードにできるか確認しましょう。入力を受け取って関数を呼ぶ部分が実装可能です。"
+    },
+    {
+      "level": 2,
+      "text": "まず main で scanf で整数を読み、pascal のプロトタイプを上部に宣言してから main で pascal(n) を呼ぶ流れを考えてください。"
+    },
+    {
+      "level": 3,
+      "text": "関数は void pascal(int n) とし、int a[10][10] を用意。a[i][0]=a[i][i]=1、その他は a[i][j]=a[i-1][j-1]+a[i-1][j] で計算し、printf(\"%3d\", a[i][j]) と行末の printf(\"\\n\") で出力します。"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+ts,user_id,username,task,event,code,stdout,stderr,estimated_stage,next_stage,processing_structure,advice
+2025-12-18T07:36:10.973Z,user_020,user20,1,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:△△*/
+
+    return 0;
+}",,,,,,
+2025-12-18T07:36:20.977Z,user_020,user20,1,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:印字*/
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T07:36:30.978Z,user_020,user20,1,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:印字*/
+    //printfを用いてしゅつ
+
+    return 0;
+}",,,,,,
+2025-12-18T07:36:40.980Z,user_020,user20,1,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:印字*/
+    //printfを用いて出力する
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T07:36:50.979Z,user_020,user20,1,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:印字*/
+    //printfを用いて出力する
+    printf("""")
+
+    return 0;
+}",,,,,,
+2025-12-18T07:37:00.978Z,user_020,user20,1,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:印字*/
+    //printfを用いて出力する
+    printf(""Hello,wo\n"")
+
+    return 0;
+}",,,,,,
+2025-12-18T07:37:10.984Z,user_020,user20,1,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:印字*/
+    //printfを用いて出力する
+    printf(""Hello,world!\n\"")
+
+    return 0;
+}",,,,,,
+2025-12-18T07:37:20.973Z,user_020,user20,1,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:印字*/
+    //printfを用いて出力する
+    printf(""Hello,world!\nようこそ\n"")
+
+    return 0;
+}",,,,,,
+2025-12-18T07:37:30.989Z,user_020,user20,1,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:印字*/
+    //printfを用いて出力する
+    printf(""Hello,world!\nようこそ\n"");
+
+    return 0;
+}",,,,,,
+2025-12-18T07:37:33.372Z,user_020,user20,1,run,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:印字*/
+    //printfを用いて出力する
+    printf(""Hello,world!\nようこそ\n"");
+
+    return 0;
+}","Hello,world!
+ようこそ
+",,,,,

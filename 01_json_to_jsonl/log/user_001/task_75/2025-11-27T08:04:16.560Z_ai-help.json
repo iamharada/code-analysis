@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-11-27T08:04:16.560Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n    //入力を受け付ける。\n    //パスカルの三角形を計算する。\n    //出力する。\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：プログラム全体の流れを担当",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力を受け付ける（行数 n を読み取る）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "パスカルの三角形を計算する（計算部分）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "計算結果を整形して出力する（%3d を使って印字）",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "今あるコメントを使って、入力→計算→出力の順を頭の中でたどってみてください。"
+    },
+    {
+      "level": 2,
+      "text": "計算は二次元配列を使い、端の値を1にして、内部は上の二つの和を使うことを考えてみてください。"
+    },
+    {
+      "level": 3,
+      "text": "まず細かい手順をコメント化：配列の宣言、nの読み取り、二重のforで値を計算、%3dで各行を印字・改行、と書いてから実装を始めてください。"
+    }
+  ]
+}

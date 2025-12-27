@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-12-17T23:54:22.515Z",
+  "username": "user2",
+  "userId": "user_002",
+  "taskNumber": "84",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:二つの文字列, 出力:文字列を数値とみなした和*/\n    // 2つの文字列を受け付ける\n    // 文字列をint型にする\n    // 2つの文字列を右端から足す\n    // 出力する\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数: プログラム全体の流れをまとめる",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "2つの文字列を受け取る（入力）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "文字列を1桁ずつ int 配列に変換する",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "右端から繰り上げを考慮して配列同士を足し合わせる（繰り返し処理）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "計算結果を出力する（先頭の不要な0を扱い改行）",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まず今のコメントで何を決めているか確認して、どの部分を詳しく書く必要があるか見つけてください。"
+    },
+    {
+      "level": 2,
+      "text": "例えば「文字列→配列変換」「桁ごとの足し算（繰り上げ）」「出力」の順に、細かい処理ステップを書き出してみてください。"
+    },
+    {
+      "level": 3,
+      "text": "各文字列の長さを調べ右端を0から数えるようにし、配列に digit = s[len-1-i] - '0' で入れる。ループで a+b+carry を計算し carry = sum/10, digit = sum%10 を保存、最後に上位桁から出力して改行してください。"
+    }
+  ]
+}

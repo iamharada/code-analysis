@@ -1,0 +1,373 @@
+ts,user_id,username,task,event,code,stdout,stderr,estimated_stage,next_stage,processing_structure,advice
+2025-12-18T07:42:00.981Z,user_020,user20,3,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:nashi, 出力:△△*/
+
+    return 0;
+}",,,,,,
+2025-12-18T07:42:10.978Z,user_020,user20,3,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:*/
+
+    return 0;
+}",,,,,,
+2025-12-18T07:42:20.977Z,user_020,user20,3,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:あ*/
+
+    return 0;
+}",,,,,,
+2025-12-18T07:42:30.984Z,user_020,user20,3,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:aのba+b*/
+
+    return 0;
+}",,,,,,
+2025-12-18T07:42:40.986Z,user_020,user20,3,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:a、b、a+bの値のしゅ*/
+
+    return 0;
+}",,,,,,
+2025-12-18T07:42:50.978Z,user_020,user20,3,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:a、b、a+bの値*/
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T07:43:00.986Z,user_020,user20,3,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:a、b、a+bの値*/
+    //h
+
+    return 0;
+}",,,,,,
+2025-12-18T07:43:10.973Z,user_020,user20,3,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:a、b、a+bの値*/
+    //変数の
+    //
+
+    return 0;
+}",,,,,,
+2025-12-18T07:43:20.976Z,user_020,user20,3,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:a、b、a+bの値*/
+    //変数の作成（a）
+    //
+
+    return 0;
+}",,,,,,
+2025-12-18T07:43:30.981Z,user_020,user20,3,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:a、b、a+bの値*/
+    //変数の作成（a,b）
+    //変数ｎ
+
+    return 0;
+}",,,,,,
+2025-12-18T07:43:40.996Z,user_020,user20,3,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:a、b、a+bの値*/
+    //変数の作成（a,b）
+    //変数に代入
+    //
+
+    return 0;
+}",,,,,,
+2025-12-18T07:43:50.973Z,user_020,user20,3,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:a、b、a+bの値*/
+    //変数の作成（a,b）
+    //変数に代入
+    //出力：
+
+    return 0;
+}",,,,,,
+2025-12-18T07:44:00.977Z,user_020,user20,3,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:a、b、a+bの値*/
+    //変数の作成（a,b）
+    
+    //変数に代入
+    //出力：a、b、a+bの値
+
+    return 0;
+}",,,,,,
+2025-12-18T07:44:10.974Z,user_020,user20,3,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:a、b、a+bの値*/
+    //変数の作成（a,b）
+    int a,b;
+    //変数に代入
+    //出力：a、b、a+bの値
+
+    return 0;
+}",,,,,,
+2025-12-18T07:44:20.984Z,user_020,user20,3,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:a、b、a+bの値*/
+    //変数の作成（a,b）
+    int a,b;
+    //変数に代入
+    a=3;
+    b=
+    //出力：a、b、a+bの値
+
+    return 0;
+}",,,,,,
+2025-12-18T07:44:30.979Z,user_020,user20,3,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:a、b、a+bの値*/
+    //変数の作成（a,b）
+    int a,b;
+    //変数に代入
+    a=3;
+    b=5;
+    //出力：a、b、a+bの値
+    
+    return 0;
+}",,,,,,
+2025-12-18T07:44:40.975Z,user_020,user20,3,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:a、b、a+bの値*/
+    //変数の作成（a,b）
+    int a,b;
+    //変数に代入
+    a=3;
+    b=5;
+    //出力：a、b、a+bの値
+    pritnf(""%d\n"")
+    return 0;
+}",,,,,,
+2025-12-18T07:44:50.973Z,user_020,user20,3,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:a、b、a+bの値*/
+    //変数の作成（a,b）
+    int a,b;
+    //変数に代入
+    a=3;
+    b=5;
+    //出力：a、b、a+bの値
+    pritnf(""%d\n"",a);
+    printf
+    return 0;
+}",,,,,,
+2025-12-18T07:45:00.973Z,user_020,user20,3,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:a、b、a+bの値*/
+    //変数の作成（a,b）
+    int a,b;
+    //変数に代入
+    a=3;
+    b=5;
+    //出力：a、b、a+bの値
+    pritnf(""%d\n%d\n%d"",a);
+    return 0;
+}",,,,,,
+2025-12-18T07:45:09.386Z,user_020,user20,3,run,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:a、b、a+bの値*/
+    //変数の作成（a,b）
+    int a,b;
+    //変数に代入
+    a=3;
+    b=5;
+    //出力：a、b、a+bの値
+    pritnf(""%d\n%d\n%d\n"",a,b,a+b);
+    return 0;
+}",,"file0.code.c: In function 'main':
+file0.code.c:11:5: warning: implicit declaration of function 'pritnf'; did you mean 'printf'? [-Wimplicit-function-declaration]
+   11 |     pritnf(""%d\n%d\n%d\n"",a,b,a+b);
+      |     ^~~~~~
+      |     printf
+/usr/bin/ld: /tmp/ccBqrSyD.o: in function `main':
+file0.code.c:(.text+0x32): undefined reference to `pritnf'
+collect2: error: ld returned 1 exit status
+chmod: cannot access 'a.out': No such file or directory
+",,,,
+2025-12-18T07:45:10.979Z,user_020,user20,3,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:a、b、a+bの値*/
+    //変数の作成（a,b）
+    int a,b;
+    //変数に代入
+    a=3;
+    b=5;
+    //出力：a、b、a+bの値
+    pritnf(""%d\n%d\n%d\n"",a,b,a+b);
+    return 0;
+}",,,,,,
+2025-12-18T07:45:33.724Z,user_020,user20,3,run,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:a、b、a+bの値*/
+    //変数の作成（a,b）
+    int a,b;
+    //変数に代入
+    a=3;
+    b=5;
+    //出力：a、b、a+bの値
+    pritnf(""%d\n%d\n%d\n"",a,b,a+b);
+    return 0;
+}",,"file0.code.c: In function 'main':
+file0.code.c:11:5: warning: implicit declaration of function 'pritnf'; did you mean 'printf'? [-Wimplicit-function-declaration]
+   11 |     pritnf(""%d\n%d\n%d\n"",a,b,a+b);
+      |     ^~~~~~
+      |     printf
+/usr/bin/ld: /tmp/ccPkeOHM.o: in function `main':
+file0.code.c:(.text+0x32): undefined reference to `pritnf'
+collect2: error: ld returned 1 exit status
+chmod: cannot access 'a.out': No such file or directory
+",,,,
+2025-12-18T07:46:00.979Z,user_020,user20,3,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:a、b、a+bの値*/
+    //変数の作成（a,b）
+    int a,b;
+    //変数に代入
+    a=3;
+    b=5;
+    //出力：a、b、a+bの値
+    pritnf(""%d\n %d\n %d\n"",a,b,a+b);
+    return 0;
+}",,,,,,
+2025-12-18T07:46:20.975Z,user_020,user20,3,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:a、b、a+bの値*/
+    //変数の作成（a,b）
+    int a,b;
+    //変数に代入
+    a=3;
+    b=5;
+    //出力：a、b、a+bの値
+    printf(""%d\n %d\n %d\n"",a,b,a+b);
+    return 0;
+}",,,,,,
+2025-12-18T07:46:32.307Z,user_020,user20,3,run,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:a、b、a+bの値*/
+    //変数の作成（a,b）
+    int a,b;
+    //変数に代入
+    a=3;
+    b=5;
+    //出力：a、b、a+bの値
+    printf(""%d\n %d\n %d\n"",a,b,a+b);
+    return 0;
+}","3
+ 5
+ 8
+",,,,,
+2025-12-18T07:46:33.991Z,user_020,user20,3,run,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:a、b、a+bの値*/
+    //変数の作成（a,b）
+    int a,b;
+    //変数に代入
+    a=3;
+    b=5;
+    //出力：a、b、a+bの値
+    printf(""%d\n %d\n %d\n"",a,b,a+b);
+    return 0;
+}","3
+ 5
+ 8
+",,,,,
+2025-12-18T07:46:40.743Z,user_020,user20,3,run,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:a、b、a+bの値*/
+    //変数の作成（a,b）
+    int a,b;
+    //変数に代入
+    a=3;
+    b=5;
+    //出力：a、b、a+bの値
+    printf( ""%d\n %d\n %d\n"",a,b,a+b);
+    return 0;
+}","3
+ 5
+ 8
+",,,,,
+2025-12-18T07:46:40.973Z,user_020,user20,3,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:a、b、a+bの値*/
+    //変数の作成（a,b）
+    int a,b;
+    //変数に代入
+    a=3;
+    b=5;
+    //出力：a、b、a+bの値
+    printf( ""%d\n %d\n %d\n"",a,b,a+b);
+    return 0;
+}",,,,,,
+2025-12-18T07:46:50.996Z,user_020,user20,3,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:a、b、a+bの値*/
+    //変数の作成（a,b）
+    int a,b;
+    //変数に代入
+    a=3;
+    b=5;
+    //出力：a、b、a+bの値
+    printf( ""%d\n%d\n %d\n"",a,b,a+b);
+    return 0;
+}",,,,,,
+2025-12-18T07:46:52.530Z,user_020,user20,3,run,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:a、b、a+bの値*/
+    //変数の作成（a,b）
+    int a,b;
+    //変数に代入
+    a=3;
+    b=5;
+    //出力：a、b、a+bの値
+    printf( ""%d\n%d\n%d\n"",a,b,a+b);
+    return 0;
+}","3
+5
+8
+",,,,,
+2025-12-18T07:47:00.980Z,user_020,user20,3,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:なし, 出力:a、b、a+bの値*/
+    //変数の作成（a,b）
+    int a,b;
+    //変数に代入
+    a=3;
+    b=5;
+    //出力：a、b、a+bの値
+    printf( ""%d\n%d\n%d\n"",a,b,a+b);
+    return 0;
+}",,,,,,

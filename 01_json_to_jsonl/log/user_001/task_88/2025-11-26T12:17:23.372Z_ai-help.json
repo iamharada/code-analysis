@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-11-26T12:17:23.372Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "88",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数（プログラム開始と終了の枠）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力: 整数値を読み取る（0〜10000）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "16進数への変換処理（dectostrhex関数で行う）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "出力: 変換結果を文字列として表示し末尾に改行を付ける",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題の要件をもう一度確認しましょう：入力は0〜10000の整数、出力はその16進表記の文字列で末尾は改行だけです。"
+    },
+    {
+      "level": 2,
+      "text": "入力と出力を具体的に書いてみてください。例：入力161 → 出力A1（最後に改行のみ）。"
+    },
+    {
+      "level": 3,
+      "text": "次は処理の大枠を書きます：入力を読む→16進へ変換する（繰り返しと配列で桁を扱う）→dectostrhexで表示する、の3〜5ステップをコメントに書いてください。"
+    }
+  ]
+}

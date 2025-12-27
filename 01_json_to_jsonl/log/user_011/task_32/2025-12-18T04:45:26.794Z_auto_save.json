@@ -1,0 +1,1 @@
+{"timestamp":"2025-12-18T04:45:26.794Z","username":"user11","userId":"user_011","taskNumber":"32","event":"auto_save","code":"#include <stdio.h>\n\nvoid checktri(int a,int b,int c){\n    \n}\n\nint main(void) {\n    //aを最大値として辺の長さを作成\n    float a,b,c;\n    \n    //入力\n    scanf(\"%f\",&a);\n    scanf(\"%f\",&b);\n    scanf(\"%f\",&c);\n    \n    return 0;\n}"}

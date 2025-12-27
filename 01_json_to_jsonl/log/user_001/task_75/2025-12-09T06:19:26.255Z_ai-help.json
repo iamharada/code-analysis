@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-12-09T06:19:26.255Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n    //入力を受け付ける。\n    //計算する。\n    //出力する。\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：プログラム全体の流れをまとめる場所",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力を受け付ける（整数を読み取る）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "計算する（パスカルの三角形を二次元配列で作る）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "出力する（%3dで整列して表示、行ごとに改行）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "コメントの「入力を受け付ける／計算する／出力する」をそのまま実装できます。まず入力から着手しましょう。"
+    },
+    {
+      "level": 2,
+      "text": "scanfで整数nを読み、二次元配列（最大10×10）を用意して、二重ループで上から順に値を埋めるイメージを持ってください。"
+    },
+    {
+      "level": 3,
+      "text": "具体案：scanf(\"%d\", &n); int a[10][10]={0}; for(i=0;i<n;i++){ for(j=0;j<=i;j++){ if(j==0||j==i) a[i][j]=1; else a[i][j]=a[i-1][j-1]+a[i-1][j]; printf(\"%3d\", a[i][j]); } printf(\"\\n\"); }"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-12-12T12:05:26.188Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, \n      出力:1つの整数の行数分のパスカルの三角形*/\n    //入力をパスカルの三角形の段数として受けとる。\n    //入力値（段数）をpascal関数に渡す。\n    return 0;\n}\n//入力段数分のパスカル三角形を出力する関数を作る\n\n\n\n\n\n",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：プログラム開始点（入力を受け取りpascal関数に渡す）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main内：入力を受け取る（1つの整数）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main内：pascal関数を呼び出す予定（pascal関数に段数を渡す）",
+      "status": "in_progress"
+    },
+    {
+      "level": 1,
+      "text": "pascal関数：入力段数分のパスカルの三角形を出力する関数（未作成）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題の要件（入力1つ、指定の書式でパスカルの三角形を出力）をもう一度確認しましょう。"
+    },
+    {
+      "level": 2,
+      "text": "処理を細かく分けてください：入力を読む→pascal関数に渡す→三角形を計算して出力する、の順です。"
+    },
+    {
+      "level": 3,
+      "text": "pascal関数内をコメントで分解して書きます：二次元配列の宣言、端を1で初期化、内側を足して埋める、%3dで行ごとに出力。"
+    }
+  ]
+}

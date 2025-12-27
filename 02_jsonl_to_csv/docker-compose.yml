@@ -1,0 +1,9 @@
+services:
+  jsonl-to-csv:
+    build: .
+    container_name: jsonl-to-csv
+    working_dir: /work
+    volumes:
+      - ./log_jsonl:/work/log_jsonl:ro
+      - ./log_csv:/work/log_csv
+    command: ["--in", "/work/log_jsonl", "--out", "/work/log_csv"]

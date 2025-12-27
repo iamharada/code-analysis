@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-12-01T10:08:45.083Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:, 出力:*/\n\n}\n",
+  "estimated_stage": "課題の理解",
+  "next_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "#include <stdio.h> の記述（入出力に必要）",
+      "status": "done"
+    },
+    {
+      "level": 1,
+      "text": "main関数の定義（プログラムの開始と終了）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main内のコメント /*入力:, 出力:*/（入力と出力仕様をここに書く）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題文の条件をもう一度読み、何を出力するかを確認しましょう。"
+    },
+    {
+      "level": 2,
+      "text": "具体的な入力と対応する出力の例（例えば入力4のときの出力）を考えてみてください。"
+    },
+    {
+      "level": 3,
+      "text": "コメントを埋めてください：/*入力: 整数 n (1〜10), 出力: n行のパスカルの三角形を各値を%3dで右揃えで出力（最後は改行）*/"
+    }
+  ]
+}

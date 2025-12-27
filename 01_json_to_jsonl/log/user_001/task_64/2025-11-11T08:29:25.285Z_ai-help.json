@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-11-11T08:29:25.285Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "64",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\nint main(void) {\n    /*入力:1つの整数, 出力:入力値の約数の総和*/\n    //入力をする\n    //for文で約数を探索\n    //合計の出力\n}\n\n\n\n\n\n\n",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "課題の理解コメント（入力:1つの整数、出力:約数の総和）",
+      "status": "done"
+    },
+    {
+      "level": 1,
+      "text": "main関数の宣言（関数本体は空）",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "入力をする（入力を受け取る処理をコメントで記述）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "for文で約数を探索（どの範囲で回すか等をコメントで記述）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "合計の出力（結果を表示する処理をコメントで記述）",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "今のコメントは全体の流れを示せています。次は各処理をもう少し具体的に分けましょう。"
+    },
+    {
+      "level": 2,
+      "text": "まず使う変数を決めてください（入力値を入れる変数と合計を入れる変数など）。forの回す範囲も考えましょう。"
+    },
+    {
+      "level": 3,
+      "text": "各大きなコメントを小さな手順に分解してコメント化してください（初期化、ループ範囲、約数判定、加算、表示など）。その後でコード化を始めましょう。"
+    }
+  ]
+}

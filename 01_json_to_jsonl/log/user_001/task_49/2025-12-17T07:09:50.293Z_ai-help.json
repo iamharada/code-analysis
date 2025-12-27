@@ -1,0 +1,31 @@
+{
+  "timestamp": "2025-12-17T07:09:50.293Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数: 入力・出力の場所を示すコメントのみで、実装はない",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題文をもう一度読み、入力は整数1つ、出力は三角形の各行と最後にCOUNT=合計であることを確認しよう。"
+    },
+    {
+      "level": 2,
+      "text": "具体例を書いてみよう。例えば入力5なら1行目に'*'、2行目に'**'…5行目に'*****'、最後に'COUNT=15'と出ることをコメントに明記する。"
+    },
+    {
+      "level": 3,
+      "text": "コメントを具体化してmainに『scanfでnを読む』と書き、tri3とline3は再帰で行・文字を出力し、'*'を出力するたびにカウンタを増やして最後にprintf(\"COUNT=%d\\n\", total)と書くようにする。"
+    }
+  ]
+}

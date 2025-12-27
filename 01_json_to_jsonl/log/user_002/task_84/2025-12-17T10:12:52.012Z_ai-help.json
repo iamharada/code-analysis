@@ -1,0 +1,31 @@
+{
+  "timestamp": "2025-12-17T10:12:52.012Z",
+  "username": "user2",
+  "userId": "user_002",
+  "taskNumber": "84",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数に入力・出力の仕様を書いたコメントのみがある",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題文を読み直して、入力と出力の要件（何を受け取り何を返すか）をはっきりさせましょう。"
+    },
+    {
+      "level": 2,
+      "text": "具体的な入力例と対応する出力例をいくつか考えて、コメントに書いてみましょう（例: \"112\"+\"118\"→\"230\"）。"
+    },
+    {
+      "level": 3,
+      "text": "コメントを置き換えて明記してください: 入力は「10文字以内の数字文字列を2つ（先頭は0でない）」、出力は「それらの和を10進数で表示して改行のみ」。"
+    }
+  ]
+}

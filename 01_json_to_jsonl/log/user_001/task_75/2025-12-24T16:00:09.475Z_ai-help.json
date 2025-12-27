@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-12-24T16:00:09.475Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n    //入力を受け付ける。\n    //計算する。\n    //出力する。\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の大枠決定",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：プログラム全体の入り口",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力を受け付ける（1つの整数を読み取る）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "計算する（パスカルの三角形を二次元配列で作る）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "出力する（%3dで整形して行ごとに表示）",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "全体の流れをもう一度確認しよう：入力→パスカル計算→出力の順になっているか見てください。"
+    },
+    {
+      "level": 2,
+      "text": "mainは入出力を担当し、計算は別関数pascalに分ける設計にすると整理しやすいです。"
+    },
+    {
+      "level": 3,
+      "text": "大枠のコメント例：1) mainでnを読み込む。2) pascal関数を作り二次元配列に値を入れる（配列を引数で渡す）。3) mainで%3dを使って行ごとに出力する。"
+    }
+  ]
+}

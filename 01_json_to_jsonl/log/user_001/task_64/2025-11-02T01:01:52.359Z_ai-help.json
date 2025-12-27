@@ -1,0 +1,60 @@
+{
+  "timestamp": "2025-11-02T01:01:52.359Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "64",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\nint main(void) {\n    /*入力:1つの整数, 出力:入力値の約数の総和*/\n    // 1. 入力を受けとる\n    int n;\n    scanf(\"%d\", &n);\n    // 2. 総和を0にする\n    \n    // 3. 1から入力値まで繰り返す\n        // 3-1. 割り切れるか調べる\n        // 3-2. 割り切れたら合計にたす\n    // 4. 合計を表示する\n\n}\n\n",
+  "estimated_stage": "処理の大枠決定",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "入力した整数の約数の総和を求めるメイン処理",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力を受け取る（scanfで実装済み）",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "総和を0に初期化する",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "1から入力値まで繰り返し処理を行う（for文）",
+      "status": "todo"
+    },
+    {
+      "level": 3,
+      "text": "各値が割り切れるか調べる（条件判定）",
+      "status": "todo"
+    },
+    {
+      "level": 3,
+      "text": "割り切れたら合計に加える",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "合計を表示して改行する",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題の入出力をもう一度確認しましょう。例：入力が10なら出力は18になることを確認する。"
+    },
+    {
+      "level": 2,
+      "text": "今のコメントをもう少し具体化して、初期化・繰り返し範囲・判定・表示の順に分けて書いてください。"
+    },
+    {
+      "level": 3,
+      "text": "コメントが明確になったら、それを順に実際のコードに置き換えていきましょう（sumの初期化、for文、判定、出力）。"
+    }
+  ]
+}

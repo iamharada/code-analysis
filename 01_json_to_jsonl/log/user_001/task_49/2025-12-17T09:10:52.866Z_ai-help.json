@@ -1,0 +1,66 @@
+{
+  "timestamp": "2025-12-17T09:10:52.866Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, \n    出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n    // 1. 入力を受け取る\n    // 2. tri3を呼ぶ\n    // 3. COUNTは n*(n+1)/2 で計算して表示\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数: 入力を受け取り tri3 を呼び COUNT を表示する",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main: 入力を受け取る（整数を読み込む）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "main: tri3 を呼び出す",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "main: COUNT を計算して表示する（式は n*(n+1)/2）",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "tri3 関数: n 行の二等辺三角形を再帰で出力する役割",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "tri3: 各行で line3 を呼び、その後 tri3(n-1) を呼ぶ（再帰）",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "line3 関数: 1 行分の '*' を再帰で出力し、出力時にカウンタを増やす",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "line3: k が 0 なら改行、そうでなければ '*' 出力→カウント増→line3(k-1)",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "main のコメントで書いた「入力を受け取る」「tri3 を呼ぶ」「COUNT 表示」はそのままコード化できます。"
+    },
+    {
+      "level": 2,
+      "text": "tri3 は「その行を出力してから残りを再帰」で、line3 は1行分を再帰で出す設計にすると整理しやすいです。"
+    },
+    {
+      "level": 3,
+      "text": "具体案：グローバルに int count=0 を用意し、mainで scanf で n を読み tri3(n) を呼ぶ。tri3 は n==0 で return、そうでなければ line3(n); tri3(n-1);。line3 は k==0 なら改行、それ以外は '*' を出力して count++ し line3(k-1) を呼ぶ。"
+    }
+  ]
+}

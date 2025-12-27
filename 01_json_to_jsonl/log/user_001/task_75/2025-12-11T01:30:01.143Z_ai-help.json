@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-12-11T01:30:01.143Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nvoid pascal(int n) {\n    int a[n][n];\n    int i, j;\n    for (i = 0; i < n; i++) {\n        for (j = 0; j <= i; j++) {\n            if (j == 0 || j == i) {\n                // 三角形の左端と右端に1を格納\n                a[i][j] = 1;\n            } else {\n                // 三角形の中央部分には、前の行の左隣と右隣の要素を足した値を格納\n                a[i][j] = a[i - 1][j - 1] + a[i - 1][j];\n            }\n            printf(\"%3d \", a[i][j]);\n        }\n        printf(\"\\n\");\n    }\n}\n\nint main() {\n    int n;\n    scanf(\"%d\", &n);\n    pascal(n);\n    return 0;\n}",
+  "estimated_stage": "コード化",
+  "next_stage": "コードの整合性確認",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "pascal関数の定義（引数nを受け取り、n×nの2次元配列を使う）",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "外側のループで行を繰り返す（i = 0..n-1）",
+      "status": "done"
+    },
+    {
+      "level": 3,
+      "text": "内側のループで列を繰り返す（j = 0..i）",
+      "status": "done"
+    },
+    {
+      "level": 4,
+      "text": "各要素は端なら1、中央は前行の左と右の和を計算して格納",
+      "status": "done"
+    },
+    {
+      "level": 4,
+      "text": "配列要素をprintfで出力し、行末で改行する（現在は'%3d 'と空白を付けている）",
+      "status": "in_progress"
+    },
+    {
+      "level": 1,
+      "text": "main関数：標準入力からnを読み取りpascalを呼ぶ",
+      "status": "done"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "出力の体裁を今一度確認しよう。余計な空白や改行が入っていないか見てください。"
+    },
+    {
+      "level": 2,
+      "text": "各行の最後に余分な空白がないように注意して、%3dの表示と行末処理の組み合わせを考えてみてください。"
+    },
+    {
+      "level": 3,
+      "text": "各行で要素を出力するとき、最後の要素だけは後ろに空白を付けないように分岐して出力し、行の終わりは改行だけにしてください。"
+    }
+  ]
+}

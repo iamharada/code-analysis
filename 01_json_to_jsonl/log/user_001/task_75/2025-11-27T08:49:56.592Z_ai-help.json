@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-11-27T08:49:56.592Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n    //入力を受け付ける。\n    int n;\n    scanf(\"%d\", &n);\n    //パスカルの三角形を計算する。\n    //出力する。\n    return 0;\n}\n\n//パスカルの三角形を計算する関数を作成する\nvoid pascal(int n){\n    int a[i][0]=1;\n    int a[i][i]=1;\n}",
+  "estimated_stage": "コード化",
+  "next_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：整数nを読み取る",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "main関数：パスカル三角形を計算する/出力する（コメントのみ、呼び出し未実装）",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "pascal関数：パスカルの三角形を計算・出力する関数（定義ありだが未完成）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "pascal関数内：配列の要素（端の1の設定）を試みているが文法や変数が間違っている",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "今のコードは入力を読めているので、コメントの処理をそのままコードに移すことを意識しましょう。"
+    },
+    {
+      "level": 2,
+      "text": "pascal関数を完成させ、mainからその関数を呼ぶ流れにすると整理しやすいです。関数は配列を受け取らずにnだけ受け取ってもよいです。"
+    },
+    {
+      "level": 3,
+      "text": "pascal内で int a[10][10] や int a[11][11] のように十分な大きさの2次元配列を宣言し、各行の両端を1にして中間は上の行の左右の和で計算し、出力はprintf(\"%3d\", a[i][j])で行ごとに改行してください。"
+    }
+  ]
+}

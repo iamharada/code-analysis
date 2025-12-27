@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-12-18T05:49:37.961Z",
+  "username": "user2",
+  "userId": "user_002",
+  "taskNumber": "14",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n    \n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数の雛形（#include と int main のブロック）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力・出力の説明コメント（/*入力:○○, 出力:△△*/）が残っている",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "プログラムの終了（return 0;）",
+      "status": "done"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題文をもう一度読み、何を入力して何を出力するかをはっきりさせてください。特に「最初の入力が最大値である」ことと出力の形式（改行のみ）に注意。"
+    },
+    {
+      "level": 2,
+      "text": "具体的な入力と期待される出力をいくつか書いてみましょう（例: 入力 5 4 3 → 出力 “直角三角形”）。それで処理の要件が満たされるか確認してください。"
+    },
+    {
+      "level": 3,
+      "text": "入力は3つの実数（最初の値が最大）で、出力は条件に応じて正確に「直角三角形」「鋭角三角形」「鈍角三角形」または「Error」を改行付きで出す、という仕様をコメントに書き入れてください。"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-12-17T06:58:45.585Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数の定義（プログラムの入口）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力と出力の要件を書き込むコメント（/*入力:○○, 出力:△△*/）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "return 0; による正常終了",
+      "status": "done"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題文をもう一度読んで、入力は整数1つ、出力は三角形と最後のCOUNTであることを確認しよう。"
+    },
+    {
+      "level": 2,
+      "text": "具体的な入出力例を書いてみよう。例えば入力5なら、1行目'*'、2行目'**'…5行目'*****'と最後にCOUNT=15が出る。 "
+    },
+    {
+      "level": 3,
+      "text": "入力は整数n(2≤n≤20)。出力はi行目に'*'をi個出力してn行作り、最後に\"COUNT=\"と総個数(n*(n+1)/2)を表示することを意識しよう。"
+    }
+  ]
+}

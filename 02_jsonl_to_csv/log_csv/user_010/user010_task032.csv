@@ -1,0 +1,2870 @@
+ts,user_id,username,task,event,code,stdout,stderr,estimated_stage,next_stage,processing_structure,advice
+2025-12-18T03:37:55.476Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+    int
+
+    return 0;
+}",,,,,,
+2025-12-18T03:38:05.476Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+    int 
+
+    return 0;
+}",,,,,,
+2025-12-18T03:38:15.473Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+    int a,b,c;
+    scanf()
+
+    return 0;
+}",,,,,,
+2025-12-18T03:38:25.471Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+    int a,b,c;
+    scanf(""&a"")
+
+    return 0;
+}",,,,,,
+2025-12-18T03:38:35.467Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+    int a,b,c;
+    scanf(""&d, &d, "")
+
+    return 0;
+}",,,,,,
+2025-12-18T03:38:45.469Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+    int a,b,c;
+    scanf(""&d, &d, &d"")
+
+    return 0;
+}",,,,,,
+2025-12-18T03:38:55.475Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+    int a,b,c;
+    scanf(""%d, &
+          d, &d"")
+
+    return 0;
+}",,,,,,
+2025-12-18T03:39:05.467Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+    int a,b,c;
+    scanf(""%d, %d, %d"",)
+
+    return 0;
+}",,,,,,
+2025-12-18T03:39:15.480Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+    int a,b,c;
+    scanf(""%d, %d, %d"", &a, &b)
+
+    return 0;
+}",,,,,,
+2025-12-18T03:39:25.471Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+    int a,b,c;
+    scanf(""%d, %d, %d"", &a, &b, &c);
+
+    return 0;
+}",,,,,,
+2025-12-18T03:39:35.470Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+    int a,b,c;
+    scanf(""%d, %d, %d"", &a, &b, &c);
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T03:39:45.476Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+    int a,b,c;
+    scanf(""%d, %d, %"", &a, &b, &c);
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T03:39:55.467Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+    int a,b,c;
+    scanf(""%d"", &a);
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T03:40:05.480Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T03:40:55.470Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数, 出力:△△*/
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T03:41:15.480Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T03:41:25.475Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //にゅうりょくのう
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T03:41:35.467Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T03:45:15.468Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T03:45:25.468Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    //三角形のしゅるい
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T03:45:35.483Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    //三角形の種類判定
+    //
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T03:45:55.469Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int 
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    
+    //三角形の種類判定
+    //
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T03:46:05.478Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checkt
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    
+    //三角形の種類判定
+    //
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T03:46:15.475Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    
+    //三角形の種類判定
+    //
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T03:46:45.482Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri{
+    
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    
+    //三角形の種類判定
+    //
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T03:47:15.468Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri{
+    
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定
+    //
+    
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T03:47:25.476Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri{
+    int 
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定
+    //
+    
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T03:47:35.470Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(){
+    
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定
+    //
+    
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T03:47:45.469Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a,int b, int c){
+    
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定
+    //
+    
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T03:47:55.480Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定
+    //
+    
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T03:48:05.477Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定
+    //
+    
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T03:48:15.467Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定
+    //
+    
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T03:48:35.472Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定
+    //出力
+    
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T03:48:45.478Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T03:49:30.902Z,user_010,user10,32,ai-help,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定
+    //出力
+    
+    return 0;
+}",,,コード化,コード化,"[{""level"": 1, ""text"": ""checktri関数の宣言（引数と戻り値）はあるが、判定ロジックの本体が未実装"", ""status"": ""in_progress""}, {""level"": 1, ""text"": ""main関数の全体構造（入力→判定→出力）を用意している"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""入力の受付（コードにscanfがあるが整数で読み取っている）"", ""status"": ""done""}, {""level"": 2, ""text"": ""三角形の種類判定を行うためのchecktri呼び出しとその利用"", ""status"": ""todo""}, {""level"": 2, ""text"": ""出力（判定結果を文字列で表示）"", ""status"": ""todo""}]","[{""level"": 1, ""text"": ""まずコメントと現状のコードを比べ、未実装の箇所を一つずつ確認しましょう。""}, {""level"": 2, ""text"": ""checktriに「三角形成立(a < b + c)の判定」と「角度判定(a^2 と b^2 + c^2 の比較)」を入れることを考えてください。""}, {""level"": 3, ""text"": ""具体的には main で double 型を使い scanf(\""%lf\"",...) で読み、checktri は成立判定で 0 を返し、成立なら a*a と b*b+c*c を比較して 1/2/3 を返すよう実装し、main でその戻り値を switch で出力してください（出力は末尾に改行）。""}]"
+2025-12-18T03:50:05.477Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定
+    
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T03:50:15.467Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定
+    int chack
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T03:50:25.471Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定
+    int check = che
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T03:50:35.474Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定
+    int check = checktri(a,b,c)
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T03:50:45.470Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定
+    int check = checktri(a,b,c){
+        
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T03:50:55.467Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定
+    int check = checktri(a,b,c){
+    }
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T03:51:25.467Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形のsyu
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定
+    int check = checktri(a,b,c)
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T03:51:35.477Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の種類判定
+    i
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定
+    int check = checktri(a,b,c)
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T03:51:45.467Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の種類判定
+    int 
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定
+    int check = checktri(a,b,c)
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T03:51:55.467Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の種類判定
+    if()
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定
+    int check = checktri(a,b,c)
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T03:52:45.472Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の種類判定
+    if(a < b + c)
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定
+    int check = checktri(a,b,c)
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T03:53:05.471Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の種類判定
+    if(a < b + c){
+        
+    }
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定
+    int check = checktri(a,b,c)
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T03:53:15.471Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の種類判定
+    if(a < b + c){
+        if
+    }
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定
+    int check = checktri(a,b,c)
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T03:53:25.480Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の種類判定
+    if(a < b + c){
+        if()
+    }
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定
+    int check = checktri(a,b,c)
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T03:53:35.481Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a )
+    }
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定
+    int check = checktri(a,b,c)
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T03:53:45.478Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a * a ==)
+    }
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定
+    int check = checktri(a,b,c)
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T03:53:55.474Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a * a == b * b + c * c)
+    }
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定
+    int check = checktri(a,b,c)
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T03:54:05.467Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a * a == b * b + c * c){
+            re
+    }
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定
+    int check = checktri(a,b,c)
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T03:54:15.468Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a * a == b * b + c * c){
+            return 1;
+            
+    }
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定
+    int check = checktri(a,b,c)
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T03:54:25.470Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a * a == b * b + c * c){
+            return 1;
+        }else if()
+    }
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定
+    int check = checktri(a,b,c)
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T03:55:35.467Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a * a == b * b + c * c){
+            return 1;
+        }else if(a * )
+    }
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定
+    int check = checktri(a,b,c)
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T03:55:45.475Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a * a == b * b + c * c){
+            return 1;
+        }else if(a * a < )
+    }
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定
+    int check = checktri(a,b,c)
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T03:55:55.468Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a * a == b * b + c * c){
+            return 1;
+        }else if(a * a < b * b + c * c){
+            return
+    }
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定
+    int check = checktri(a,b,c)
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T03:56:05.478Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a * a == b * b + c * c){
+            return 1;
+        }else if(a * a < b * b + c * c){
+            return 2;
+        }else if
+    }
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定
+    int check = checktri(a,b,c)
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T03:56:15.477Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a * a == b * b + c * c){
+            return 1;
+        }else if(a * a < b * b + c * c){
+            return 2;
+        }else if(a * a  b * b + c * c){
+    }
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定
+    int check = checktri(a,b,c)
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T03:56:25.468Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a * a == b * b + c * c){
+            return 1;
+        }else if(a * a < b * b + c * c){
+            return 2;
+        }else if(a * a > b * b + c * c){
+            return
+    }
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定
+    int check = checktri(a,b,c)
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T03:56:35.470Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a * a == b * b + c * c){
+            return 1;
+        }else if(a * a < b * b + c * c){
+            return 2;
+        }else if(a * a > b * b + c * c){
+            return 3;
+        }else{
+            return 0;
+    }
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定
+    int check = checktri(a,b,c)
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T03:56:45.467Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a * a == b * b + c * c){
+            return 1;
+        }else if(a * a < b * b + c * c){
+            return 2;
+        }else if(a * a > b * b + c * c){
+            return 3;
+        }else{
+            return 0;
+    }
+    }
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定
+    int check = checktri(a,b,c)
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T03:56:55.471Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a * a == b * b + c * c){
+            return 1;
+        }else if(a * a < b * b + c * c){
+            return 2;
+        }else if(a * a > b * b + c * c){
+            return 3;
+        }else{
+            return 0;
+        }
+    }
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定
+    int check = checktri(a,b,c)
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T03:57:05.473Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a * a == b * b + c * c){
+            return 1;
+        }else if(a * a < b * b + c * c){
+            return 2;
+        }else if(a * a > b * b + c * c){
+            return 3;
+        }else{
+            return 0;
+        }
+    }
+}
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定
+    int check = checktri(a,b,c)
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T03:58:15.467Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a * a == b * b + c * c){
+            return 1;
+        }else if(a * a < b * b + c * c){
+            return 2;
+        }else if(a * a > b * b + c * c){
+            return 3;
+        }else{
+            return 0;
+        }
+    }
+}
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定
+    int check = checktri(a,b,c);
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T03:58:25.468Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a * a == b * b + c * c){
+            return 1;
+        }else if(a * a < b * b + c * c){
+            return 2;
+        }else if(a * a > b * b + c * c){
+            return 3;
+        }else{
+            return 0;
+        }
+    }
+}
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定
+    int check = checktri(a,b,c);
+    
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T03:58:55.470Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a * a == b * b + c * c){
+            return 1;
+        }else if(a * a < b * b + c * c){
+            return 2;
+        }else if(a * a > b * b + c * c){
+            return 3;
+        }else{
+            return 0;
+        }
+    }
+}
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定
+    int check = checktri(a,b,c);
+    sw
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T03:59:05.475Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a * a == b * b + c * c){
+            return 1;
+        }else if(a * a < b * b + c * c){
+            return 2;
+        }else if(a * a > b * b + c * c){
+            return 3;
+        }else{
+            return 0;
+        }
+    }
+}
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定
+    int check = checktri(a,b,c);
+    switch
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T03:59:55.476Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a * a == b * b + c * c){
+            return 1;
+        }else if(a * a < b * b + c * c){
+            return 2;
+        }else if(a * a > b * b + c * c){
+            return 3;
+        }else{
+            return 0;
+        }
+    }
+}
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定
+    int check = checktri(a,b,c);
+    switch()
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:00:05.478Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a * a == b * b + c * c){
+            return 1;
+        }else if(a * a < b * b + c * c){
+            return 2;
+        }else if(a * a > b * b + c * c){
+            return 3;
+        }else{
+            return 0;
+        }
+    }
+}
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定
+    int check = checktri(a,b,c);
+    switch(checktri(a,b,c))
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:00:15.469Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a * a == b * b + c * c){
+            return 1;
+        }else if(a * a < b * b + c * c){
+            return 2;
+        }else if(a * a > b * b + c * c){
+            return 3;
+        }else{
+            return 0;
+        }
+    }
+}
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定
+    switch(checktri(a,b,c))
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:00:25.483Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a * a == b * b + c * c){
+            return 1;
+        }else if(a * a < b * b + c * c){
+            return 2;
+        }else if(a * a > b * b + c * c){
+            return 3;
+        }else{
+            return 0;
+        }
+    }
+}
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定と
+    switch(checktri(a,b,c)){
+            
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:00:35.469Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a * a == b * b + c * c){
+            return 1;
+        }else if(a * a < b * b + c * c){
+            return 2;
+        }else if(a * a > b * b + c * c){
+            return 3;
+        }else{
+            return 0;
+        }
+    }
+}
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定と出力
+    switch(checktri(a,b,c)){
+            
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:00:45.480Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a * a == b * b + c * c){
+            return 1;
+        }else if(a * a < b * b + c * c){
+            return 2;
+        }else if(a * a > b * b + c * c){
+            return 3;
+        }else{
+            return 0;
+        }
+    }
+}
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定と出力
+    switch(checktri(a,b,c)){
+            case 
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:00:55.475Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a * a == b * b + c * c){
+            return 1;
+        }else if(a * a < b * b + c * c){
+            return 2;
+        }else if(a * a > b * b + c * c){
+            return 3;
+        }else{
+            return 0;
+        }
+    }
+}
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定と出力
+    switch(checktri(a,b,c)){
+            case 1
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:01:05.469Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a * a == b * b + c * c){
+            return 1;
+        }else if(a * a < b * b + c * c){
+            return 2;
+        }else if(a * a > b * b + c * c){
+            return 3;
+        }else{
+            return 0;
+        }
+    }
+}
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定と出力
+    switch(checktri(a,b,c)){
+            case 1;
+            printf
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:01:15.467Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a * a == b * b + c * c){
+            return 1;
+        }else if(a * a < b * b + c * c){
+            return 2;
+        }else if(a * a > b * b + c * c){
+            return 3;
+        }else{
+            return 0;
+        }
+    }
+}
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定と出力
+    switch(checktri(a,b,c)){
+            case 1;
+            printf(""直角三角形"")
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:01:25.480Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a * a == b * b + c * c){
+            return 1;
+        }else if(a * a < b * b + c * c){
+            return 2;
+        }else if(a * a > b * b + c * c){
+            return 3;
+        }else{
+            return 0;
+        }
+    }
+}
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定と出力
+    switch(checktri(a,b,c)){
+            case 1;
+            printf(""直角三角形"");
+            break:
+    //出力
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:01:45.468Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a * a == b * b + c * c){
+            return 1;
+        }else if(a * a < b * b + c * c){
+            return 2;
+        }else if(a * a > b * b + c * c){
+            return 3;
+        }else{
+            return 0;
+        }
+    }
+}
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定と出力
+    switch(checktri(a,b,c)){
+            case 1;
+            printf(""直角三角形"");
+            break:
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:01:55.474Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a * a == b * b + c * c){
+            return 1;
+        }else if(a * a < b * b + c * c){
+            return 2;
+        }else if(a * a > b * b + c * c){
+            return 3;
+        }else{
+            return 0;
+        }
+    }
+}
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定と出力
+    switch(checktri(a,b,c)){
+            case 1;
+            printf(""直角三角形"");
+            break:
+            case 1;
+            printf(""直角三角形"");
+            break:
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:02:05.476Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a * a == b * b + c * c){
+            return 1;
+        }else if(a * a < b * b + c * c){
+            return 2;
+        }else if(a * a > b * b + c * c){
+            return 3;
+        }else{
+            return 0;
+        }
+    }
+}
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定と出力
+    switch(checktri(a,b,c)){
+            case 1;
+            printf(""直角三角形"");
+            break:
+            case 2;
+            printf(""えい三角形"");
+            break:
+            case 1;
+            printf(""直角三角形"");
+            break:
+            case 1;
+            printf(""直角三角形"");
+            break:
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:02:15.467Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a * a == b * b + c * c){
+            return 1;
+        }else if(a * a < b * b + c * c){
+            return 2;
+        }else if(a * a > b * b + c * c){
+            return 3;
+        }else{
+            return 0;
+        }
+    }
+}
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定と出力
+    switch(checktri(a,b,c)){
+            case 1;
+            printf(""直角三角形"");
+            break:
+            case 2;
+            printf(""鋭角三角形"");
+            break:
+            case 3;
+            printf(""鈍角三角形"");
+            break:
+            case 1;
+            printf(""直角三角形"");
+            break:
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:02:25.468Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a * a == b * b + c * c){
+            return 1;
+        }else if(a * a < b * b + c * c){
+            return 2;
+        }else if(a * a > b * b + c * c){
+            return 3;
+        }else{
+            return 0;
+        }
+    }
+}
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定と出力
+    switch(checktri(a,b,c)){
+            case 1;
+            printf(""直角三角形"");
+            break:
+            case 2;
+            printf(""鋭角三角形"");
+            break:
+            case 3;
+            printf(""鈍角三角形"");
+            break:
+            case 0;
+            printf(""ERROr"");
+            break:
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:02:35.467Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a * a == b * b + c * c){
+            return 1;
+        }else if(a * a < b * b + c * c){
+            return 2;
+        }else if(a * a > b * b + c * c){
+            return 3;
+        }else{
+            return 0;
+        }
+    }
+}
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定と出力
+    switch(checktri(a,b,c)){
+            case 1;
+            printf(""直角三角形"");
+            break:
+            case 2;
+            printf(""鋭角三角形"");
+            break:
+            case 3;
+            printf(""鈍角三角形"");
+            break:
+            case 0;
+            printf(""Eroo"");
+            break:
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:02:45.481Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a * a == b * b + c * c){
+            return 1;
+        }else if(a * a < b * b + c * c){
+            return 2;
+        }else if(a * a > b * b + c * c){
+            return 3;
+        }else{
+            return 0;
+        }
+    }
+}
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定と出力
+    switch(checktri(a,b,c)){
+            case 1;
+            printf(""直角三角形"");
+            break:
+            case 2;
+            printf(""鋭角三角形"");
+            break:
+            case 3;
+            printf(""鈍角三角形"");
+            break:
+            case 0;
+            printf(""Error"");
+            break:
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:02:55.472Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a * a == b * b + c * c){
+            return 1;
+        }else if(a * a < b * b + c * c){
+            return 2;
+        }else if(a * a > b * b + c * c){
+            return 3;
+        }else{
+            return 0;
+        }
+    }
+}
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定と出力
+    switch(checktri(a,b,c)){
+            case 1;
+            printf(""直角三角形"");
+            break:
+            case 2;
+            printf(""鋭角三角形"");
+            break:
+            case 3;
+            printf(""鈍角三角形"");
+            break:
+            case 0;
+            printf(""Error"");
+            break:
+    }
+    return 0;
+}",,,,,,
+2025-12-18T04:02:56.739Z,user_010,user10,32,run,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a * a == b * b + c * c){
+            return 1;
+        }else if(a * a < b * b + c * c){
+            return 2;
+        }else if(a * a > b * b + c * c){
+            return 3;
+        }else{
+            return 0;
+        }
+    }
+}
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定と出力
+    switch(checktri(a,b,c)){
+            case 1;
+            printf(""直角三角形"");
+            break:
+            case 2;
+            printf(""鋭角三角形"");
+            break:
+            case 3;
+            printf(""鈍角三角形"");
+            break:
+            case 0;
+            printf(""Error"");
+            break:
+    }
+    return 0;
+}",,"file0.code.c: In function 'main':
+file0.code.c:27:19: error: expected ':' or '...' before ';' token
+   27 |             case 1;
+      |                   ^
+file0.code.c:29:18: error: expected ';' before ':' token
+   29 |             break:
+      |                  ^
+      |                  ;
+file0.code.c:32:18: error: expected ';' before ':' token
+   32 |             break:
+      |                  ^
+      |                  ;
+file0.code.c:35:18: error: expected ';' before ':' token
+   35 |             break:
+      |                  ^
+      |                  ;
+file0.code.c:38:18: error: expected ';' before ':' token
+   38 |             break:
+      |                  ^
+      |                  ;
+file0.code.c:28:13: warning: statement will never be executed [-Wswitch-unreachable]
+   28 |             printf(""直角三角形"");
+      |             ^~~~~~~~~~~~~~~~~~~~
+chmod: cannot access 'a.out': No such file or directory
+",,,,
+2025-12-18T04:03:04.655Z,user_010,user10,32,run,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a * a == b * b + c * c){
+            return 1;
+        }else if(a * a < b * b + c * c){
+            return 2;
+        }else if(a * a > b * b + c * c){
+            return 3;
+        }else{
+            return 0;
+        }
+    }
+}
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定と出力
+    switch(checktri(a,b,c)){
+            case 1;
+            printf(""直角三角形"");
+            break:
+            case 2;
+            printf(""鋭角三角形"");
+            break:
+            case 3;
+            printf(""鈍角三角形"");
+            break:
+            case 0;
+            printf(""Error"");
+            break:
+    }
+    return 0;
+}",,"file0.code.c: In function 'main':
+file0.code.c:27:19: error: expected ':' or '...' before ';' token
+   27 |             case 1;
+      |                   ^
+file0.code.c:29:18: error: expected ';' before ':' token
+   29 |             break:
+      |                  ^
+      |                  ;
+file0.code.c:32:18: error: expected ';' before ':' token
+   32 |             break:
+      |                  ^
+      |                  ;
+file0.code.c:35:18: error: expected ';' before ':' token
+   35 |             break:
+      |                  ^
+      |                  ;
+file0.code.c:38:18: error: expected ';' before ':' token
+   38 |             break:
+      |                  ^
+      |                  ;
+file0.code.c:28:13: warning: statement will never be executed [-Wswitch-unreachable]
+   28 |             printf(""直角三角形"");
+      |             ^~~~~~~~~~~~~~~~~~~~
+chmod: cannot access 'a.out': No such file or directory
+",,,,
+2025-12-18T04:03:11.643Z,user_010,user10,32,run,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a * a == b * b + c * c){
+            return 1;
+        }else if(a * a < b * b + c * c){
+            return 2;
+        }else if(a * a > b * b + c * c){
+            return 3;
+        }else{
+            return 0;
+        }
+    }
+}
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定と出力
+    switch(checktri(a,b,c)){
+            case 1;
+            printf(""直角三角形"");
+            break:
+            case 2;
+            printf(""鋭角三角形"");
+            break:
+            case 3;
+            printf(""鈍角三角形"");
+            break:
+            case 0;
+            printf(""Error"");
+            break:
+    }
+    return 0;
+}",,"file0.code.c: In function 'main':
+file0.code.c:27:19: error: expected ':' or '...' before ';' token
+   27 |             case 1;
+      |                   ^
+file0.code.c:29:18: error: expected ';' before ':' token
+   29 |             break:
+      |                  ^
+      |                  ;
+file0.code.c:32:18: error: expected ';' before ':' token
+   32 |             break:
+      |                  ^
+      |                  ;
+file0.code.c:35:18: error: expected ';' before ':' token
+   35 |             break:
+      |                  ^
+      |                  ;
+file0.code.c:38:18: error: expected ';' before ':' token
+   38 |             break:
+      |                  ^
+      |                  ;
+file0.code.c:28:13: warning: statement will never be executed [-Wswitch-unreachable]
+   28 |             printf(""直角三角形"");
+      |             ^~~~~~~~~~~~~~~~~~~~
+chmod: cannot access 'a.out': No such file or directory
+",,,,
+2025-12-18T04:03:55.467Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a * a == b * b + c * c){
+            return 1;
+        }else if(a * a < b * b + c * c){
+            return 2;
+        }else if(a * a > b * b + c * c){
+            return 3;
+        }else{
+            return 0;
+        }
+    }
+}
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定と出力
+    switch(checktri(a,b,c)){
+        case 1:
+            printf(""直角三角形"");
+            break;
+            case 2;
+            printf(""鋭角三角形"");
+            break:
+            case 3;
+            printf(""鈍角三角形"");
+            break:
+            case 0;
+            printf(""Error"");
+            break:
+    }
+    return 0;
+}",,,,,,
+2025-12-18T04:03:56.358Z,user_010,user10,32,ai-help,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a * a == b * b + c * c){
+            return 1;
+        }else if(a * a < b * b + c * c){
+            return 2;
+        }else if(a * a > b * b + c * c){
+            return 3;
+        }else{
+            return 0;
+        }
+    }
+}
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定と出力
+    switch(checktri(a,b,c)){
+            case 1;
+            printf(""直角三角形"");
+            break:
+            case 2;
+            printf(""鋭角三角形"");
+            break:
+            case 3;
+            printf(""鈍角三角形"");
+            break:
+            case 0;
+            printf(""Error"");
+            break:
+    }
+    return 0;
+}",,,コード化,コードの整合性確認,"[{""level"": 1, ""text"": ""checktri関数：三角形の種類を判定する関数（最初の引数が最大辺と仮定）"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""checktri内：三角形成立条件の判定（a < b + c）"", ""status"": ""in_progress""}, {""level"": 3, ""text"": ""checktri内：辺の二乗を比較して直角・鋭角・鈍角を判定（a*a == b*b + c*c等）"", ""status"": ""in_progress""}, {""level"": 1, ""text"": ""main関数：入力を受け取り、checktriを呼び出して結果をswitchで出力"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""main内：入力処理（scanfでa,b,cを読む）"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""main内：switchで戻り値に応じた文字列をprintfで出力"", ""status"": ""in_progress""}]","[{""level"": 1, ""text"": ""まずコンパイルして出るエラーを確認しよう。\nエラーメッセージは直すべき行と原因を教えてくれるよ。""}, {""level"": 2, ""text"": ""型と入出力形式を見直して、実数を扱うならintではなくdoubleとscanf(\""%lf\"")を使おう。\n関数が必ずどの経路でも値を返すか（returnが漏れていないか）確認してね。""}, {""level"": 3, ""text"": ""checktriでは三角形成立しない場合に必ず0を返すelseを追加し、二乗比較は浮動小数点誤差を考えて差の絶対値で判定しよう（例：|lhs-rhs|<eps）。\nmainのswitchは文法通りに 'case 1:' のようにコロン、breakは 'break;' にして、出力文字列の後に改行を入れること。""}]"
+2025-12-18T04:04:05.471Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a * a == b * b + c * c){
+            return 1;
+        }else if(a * a < b * b + c * c){
+            return 2;
+        }else if(a * a > b * b + c * c){
+            return 3;
+        }else{
+            return 0;
+        }
+    }
+}
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定と出力
+    switch(checktri(a,b,c)){
+        case 1:
+            printf(""直角三角形"");
+            break;
+        case 2:
+            printf(""鋭角三角形"");
+            break;
+        case 3:
+            printf(""鈍角三角形"");
+            break:
+            case 0;
+            printf(""Error"");
+            break:
+    }
+    return 0;
+}",,,,,,
+2025-12-18T04:04:15.466Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a * a == b * b + c * c){
+            return 1;
+        }else if(a * a < b * b + c * c){
+            return 2;
+        }else if(a * a > b * b + c * c){
+            return 3;
+        }else{
+            return 0;
+        }
+    }
+}
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定と出力
+    switch(checktri(a,b,c)){
+        case 1:
+            printf(""直角三角形"");
+            break;
+        case 2:
+            printf(""鋭角三角形"");
+            break;
+        case 3:
+            printf(""鈍角三角形"");
+            break;
+        case 0:
+            printf(""Error"");
+            break;
+    }
+    return 0;
+}",,,,,,
+2025-12-18T04:05:15.506Z,user_010,user10,32,ai-help,"#include <stdio.h>
+
+int checktri(int a, int b, int c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a * a == b * b + c * c){
+            return 1;
+        }else if(a * a < b * b + c * c){
+            return 2;
+        }else if(a * a > b * b + c * c){
+            return 3;
+        }else{
+            return 0;
+        }
+    }
+}
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定と出力
+    switch(checktri(a,b,c)){
+        case 1:
+            printf(""直角三角形"");
+            break;
+        case 2:
+            printf(""鋭角三角形"");
+            break;
+        case 3:
+            printf(""鈍角三角形"");
+            break;
+        case 0:
+            printf(""Error"");
+            break;
+    }
+    return 0;
+}",,,コード化,コードの整合性確認,"[{""level"": 1, ""text"": ""checktri関数の定義（最初の引数aが最大と仮定）"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""三角形成立判定: a < b + c をチェックする"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""角度判定: a^2 と b^2 + c^2 を比較して1/2/3を返す"", ""status"": ""done""}, {""level"": 1, ""text"": ""main関数: 入力を受け取り checktri を呼び、戻り値で出力する"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""入力受け取り: scanfで3つの値を読む"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""結果出力: switchで戻り値に応じた文字列を表示する"", ""status"": ""done""}]","[{""level"": 1, ""text"": ""まず実行していくつかの入力例で期待通りの出力になるか確認しよう。""}, {""level"": 2, ""text"": ""型（整数か実数か）や全ての分岐で必ず値を返しているかを点検してみてください。""}, {""level"": 3, ""text"": ""scanfとchecktriの引数を実数型（double）で統一し、三角形でないときに必ず0を返す分岐と出力の最後に改行を入れるよう修正しましょう。""}]"
+2025-12-18T04:06:25.470Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(double a, in b, int c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a * a == b * b + c * c){
+            return 1;
+        }else if(a * a < b * b + c * c){
+            return 2;
+        }else if(a * a > b * b + c * c){
+            return 3;
+        }else{
+            return 0;
+        }
+    }
+}
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定と出力
+    switch(checktri(a,b,c)){
+        case 1:
+            printf(""直角三角形"");
+            break;
+        case 2:
+            printf(""鋭角三角形"");
+            break;
+        case 3:
+            printf(""鈍角三角形"");
+            break;
+        case 0:
+            printf(""Error"");
+            break;
+    }
+    return 0;
+}",,,,,,
+2025-12-18T04:06:35.475Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(double a, double b, double c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a * a == b * b + c * c){
+            return 1;
+        }else if(a * a < b * b + c * c){
+            return 2;
+        }else if(a * a > b * b + c * c){
+            return 3;
+        }else{
+            return 0;
+        }
+    }
+}
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    int a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定と出力
+    switch(checktri(a,b,c)){
+        case 1:
+            printf(""直角三角形"");
+            break;
+        case 2:
+            printf(""鋭角三角形"");
+            break;
+        case 3:
+            printf(""鈍角三角形"");
+            break;
+        case 0:
+            printf(""Error"");
+            break;
+    }
+    return 0;
+}",,,,,,
+2025-12-18T04:06:45.468Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(double a, double b, double c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a * a == b * b + c * c){
+            return 1;
+        }else if(a * a < b * b + c * c){
+            return 2;
+        }else if(a * a > b * b + c * c){
+            return 3;
+        }else{
+            return 0;
+        }
+    }
+}
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    double a,b,c;
+    scanf(""%d"", &a);
+    scanf(""%d"", &b);
+    scanf(""%d"", &c);
+    //三角形の種類判定と出力
+    switch(checktri(a,b,c)){
+        case 1:
+            printf(""直角三角形"");
+            break;
+        case 2:
+            printf(""鋭角三角形"");
+            break;
+        case 3:
+            printf(""鈍角三角形"");
+            break;
+        case 0:
+            printf(""Error"");
+            break;
+    }
+    return 0;
+}",,,,,,
+2025-12-18T04:07:55.467Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(double a, double b, double c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a * a == b * b + c * c){
+            return 1;
+        }else if(a * a < b * b + c * c){
+            return 2;
+        }else if(a * a > b * b + c * c){
+            return 3;
+        }else{
+            return 0;
+        }
+    }
+}
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    double a,b,c;
+    scanf(""%lf"", &a);
+    scanf(""%lf"", &b);
+    scanf(""%lf"", &c);
+    //三角形の種類判定と出力
+    switch(checktri(a,b,c)){
+        case 1:
+            printf(""直角三角形"");
+            break;
+        case 2:
+            printf(""鋭角三角形"");
+            break;
+        case 3:
+            printf(""鈍角三角形"");
+            break;
+        case 0:
+            printf(""Error"");
+            break;
+    }
+    return 0;
+}",,,,,,
+2025-12-18T04:08:36.091Z,user_010,user10,32,ai-help,"#include <stdio.h>
+
+int checktri(double a, double b, double c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a * a == b * b + c * c){
+            return 1;
+        }else if(a * a < b * b + c * c){
+            return 2;
+        }else if(a * a > b * b + c * c){
+            return 3;
+        }else{
+            return 0;
+        }
+    }
+}
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    double a,b,c;
+    scanf(""%lf"", &a);
+    scanf(""%lf"", &b);
+    scanf(""%lf"", &c);
+    //三角形の種類判定と出力
+    switch(checktri(a,b,c)){
+        case 1:
+            printf(""直角三角形"");
+            break;
+        case 2:
+            printf(""鋭角三角形"");
+            break;
+        case 3:
+            printf(""鈍角三角形"");
+            break;
+        case 0:
+            printf(""Error"");
+            break;
+    }
+    return 0;
+}",,,コード化,コードの整合性確認,"[{""level"": 1, ""text"": ""関数 checktri の定義：三角形の成立確認と角の種類判定を行う"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""三角形成立の判定 (a < b + c) を評価している"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""a*a と b*b + c*c を比較して直角/鋭角/鈍角を判定している"", ""status"": ""in_progress""}, {""level"": 1, ""text"": ""main 関数：入力の読み取りと checktri 呼び出し、結果を出力する"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""scanf で a, b, c を読み取っている"", ""status"": ""done""}, {""level"": 2, ""text"": ""checktri の戻り値を switch で受け取り対応する文字列を出力している"", ""status"": ""in_progress""}]","[{""level"": 1, ""text"": ""まず出力仕様を確認して、改行があるか全ての経路で値を返すかをチェックしてください。""}, {""level"": 2, ""text"": ""浮動小数点の比較はそのまま==だと誤差で失敗するので、誤差を考慮した比較方法を検討してください。""}, {""level"": 3, ""text"": ""checktri の最後に三角形が成立しない場合の return 0 を必ず追加し、出力文字列の末尾に '\\n' を付けてください。また a*a と b*b+c*c の比較は fabs(a*a - (b*b + c*c)) < 1e-9 のような許容誤差で行うと安全です。""}]"
+2025-12-18T04:10:15.468Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(double a, double b, double c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a * a == b * b + c * c){
+            return 1;
+        }else if(a * a < b * b + c * c){
+            return 2;
+        }else if(a * a > b * b + c * c){
+            return 3;
+        }
+            return 0;
+        }
+    }
+}
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    double a,b,c;
+    scanf(""%lf"", &a);
+    scanf(""%lf"", &b);
+    scanf(""%lf"", &c);
+    //三角形の種類判定と出力
+    switch(checktri(a,b,c)){
+        case 1:
+            printf(""直角三角形"");
+            break;
+        case 2:
+            printf(""鋭角三角形"");
+            break;
+        case 3:
+            printf(""鈍角三角形"");
+            break;
+        case 0:
+            printf(""Error"");
+            break;
+    }
+    return 0;
+}",,,,,,
+2025-12-18T04:10:25.467Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(double a, double b, double c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a * a == b * b + c * c){
+            return 1;
+        }else if(a * a < b * b + c * c){
+            return 2;
+        }else if(a * a > b * b + c * c){
+            return 3;
+        }
+            return 0;
+        
+    }
+}
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    double a,b,c;
+    scanf(""%lf"", &a);
+    scanf(""%lf"", &b);
+    scanf(""%lf"", &c);
+    //三角形の種類判定と出力
+    switch(checktri(a,b,c)){
+        case 1:
+            printf(""直角三角形"");
+            break;
+        case 2:
+            printf(""鋭角三角形"");
+            break;
+        case 3:
+            printf(""鈍角三角形"");
+            break;
+        case 0:
+            printf(""Error"");
+            break;
+    }
+    return 0;
+}",,,,,,
+2025-12-18T04:10:35.468Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(double a, double b, double c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a * a == b * b + c * c){
+            return 1;
+        }else if(a * a < b * b + c * c){
+            return 2;
+        }else if(a * a > b * b + c * c){
+            return 3;
+        }
+    }
+            return 0;
+        
+    }
+}
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    double a,b,c;
+    scanf(""%lf"", &a);
+    scanf(""%lf"", &b);
+    scanf(""%lf"", &c);
+    //三角形の種類判定と出力
+    switch(checktri(a,b,c)){
+        case 1:
+            printf(""直角三角形"");
+            break;
+        case 2:
+            printf(""鋭角三角形"");
+            break;
+        case 3:
+            printf(""鈍角三角形"");
+            break;
+        case 0:
+            printf(""Error"");
+            break;
+    }
+    return 0;
+}",,,,,,
+2025-12-18T04:10:45.474Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(double a, double b, double c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a * a == b * b + c * c){
+            return 1;
+        }else if(a * a < b * b + c * c){
+            return 2;
+        }else if(a * a > b * b + c * c){
+            return 3;
+        }
+    }else{
+        return 0
+            return 0;
+        
+    }
+}
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    double a,b,c;
+    scanf(""%lf"", &a);
+    scanf(""%lf"", &b);
+    scanf(""%lf"", &c);
+    //三角形の種類判定と出力
+    switch(checktri(a,b,c)){
+        case 1:
+            printf(""直角三角形"");
+            break;
+        case 2:
+            printf(""鋭角三角形"");
+            break;
+        case 3:
+            printf(""鈍角三角形"");
+            break;
+        case 0:
+            printf(""Error"");
+            break;
+    }
+    return 0;
+}",,,,,,
+2025-12-18T04:10:55.467Z,user_010,user10,32,auto_save,"#include <stdio.h>
+
+int checktri(double a, double b, double c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a * a == b * b + c * c){
+            return 1;
+        }else if(a * a < b * b + c * c){
+            return 2;
+        }else if(a * a > b * b + c * c){
+            return 3;
+        }
+    }else{
+        return 0;
+    }
+}
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    double a,b,c;
+    scanf(""%lf"", &a);
+    scanf(""%lf"", &b);
+    scanf(""%lf"", &c);
+    //三角形の種類判定と出力
+    switch(checktri(a,b,c)){
+        case 1:
+            printf(""直角三角形"");
+            break;
+        case 2:
+            printf(""鋭角三角形"");
+            break;
+        case 3:
+            printf(""鈍角三角形"");
+            break;
+        case 0:
+            printf(""Error"");
+            break;
+    }
+    return 0;
+}",,,,,,
+2025-12-18T04:11:06.557Z,user_010,user10,32,run,"#include <stdio.h>
+
+int checktri(double a, double b, double c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a * a == b * b + c * c){
+            return 1;
+        }else if(a * a < b * b + c * c){
+            return 2;
+        }else if(a * a > b * b + c * c){
+            return 3;
+        }
+    }else{
+        return 0;
+    }
+}
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    double a,b,c;
+    scanf(""%lf"", &a);
+    scanf(""%lf"", &b);
+    scanf(""%lf"", &c);
+    //三角形の種類判定と出力
+    switch(checktri(a,b,c)){
+        case 1:
+            printf(""直角三角形"");
+            break;
+        case 2:
+            printf(""鋭角三角形"");
+            break;
+        case 3:
+            printf(""鈍角三角形"");
+            break;
+        case 0:
+            printf(""Error"");
+            break;
+    }
+    return 0;
+}",直角三角形,,,,,
+2025-12-18T04:11:09.412Z,user_010,user10,32,run,"#include <stdio.h>
+
+int checktri(double a, double b, double c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a * a == b * b + c * c){
+            return 1;
+        }else if(a * a < b * b + c * c){
+            return 2;
+        }else if(a * a > b * b + c * c){
+            return 3;
+        }
+    }else{
+        return 0;
+    }
+}
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    double a,b,c;
+    scanf(""%lf"", &a);
+    scanf(""%lf"", &b);
+    scanf(""%lf"", &c);
+    //三角形の種類判定と出力
+    switch(checktri(a,b,c)){
+        case 1:
+            printf(""直角三角形"");
+            break;
+        case 2:
+            printf(""鋭角三角形"");
+            break;
+        case 3:
+            printf(""鈍角三角形"");
+            break;
+        case 0:
+            printf(""Error"");
+            break;
+    }
+    return 0;
+}",直角三角形,,,,,
+2025-12-18T04:11:19.069Z,user_010,user10,32,run,"#include <stdio.h>
+
+int checktri(double a, double b, double c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a * a == b * b + c * c){
+            return 1;
+        }else if(a * a < b * b + c * c){
+            return 2;
+        }else if(a * a > b * b + c * c){
+            return 3;
+        }
+    }else{
+        return 0;
+    }
+}
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    double a,b,c;
+    scanf(""%lf"", &a);
+    scanf(""%lf"", &b);
+    scanf(""%lf"", &c);
+    //三角形の種類判定と出力
+    switch(checktri(a,b,c)){
+        case 1:
+            printf(""直角三角形"");
+            break;
+        case 2:
+            printf(""鋭角三角形"");
+            break;
+        case 3:
+            printf(""鈍角三角形"");
+            break;
+        case 0:
+            printf(""Error"");
+            break;
+    }
+    return 0;
+}",直角三角形,,,,,
+2025-12-18T04:12:02.057Z,user_010,user10,32,ai-help,"#include <stdio.h>
+
+int checktri(double a, double b, double c){
+    //三角形の種類判定
+    if(a < b + c){
+        if(a * a == b * b + c * c){
+            return 1;
+        }else if(a * a < b * b + c * c){
+            return 2;
+        }else if(a * a > b * b + c * c){
+            return 3;
+        }
+    }else{
+        return 0;
+    }
+}
+
+int main(void) {
+    /*入力:3つの実数, 出力:三角形の種類*/
+    //入力の受付
+    double a,b,c;
+    scanf(""%lf"", &a);
+    scanf(""%lf"", &b);
+    scanf(""%lf"", &c);
+    //三角形の種類判定と出力
+    switch(checktri(a,b,c)){
+        case 1:
+            printf(""直角三角形"");
+            break;
+        case 2:
+            printf(""鋭角三角形"");
+            break;
+        case 3:
+            printf(""鈍角三角形"");
+            break;
+        case 0:
+            printf(""Error"");
+            break;
+    }
+    return 0;
+}",,,コード化,コードの整合性確認,"[{""level"": 1, ""text"": ""checktri関数：三角形の成立判定と角の種類を判断して戻り値を返す"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""三角形成立判定 (a < b + c) を行う"", ""status"": ""done""}, {""level"": 2, ""text"": ""二乗和の比較で直角/鋭角/鈍角を判定してそれぞれ1/2/3を返す"", ""status"": ""in_progress""}, {""level"": 1, ""text"": ""main関数：入力を読み取り、checktriを呼び出して結果をswitchで出力する"", ""status"": ""done""}, {""level"": 2, ""text"": ""入力の受付（scanfで3つのdoubleを読む）"", ""status"": ""done""}, {""level"": 2, ""text"": ""checktriの戻り値をswitchで受け取り対応する文字列を出力する"", ""status"": ""in_progress""}]","[{""level"": 1, ""text"": ""実装は進んでいますが、出力形式や戻り値が必ず返るかを見直しましょう。""}, {""level"": 2, ""text"": ""浮動小数点の比較は誤差に注意し、等号比較はそのまま使わない方が安全です。""}, {""level"": 3, ""text"": ""出力の末尾に改行を追加し、checktriの最後にどの分岐でも返さない場合のデフォルトreturnを置き、等号比較は fabs(差) < 1e-9 のような許容誤差で判断することを検討してください。""}]"

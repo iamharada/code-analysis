@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-12-18T03:57:07.250Z",
+  "username": "user12",
+  "userId": "user_012",
+  "taskNumber": "9",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:2つの整数値, 出力:1か0*/\n    //2つの整数値の入力\n    int a,b;\n    scanf(\"%d &d\",&a,&b);\n    //a>bまたはa+b=0になっているかの判定\n    //判定の結果に応じて1か0を出力\n    if(a>b||a+b=0)printf(\"1\");\n    elseprintf(\"0\");\n    \n    return 0;\n}",
+  "estimated_stage": "コード化",
+  "next_stage": "コードの整合性確認",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数全体の処理",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "変数宣言: int a, b;",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "2つの整数値を入力する (scanf)",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "条件判定: a>b または a+b==0 の確認",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "判定結果に応じて1か0を出力（最後に改行）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "return 0; で終了",
+      "status": "done"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まずコンパイルして出るエラーや警告を確認しよう。そこから直すべき箇所が分かるはずです。"
+    },
+    {
+      "level": 2,
+      "text": "入力・比較・出力のそれぞれを順に見て、書式や演算子が正しいかをチェックしよう。"
+    },
+    {
+      "level": 3,
+      "text": "scanfの書式と引数（例: \"%d %d\", &a, &b）の対応、比較は'=='を使うこと、出力に改行('\\n')を追加することを確認して直してみてください。"
+    }
+  ]
+}

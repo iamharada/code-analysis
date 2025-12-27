@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-12-24T00:50:56.234Z",
+  "username": "user28",
+  "userId": "user_028",
+  "taskNumber": "14",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:3つの実数, 出力:３角形の形状*/\n    float a,b,c;\n    //３つの実数を受け取る\n    scanf(\"%f\",a,b,c);\n    //三角形が成り立つかどうか（成立する場合）\n    if(a>b+c){\n           //三角形の形状判定\n        if(a*a>=b*b+c*c){\n            printf(\"鋭角三角形\")；\n        ｝\n        if(a*a<=b*b+c*c){\n            printf(\"鈍角三角形\")；\n       }\n        if(a*a=b*b+c*c){\n            printf(\"直角三角形\")；\n       ｝\n    //成立しない場合\n    　　　 //error\n    　else{\n         printf(\"error\");\n     }\n}\n    return 0;\n    \n}",
+  "estimated_stage": "コード化",
+  "next_stage": "コードの整合性確認",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "変数宣言と入力の読み取り（a,b,c を float で宣言し scanf で読む）",
+      "status": "in_progress"
+    },
+    {
+      "level": 1,
+      "text": "三角形が成立するかの判定（最初の入力 a が最大と仮定して a < b + c を確認）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "成立時に角の種類を判定（a*a と b*b + c*c を比較して直角/鋭角/鈍角を決める）",
+      "status": "in_progress"
+    },
+    {
+      "level": 3,
+      "text": "判定結果に応じた出力（各条件ごとに printf で文字列を出す）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "不成立時の出力（Error を出力）",
+      "status": "in_progress"
+    },
+    {
+      "level": 1,
+      "text": "プログラム終了処理（return 0）",
+      "status": "done"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "全体を見直そう：入力を正しく受け取り、成立判定、種類判定、出力の順で処理する流れを意識して。 "
+    },
+    {
+      "level": 2,
+      "text": "文法ミスに注目して：scanf は変数のアドレスを渡す、セミコロンや波括弧の対応を確認して。\nまた三角形成立条件は a < b + c（a が最大と仮定）にすることを考えてみて。"
+    },
+    {
+      "level": 3,
+      "text": "具体的修正例（部分的）: scanf を scanf(\"%f %f %f\", &a, &b, &c); にすること。 角判定は等号比較はそのまま == を使わず浮動小数点誤差を考え fabs(a*a - (b*b + c*c)) < 1e-6 のようにするか、まず == を避けて < と > の順で判定すること。"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-12-17T07:27:57.891Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, \n    出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "処理の大枠決定",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：プログラム全体の入口（現在は入力・出力の要件コメントのみ）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力を受け取る（1つの整数nを読み取る）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "三角形を出力する（1行目に'*'、2行目に'**'…n行目に'*'をn個）",
+      "status": "todo"
+    },
+    {
+      "level": 3,
+      "text": "出力の際に'*'の個数を数えて合計を保持する（COUNT）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "最後にCOUNT=合計 を出力する",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まず課題全体の流れをイメージして、入力→三角形の出力→COUNT出力の順序を確認しましょう。"
+    },
+    {
+      "level": 2,
+      "text": "関数を分ける点を考えてください：tri3は行全体の再帰、line3は1行分の'*'出力とカウント、mainは入出力と初期化です。"
+    },
+    {
+      "level": 3,
+      "text": "コメントとしてmainでnを読みカウンタ初期化、tri3(n,&count)を呼ぶ、tri3は基底(n==0)で終了しそれ以外はline3で'*'出力＋count更新→tri3(n-1)を呼ぶ、最後にCOUNT=を出力と書いて実装に移りましょう。"
+    }
+  ]
+}

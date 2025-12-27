@@ -1,0 +1,15 @@
+ts,user_id,username,task,event,code,stdout,stderr,estimated_stage,next_stage,processing_structure,advice
+2025-12-18T03:36:40.654Z,user_011,user11,1,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+    pein
+    return 0;
+}",,,,,,
+2025-12-18T03:36:50.662Z,user_011,user11,1,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:○○, 出力:△△*/
+  
+    return 0;
+}",,,,,,

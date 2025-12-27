@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-12-23T03:12:11.252Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, \n    出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n    // 1. 入力を受け取る\n    // 2. tri3を呼ぶ\n    return 0;\n}\n\n// tri3関数を作成する\n//     1行目からn行目まで順に出力する\n//     行数はforみたいに1ずつ増やす\n//     各行でlineを呼ぶ\n\n// line関数を作成する\n//     *をn個出力する\n//     for文でn回*を出す\n",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の大枠決定",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：入力を受け取り、tri3を呼び、最後にCOUNTを出力する（コメントだけで実装なし）",
+      "status": "in_progress"
+    },
+    {
+      "level": 1,
+      "text": "tri3関数（コメント）：1行目からn行目まで出力するとあるが、再帰での設計が未決定",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "line関数（コメント）：1行の'*'を出力するとあるが、再帰での'*'出力とカウンタ増加の実装が未着手",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "全体の流れを確認しよう: 入力を読み、三角形を行ごとに出力し、最後にCOUNTを表示する順序を意識して。"
+    },
+    {
+      "level": 2,
+      "text": "必要な処理を箇条書きにしよう: scanfでnを読み、カウンタ初期化、tri3呼び出し、COUNT出力、という手順を考える。"
+    },
+    {
+      "level": 3,
+      "text": "大枠のコメント案：mainでn読みcount=0->tri3(n,&count)->printf(\"COUNT=%d\\n\",count)。tri3はif n==0 return; tri3(n-1,ptr); line(n,ptr)とし、lineは再帰で'*'を出力し(*count)++し改行する。"
+    }
+  ]
+}

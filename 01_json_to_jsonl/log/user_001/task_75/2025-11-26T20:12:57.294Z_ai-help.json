@@ -1,0 +1,31 @@
+{
+  "timestamp": "2025-11-26T20:12:57.294Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：入力と出力の要件をコメントで簡潔に記述している（例: 入力:○○, 出力:△△）",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題文をもう一度読み、入力範囲（1～10）と出力の細かい条件（%3dで右揃え、最後は改行のみ）を確認しましょう。"
+    },
+    {
+      "level": 2,
+      "text": "どのような入力に対してどんな出力が期待されるか、具体的な入力例と対応する出力を紙に書き出してみてください。"
+    },
+    {
+      "level": 3,
+      "text": "例を挙げて確認：入力4 → 行ごとに \"1\", \"1 1\", \"1 2 1\", \"1 3 3 1\" のように並び、各数は前の行の隣接和で決まります。"
+    }
+  ]
+}

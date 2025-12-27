@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-12-18T03:43:10.145Z",
+  "username": "user2",
+  "userId": "user_002",
+  "taskNumber": "14",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:三つの実数 出力:三角形の形状判定*/\n    //入力の受け付け\n    //三角形になるかの判定\n        //形状の判定\n    //出力\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：プログラム全体の入口と処理の枠組みを示すコメントがある",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力の受け付け（3つの実数を読む）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "三角形になるかの判定（最大値を前提に成立条件を調べる）",
+      "status": "todo"
+    },
+    {
+      "level": 3,
+      "text": "形状の判定（直角・鋭角・鈍角の判定）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "出力（判定結果を表示）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "今のコメントを見て、どの部分を細かく書くべきか探そう。入力・成立判定・形状判定・出力の4つに分けると良い。 "
+    },
+    {
+      "level": 2,
+      "text": "各部分で必要な処理を書き出そう。例: 入力はdoubleで受け取る、成立判定は最大辺 a に対して a < b + c を使う、角判定は長さの2乗を比較する。 "
+    },
+    {
+      "level": 3,
+      "text": "詳細: 3つをdoubleで読み、成立は a < b + c を確認。角判定は a*a と b*b + c*c を比較し、差が小さいなら直角、差が正負で鋭角/鈍角を判定して対応する文字列を出力する（小さな誤差を考慮するため許容差を使う）。"
+    }
+  ]
+}

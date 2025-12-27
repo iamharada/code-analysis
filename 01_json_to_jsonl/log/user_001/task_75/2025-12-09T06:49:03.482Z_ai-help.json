@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-12-09T06:49:03.482Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n    //入力をパスカルの三角形の段数として受け付ける。\n    //入力値（段数）をpascal関数に渡す。\n    return 0;\n}\n//入力された段数分のパスカルの三角形を出力するpascal関数を作る",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：入力を受け取りpascal関数に渡す計画がある",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main内：整数を読み取る（scanf等）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "main内：読み取った値をpascal関数に渡して呼び出す",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "pascal関数：二次元配列でパスカルの三角形を計算し%3dで出力する",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "pascal内：配列の初期化と各要素の計算（隣接和）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "pascal内：各行を%3dで整形して出力し、行ごとに改行する",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "今のコメントは実装可能です。まずmainで整数を読み取ってpascalに渡す箇所を実装しましょう。"
+    },
+    {
+      "level": 2,
+      "text": "scanfで入力を受け、先にpascalの関数プロトタイプを書いてから呼び出す流れを考えてください。"
+    },
+    {
+      "level": 3,
+      "text": "pascalは例えば void pascal(int n) として、int a[10][10];で値を計算しprintf(\"%3d\", a[i][j]);で出力、行末に改行を入れてください。"
+    }
+  ]
+}

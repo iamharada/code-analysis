@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-12-17T09:31:35.501Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, \n    出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n    // 1. 入力を受け取る\n    // 2. tri3を呼ぶ\n    // 3. COUNTは n*(n+1)/2 で計算して表示\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：入力を受け取り、三角形出力用の関数を呼び、COUNTを表示する",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力を受け取る（1つの整数を読み込む）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "tri3を呼んで各行を出力する（再帰関数を使う）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "COUNTを計算し表示する（コメントにある n*(n+1)/2 を使う）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まずどのコメントを先に実装するか決めよう：入力処理を最初に書くと流れが見えやすいよ。"
+    },
+    {
+      "level": 2,
+      "text": "tri3 と line3 の関数プロトタイプを作り、mainで入力値とカウンタのアドレスを渡す設計にしよう。"
+    },
+    {
+      "level": 3,
+      "text": "line3 は k 個の '*' を出力してその都度カウンタを増やす関数、tri3 は行数を再帰で処理して line3 を呼ぶ作りにすると実装しやすいよ。"
+    }
+  ]
+}

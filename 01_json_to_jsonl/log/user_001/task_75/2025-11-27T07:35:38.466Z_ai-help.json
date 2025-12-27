@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-11-27T07:35:38.466Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数の雛形がある",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "入力（整数n）と出力（パスカルの三角形）について考えるコメントがある",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "pascal関数や二次元配列で三角形を作る処理",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "作成した値を%3dで整形して印字する処理",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "終了処理（return 0）",
+      "status": "done"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題の要件をもう一度まとめてください：入力は1つの整数(1〜10)、出力はパスカルの三角形を%3dで揃えて表示します。"
+    },
+    {
+      "level": 2,
+      "text": "全体の流れをコメントで書きましょう：入力読み取り → 三角形を二次元配列で作成 → 指定の書式で出力、の順です。"
+    },
+    {
+      "level": 3,
+      "text": "各ステップの具体化：配列の端は1で初期化、内部は上の2つの和で計算、出力は行ごとにループして%3dで右寄せし最後に改行と書いてからコード化を始めましょう。"
+    }
+  ]
+}

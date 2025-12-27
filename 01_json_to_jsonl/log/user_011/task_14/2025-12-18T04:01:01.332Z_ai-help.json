@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-12-18T04:01:01.332Z",
+  "username": "user11",
+  "userId": "user_011",
+  "taskNumber": "14",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    //aを最大値として辺の長さを作成\n    float a,b,c;\n    \n    //入力\n    scanf(\"%f\",&a);\n    scanf(\"%f\",&b);\n    scanf(\"%f\",&c);\n    \n    //三角形が成立するかを検証する\n    if (a < b + c){\n        //直角三角形\n        if (a*a == b*b + c*c) {\n            printf(\"直角三角形\\n\");\n        }\n        //鋭角三角形\n        else if (a*a < b*b + c*c) {\n            printf(\"鋭角三角形\\n\");\n        }\n        //鈍角三角形\n        else if (a*a > b*b + c*c) {\n            printf(\"鈍角三角形\\n\");\n        }\n    //成立しない場合\n    } else {\n        //error\n        printf(\"Error\\n\");\n    }\n    return 0;\n}",
+  "estimated_stage": "コード化",
+  "next_stage": "コードの整合性確認",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：プログラム全体の流れを管理",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "変数宣言と入力の読み取り（a,b,cをfloatでscanf）",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "三角形成立判定（a < b + c をチェック）",
+      "status": "done"
+    },
+    {
+      "level": 3,
+      "text": "成立時：a^2 と b^2 + c^2 を比較して種類判定（==, <, >）",
+      "status": "done"
+    },
+    {
+      "level": 3,
+      "text": "不成立時：\"Error\"を出力",
+      "status": "done"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "浮動小数点の厳密な等しさ比較は誤差で失敗することがあると意識しよう。"
+    },
+    {
+      "level": 2,
+      "text": "平方の比較は一度だけ計算して変数に入れ、差の絶対値が小さいかで直角判定する方法を考えよう。"
+    },
+    {
+      "level": 3,
+      "text": "対策として小さな許容誤差 eps（例:1e-6）を用い、fabs(a2-(b2+c2))<eps を直角判定に使い、他は eps を使って大小を決めるように修正しよう。"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-12-17T09:42:38.441Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, \n    出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n    // 1. 入力を受け取る\n    // 2. tri3を呼ぶ\n    // 3. COUNTは n*(n+1)/2 で計算して表示\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数全体（入力を受け取り、tri3を呼び、COUNTを表示する）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力: 1つの整数を受け取る（コメントありだが未実装）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "tri3を呼ぶ（再帰関数で三角形を出力する想定だが未実装）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "COUNTは n*(n+1)/2 で計算して表示する（コメントとして記述済み）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力・出力仕様のコメント（課題理解の記述）",
+      "status": "done"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "tri3を呼ぶというコメントに注目して、そこを具体化すると良いです。"
+    },
+    {
+      "level": 2,
+      "text": "tri3が何を受け取り何を返すか（行数nとカウンタへの参照など）を決め、再帰の流れを考えましょう。"
+    },
+    {
+      "level": 3,
+      "text": "tri3は n が0なら何もしない、そうでなければ tri3(n-1, &count) を呼んだ後にその行の '*' を出力し出力のたびに count を増やすようにし、mainでは count を0で初期化して呼び出し後に表示します。"
+    }
+  ]
+}

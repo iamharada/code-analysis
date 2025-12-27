@@ -1,0 +1,1 @@
+{"timestamp":"2025-12-18T03:41:55.438Z","username":"user2","userId":"user_002","taskNumber":"14","event":"auto_save","code":"#include <stdio.h>\n\nint main(void) {\n    /*入力:三つの実数 出力:三角形の形状判定*/\n    //入力の受け付け\n    //三角形になるかの判定\n    //形状の判定\n    return 0;\n}"}

@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-12-17T09:48:47.492Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, \n    出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n    // 1. 入力を受け取る\n    // 2. tri3を呼ぶ\n    return 0;\n}\n\n// tri3関数を作成する",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main: 整数を入力し tri3 を呼ぶ（コメントで指示あり）",
+      "status": "in_progress"
+    },
+    {
+      "level": 1,
+      "text": "tri3関数: 再帰で三角形の各行を出力し '*' を数える役割（作成指示あり）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "tri3内の処理（各行の出力とカウンタ更新、line3を使う想定）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "main にある「1. 入力を受け取る」「2. tri3を呼ぶ」はそのまま実装できます。まず入力を読み取り tri3 を呼ぶコードを書きましょう。"
+    },
+    {
+      "level": 2,
+      "text": "tri3 の設計は、行数 n とカウンタの参照（ポインタ）を引数にするのが扱いやすいです。line3 を1行分の '*' を出力してカウンタを増やす補助関数にします。"
+    },
+    {
+      "level": 3,
+      "text": "tri3 は再帰的に実装：n==0 で戻り、そうでなければ tri3(n-1, cnt); の後に line3(n, cnt); を呼んで改行とカウントを行います。line3 は '*' を n 回出力して *cnt を増やす実装にしてください。"
+    }
+  ]
+}

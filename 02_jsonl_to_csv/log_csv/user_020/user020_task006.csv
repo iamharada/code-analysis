@@ -1,0 +1,63 @@
+ts,user_id,username,task,event,code,stdout,stderr,estimated_stage,next_stage,processing_structure,advice
+2025-12-18T23:26:43.528Z,user_020,user20,6,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:, 出力:△△*/
+
+    return 0;
+}",,,,,,
+2025-12-18T23:26:53.522Z,user_020,user20,6,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:少雨数の値, 出力:△△*/
+
+    return 0;
+}",,,,,,
+2025-12-18T23:27:03.520Z,user_020,user20,6,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:少数の値, 出力:△△*/
+
+    return 0;
+}",,,,,,
+2025-12-18T23:27:13.533Z,user_020,user20,6,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:少数の値, 出力:*/
+
+    return 0;
+}",,,,,,
+2025-12-18T23:27:43.528Z,user_020,user20,6,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:少数の値, 出力:２で割って５引いた値をうい*/
+
+    return 0;
+}",,,,,,
+2025-12-18T23:27:53.527Z,user_020,user20,6,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:少数の値, 出力:２で割って５引いた値*/
+    
+    return 0;
+}",,,,,,
+2025-12-18T23:28:03.532Z,user_020,user20,6,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:少数の値, 出力:２で割って５引いた値*/
+    //にゅう
+    //
+    //
+    //
+    return 0;
+}",,,,,,
+2025-12-18T23:29:53.523Z,user_020,user20,6,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:少数の値, 出力:２で割って５引いた値*/
+    //
+    //
+    //
+    //
+    return 0;
+}",,,,,,

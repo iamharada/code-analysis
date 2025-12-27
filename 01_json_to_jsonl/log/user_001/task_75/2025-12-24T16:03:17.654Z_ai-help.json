@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-12-24T16:03:17.654Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n    //入力を受け付ける。\n    //計算する。\n    //出力する。\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数の雛形がある（処理全体をまとめる場所）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "課題の理解コメント: 入力は1つの整数、出力はその行数分のパスカルの三角形",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "入力を受け付ける（コメントあり）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "計算する（パスカルの三角形を作る処理の場所）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "出力する（%3dで整形して印字する場所）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "今のコメントのうち、どれを具体化すべきか選んでください（入力・計算・出力）。"
+    },
+    {
+      "level": 2,
+      "text": "計算部分を詳しく考えてください：2次元配列を作り、各要素を上の行の和で埋める流れを想像する。 "
+    },
+    {
+      "level": 3,
+      "text": "具体的には配列を0で初期化し、各行の先頭と末尾を1にし、内部は a[i][j]=a[i-1][j-1]+a[i-1][j] として埋め、printf(\"%3d\", a[i][j])で出力します。"
+    }
+  ]
+}

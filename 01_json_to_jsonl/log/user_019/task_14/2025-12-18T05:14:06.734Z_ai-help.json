@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-12-18T05:14:06.734Z",
+  "username": "user19",
+  "userId": "user_019",
+  "taskNumber": "14",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:3つの整数値, 出力:三角形の種類*/\n    //3つの整数値を入力する\n    float a,b,c;\n    scanf(\"%f%f%f\",&a,&b,&c);\n    //成立するか判定\n    if(a>b+c){\n        //成立・・・三角形の種類を判定\n        \n    }else{\n        //不成立・・・Error\n        \n    }\n    //結果の表示\n    return 0;\n}",
+  "estimated_stage": "コード化",
+  "next_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数: 入力を受け取り、成立判定し出力する全体処理",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力の読み取り (a,b,c の取得)",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "三角形が成立するかの判定 (if条件)",
+      "status": "in_progress"
+    },
+    {
+      "level": 3,
+      "text": "成立時: 三角形の種類を判定する処理 (直角/鋭角/鈍角)",
+      "status": "todo"
+    },
+    {
+      "level": 3,
+      "text": "不成立時: \"Error\" を出力する処理",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "結果の表示と改行 (出力の整形)",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "今あるコメントを手がかりに、コメントごとに対応するコードを書き足しましょう。"
+    },
+    {
+      "level": 2,
+      "text": "問題文で「最初の入力が最大値」とあるので、成立条件は a < b + c です。成立時の判定方法を考えましょう。"
+    },
+    {
+      "level": 3,
+      "text": "成立なら a*a と b*b + c*c を比較して、等しい→直角、小さい→鋭角、大きい→鈍角 を printf で（最後に改行）出し、成立しなければ \"Error\" と改行を出力してください。"
+    }
+  ]
+}

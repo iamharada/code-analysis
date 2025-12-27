@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-11-27T08:19:06.074Z",
+  "username": "user2",
+  "userId": "user_002",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n    //入力を受け付ける。\n    //パスカルの三角形を計算する。\n    //出力する。\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数の枠（プログラム全体の開始）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力を受け付ける（1つの整数を読む）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "パスカルの三角形を計算する（計算ロジックの実装）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "出力する（%3dで整形して印字）",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題の要件をもう一度確認しよう：入力は1つの整数、出力は指定の形式でのパスカルの三角形だよ。"
+    },
+    {
+      "level": 2,
+      "text": "サンプル入力（例:4）の出力がどう並ぶか具体的に想像してみて：行の数と各行の要素を確認しよう。"
+    },
+    {
+      "level": 3,
+      "text": "入力nなら0行目〜n行目まで（合計n+1行）を出力し、各数値は%3dで幅3の右揃えで印字、最後は改行だけにすること。"
+    }
+  ]
+}

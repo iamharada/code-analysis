@@ -1,0 +1,8 @@
+ts,user_id,username,task,event,code,stdout,stderr,estimated_stage,next_stage,processing_structure,advice
+2025-12-18T05:06:37.292Z,user_019,user19,100,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:○, 出力:△△*/
+
+    return 0;
+}",,,,,,

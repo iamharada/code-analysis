@@ -1,0 +1,31 @@
+{
+  "timestamp": "2025-11-26T20:18:20.380Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数の雛形がある。入力・出力を説明するプレースホルダコメントが残っている。",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題の要件をもう一度書き出しましょう。入力は1つの整数（1〜10）、出力はパスカルの三角形です。"
+    },
+    {
+      "level": 2,
+      "text": "入力と出力の具体的な形式をコメントに明記してください。出力は各数値を%3dで右揃えし、余計な空白や行を入れないことを明示します。"
+    },
+    {
+      "level": 3,
+      "text": "コメントを'入力: n（1〜10） 出力: n行のパスカルの三角形（各値は%3dで右揃え、最後は改行のみ）'のように具体化し、作る関数名（例: pascal）と引数を書いてください。"
+    }
+  ]
+}

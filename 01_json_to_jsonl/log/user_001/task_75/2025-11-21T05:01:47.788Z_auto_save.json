@@ -1,0 +1,1 @@
+{"timestamp":"2025-11-21T05:01:47.788Z","username":"user1","userId":"user_001","taskNumber":"75","event":"auto_save","code":"#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n    //入力をパスカルの三角形受け付ける。\n    //入力値からpascal関数に代入し\n    return 0;\n}\n//パスカルの三角形を出力するpascal関数を作る\n"}

@@ -1,0 +1,31 @@
+{
+  "timestamp": "2025-12-17T07:12:40.792Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数の枠だけがあり、入力・出力についてのプレースホルダコメントが残っている",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題文をもう一度読んで、必須条件（再帰関数tri3とline3を使う・*の個数を数える）を確認しましょう。"
+    },
+    {
+      "level": 2,
+      "text": "具体的な入出力例を自分で書いてみてください。たとえば入力5なら各行に1〜5個の*を並べ、最後にCOUNT=15と出るはずです。"
+    },
+    {
+      "level": 3,
+      "text": "入力は整数n(2〜20)。出力は1行目に*1個、2行目に*2個…n行目に*n個を出力し、最後にCOUNT=合計個数（改行で終了）と表示します。"
+    }
+  ]
+}

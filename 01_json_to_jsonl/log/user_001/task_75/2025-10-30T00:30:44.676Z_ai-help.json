@@ -1,0 +1,40 @@
+{
+  "timestamp": "2025-10-30T00:30:44.676Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:一つの整数, 出力:その行数分のパスカルの三角形*/\n    \n}\n\n\n",
+  "estimated_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "#include <stdio.h> がある（入出力に必要）",
+      "status": "done"
+    },
+    {
+      "level": 1,
+      "text": "main 関数が定義されている（処理本体は未実装）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "コメントで「入力:一つの整数, 出力:パスカルの三角形」と書いている（要件理解）",
+      "status": "done"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題の要件をもう一度確認しましょう：2次元配列と繰り返しを使い、印字は%3dで右揃え、余計な空白や行は入れないこと。"
+    },
+    {
+      "level": 2,
+      "text": "入力は整数 n(1〜10)、出力は n 行のパスカルの三角形（各値を %3d で整形）と考えてください。"
+    },
+    {
+      "level": 3,
+      "text": "次は処理の大枠を書きます：入力読み取り → 配列確保/初期化 → 値を計算（隣接2つの和） → 指定書式で出力、という順でコメント化してから進めましょう。"
+    }
+  ]
+}

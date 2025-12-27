@@ -1,0 +1,31 @@
+{
+  "timestamp": "2025-12-09T03:08:00.018Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "処理の大枠決定",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：課題要件をコメントで記載しているが、具体処理は未実装（入力受取・出力生成の役割）",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題の要件をもう一度確認しましょう。入力は1〜10の整数で、指定の整形（%3d）でパスカルの三角形を出力することを意識してください。"
+    },
+    {
+      "level": 2,
+      "text": "全体の流れを考えてください：入力を読み、三角形のデータを作り、整形して出力する順序で処理を分けます。"
+    },
+    {
+      "level": 3,
+      "text": "まずmainに入力を読むコメントを追加し、別にpascal関数を作ることを決めてください。pascalは行数を受け取り二次元配列とループで値を計算し、printf(\"%3d\")で各要素を出力する手順をコメント化してから実装します。"
+    }
+  ]
+}

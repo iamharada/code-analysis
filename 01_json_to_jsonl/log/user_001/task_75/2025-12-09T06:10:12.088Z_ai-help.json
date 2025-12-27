@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-12-09T06:10:12.088Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n    //入力を受け付ける。\n    //計算する。\n    //出力する。\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：入力を受け取り、計算し、出力する全体の流れを示す",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力を受け付ける（整数を読み取る）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "計算する（二次元配列でパスカルの三角形を作る）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "出力する（%3dで整形して各行を表示する）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "コメントを見て、どの部分（入力・計算・出力）を具体化できるか気づこう。"
+    },
+    {
+      "level": 2,
+      "text": "パスカルの三角形は二次元配列に値を入れて、各要素を上の2つの要素の和で求めることを考えてみてください。"
+    },
+    {
+      "level": 3,
+      "text": "コメントで細かい手順を書く：配列を宣言し、境界の1をセット、i=0..n-1でj=1..i-1を計算、各行をprintf(\"%3d\")で出力して改行する、という順で書いてください。"
+    }
+  ]
+}

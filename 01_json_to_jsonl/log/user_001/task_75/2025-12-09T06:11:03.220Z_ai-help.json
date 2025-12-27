@@ -1,0 +1,36 @@
+{
+  "timestamp": "2025-12-09T06:11:03.220Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：なし, 出力：Hello,world!*/\n    printf(\"Hello,world!\");\n    \n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：プログラム開始とprintfで文字列を出力している",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "main内のコメント：/*入力：なし, 出力：Hello,world!*/（現在の説明が課題と合っていない）",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題文をもう一度よく読み、求められている入出力や制約を確認しましょう。"
+    },
+    {
+      "level": 2,
+      "text": "入力と出力の具体例を書いてみてください。例えば入力4のときにどんな行が何個並ぶかを列挙します。"
+    },
+    {
+      "level": 3,
+      "text": "入力は1つの整数n(1<=n<=10)。出力はn行のパスカルの三角形で、各数値は%3dで右揃え、最後は改行のみにします（関数pascalを作り二次元配列と繰り返しで作成）。"
+    }
+  ]
+}

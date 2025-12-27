@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-12-18T02:55:53.044Z",
+  "username": "user2",
+  "userId": "user_002",
+  "taskNumber": "14",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:3つの実数, 出力:三角形の判定結果または三角形にならない場合（Error）*/\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "処理の大枠決定",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数の雛形（プログラム開始点）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力: 3つの実数を受け取る処理（scanfなど）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "判定: 三角形成立の確認と角度の種類（直角/鋭角/鈍角）の判定",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "出力: 判定結果を指定の文字列で表示（改行あり）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "全体の流れをイメージしてみてください：入力→判定→出力の順です。"
+    },
+    {
+      "level": 2,
+      "text": "まず必要な大きな手順を書き出しましょう：入力取得、三角形成立確認、角度判定、出力の順で考えます。"
+    },
+    {
+      "level": 3,
+      "text": "具体的な大枠は：1) scanfで3つのdoubleを読む。2) 入力のうち最大値をa、他をb,cにしてa < b + cで成立確認。3) a*a と b*b + c*c を比較して直角/鋭角/鈍角を判定。4) 結果を対応する日本語で出力して改行。"
+    }
+  ]
+}

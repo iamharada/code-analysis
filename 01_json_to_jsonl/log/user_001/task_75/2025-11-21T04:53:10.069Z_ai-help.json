@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-11-21T04:53:10.069Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n    //入力を受け付ける。\n    //入力値からpascal関数に代入し、呼び出す。\n    return 0;\n}\n//パスカルの三角形を出力するpascal関数を作る\n",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：プログラムの入口（入力受け取りとpascal関数呼び出しを想定）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力を受け付ける（1つの整数）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "入力値をpascal関数に渡して呼び出す",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "pascal関数：パスカルの三角形を出力する（関数本体は未作成）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題の要件をもう一度確認しましょう：入力は1～10、関数内で2次元配列と繰り返しを使い、印字は%3dで右揃え、最後は改行のみにすること。"
+    },
+    {
+      "level": 2,
+      "text": "まずは大まかな手順を決めてコメントに書いてください：1) nを読む 2) pascal関数を呼ぶ 3) 関数内で配列を用意し値を埋める 4) 出力する、の順です。"
+    },
+    {
+      "level": 3,
+      "text": "次は詳細化へ進んで、各ステップをさらに小さなコメント（ループの役割、配列のインデックス管理、出力形式）に分けてから実装を始めてください。"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "timestamp": "2025-10-21T02:19:23.011Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "1",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*input:○○, output:○○, goal:○○*/\n    int no01;\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "#include <stdio.h>（ヘッダのインクルード）",
+      "status": "done"
+    },
+    {
+      "level": 1,
+      "text": "main関数の定義と本体（処理本体は未完成）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "コメント: /*input:○○, output:○○, goal:○○*/（課題の入出力を書こうとしている）",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "変数宣言: int no01;（宣言されているが未使用）",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "return 0;（プログラム終了）",
+      "status": "done"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まず課題をはっきりさせましょう。入力は不要で、出力は正確に「Hello,world!ようこそ」と表示し、最後に改行が必要です。出力には必ずprintfを使います。"
+    },
+    {
+      "level": 2,
+      "text": "実装の大枠は簡単です。main関数内でprintfを1回呼び出して目的の文字列を渡し、その直後にreturn 0;とするだけです。不要な変数は削除してください。ヘッダ<stdio.h>は既にあるのでそのままで構いません。"
+    },
+    {
+      "level": 3,
+      "text": "具体的には：\n- コメントの○○部分を実際の入出力に書き換え（入力なし、出力は指定文字列）\n- main関数内にprintfを置く（文字列の末尾に改行を入れるには\"\\n\"を使う）\n- int no01;のような使わない変数は削除し、コンパイル時の警告をなくす\n- コンパイルして実行し、出力が課題の文字列と改行だけになっているか確認する（余分な空白や改行がないか注意）"
+    }
+  ]
+}

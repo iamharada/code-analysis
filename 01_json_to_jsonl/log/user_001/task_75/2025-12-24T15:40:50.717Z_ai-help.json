@@ -1,0 +1,36 @@
+{
+  "timestamp": "2025-12-24T15:40:50.717Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数の雛形があるが、入力処理・pascal関数・出力は実装されていない（入力/出力のコメントのみ）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "プログラムはreturn 0で終了しているだけで、具体的な処理は未着手",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題の要件をもう一度読み、必要な入力・出力・制約を書き出して確認しよう。"
+    },
+    {
+      "level": 2,
+      "text": "具体的な例（例えば入力4）で、期待する出力の形を行ごとにイメージしてみよう。"
+    },
+    {
+      "level": 3,
+      "text": "入力は1つの整数n(1～10)、出力はn行のパスカルの三角を%3dで右揃えして出力し、各行末は改行、余計な空白や空行を入れないこと。"
+    }
+  ]
+}

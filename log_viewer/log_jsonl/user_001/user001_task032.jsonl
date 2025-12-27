@@ -1,0 +1,1 @@
+{"ts": "2025-12-12T11:28:12.577Z", "user_id": "user_001", "username": "user01", "task": 32, "event": "auto_save", "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n\n    return 0;\n}\n\n\n\n\n\n\n\n\n\n", "stdout": null, "stderr": null, "estimated_stage": null, "next_stage": null, "processing_structure": null, "advice": null}

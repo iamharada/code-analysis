@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-12-17T10:12:24.211Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, \n    出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n    // 1. 入力を受け取る\n    // 2. tri3を呼ぶ\n    return 0;\n}\n\n// tri3関数を作成する\n\n// line関数を作成する",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：入力を受け取りtri3を呼ぶ（コメントで宣言済）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main内の処理：1. 入力を受け取る（// 1. 入力を受け取る のコメントあり）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main内の処理：2. tri3を呼ぶ（// 2. tri3を呼ぶ のコメントあり）",
+      "status": "in_progress"
+    },
+    {
+      "level": 1,
+      "text": "tri3関数：再帰で各行を処理して行ごとにline関数を呼ぶ（注記ありだが未実装）",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "line関数：指定個数の'*'を出力し、出力時にカウンタを増やす（未実装）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "tri3とlineの役割をはっきりさせよう。どちらが行を進め、どちらが'*'を出すかを決めてください。"
+    },
+    {
+      "level": 2,
+      "text": "再帰の基底条件と再帰のときの引数を考えてください。例えば現在の行番号と合計n、それとカウンタを渡す方針を考えます。"
+    },
+    {
+      "level": 3,
+      "text": "具体的なコメント例：tri3は (n, i, &count) を受け i>n で終了、そうでなければ line(i, &count) を呼び tri3(n, i+1, &count) とする。lineは指定数だけ'*'を出力し出力ごとにcountを増やす。"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "timestamp": "2025-12-09T02:39:55.756Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数の雛形がある（プログラム本体）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "課題理解用のコメント（/*入力:○○, 出力:△△*/）が残っている",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題の要件をもう一度確認しよう：入力は1つの整数で出力はパスカルの三角形だよ。"
+    },
+    {
+      "level": 2,
+      "text": "具体的な入出力例を考えよう：例えば入力4なら4行分の三角形を出すことを確認してみて。"
+    },
+    {
+      "level": 3,
+      "text": "入力は1〜10の整数n、出力はn行のパスカルの三角形を%3dで右揃えして改行で区切る（余計な空白や空行は入れない）。"
+    }
+  ]
+}

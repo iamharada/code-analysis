@@ -1,0 +1,36 @@
+{
+  "timestamp": "2025-12-17T10:27:39.246Z",
+  "username": "user2",
+  "userId": "user_002",
+  "taskNumber": "84",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:二つの文字列, 出力:文字列を数値とみなした和*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数の開始と課題を表すコメント（入力:二つの文字列, 出力:文字列を数値とみなした和）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "#include 指示とプログラム終了の return 0; が存在",
+      "status": "done"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題の要件をもう一度確認しよう：入力は2つの数字文字列で出力はその和（最後は改行のみ）。"
+    },
+    {
+      "level": 2,
+      "text": "具体的な入出力例をいくつか書いて、期待する出力形式（余計な空白や文字なし）を確かめよう。"
+    },
+    {
+      "level": 3,
+      "text": "入力は各最大10桁で先頭は0でない文字列2つ、出力はそれらを十進数とみなした和の桁列を改行のみで出力する、という条件を明確にコメントに書こう。"
+    }
+  ]
+}

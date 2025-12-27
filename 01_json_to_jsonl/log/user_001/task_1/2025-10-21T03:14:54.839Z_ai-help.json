@@ -1,0 +1,55 @@
+{
+  "timestamp": "2025-10-21T03:14:54.839Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": 1,
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*input:○○, output:○○, goal:○○*/\n    int no01;\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "#include <stdio.h>（標準入出力ヘッダのインクルード）",
+      "status": "done"
+    },
+    {
+      "level": 1,
+      "text": "int main(void) の定義（プログラム本体）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "コメント /*input:○○, output:○○, goal:○○*/（課題の入出力を記述する場所）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "int no01;（変数宣言があるが未使用）",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "printf を使って文字列を出力し最後に改行する処理（未実装）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "return 0;（正常終了の返却）",
+      "status": "done"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まず課題の入出力を明確に書きましょう。入力は不要、出力は「Hello,world!ようこそ」と末尾に改行があることをコメントに記載します。"
+    },
+    {
+      "level": 2,
+      "text": "処理の大枠は簡単です：ヘッダをインクルード → main関数内で出力 → 終了。今はコメントと関数枠があるので、次は出力処理を実装する段階です。"
+    },
+    {
+      "level": 3,
+      "text": "具体的には printf に出力したい文字列を与え、文字列の末尾に改行文字（\\n）を含めます。変数 no01 はこの課題では不要なので削除するか使う意図を書いてから使ってください。実装後はコンパイルして実行し、改行が入っているか確認しましょう。"
+    }
+  ]
+}

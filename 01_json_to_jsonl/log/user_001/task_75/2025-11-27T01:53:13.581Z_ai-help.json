@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-11-27T01:53:13.581Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "#include <stdio.h> によるヘッダの読み込み（既に記述あり）",
+      "status": "done"
+    },
+    {
+      "level": 1,
+      "text": "main関数の骨格（return 0; があるが処理は未実装）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main内のコメント '/*入力:○○, 出力:△△*/'（具体的な入力・出力の記述が未完成）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題の要件をもう一度読んで、入力は1つの整数（1〜10）であること、出力はパスカルの三角形を%3dで整形して出すことを確認してください。"
+    },
+    {
+      "level": 2,
+      "text": "出力例を見ながら、入力値と出力される行数や各行の数の並びを手で書いて確かめてください（問題文の入出力例をそのまま使うと分かりやすいです）。"
+    },
+    {
+      "level": 3,
+      "text": "例えば入力4なら4行分出力し、行ごとに「1」「1 1」「1 2 1」「1 3 3 1」が並ぶことを確認し、各数は%3dで右寄せして最後に改行だけを出すと覚えてください。"
+    }
+  ]
+}

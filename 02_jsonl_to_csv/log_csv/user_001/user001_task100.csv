@@ -1,0 +1,100 @@
+ts,user_id,username,task,event,code,stdout,stderr,estimated_stage,next_stage,processing_structure,advice
+2025-11-19T10:37:30.506Z,user_001,user1,100,auto_save,"#include <stdio.h>
+int main(void) {
+    /*入力:○○, 出力:△△*/
+
+    return 0;
+}",,,,,,
+2025-11-19T10:46:29.659Z,user_001,user1,100,auto_save,"#include <stdio.h>
+int main(void) {
+
+    return 0;
+}",,,,,,
+2025-11-19T10:46:39.659Z,user_001,user1,100,auto_save,"#include <stdio.h>
+int main(void) {
+    
+}",,,,,,
+2025-11-19T10:47:19.658Z,user_001,user1,100,auto_save,"#include <stdio.h>
+int main(void) {
+    // process
+}",,,,,,
+2025-11-19T10:47:29.657Z,user_001,user1,100,auto_save,"#include <stdio.h>
+int main(void) {
+    // process
+}
+
+
+",,,,,,
+2025-11-19T10:47:39.658Z,user_001,user1,100,auto_save,"#include <stdio.h>
+int main(void) {
+    // 1. process
+}
+
+
+",,,,,,
+2025-11-19T10:47:49.658Z,user_001,user1,100,auto_save,"#include <stdio.h>
+int main(void) {
+    // 1. process
+        // 1-1. process
+        
+}
+
+
+",,,,,,
+2025-11-19T10:47:59.658Z,user_001,user1,100,auto_save,"#include <stdio.h>
+int main(void) {
+    // 1. process
+        // 1-1. process
+        // 1-2. process
+}
+
+
+",,,,,,
+2025-11-19T10:48:09.658Z,user_001,user1,100,auto_save,"#include <stdio.h>
+int main(void) {
+    // 1. process
+        // 1-1. process
+        if(){
+            
+         
+        // 1-2. process
+}
+
+
+",,,,,,
+2025-11-19T10:48:19.658Z,user_001,user1,100,auto_save,"#include <stdio.h>
+int main(void) {
+    // 1. process
+        // 1-1. process
+        if(){
+            ~
+        }
+        // 1-2. process
+}
+
+
+",,,,,,
+2025-11-19T10:48:29.657Z,user_001,user1,100,auto_save,"#include <stdio.h>
+int main(void) {
+    // 1. process
+        // 1-1. process
+        if(...){
+            ~
+        }
+        // 1-2. process
+}
+
+
+",,,,,,
+2025-12-18T08:18:27.251Z,user_001,user01,100,ai-help,"#include <stdio.h>
+int main(void) {
+    // 1. process
+        // 1-1. process
+        if(...){
+            ~
+        }
+        // 1-2. process
+}
+
+
+",,,処理の大枠決定,処理の詳細化,"[{""level"": 1, ""text"": ""main関数：全体の処理をまとめる（入力を受け取り、三角形を出力する流れを想定）"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""1-1. process：if文の枠がある（条件分岐を入れる予定で記述が途中）"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""1-2. process：コメントのみで具体処理は未記入"", ""status"": ""todo""}]","[{""level"": 1, ""text"": ""今書いてあるコメントを見て、どの部分を詳しく決めるべきか確認しよう。""}, {""level"": 2, ""text"": ""出力ルール（右側に空白を入れない、最後は改行だけ）を基に、必要なステップを箇条書きで考えよう。""}, {""level"": 3, ""text"": ""各コメントを具体化してからコードにしよう。例：'入力を読む' → 'iを1からnまで繰り返す' → 'jを1からiまで\""*\""を出力（空白は出さない）' → '行末で改行'。""}]"

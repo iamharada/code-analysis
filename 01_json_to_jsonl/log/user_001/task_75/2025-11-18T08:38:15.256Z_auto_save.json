@@ -1,0 +1,1 @@
+{"timestamp":"2025-11-18T08:38:15.256Z","username":"user1","userId":"user_001","taskNumber":"75","event":"auto_save","code":"#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n    //入力を受け付ける\n    //\n    //\n    return 0;\n}"}

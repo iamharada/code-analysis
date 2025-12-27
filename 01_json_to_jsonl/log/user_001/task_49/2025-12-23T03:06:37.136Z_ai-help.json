@@ -1,0 +1,81 @@
+{
+  "timestamp": "2025-12-23T03:06:37.136Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数,\n    出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n    // 1. 入力を受け取る\n    // 2. tri3を呼ぶ\n    return 0;\n}\n\n// tri3関数を作成する\n//     n==0になったら終了\n//     tri3(n-1)してからline(n)\n\n// line関数を作成する\n//     n==0で改行して終わり\n//     *を出してline(n-1)",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数: 入力を受け取り tri3 を呼び、最後に COUNT を表示する",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力を受け取る（整数 n）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "tri3 を呼ぶ（再帰で各行を出力）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "最後に COUNT=合計 を出力する（コメントあり）",
+      "status": "in_progress"
+    },
+    {
+      "level": 1,
+      "text": "tri3 関数（コメントあり）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "tri3: n==0 で終了するというベースケースの記述",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "tri3: tri3(n-1) のあと line(n) を呼ぶという流れの記述",
+      "status": "in_progress"
+    },
+    {
+      "level": 1,
+      "text": "line 関数（コメントあり）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "line: n==0 で改行して終わるという記述",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "line: '*' を出してから line(n-1) を呼ぶという記述",
+      "status": "in_progress"
+    },
+    {
+      "level": 3,
+      "text": "'*' を出力したタイミングでカウンタを増やす処理は未記述（要詳細化）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "tri3 と line のコメントは既にあるので、どの部分がまだ書かれていないか確認してください。"
+    },
+    {
+      "level": 2,
+      "text": "COUNT をどこで増やすか決めてください：line 内で '*' を出すたび増やすか、別の管理方法を考えます。"
+    },
+    {
+      "level": 3,
+      "text": "mainで int count=0 を用意し、そのアドレスを tri3/line に渡す（ポインタ渡し）。line が '*' を出す直前にカウンタを1増やし、最後に COUNT=... を表示するよう詳細コメントを書いてください。"
+    }
+  ]
+}

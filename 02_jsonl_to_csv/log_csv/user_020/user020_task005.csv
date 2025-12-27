@@ -1,0 +1,198 @@
+ts,user_id,username,task,event,code,stdout,stderr,estimated_stage,next_stage,processing_structure,advice
+2025-12-18T15:02:57.655Z,user_020,user20,5,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:ｍｎ, 出力:△△*/
+
+    return 0;
+}",,,,,,
+2025-12-18T15:03:07.665Z,user_020,user20,5,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:任意の整数, 出力:ｓ*/
+
+    return 0;
+}",,,,,,
+2025-12-18T15:03:17.653Z,user_020,user20,5,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:任意の整数, 出力:入力さｒ*/
+
+    return 0;
+}",,,,,,
+2025-12-18T15:03:27.660Z,user_020,user20,5,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:任意の整数, 出力:入力された数を３倍して*/
+
+    return 0;
+}",,,,,,
+2025-12-18T15:03:37.659Z,user_020,user20,5,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:任意の整数, 出力:入力された数を３倍して１足した数*/
+    //
+    
+
+    return 0;
+}",,,,,,
+2025-12-18T15:03:47.653Z,user_020,user20,5,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:任意の整数, 出力:入力された数を３倍して１足した数*/
+    //入力
+    //
+
+    return 0;
+}",,,,,,
+2025-12-18T15:03:57.654Z,user_020,user20,5,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:任意の整数, 出力:入力された数を３倍して１足した数*/
+    //入力
+    
+    //出力
+
+    return 0;
+}",,,,,,
+2025-12-18T15:04:07.656Z,user_020,user20,5,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:任意の整数, 出力:入力された数を３倍して１足した数*/
+    //入力
+    //
+    //
+    //出力
+
+    return 0;
+}",,,,,,
+2025-12-18T15:08:57.654Z,user_020,user20,5,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:任意の整数, 出力:入力された数を３倍して１足した数*/
+    //入力
+    //けい
+    //出力
+
+    return 0;
+}",,,,,,
+2025-12-18T15:09:07.664Z,user_020,user20,5,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:任意の整数, 出力:入力された数を３倍して１足した数*/
+    //入力
+    scanf
+    //計算
+    //出力
+
+    return 0;
+}",,,,,,
+2025-12-18T15:09:17.660Z,user_020,user20,5,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:任意の整数, 出力:入力された数を３倍して１足した数*/
+    //入力
+    scanf(""%d"",&)
+    //計算
+    //出力
+
+    return 0;
+}",,,,,,
+2025-12-18T15:09:27.658Z,user_020,user20,5,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:任意の整数, 出力:入力された数を３倍して１足した数*/
+    int a;
+    //入力
+    scanf(""%d"",&a)
+    //計算
+    //出力
+
+    return 0;
+}",,,,,,
+2025-12-18T15:09:37.649Z,user_020,user20,5,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:任意の整数, 出力:入力された数を３倍して１足した数*/
+    int a;
+    //入力
+    scanf(""%d"",&a);
+    //計算
+    a=a*
+    //出力
+
+    return 0;
+}",,,,,,
+2025-12-18T15:09:47.667Z,user_020,user20,5,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:任意の整数, 出力:入力された数を３倍して１足した数*/
+    int a;
+    //入力
+    scanf(""%d"",&a);
+    //計算
+    a=a*3+1;
+    //出力
+    printf("")
+
+    return 0;
+}",,,,,,
+2025-12-18T15:09:56.887Z,user_020,user20,5,run,"#include <stdio.h>
+
+int main(void) {
+    /*入力:任意の整数, 出力:入力された数を３倍して１足した数*/
+    int a;
+    //入力
+    scanf(""%d"",&a);
+    //計算
+    a=a*3+1;
+    //出力
+    printf(""%d\n"",a);
+
+    return 0;
+}","1
+",,,,,
+2025-12-18T15:09:57.654Z,user_020,user20,5,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*入力:任意の整数, 出力:入力された数を３倍して１足した数*/
+    int a;
+    //入力
+    scanf(""%d"",&a);
+    //計算
+    a=a*3+1;
+    //出力
+    printf(""%d\n"",a);
+
+    return 0;
+}",,,,,,
+2025-12-18T15:10:04.612Z,user_020,user20,5,run,"#include <stdio.h>
+
+int main(void) {
+    /*入力:任意の整数, 出力:入力された数を３倍して１足した数*/
+    int a;
+    //入力
+    scanf(""%d"",&a);
+    //計算
+    a=a*3+1;
+    //出力
+    printf(""%d\n"",a);
+
+    return 0;
+}","1
+",,,,,
+2025-12-18T15:10:06.753Z,user_020,user20,5,run,"#include <stdio.h>
+
+int main(void) {
+    /*入力:任意の整数, 出力:入力された数を３倍して１足した数*/
+    int a;
+    //入力
+    scanf(""%d"",&a);
+    //計算
+    a=a*3+1;
+    //出力
+    printf(""%d\n"",a);
+
+    return 0;
+}","10
+",,,,,

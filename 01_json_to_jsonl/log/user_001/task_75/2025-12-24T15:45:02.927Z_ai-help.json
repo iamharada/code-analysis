@@ -1,0 +1,36 @@
+{
+  "timestamp": "2025-12-24T15:45:02.927Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数（プログラム本体）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main内のコメント: 入力:1つの整数, 出力:パスカルの三角形",
+      "status": "done"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題の要件をもう一度確認しましょう。入力は1つの整数(1〜10)で出力はパスカルの三角形です。"
+    },
+    {
+      "level": 2,
+      "text": "入出力の具体例を考えてみましょう。各行は上の行の隣り合う2つの要素の和で作られます。"
+    },
+    {
+      "level": 3,
+      "text": "入力nなら行0から行nまで（合計n+1行）を出力し、表示は%3dで右揃え、出力末尾は改行にしてください。"
+    }
+  ]
+}

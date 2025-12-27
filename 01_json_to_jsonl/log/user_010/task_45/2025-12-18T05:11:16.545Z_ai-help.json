@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-12-18T05:11:16.545Z",
+  "username": "user10",
+  "userId": "user_010",
+  "taskNumber": "45",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n//再帰関数reverse4をつくる\nvoid  reverse4(int n, int re, int i){\n    if(n > 0){\n        re[i] = n % 10;\n        //printf(\"%d\", n % 10);\n        reverse4(n / 10, re, i++);\n        for(int j = 0; re[j] != 0; j++){\n        }\n        for(j; j < i; j++){\n            printf(\"%d\", re[j]);\n    }\n}\n\nint main(void) {\n    /*入力:一つの整数値, 出力:その値の上位・下位を入れ替えた値*/\n    //入力\n    int n;\n    scanf(\"%d\", &n);\n    int re[5];\n    reverse4(n, re, 0);\n    //先頭の０を消したい\n    printf(\"\\n\");\n    return 0;\n}",
+  "estimated_stage": "コード化",
+  "next_stage": "コードの整合性確認",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main: 整数を読み取り、配列 re を宣言し reverse4 を呼び、改行を出力する",
+      "status": "in_progress"
+    },
+    {
+      "level": 1,
+      "text": "reverse4 関数の定義（再帰で桁を処理している）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "if (n > 0) の条件で再帰処理を開始している",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "re[i] = n % 10; として配列に桁を格納している",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "再帰呼び出し reverse4(n / 10, re, i++); で次の桁へ進めようとしている",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "for ループで配列から出力しようとする処理が書かれている（変数スコープや未初期化がある）",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まずコンパイルして出るエラーや警告を確認しましょう。エラーメッセージが直すべき箇所を教えてくれます。"
+    },
+    {
+      "level": 2,
+      "text": "関数の引数の型（配列を渡すときの書き方）、ループ変数の宣言場所、波括弧の対応を点検してみてください。"
+    },
+    {
+      "level": 3,
+      "text": "簡単にするなら reverse4 を int n だけ受け取り、if (n>0) { printf(\"%d\", n%10); reverse4(n/10); } として main から reverse4(n) を呼ぶように直してみてください。"
+    }
+  ]
+}

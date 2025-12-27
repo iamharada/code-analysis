@@ -1,0 +1,17 @@
+ts,user_id,username,task,event,code,stdout,stderr,estimated_stage,next_stage,processing_structure,advice
+2025-10-16T13:14:04.696Z,user_002,user2,1,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*input:○○, output:○○, goal:○○*/
+    int no
+
+    return 0;
+}",,,,,,
+2025-10-16T13:14:14.696Z,user_002,user2,1,auto_save,"#include <stdio.h>
+
+int main(void) {
+    /*input:○○, output:○○, goal:○○*/
+    int no1no2;
+
+    return 0;
+}",,,,,,

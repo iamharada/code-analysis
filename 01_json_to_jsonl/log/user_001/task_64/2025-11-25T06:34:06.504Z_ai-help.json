@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-11-25T06:34:06.504Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "64",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:, 出力:*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数の雛形がある（return 0;）",
+      "status": "done"
+    },
+    {
+      "level": 1,
+      "text": "入力: のプレースホルダコメントがあるが未記入",
+      "status": "in_progress"
+    },
+    {
+      "level": 1,
+      "text": "出力: のプレースホルダコメントがあるが未記入",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題の要件をもう一度確認しよう。入力は1つの整数（1〜1000）、出力はその値の約数の総和で最後は改行のみにすること。"
+    },
+    {
+      "level": 2,
+      "text": "入力と出力の具体例を書いてみよう。たとえば入力10なら出力は「10の約数の総和は18」になることを確認してね。"
+    },
+    {
+      "level": 3,
+      "text": "今のコメントは空なので、まずは処理の大枠をコメントで書こう（例：数を読み取る→ループで約数を調べて合計→結果を表示）。その後で次の段階に進もう。"
+    }
+  ]
+}

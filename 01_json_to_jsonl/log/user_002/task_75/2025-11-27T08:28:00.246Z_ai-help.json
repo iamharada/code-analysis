@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-11-27T08:28:00.246Z",
+  "username": "user2",
+  "userId": "user_002",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n    //入力を受け付ける。\n    //パスカルの三角形を計算する。\n    //出力する。\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：入力→計算→出力の流れをコメントで書いている",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力を受け付ける",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "パスカルの三角形を計算する",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "結果をフォーマットして出力する",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まずはコメントの順番通りに実装するつもりで進めましょう：入力→計算→出力の流れを意識してください。"
+    },
+    {
+      "level": 2,
+      "text": "計算用に二次元配列を用意し、ループの範囲や初期値（端の1）を決めることを考えてください。出力は幅指定（%3d）を使う必要があります。"
+    },
+    {
+      "level": 3,
+      "text": "scanfで行数nを読み、十分な大きさのint配列を宣言して、各行の先頭と末尾を1にし内側は上の行の和で埋め、printf(\"%3d\", 値)で出力して行ごとに改行するコードを書き始めてください。"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "timestamp": "2025-12-18T04:51:35.443Z",
+  "username": "user11",
+  "userId": "user_011",
+  "taskNumber": "32",
+  "event": "run",
+  "code": "#include <stdio.h>\n\nvoid checktri(int a,int b,int c){\n    //三角形が成立するかを検証する\n    if (a < b + c){\n        //直角三角形\n        if (a*a == b*b + c*c) {\n            return 1;\n        }\n        //鋭角三角形\n        else if (a*a < b*b + c*c) {\n            return 2;\n        }\n        //鈍角三角形\n        else if (a*a > b*b + c*c) {\n            return 3;\n        }\n    //成立しない場合\n    } else {\n        //error\n        return 0;\n    }\n}\n\nint main(void) {\n    //aを最大値として辺の長さを作成\n    float a,b,c;\n    int r; //戻り値代入用\n    \n    //入力\n    scanf(\"%f\",&a);\n    scanf(\"%f\",&b);\n    scanf(\"%f\",&c);\n    \n    r = checktri(a,b,c);\n    switch(r){\n        case 1:\n            printf(\"直角三角形\\n\");\n            break:\n        case 2:\n            printf(\"鋭角三角形\\n\");\n            break:\n        case 3:\n            printf(\"鈍角三角形\\n\");\n            break:\n        default:\n            printf(\"Error\\n\");\n            break:\n    }\n    \n    return 0;\n}",
+  "stdout": "",
+  "stderr": "file0.code.c: In function 'checktri':\nfile0.code.c:8:20: warning: 'return' with a value, in function returning void\n    8 |             return 1;\n      |                    ^\nfile0.code.c:3:6: note: declared here\n    3 | void checktri(int a,int b,int c){\n      |      ^~~~~~~~\nfile0.code.c:12:20: warning: 'return' with a value, in function returning void\n   12 |             return 2;\n      |                    ^\nfile0.code.c:3:6: note: declared here\n    3 | void checktri(int a,int b,int c){\n      |      ^~~~~~~~\nfile0.code.c:16:20: warning: 'return' with a value, in function returning void\n   16 |             return 3;\n      |                    ^\nfile0.code.c:3:6: note: declared here\n    3 | void checktri(int a,int b,int c){\n      |      ^~~~~~~~\nfile0.code.c:21:16: warning: 'return' with a value, in function returning void\n   21 |         return 0;\n      |                ^\nfile0.code.c:3:6: note: declared here\n    3 | void checktri(int a,int b,int c){\n      |      ^~~~~~~~\n"
+}

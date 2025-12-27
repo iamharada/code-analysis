@@ -1,0 +1,36 @@
+{
+  "timestamp": "2025-12-07T11:30:15.594Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数の雛形（#includeとint main, return 0）がある",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "入力:○○, 出力:△△ のままのコメントが残っており、課題の入出力が未記入",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題文をもう一度読み、必要な入出力と制約（nは1〜10）を確認しましょう。"
+    },
+    {
+      "level": 2,
+      "text": "サンプル入力例（例えば4）を使って、出力されるパスカルの三角形を具体的に紙に書いてみましょう。"
+    },
+    {
+      "level": 3,
+      "text": "入力は1つの整数n(1<=n<=10)。出力はn行分のパスカルの三角形で、各数を幅3で右寄せ（%3d）し、行ごとに改行だけ入れることを明記してください。"
+    }
+  ]
+}

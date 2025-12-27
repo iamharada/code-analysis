@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-12-23T03:15:32.563Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, \n    出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n    // 1. 入力を受け取る\n    // 2. tri3を呼ぶ\n    return 0;\n}\n\n// tri3関数を作成する\n//     1行目からn行目まで順に出力する\n//     行数はforみたいに1ずつ増やす\n//     各行でlineを呼ぶ\n\n// line関数を作成する\n//     *をn個出力する\n//     for文でn回*を出す\n",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main：整数を読み取り、三角形出力関数を呼び、最後にCOUNT=合計を出力する",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "tri3：1行目からn行目まで順に出力する関数（コメントで作成指示あり）",
+      "status": "in_progress"
+    },
+    {
+      "level": 3,
+      "text": "line3：1行分の'*'を出力し、出力ごとにカウンタを増やす関数（コメントで作成指示あり）",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まずどのコメントを今すぐ具体化できるか確認しよう：mainの入力とtri3／line3の役割は明確です。"
+    },
+    {
+      "level": 2,
+      "text": "tri3は行番号を増やしながら各行でline3を呼ぶ処理、line3はその行の'*'を出力してカウントする処理と考えてみてください。"
+    },
+    {
+      "level": 3,
+      "text": "具体案：tri3(current,n,&count)は current>n で終了、そうでなければ line3(current,&count) を呼び tri3(current+1,n,&count) を再帰呼び出しする。line3(k,&count)は k==0 なら改行して戻る、それ以外は '*' を出力して (*count)++ し line3(k-1,&count) を呼ぶ。"
+    }
+  ]
+}

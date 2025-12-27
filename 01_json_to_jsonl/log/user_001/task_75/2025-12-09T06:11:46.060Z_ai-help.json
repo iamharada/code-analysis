@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-12-09T06:11:46.060Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n    //入力を受け付ける。\n    //計算する。\n    //出力する。\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "処理の大枠決定",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：全体の流れをコメントで記述（入力→計算→出力）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力を受け付ける（コメントありが実装されていない）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "計算する（パスカルの三角形を作る処理、コメントのみ）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "出力する（整形して表示する処理、コメントのみ）",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "全体の流れをもう一度確認しよう：入力を受け取り、三角形を作り、整形して出力する順をイメージしてみてください。"
+    },
+    {
+      "level": 2,
+      "text": "必要な大きな手順を考えて、どこに関数を作るか決めてください（例：pascal関数を作る）。"
+    },
+    {
+      "level": 3,
+      "text": "まずmainに3〜5行のコメントで手順を書く：1) nをscanfで読む 2) pascal関数に渡す 3) 配列を作り計算 4) %3dで出力する、のように具体化してください。"
+    }
+  ]
+}

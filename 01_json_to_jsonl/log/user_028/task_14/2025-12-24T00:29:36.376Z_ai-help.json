@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-12-24T00:29:36.376Z",
+  "username": "user28",
+  "userId": "user_028",
+  "taskNumber": "14",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:3つの実数, 出力:３角形の形状*/\n    float a,b,c;\n    //３つの実数を受け取る\n    scanf(\"%f\",a,b,c);\n    //三角形が成り立つかどうか（成立する場合）\n    　　　　//三角形の形状判定\n    \n    //成立しない場合\n    　　　 //error\n    \n    return 0;\n    \n}",
+  "estimated_stage": "コード化",
+  "next_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数: プログラム全体の流れを担う",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "変数宣言(float a, b, c)",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "3つの実数を受け取る（入力）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "三角形が成り立つかどうかを判定する",
+      "status": "todo"
+    },
+    {
+      "level": 3,
+      "text": "成り立つ場合: 三角形の種類を判定(直角/鋭角/鈍角)",
+      "status": "todo"
+    },
+    {
+      "level": 3,
+      "text": "成り立たない場合: \"Error\" を出力",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まずコメントの順に一つずつ実装しよう。今は入力周りから始めると良い。 "
+    },
+    {
+      "level": 2,
+      "text": "scanfには変数のアドレスを渡す必要がある(&a, &b, &c)。書式は %f で読み取ることを確認しよう。"
+    },
+    {
+      "level": 3,
+      "text": "先頭が最大と仮定して b + c <= a なら \"Error\\n\"、そうでなければ a*a と b*b + c*c を比べて出力を決め(等しいは直角、より小さいは鋭角、より大きいは鈍角)、表示は指定の日本語文字列で改行付きにする。"
+    }
+  ]
+}

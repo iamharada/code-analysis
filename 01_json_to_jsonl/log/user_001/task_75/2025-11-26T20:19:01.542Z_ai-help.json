@@ -1,0 +1,31 @@
+{
+  "timestamp": "2025-11-26T20:19:01.542Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数に入力・出力要件を書くコメントが残っている（課題理解段階のメモ）",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題文をもう一度読み、入力は「1つの整数（1〜10）」で、出力はパスカルの三角形であることを確認しよう。"
+    },
+    {
+      "level": 2,
+      "text": "入力と出力の具体例を紙に書いてみて、各行に何個の数が並ぶかや整列方法（%3dで右揃え）を考えよう。"
+    },
+    {
+      "level": 3,
+      "text": "例：入力4のときの出力を手で書き、各行末に改行だけがあることや余分な空白がないことを確認しよう。"
+    }
+  ]
+}

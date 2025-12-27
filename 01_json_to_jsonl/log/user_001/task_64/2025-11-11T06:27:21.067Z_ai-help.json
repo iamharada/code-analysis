@@ -1,0 +1,40 @@
+{
+  "timestamp": "2025-11-11T06:27:21.067Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "64",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\nint main(void) {\n    /*入力:1つの整数, 出力:入力値の約数の総和*/\n}\n\n",
+  "estimated_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "プログラムの雛形（#include と int main 関数の枠）",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "コメントで入力と出力の目的を記述（入力:1つの整数, 出力:約数の総和）",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "実際の処理（入力の読み取り、for文での約数探索、合計の出力）は未実装",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題の要件をもう一度確認しよう。入力範囲(1〜1000)と出力の書式（末尾改行・余計な空白なし）を確認して。"
+    },
+    {
+      "level": 2,
+      "text": "次は処理の大まかな流れをコメントで書こう。例えば「入力を読む→forで約数を調べ合計する→結果を出力する」といった流れを考える。"
+    },
+    {
+      "level": 3,
+      "text": "その大枠を3〜5のステップに分け、各ステップで何をするか1行ずつコメントに書いてからコード化を始めよう。"
+    }
+  ]
+}

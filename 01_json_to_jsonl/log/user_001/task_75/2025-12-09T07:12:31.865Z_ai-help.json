@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-12-09T07:12:31.865Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n    //入力をパスカルの三角形の段数として受け付ける。\n    //入力値（段数）をpascal関数に渡す。\n    return 0;\n}\n//入力された段数分のパスカルの三角形を出力するpascal関数を作る\n",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：入力を受け取りpascal関数に渡す（コメントあり）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main内：入力値を読み取る（段数を取得）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "main内：取得した段数をpascal関数に渡して呼び出す",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "pascal関数：入力された段数分のパスカルの三角形を出力する（まだ未作成）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "pascal関数内：二次元配列と繰り返しを使って値を計算し、%3dで整形して印字する",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "今のコメントでどこが未定義か確認しよう：入力の取得と関数の実装が足りない点に注目。"
+    },
+    {
+      "level": 2,
+      "text": "具体的に決めることを列挙しよう：整数を受け取る変数、pascal関数の引数・戻り値、配列の大きさ、ループの範囲。"
+    },
+    {
+      "level": 3,
+      "text": "pascal関数の詳細手順：arr[n][n]の配列を用意しarr[0][0]=1、端は1、他はarr[i][j]=arr[i-1][j-1]+arr[i-1][j]で埋め、printf(\"%3d\", arr[i][j])で出力して行ごとに改行する。"
+    }
+  ]
+}

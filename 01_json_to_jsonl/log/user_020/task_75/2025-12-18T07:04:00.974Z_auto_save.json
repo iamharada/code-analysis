@@ -1,0 +1,1 @@
+{"timestamp":"2025-12-18T07:04:00.974Z","username":"user20","userId":"user_020","taskNumber":"75","event":"auto_save","code":"#include <stdio.h>\n//関数を作る\nint pascal(int n){\n    int n;\n    char a[10][10];\n    \n\nint main(void) {\n    /*入力:一つの整数, 出力:パスカルの三角形*/\n    //入力：整数（１－１０）\n    //出力\n\n    return 0;\n}"}

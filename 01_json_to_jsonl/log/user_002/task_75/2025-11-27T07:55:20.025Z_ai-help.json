@@ -1,0 +1,31 @@
+{
+  "timestamp": "2025-11-27T07:55:20.025Z",
+  "username": "user2",
+  "userId": "user_002",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数の骨組みのみがある（入力・出力に関するコメントがそのまま残っている）",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題の要件をもう一度確認しましょう：入力形式、出力形式、制約（1〜10）、余計な空白や空行を出さないことを意識してください。"
+    },
+    {
+      "level": 2,
+      "text": "入力（整数 n）と期待する出力（n行のパスカルの三角形）をいくつか具体例で書き、出力の見た目を確かめてください。"
+    },
+    {
+      "level": 3,
+      "text": "入力は1行に整数 n (1〜10)。出力は各行を %3d で右揃えしたパスカルの三角形、最後は改行のみ（例 n=4 の出力行：'  1' / ' 1  1' / ' 1  2  1' / ' 1  3  3  1'）。"
+    }
+  ]
+}

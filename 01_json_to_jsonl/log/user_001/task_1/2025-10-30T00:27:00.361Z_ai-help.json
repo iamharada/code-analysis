@@ -1,0 +1,55 @@
+{
+  "timestamp": "2025-10-30T00:27:00.361Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": 1,
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：なし, 出力：Hello,world!*/\n    aaaaaaaa;\n    printf(\"\")\n    \n    return 0;\n}",
+  "estimated_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "ヘッダーのインクルード（#include <stdio.h>）がある",
+      "status": "done"
+    },
+    {
+      "level": 1,
+      "text": "main関数の定義（int main(void) { ... }）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力・出力の説明コメント（入力：なし、出力：Hello,world! と記載）",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "不正な識別子 'aaaaaaaa;' が残っている（削除または修正が必要）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "printf呼び出しがあるが文字列が空でセミコロンがない（出力文字列と末尾の改行を含める必要がある）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "return 0; による終了処理がある",
+      "status": "done"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まず課題の出力を正しく確認する（課題は「Hello,world!ようこそ」を出力し、最後に改行を入れる）。コメントと要求が一致しているか確認してコメントを必要なら直す。"
+    },
+    {
+      "level": 2,
+      "text": "コード修正の順序を決める：①不要な行（'aaaaaaaa;'）を削除する、②printfを正しく使って課題の文字列を出力する（文字列の末尾に改行を入れる）、③各文の末尾にセミコロンを付ける。ヘッダは既に正しいのでそのままで良い。"
+    },
+    {
+      "level": 3,
+      "text": "細かい確認ポイント：printfの引数はダブルクォートで囲むこと、文字列の最後に改行はエスケープ文字（\\n）を入れること、文の終わりにはセミコロンを忘れないこと。日本語を含める場合はファイルをUTF-8で保存してコンパイル・実行し、出力が期待通り（正確な文字列と最後の改行）になっているかを確認する。コンパイルエラーが出たら最初のエラーメッセージを見て行番号と原因（例：セミコロン不足、未定義識別子）を直すこと。"
+    }
+  ]
+}

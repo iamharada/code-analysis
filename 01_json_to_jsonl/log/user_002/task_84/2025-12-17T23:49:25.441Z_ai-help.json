@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-12-17T23:49:25.441Z",
+  "username": "user2",
+  "userId": "user_002",
+  "taskNumber": "84",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:二つの文字列, 出力:文字列を数値とみなした和*/\n    // 2つの文字列を受け付ける\n    // 2つの文字列を足し算する\n    // 出力する\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "課題の要件を示すコメント（入力:二つの文字列, 出力:和）",
+      "status": "done"
+    },
+    {
+      "level": 1,
+      "text": "main関数の骨組み（コメントのみで処理未実装）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "2つの文字列を受け付ける",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "2つの文字列を足し算する（桁ごとに配列で管理し繰り上げ）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "結果を出力する",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "今のコメントで何が足りないか見つけよう。どの処理を細かく書くべきか考えてみて。"
+    },
+    {
+      "level": 2,
+      "text": "入力→配列への桁ごとの格納→右端からの繰り上げ付き加算→出力、という流れを順に分けて書いてみて。"
+    },
+    {
+      "level": 3,
+      "text": "具体的には：1) 2つの文字列を読み取る、2) 各文字を'0'を引いてint配列に逆順で入れる、3) 右端から足して繰り上げを管理、4) 結果を逆順に出力する。"
+    }
+  ]
+}

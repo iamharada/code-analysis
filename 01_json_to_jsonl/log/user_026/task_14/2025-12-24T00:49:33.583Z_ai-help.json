@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-12-24T00:49:33.583Z",
+  "username": "user26",
+  "userId": "user_026",
+  "taskNumber": "14",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    int a,b,c;\n    scanf(\"%d %d %d\",&a,&b,&c);\n    if(a<b+c && a<b-c){\n        if(a*a=b*b+c*c){\n            printf(\"直角\");\n        }else if(a*a>b*b+c*c){\n            printf(\"鈍角三角形\");\n        }else if(a*a<b*b+c*c){\n            printf(\"鋭角\");\n        }\n        }else{\n            printf(Error);\n    }\n    /*入力:3つの整数, 出力:三角形の形状\n    三角形の成立条件で条件分岐\n    \n    \n    */\n    return 0;\n}",
+  "estimated_stage": "コード化",
+  "next_stage": "コードの整合性確認",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "ソース内コメントで課題の入力・出力を書いている",
+      "status": "done"
+    },
+    {
+      "level": 1,
+      "text": "変数宣言と入力の取得（int a,b,c; scanf）",
+      "status": "in_progress"
+    },
+    {
+      "level": 1,
+      "text": "三角形成立判定の if 文 (a < b + c 等)",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "成立時に角の種類を判定するための二乗の比較処理",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "直角・鋭角・鈍角それぞれの分岐と printf による出力",
+      "status": "in_progress"
+    },
+    {
+      "level": 1,
+      "text": "成立しない場合の else 節で Error を出力する部分",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まず全体を見て、入力型や比較演算子、出力文字列など明らかにおかしい箇所を探しましょう。"
+    },
+    {
+      "level": 2,
+      "text": "具体的には変数は実数型にする必要がある点や、= と == の違い、printf の文字列の書き方を確認してください。"
+    },
+    {
+      "level": 3,
+      "text": "修正方針：変数を double にして scanf の書式を合わせる、三角形成立は最大辺 a < b + c を使う、二乗比較は浮動小数点誤差を考え許容誤差で比較し、出力は問題文通りの文字列と末尾の改行を必ず付ける。"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "timestamp": "2025-10-30T01:16:30.066Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": 1,
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：なし, 出力：Hello,world!*/\n    aaaaaaaa;\n    printf(\"\")\n    \n    return 0;\n}",
+  "estimated_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "#include <stdio.h> を追加している",
+      "status": "done"
+    },
+    {
+      "level": 1,
+      "text": "main関数の定義がある",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "コメントで入力なし・出力の意図を書いている",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "不明な識別子 'aaaaaaaa;' が残っている（プレースホルダ）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "printf呼び出しがあるが文字列が空で閉じカッコやセミコロンが欠けている",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "return 0; がある",
+      "status": "done"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題をもう一度確認し、出力は「Hello,world!ようこそ」で最後に改行が必要なことを確認しましょう。"
+    },
+    {
+      "level": 2,
+      "text": "コメントを元に、printfで出力する文字列を正しく書き、文字列を\"\"で囲み改行文字を末尾に入れることを考えてください。"
+    },
+    {
+      "level": 3,
+      "text": "ソースの余分な識別子を削除し、文字列リテラルの終了やセミコロンなどの構文エラーを直してからコンパイル・実行して確認しましょう。"
+    }
+  ]
+}

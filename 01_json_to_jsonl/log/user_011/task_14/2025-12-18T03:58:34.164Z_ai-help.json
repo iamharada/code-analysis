@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-12-18T03:58:34.164Z",
+  "username": "user11",
+  "userId": "user_011",
+  "taskNumber": "14",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    //aを最大値として辺の長さを作成\n    int a,b,c;\n    \n    //入力\n    scanf(\"%d\",&a);\n    scanf(\"%d\",&b);\n    scanf(\"%d\",&c);\n    \n    //三角形が成立するかを検証する\n    if (a < b + c){\n        //直角三角形\n        if (a*a == b*b + c*c) {\n            printf(\"直角三角形\\n\");\n        }\n        //鋭角三角形\n        else if (a*a < b*b + c*c) {\n            printf(\"鋭角三角形\\n\");\n        }\n        //鈍角三角形\n        else if (a*a > b*b + c*c) {\n            printf(\"鈍角三角形\\n\");\n        }\n    //成立しない場合\n    } else {\n        //error\n        printf(\"Error\\n\");\n    }\n    return 0;\n}",
+  "estimated_stage": "コード化",
+  "next_stage": "コードの整合性確認",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "変数宣言と入力（a,b,c を宣言し scanf で読み取る）",
+      "status": "done"
+    },
+    {
+      "level": 1,
+      "text": "三角形が成立するかの判定（if (a < b + c)）",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "成立時：直角・鋭角・鈍角の判定（a*a と b*b + c*c を比較）",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "不成立時：Error を出力",
+      "status": "done"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "実装はあるが細かい点で問題になりやすいので、型や比較方法を見直そう。"
+    },
+    {
+      "level": 2,
+      "text": "問題文は実数が入力されるので int ではなく実数型を使い、浮動小数点の比較誤差に注意しよう。"
+    },
+    {
+      "level": 3,
+      "text": "変数を double に変え、scanf/printf の書式を合わせること。直角判定は誤差を考えて |a*a - (b*b + c*c)| < 小さな値 で判定するように修正し、出力の改行を忘れないで。"
+    }
+  ]
+}

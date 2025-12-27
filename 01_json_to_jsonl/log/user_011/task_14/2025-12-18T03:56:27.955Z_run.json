@@ -1,0 +1,10 @@
+{
+  "timestamp": "2025-12-18T03:56:27.955Z",
+  "username": "user11",
+  "userId": "user_011",
+  "taskNumber": "14",
+  "event": "run",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    //aを最大値として辺の長さを作成\n    int a,b,c;\n    \n    //入力\n    scanf(\"%d\",&a);\n    scanf(\"%d\",&b);\n    scanf(\"%d\",&c);\n    \n    //三角形が成立するかを検証する\n    if (a < b + c){\n        //直角三角形\n        if (a*a == b*b + c*c) {\n            printf(\"直角三角形\\n\");\n        }\n        //鋭角三角形\n        else if (a*a < b*b + c*c) {\n            printf(\"鋭角三角形\\n\");\n        }\n        //鈍角三角形\n        else if (a*a > b*b + c*c) {\n            printf(\"鈍角三角形\\n\");\n        }\n    //成立しない場合\n    } else {\n        //error\n        printf(\"Error\\n\");\n    }\n    return 0;\n}",
+  "stdout": "鋭角三角形\n",
+  "stderr": ""
+}

@@ -1,0 +1,35 @@
+{
+  "timestamp": "2025-10-30T00:38:07.392Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:一つの整数, 出力:その行数分のパスカルの三角形*/\n    \n}\n\n\n",
+  "estimated_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "入力: 一つの整数を受け取る（行数）",
+      "status": "in_progress"
+    },
+    {
+      "level": 1,
+      "text": "出力: 指定行数分のパスカルの三角形を表示する",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題の要件をもう一度確認しましょう：関数名や出力整形（%3dで右揃え、最後は改行）を意識してください。"
+    },
+    {
+      "level": 2,
+      "text": "入力は1つの整数（1〜10）、出力はその行数までの三角形です。出力例を見て出力の形を頭に入れてください。"
+    },
+    {
+      "level": 3,
+      "text": "次は処理の大枠をコメントで書きましょう（例：入力読み取り → 二次元配列作成 → 値計算 → %3dで表示）。"
+    }
+  ]
+}

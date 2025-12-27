@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-12-17T10:23:03.959Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数,\n      出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n    // 1. 入力を受け取る\n    // 2. tri3を呼ぶ\n    return 0;\n}\n\n// tri3関数を作成する\n    // for文で1行ずつ回す\n    // lineで*を出す\n    // COUNTは最後にまとめて計算\n\n// line関数を作成する\n    // for文で*をn個出す\n    // 改行する",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main: 整数を入力で受け取り、tri3を呼ぶ",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "tri3: 各行を処理して line3 を呼び、全体の '*' 個数をまとめる",
+      "status": "todo"
+    },
+    {
+      "level": 3,
+      "text": "line3: 1行分の '*' を出力し改行する（カウントを増やす）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "mainのコメントにある「入力を受け取る」「tri3を呼ぶ」はそのまま実装できます。"
+    },
+    {
+      "level": 2,
+      "text": "mainでscanfでnを読み、tri3とline3の関数原型を宣言してから呼び出す設計にすると良いです。"
+    },
+    {
+      "level": 3,
+      "text": "tri3は引数に全行数n・現在行i・COUNTのアドレスを取り、i>nで終了、line3(i,&count)の後にtri3(n,i+1,&count)とする。line3は残りkとCOUNTポインタを受け、k==0で改行、そうでなければ'*'を出力して(*count)++して再帰でk-1とする。"
+    }
+  ]
+}

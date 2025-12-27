@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-12-18T04:08:41.829Z",
+  "username": "user2",
+  "userId": "user_002",
+  "taskNumber": "14",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:三つの実数, 出力:三角形の形状判定*/\n    //入力を受け付ける\n    //三角形の成立判定\n        //成立する場合：三角形の種類の判定\n        //成立しない場合：エラー\n    //出力\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：全体の処理（入力→成立判定→種類判定→出力）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力を受け付ける（3つの実数）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "三角形の成立判定",
+      "status": "todo"
+    },
+    {
+      "level": 3,
+      "text": "成立する場合：三角形の種類の判定（直角/鋭角/鈍角）",
+      "status": "todo"
+    },
+    {
+      "level": 3,
+      "text": "成立しない場合：Error出力",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "出力（結果を改行付きで表示）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まずコメントを見て、どの処理を細かく決める必要があるかを確認しよう（入力・成立判定・種類判定・出力）。"
+    },
+    {
+      "level": 2,
+      "text": "入力は3つの実数をdoubleで受け取り、問題文の通り「最初の入力が最大値」と仮定して成立判定は最大値 < 他の2辺の和で行うことを考えてみて。"
+    },
+    {
+      "level": 3,
+      "text": "成立なら a*a と (b*b + c*c) を比較して、等しい→直角、小さい→鋭角、大きい→鈍角を出力し、成立しなければ「Error」を改行付きで出すように決めてください。"
+    }
+  ]
+}

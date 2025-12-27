@@ -1,0 +1,2550 @@
+ts,user_id,username,task,event,code,stdout,stderr,estimated_stage,next_stage,processing_structure,advice
+2025-12-18T03:37:40.659Z,user_011,user11,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    print
+    return 0;
+}",,,,,,
+2025-12-18T03:37:50.653Z,user_011,user11,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    prin
+    return 0;
+}",,,,,,
+2025-12-18T03:38:00.665Z,user_011,user11,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    scanf(""%d"")
+    return 0;
+}",,,,,,
+2025-12-18T03:38:10.665Z,user_011,user11,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int 
+    scanf(""%d"");
+    return 0;
+}",,,,,,
+2025-12-18T03:38:20.654Z,user_011,user11,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"");
+    return 0;
+}",,,,,,
+2025-12-18T03:38:30.661Z,user_011,user11,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a);
+    return 0;
+}",,,,,,
+2025-12-18T03:38:40.659Z,user_011,user11,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    return 0;
+}",,,,,,
+2025-12-18T03:38:50.663Z,user_011,user11,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    return 0;
+}",,,,,,
+2025-12-18T03:40:00.656Z,user_011,user11,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    /ｓ
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    return 0;
+}",,,,,,
+2025-12-18T03:40:10.660Z,user_011,user11,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    //
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    return 0;
+}",,,,,,
+2025-12-18T03:44:30.652Z,user_011,user11,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    int a,b,c;
+    //ｓ
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    return 0;
+}",,,,,,
+2025-12-18T03:44:40.661Z,user_011,user11,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    //aをさいだいい
+    int a,b,c;
+    //
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    return 0;
+}",,,,,,
+2025-12-18T03:44:50.653Z,user_011,user11,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として
+    int a,b,c;
+    //
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    return 0;
+}",,,,,,
+2025-12-18T03:45:00.662Z,user_011,user11,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    int a,b,c;
+    
+    //
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    return 0;
+}",,,,,,
+2025-12-18T03:45:10.653Z,user_011,user11,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    int a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    return 0;
+}",,,,,,
+2025-12-18T03:45:20.652Z,user_011,user11,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    int a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //
+    return 0;
+}",,,,,,
+2025-12-18T03:45:30.652Z,user_011,user11,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    int a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //さんかｋ
+    return 0;
+}",,,,,,
+2025-12-18T03:45:40.663Z,user_011,user11,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    int a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //三角形がせいりつする
+    return 0;
+}",,,,,,
+2025-12-18T03:45:50.652Z,user_011,user11,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    int a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //三角形が成立するかを検証する
+        
+    return 0;
+}",,,,,,
+2025-12-18T03:46:00.654Z,user_011,user11,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    int a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //三角形が成立するかを検証する
+        //成立する場合
+        //せい
+    return 0;
+}",,,,,,
+2025-12-18T03:46:10.655Z,user_011,user11,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    int a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //三角形が成立するかを検証する
+        //成立する場合
+        //成立しない場合
+            
+    return 0;
+}",,,,,,
+2025-12-18T03:46:20.655Z,user_011,user11,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    int a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //三角形が成立するかを検証する
+        //成立する場合
+            //
+        //成立しない場合
+            //error
+    return 0;
+}",,,,,,
+2025-12-18T03:46:30.656Z,user_011,user11,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    int a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //三角形が成立するかを検証する
+        //成立する場合
+            //直角三角形
+        //成立しない場合
+            //error
+    return 0;
+}",,,,,,
+2025-12-18T03:46:40.652Z,user_011,user11,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    int a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //三角形が成立するかを検証する
+        //成立する場合
+            //直角三角形
+            //直角三角形
+            //直角三角形
+        //成立しない場合
+            //error
+    return 0;
+}",,,,,,
+2025-12-18T03:46:50.656Z,user_011,user11,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    int a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //三角形が成立するかを検証する
+        //成立する場合
+            //直角三角形
+            //鋭角三角形
+            //鈍角三角形
+        //成立しない場合
+            //error
+    return 0;
+}",,,,,,
+2025-12-18T03:47:30.235Z,user_011,user11,14,ai-help,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    int a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //三角形が成立するかを検証する
+        //成立する場合
+            //直角三角形
+            //鋭角三角形
+            //鈍角三角形
+        //成立しない場合
+            //error
+    return 0;
+}",,,処理の大枠決定,処理の詳細化,"[{""level"": 1, ""text"": ""main関数：変数宣言と入力の準備"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""入力処理：3つの値をscanfで読む"", ""status"": ""done""}, {""level"": 2, ""text"": ""三角形成立／分類の処理（コメントのみ）"", ""status"": ""todo""}, {""level"": 3, ""text"": ""三角形が成立するか検証する（コメント）"", ""status"": ""todo""}, {""level"": 3, ""text"": ""成立した場合に直角・鋭角・鈍角に分類する（コメント）"", ""status"": ""todo""}, {""level"": 3, ""text"": ""成立しない場合に\""Error\""を出力する（コメント）"", ""status"": ""todo""}]","[{""level"": 1, ""text"": ""入力は実数（0<値<=100）で、最初の値が最大と仮定する点を再確認しよう。""}, {""level"": 2, ""text"": ""判定手順を具体化しよう：(1) 三角形成立か確認、(2) 二乗で角の種類を比較、(3) 結果を出力、の順で考える。""}, {""level"": 3, ""text"": ""型をdoubleに変え、a*a と b*b + c*c を比較して直角／鋭角／鈍角を判定し、成立しなければ\""Error\""を出力して改行するよう実装してみよう。""}]"
+2025-12-18T03:48:40.659Z,user_011,user11,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    int a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //三角形が成立するかを検証する
+         //直角三角形
+         //鋭角三角形
+        //鈍角三角形
+    //成立しない場合
+            //error
+    return 0;
+}",,,,,,
+2025-12-18T03:48:50.662Z,user_011,user11,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    int a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //三角形が成立するかを検証する
+        //直角三角形
+        //鋭角三角形
+        //鈍角三角形
+    //成立しない場合
+        //error
+    return 0;
+}",,,,,,
+2025-12-18T03:49:00.657Z,user_011,user11,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    int a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //三角形が成立するかを検証する
+    if ()
+        //直角三角形
+        //鋭角三角形
+        //鈍角三角形
+    //成立しない場合
+        //error
+    return 0;
+}",,,,,,
+2025-12-18T03:49:10.660Z,user_011,user11,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    int a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a>)
+        //直角三角形
+        //鋭角三角形
+        //鈍角三角形
+    //成立しない場合
+        //error
+    return 0;
+}",,,,,,
+2025-12-18T03:49:20.653Z,user_011,user11,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    int a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        //鋭角三角形
+        //鈍角三角形
+    //成立しない場合
+        //error
+    return 0;
+}",,,,,,
+2025-12-18T03:49:30.655Z,user_011,user11,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    int a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        
+        //直角三角形
+        //鋭角三角形
+        //鈍角三角形
+    //成立しない場合
+        
+        //error
+    return 0;
+}",,,,,,
+2025-12-18T03:49:40.662Z,user_011,user11,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    int a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        
+        //直角三角形
+        //鋭角三角形
+        //鈍角三角形
+    //成立しない場合
+    } else {
+        //error
+    }
+    return 0;
+}",,,,,,
+2025-12-18T03:49:50.659Z,user_011,user11,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    int a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        
+        //直角三角形
+        //鋭角三角形
+        //鈍角三角形
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error"")
+    }
+    return 0;
+}",,,,,,
+2025-12-18T03:50:00.652Z,user_011,user11,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    int a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        
+        //直角三角形
+        //鋭角三角形
+        //鈍角三角形
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}",,,,,,
+2025-12-18T03:50:10.666Z,user_011,user11,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    int a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        //鋭角三角形
+        //鈍角三角形
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}",,,,,,
+2025-12-18T03:50:20.661Z,user_011,user11,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    int a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (
+        //鋭角三角形
+        //鈍角三角形
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}",,,,,,
+2025-12-18T03:50:40.656Z,user_011,user11,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    int a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a^2 == b^2 + c^2)
+        //鋭角三角形
+        //鈍角三角形
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}",,,,,,
+2025-12-18T03:50:50.659Z,user_011,user11,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    int a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a^2 == b^2 + c^2) {
+            
+        }
+        //鋭角三角形
+        //鈍角三角形
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}",,,,,,
+2025-12-18T03:51:00.662Z,user_011,user11,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    int a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a^2 == b^2 + c^2) {
+            printf(""
+        }
+        //鋭角三角形
+        //鈍角三角形
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}",,,,,,
+2025-12-18T03:51:10.661Z,user_011,user11,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    int a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a^2 == b^2 + c^2) {
+            printf(""直角三角形"");
+        }
+        //鋭角三角形
+        //鈍角三角形
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}",,,,,,
+2025-12-18T03:51:20.656Z,user_011,user11,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    int a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a^2 == b^2 + c^2) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        //鈍角三角形
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}",,,,,,
+2025-12-18T03:51:31.100Z,user_011,user11,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    int a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a^2 == b^2 + c^2) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a^2 == b^2 + c^2) {
+            printf(""直角三角形\n"");
+        }
+        //鈍角三角形
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}",,,,,,
+2025-12-18T03:51:40.653Z,user_011,user11,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    int a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a^2 == b^2 + c^2) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a^2 < b^2 + c^2) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}",,,,,,
+2025-12-18T03:51:50.669Z,user_011,user11,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    int a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a^2 == b^2 + c^2) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a^2 < b^2 + c^2) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a^2 == b^2 + c^2) {
+            printf(""直角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}",,,,,,
+2025-12-18T03:52:00.663Z,user_011,user11,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    int a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a^2 == b^2 + c^2) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a^2 < b^2 + c^2) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a^2 == b^2 + c^2) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}",,,,,,
+2025-12-18T03:52:09.223Z,user_011,user11,14,run,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    int a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a^2 == b^2 + c^2) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a^2 < b^2 + c^2) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a^2 == b^2 + c^2) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}","直角三角形
+",,,,,
+2025-12-18T03:52:15.202Z,user_011,user11,14,run,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    int a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a^2 == b^2 + c^2) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a^2 < b^2 + c^2) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a^2 == b^2 + c^2) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}","直角三角形
+",,,,,
+2025-12-18T03:52:18.108Z,user_011,user11,14,run,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    int a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a^2 == b^2 + c^2) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a^2 < b^2 + c^2) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a^2 == b^2 + c^2) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}","Error
+",,,,,
+2025-12-18T03:52:23.160Z,user_011,user11,14,run,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    int a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a^2 == b^2 + c^2) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a^2 < b^2 + c^2) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a^2 == b^2 + c^2) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}","Error
+",,,,,
+2025-12-18T03:52:26.822Z,user_011,user11,14,run,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    int a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a^2 == b^2 + c^2) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a^2 < b^2 + c^2) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a^2 == b^2 + c^2) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}","鋭角三角形
+",,,,,
+2025-12-18T03:52:37.513Z,user_011,user11,14,run,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    int a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a^2 == b^2 + c^2) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a^2 < b^2 + c^2) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a^2 == b^2 + c^2) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}","直角三角形
+",,,,,
+2025-12-18T03:52:48.060Z,user_011,user11,14,run,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    int a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a^2 == b^2 + c^2) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a^2 < b^2 + c^2) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a^2 > b^2 + c^2) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}","直角三角形
+",,,,,
+2025-12-18T03:52:50.660Z,user_011,user11,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    int a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a^2 == b^2 + c^2) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a^2 < b^2 + c^2) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a^2 > b^2 + c^2) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}",,,,,,
+2025-12-18T03:52:56.576Z,user_011,user11,14,run,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    int a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a^2 == b^2 + c^2) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a^2 < b^2 + c^2) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a^2 > b^2 + c^2) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}","Error
+",,,,,
+2025-12-18T03:53:02.545Z,user_011,user11,14,run,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    int a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a^2 == b^2 + c^2) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a^2 < b^2 + c^2) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a^2 > b^2 + c^2) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}","鋭角三角形
+",,,,,
+2025-12-18T03:53:09.193Z,user_011,user11,14,run,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    int a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a^2 == b^2 + c^2) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a^2 < b^2 + c^2) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a^2 > b^2 + c^2) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}","直角三角形
+",,,,,
+2025-12-18T03:53:14.195Z,user_011,user11,14,run,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    int a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a^2 == b^2 + c^2) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a^2 < b^2 + c^2) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a^2 > b^2 + c^2) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}","直角三角形
+",,,,,
+2025-12-18T03:53:40.801Z,user_011,user11,14,ai-help,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    int a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a^2 == b^2 + c^2) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a^2 < b^2 + c^2) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a^2 > b^2 + c^2) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}",,,コード化,コードの整合性確認,"[{""level"": 1, ""text"": ""main関数：変数宣言・入力・三角形判定・分類・出力を行う"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""辺の長さ用変数を宣言している（現在 int 型）"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""scanfで3つの値を読み取っている（現在 %d を使用）"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""三角形成立判定を if (a < b + c) で行っている"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""直角・鋭角・鈍角の判定を a^2 と比較する形で行おうとしている"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""結果を printf で出力している（文字列と改行あり）"", ""status"": ""done""}]","[{""level"": 1, ""text"": ""実行結果が期待と違うときは、まず入力の型と使っている演算が正しいか確認しよう。""}, {""level"": 2, ""text"": ""問題は実数入力なので int ではなく double を使い、また ^ はべき乗でなくビット演算子である点に注意しよう。""}, {""level"": 3, ""text"": ""変数を double にして scanf の書式を %lf にする。平方は a*a のように書き、等しいかは fabs(a*a - (b*b + c*c)) < 1e-9 のような許容誤差で判定するとよい。""}]"
+2025-12-18T03:55:10.863Z,user_011,user11,14,ai-help,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    int a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a^2 == b^2 + c^2) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a^2 < b^2 + c^2) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a^2 > b^2 + c^2) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}",,,コード化,コードの整合性確認,"[{""level"": 1, ""text"": ""main関数: プログラム全体の流れ（宣言→入力→判定→出力）"", ""status"": ""done""}, {""level"": 2, ""text"": ""変数宣言: a,b,c を辺の長さとして用意"", ""status"": ""done""}, {""level"": 2, ""text"": ""入力: scanfで3つの値を読み取る"", ""status"": ""done""}, {""level"": 2, ""text"": ""三角形成立判定: a < b + c をチェック"", ""status"": ""done""}, {""level"": 3, ""text"": ""角の種類判定: a^2 と b^2 + c^2 を比較して直角/鋭角/鈍角を判定"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""成立しない場合の処理: Error を出力"", ""status"": ""done""}]","[{""level"": 1, ""text"": ""コード全体を一度読み返して、入力の型や使っている演算子に間違いがないか気づこう。\n特に実数扱いと^演算子の意味に注意してね。""}, {""level"": 2, ""text"": ""入力は実数なので int ではなく double を使い、scanf の書式は %lf にすることを考えよう。\n二乗の計算は ^ ではなく a*a のように書く必要がある点を確認して。""}, {""level"": 3, ""text"": ""直す順番：1) 変数を double に変更、2) scanf を %lf にする、3) 比較は a*a と b*b + c*c にする。\n等号比較は浮動小数点誤差に注意して小さい許容誤差（epsilon）で判定するようにしよう。""}]"
+2025-12-18T03:56:00.663Z,user_011,user11,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    int a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a2 == b^2 + c^2) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a^2 < b^2 + c^2) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a^2 > b^2 + c^2) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}",,,,,,
+2025-12-18T03:56:10.667Z,user_011,user11,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    int a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a < b^2 + c^2) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a^2 > b^2 + c^2) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}",,,,,,
+2025-12-18T03:56:20.654Z,user_011,user11,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    int a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a^2 > b* + c*c) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}",,,,,,
+2025-12-18T03:56:27.955Z,user_011,user11,14,run,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    int a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}","鋭角三角形
+",,,,,
+2025-12-18T03:56:30.654Z,user_011,user11,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    int a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}",,,,,,
+2025-12-18T03:56:52.095Z,user_011,user11,14,ai-help,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    int a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}",,,コード化,コードの整合性確認,"[{""level"": 1, ""text"": ""main関数で入力→判定→出力の流れを実装している"", ""status"": ""done""}, {""level"": 2, ""text"": ""変数宣言：a,b,cを用意している（現在はint）"", ""status"": ""done""}, {""level"": 2, ""text"": ""入力：scanfで3つの値を順に読み取っている"", ""status"": ""done""}, {""level"": 2, ""text"": ""三角形成立判定：a < b + c で判定している"", ""status"": ""done""}, {""level"": 3, ""text"": ""角の判定：a*a == b*b + c*c 等で直角/鋭角/鈍角を判定している"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""成立しない場合に\""Error\""を出力している"", ""status"": ""done""}]","[{""level"": 1, ""text"": ""出力要件を再確認しよう：実数を扱うことと出力は余計な文字や空白がないことを確認。""}, {""level"": 2, ""text"": ""型と入力形式を見直そう：実数ならintではなくdoubleを使い、scanfの書式も合わせるべき。""}, {""level"": 3, ""text"": ""具体的な修正案：変数をdoubleにしscanfは%lfを使い、直角判定は==ではなく fabs(a*a - (b*b + c*c)) < 小さな閾値 を使って比較し、math.hを追加する。""}]"
+2025-12-18T03:58:04.861Z,user_011,user11,14,run,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    int a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}","鈍角三角形
+",,,,,
+2025-12-18T03:58:34.164Z,user_011,user11,14,ai-help,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    int a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}",,,コード化,コードの整合性確認,"[{""level"": 1, ""text"": ""変数宣言と入力（a,b,c を宣言し scanf で読み取る）"", ""status"": ""done""}, {""level"": 1, ""text"": ""三角形が成立するかの判定（if (a < b + c)）"", ""status"": ""done""}, {""level"": 2, ""text"": ""成立時：直角・鋭角・鈍角の判定（a*a と b*b + c*c を比較）"", ""status"": ""done""}, {""level"": 2, ""text"": ""不成立時：Error を出力"", ""status"": ""done""}]","[{""level"": 1, ""text"": ""実装はあるが細かい点で問題になりやすいので、型や比較方法を見直そう。""}, {""level"": 2, ""text"": ""問題文は実数が入力されるので int ではなく実数型を使い、浮動小数点の比較誤差に注意しよう。""}, {""level"": 3, ""text"": ""変数を double に変え、scanf/printf の書式を合わせること。直角判定は誤差を考えて |a*a - (b*b + c*c)| < 小さな値 で判定するように修正し、出力の改行を忘れないで。""}]"
+2025-12-18T03:58:50.661Z,user_011,user11,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    in a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}",,,,,,
+2025-12-18T03:58:54.836Z,user_011,user11,14,run,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}","直角三角形
+",,,,,
+2025-12-18T03:58:57.355Z,user_011,user11,14,run,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}","直角三角形
+",,,,,
+2025-12-18T03:58:59.438Z,user_011,user11,14,run,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}","直角三角形
+",,,,,
+2025-12-18T03:59:00.660Z,user_011,user11,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}",,,,,,
+2025-12-18T03:59:00.864Z,user_011,user11,14,run,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}","直角三角形
+",,,,,
+2025-12-18T03:59:01.810Z,user_011,user11,14,run,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}","直角三角形
+",,,,,
+2025-12-18T03:59:02.655Z,user_011,user11,14,run,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    
+    //入力
+    scanf(""%d"",&a);
+    scanf(""%d"",&b);
+    scanf(""%d"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}","直角三角形
+",,,,,
+2025-12-18T03:59:09.332Z,user_011,user11,14,run,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}","鈍角三角形
+",,,,,
+2025-12-18T03:59:10.653Z,user_011,user11,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}",,,,,,
+2025-12-18T03:59:37.331Z,user_011,user11,14,ai-help,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}",,,コード化,コードの整合性確認,"[{""level"": 1, ""text"": ""main関数の開始と全体の処理"", ""status"": ""done""}, {""level"": 2, ""text"": ""変数の宣言（float a,b,c）"", ""status"": ""done""}, {""level"": 2, ""text"": ""標準入力から3つの実数を読み取る（scanf）"", ""status"": ""done""}, {""level"": 2, ""text"": ""三角形成立の判定（a < b + c）"", ""status"": ""done""}, {""level"": 3, ""text"": ""成立時に3辺の2乗で直角・鋭角・鈍角を判定"", ""status"": ""done""}, {""level"": 3, ""text"": ""直角判定（a*a == b*b + c*c）"", ""status"": ""done""}, {""level"": 3, ""text"": ""鋭角判定（a*a < b*b + c*c）"", ""status"": ""done""}, {""level"": 3, ""text"": ""鈍角判定（a*a > b*b + c*c）"", ""status"": ""done""}, {""level"": 2, ""text"": ""成立しない場合の出力（Error）"", ""status"": ""done""}, {""level"": 2, ""text"": ""プログラム終了（return 0）"", ""status"": ""done""}]","[{""level"": 1, ""text"": ""出力が問題文どおりか確認しよう。例の入力(5 4 3)で期待通りか試してみてください。""}, {""level"": 2, ""text"": ""浮動小数点の比較で==を使うと誤った判定になることがあるので注意してください。微小な丸め誤差の影響を考えてみましょう。""}, {""level"": 3, ""text"": ""等価判定は絶対誤差epsを使って|a*a - (b*b + c*c)| < epsで判定すると安全です。精度を上げるためにdouble型を使い、必要なら平方値を変数にして可読性を上げてください。""}]"
+2025-12-18T03:59:59.590Z,user_011,user11,14,run,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}","直角三角形
+",,,,,
+2025-12-18T04:00:00.742Z,user_011,user11,14,run,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}","直角三角形
+",,,,,
+2025-12-18T04:00:01.520Z,user_011,user11,14,run,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}","直角三角形
+",,,,,
+2025-12-18T04:00:03.475Z,user_011,user11,14,run,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}","直角三角形
+",,,,,
+2025-12-18T04:00:10.309Z,user_011,user11,14,run,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}","直角三角形
+",,,,,
+2025-12-18T04:00:11.096Z,user_011,user11,14,run,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}","直角三角形
+",,,,,
+2025-12-18T04:00:11.203Z,user_011,user11,14,run,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}","直角三角形
+",,,,,
+2025-12-18T04:00:13.848Z,user_011,user11,14,run,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}","直角三角形
+",,,,,
+2025-12-18T04:00:14.959Z,user_011,user11,14,run,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}","直角三角形
+",,,,,
+2025-12-18T04:00:21.287Z,user_011,user11,14,run,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}","直角三角形
+",,,,,
+2025-12-18T04:00:21.890Z,user_011,user11,14,run,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}","直角三角形
+",,,,,
+2025-12-18T04:00:22.512Z,user_011,user11,14,run,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}","直角三角形
+",,,,,
+2025-12-18T04:00:35.914Z,user_011,user11,14,run,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}","直角三角形
+",,,,,
+2025-12-18T04:01:01.332Z,user_011,user11,14,ai-help,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}",,,コード化,コードの整合性確認,"[{""level"": 1, ""text"": ""main関数：プログラム全体の流れを管理"", ""status"": ""done""}, {""level"": 2, ""text"": ""変数宣言と入力の読み取り（a,b,cをfloatでscanf）"", ""status"": ""done""}, {""level"": 2, ""text"": ""三角形成立判定（a < b + c をチェック）"", ""status"": ""done""}, {""level"": 3, ""text"": ""成立時：a^2 と b^2 + c^2 を比較して種類判定（==, <, >）"", ""status"": ""done""}, {""level"": 3, ""text"": ""不成立時：\""Error\""を出力"", ""status"": ""done""}]","[{""level"": 1, ""text"": ""浮動小数点の厳密な等しさ比較は誤差で失敗することがあると意識しよう。""}, {""level"": 2, ""text"": ""平方の比較は一度だけ計算して変数に入れ、差の絶対値が小さいかで直角判定する方法を考えよう。""}, {""level"": 3, ""text"": ""対策として小さな許容誤差 eps（例:1e-6）を用い、fabs(a2-(b2+c2))<eps を直角判定に使い、他は eps を使って大小を決めるように修正しよう。""}]"
+2025-12-18T04:04:06.674Z,user_011,user11,14,ai-help,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}",,,コードの整合性確認,コードの整合性確認,"[{""level"": 1, ""text"": ""main関数の開始と全体の処理制御"", ""status"": ""done""}, {""level"": 2, ""text"": ""変数 a,b,c の宣言（辺の長さ）"", ""status"": ""done""}, {""level"": 2, ""text"": ""3つの実数を入力（scanf を3回呼ぶ）"", ""status"": ""done""}, {""level"": 2, ""text"": ""三角形成立判定 if (a < b + c) を実行"", ""status"": ""done""}, {""level"": 3, ""text"": ""成立時に a*a と b*b + c*c を比較して種類を判定（==, <, >）"", ""status"": ""done""}, {""level"": 3, ""text"": ""成立しない場合に \""Error\"" を出力"", ""status"": ""done""}]","[{""level"": 1, ""text"": ""出力や境界条件をもう一度確認して、想定どおり動くか意識してください。""}, {""level"": 2, ""text"": ""浮動小数点の比較（==）は誤差で期待どおりにならないことがある点に注意しましょう。""}, {""level"": 3, ""text"": ""double 型へ変え、#include <math.h> と小さな許容誤差 EPS（例 1e-6）を用い、fabs(a*a - (b*b + c*c)) <= EPS のように比較することを試してください。""}]"
+2025-12-18T04:04:25.723Z,user_011,user11,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    //三角形が成立するかを検証する
+    
+    
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}",,,,,,
+2025-12-18T04:04:35.730Z,user_011,user11,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        //浮動小数点の比較（==）は誤差で期待どおりにならないこ
+        if (a*a == b*b + c*c) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}",,,,,,
+2025-12-18T04:04:45.722Z,user_011,user11,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        //浮動小数点の比較（==）は誤差で期待どおりにならない点は考慮しなくてよい
+        if (a*a == b*b + c*c) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}",,,,,,
+2025-12-18T04:05:11.142Z,user_011,user11,14,ai-help,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        //浮動小数点の比較（==）は誤差で期待どおりにならない点は考慮しなくてよい
+        if (a*a == b*b + c*c) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}",,,コード化,コードの整合性確認,"[{""level"": 1, ""text"": ""main関数開始：変数宣言 (float a,b,c)"", ""status"": ""done""}, {""level"": 2, ""text"": ""入力を3つ scanf で読み取る"", ""status"": ""done""}, {""level"": 2, ""text"": ""三角形成立判定: if (a < b + c) か検査する"", ""status"": ""done""}, {""level"": 3, ""text"": ""成立時に a*a と b*b + c*c を比較して種類を判定・出力する"", ""status"": ""done""}, {""level"": 2, ""text"": ""成立しない場合は \""Error\"" を出力する"", ""status"": ""done""}]","[{""level"": 1, ""text"": ""出題の条件（出力形式・最初の入力が最大であること）をもう一度確認しよう。""}, {""level"": 2, ""text"": ""浮動小数点比較や入力失敗の可能性を考えて、どんなテスト入力で確認するか決めよう。""}, {""level"": 3, ""text"": ""等号比較は誤差対策を入れる（差の絶対値が小さいかで判定する）、scanfの戻り値で入力成功を確認して実行結果をいくつか手で試そう。""}]"
+2025-12-18T04:06:25.737Z,user_011,user11,14,auto_save,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}",,,,,,

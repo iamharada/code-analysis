@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-12-24T15:36:08.612Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：プログラムの開始点（雛形のみ）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "コメント：入力と出力の設計を書こうとしたが未記入（/*入力:○○, 出力:△△*/）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "return 0 による正常終了の記述",
+      "status": "done"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題文をもう一度読み、要求されている入出力と出力形式(%3dで右揃え、行末は改行のみ)を確認しましょう。"
+    },
+    {
+      "level": 2,
+      "text": "具体的な入出力例を自分で書いてみてください。例：入力4 → 4行分のパスカルの三角形を出力するイメージです。"
+    },
+    {
+      "level": 3,
+      "text": "入力は整数n(1〜10)。出力は1行目からn行目までのパスカルの三角形で、各値を%3dで右揃えして出力し、余分な空白や空行を入れないでください。"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-12-17T09:35:52.834Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, \n    出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n    // 1. 入力を受け取る\n    // 2. tri3を呼ぶ\n    // 3. COUNTは n*(n+1)/2 で計算して表示\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の大枠決定",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：プログラム全体の流れをコメントで示している（入力→tri3呼び出し→COUNT表示）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力を受け取る（1つの整数をscanfで読む）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "tri3を呼ぶ（再帰で三角形を出力する関数を呼び出す）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "COUNTを計算して表示する（コメントに n*(n+1)/2 と書かれている）",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "tri3（再帰関数）: 各行の'*'を出力し、出力時にカウンタを増やす役割（コメントで要求あり）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "line3（補助関数）: 1行分の'*'を出力してカウンタを増やす（tri3から呼ぶ）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "全体の流れをもう一度確認して、今コメントに書かれている順序で実装すべきか確かめてください。"
+    },
+    {
+      "level": 2,
+      "text": "必要なステップは何か（入力取得、再帰関数tri3、1行出力のline3、COUNT表示）を明確に分けてください。"
+    },
+    {
+      "level": 3,
+      "text": "まずmainでscanfでnを読み、tri3を呼ぶコメントを具体的に書き換え実装し、tri3とline3を別に作って'*'を出力するごとにカウントを増やす処理を入れてからCOUNT表示を実装してください。"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"timestamp":"2025-12-18T07:01:39.038Z","username":"user24","userId":"user_024","taskNumber":"45","event":"auto_save","code":"#include <stdio.h>\n\nint main(void) {\n    /*入力:一つの整数値, 出力:上位・下位を入れ替えた値*/\n    int a;\n    scanf(\"%d\",&a);//出力を読み込む\n    for(int i;n>10;i++){\n        \n    int reverse4(int n){\n        \n    //再起関数を用いて位を入れ替える\n    //出力する\n\n    return 0;\n}"}

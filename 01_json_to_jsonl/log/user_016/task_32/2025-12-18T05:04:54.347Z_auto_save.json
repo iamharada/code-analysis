@@ -1,0 +1,1 @@
+{"timestamp":"2025-12-18T05:04:54.347Z","username":"user16","userId":"user_016","taskNumber":"32","event":"auto_save","code":"#include <stdio.h>\n\nint checktri(float x,float y,float z){//関数の作成\n    int s;\n    //\n\nint main(void) {\n    /*入力:3つの実数, 出力:三角形の形状*/\n    scanf(\"%f %f %f\",&a,&b,&c);//入力する\n    \n    \n    //関数から判定\n    \n\n    return 0;\n}"}

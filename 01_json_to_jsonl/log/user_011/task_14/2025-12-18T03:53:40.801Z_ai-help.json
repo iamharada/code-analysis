@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-12-18T03:53:40.801Z",
+  "username": "user11",
+  "userId": "user_011",
+  "taskNumber": "14",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    //aを最大値として辺の長さを作成\n    int a,b,c;\n    \n    //入力\n    scanf(\"%d\",&a);\n    scanf(\"%d\",&b);\n    scanf(\"%d\",&c);\n    \n    //三角形が成立するかを検証する\n    if (a < b + c){\n        //直角三角形\n        if (a^2 == b^2 + c^2) {\n            printf(\"直角三角形\\n\");\n        }\n        //鋭角三角形\n        else if (a^2 < b^2 + c^2) {\n            printf(\"鋭角三角形\\n\");\n        }\n        //鈍角三角形\n        else if (a^2 > b^2 + c^2) {\n            printf(\"鈍角三角形\\n\");\n        }\n    //成立しない場合\n    } else {\n        //error\n        printf(\"Error\\n\");\n    }\n    return 0;\n}",
+  "estimated_stage": "コード化",
+  "next_stage": "コードの整合性確認",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：変数宣言・入力・三角形判定・分類・出力を行う",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "辺の長さ用変数を宣言している（現在 int 型）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "scanfで3つの値を読み取っている（現在 %d を使用）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "三角形成立判定を if (a < b + c) で行っている",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "直角・鋭角・鈍角の判定を a^2 と比較する形で行おうとしている",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "結果を printf で出力している（文字列と改行あり）",
+      "status": "done"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "実行結果が期待と違うときは、まず入力の型と使っている演算が正しいか確認しよう。"
+    },
+    {
+      "level": 2,
+      "text": "問題は実数入力なので int ではなく double を使い、また ^ はべき乗でなくビット演算子である点に注意しよう。"
+    },
+    {
+      "level": 3,
+      "text": "変数を double にして scanf の書式を %lf にする。平方は a*a のように書き、等しいかは fabs(a*a - (b*b + c*c)) < 1e-9 のような許容誤差で判定するとよい。"
+    }
+  ]
+}

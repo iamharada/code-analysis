@@ -1,0 +1,31 @@
+{
+  "timestamp": "2025-11-26T20:41:22.321Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数に入力・出力の説明を示すコメントのみがある（具体的内容未記載）",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題の要件をもう一度確認しよう：入力は1つの整数(1〜10)、関数pascalで二次元配列と繰り返しを使い、%3dで右揃えして出力すること。"
+    },
+    {
+      "level": 2,
+      "text": "具体的な入出力例を文章で書いてみよう：例えば入力4なら4行分のパスカルの三角形を出力し、各数は幅3で右揃え、余計な空白や空行は入れない。"
+    },
+    {
+      "level": 3,
+      "text": "今のコメントを具体化して書き換えよう：'入力: 整数n(1<=n<=10)、出力: n行のパスカルの三角形を各要素%3dで右揃えして出力(行末は改行のみ)'."
+    }
+  ]
+}

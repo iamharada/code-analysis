@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-12-23T03:25:59.439Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, \n    出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n    // 1. 入力を受け取る\n    // 2. tri3を呼ぶ\n    return 0;\n}\n\n// tri3関数を作成する\n//     1行目からn行目まで順に出力する\n//     行数はforみたいに1ずつ増やす\n//     各行でlineを呼ぶ\n\n// line関数を作成する\n//     *をn個出力する\n//     for文でn回*を出す\n",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main: 入力を受け取り tri3 を呼び、最終的に COUNT= を出力する",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main 内の処理: 整数 n を scanf で読み取る",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "main から tri3 を呼び出す（カウンタを渡す予定）",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "tri3 再帰関数: 1 行目から n 行目まで順に出力する役割（各行で line を呼ぶ）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "tri3 内の処理: 各行で line を呼び、'*' の個数を集計する",
+      "status": "todo"
+    },
+    {
+      "level": 1,
+      "text": "line 関数: 指定された個数だけ '*' を出力し、出力時にカウンタを増やす",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "tri3 と line のコメントがあるので、どの部分を詳しく書けば実装できるか考えてみてください。"
+    },
+    {
+      "level": 2,
+      "text": "tri3 が受け取る引数（現在の行・最大行・カウントの参照など）と、line が受け取る値を具体化してみてください。"
+    },
+    {
+      "level": 3,
+      "text": "tri3 は現在の行が n までなら line(現在行, &count) を呼び、再帰で次の行を処理する形にし、line はループで '*' を出力しつつカウンタを増やしてください。"
+    }
+  ]
+}

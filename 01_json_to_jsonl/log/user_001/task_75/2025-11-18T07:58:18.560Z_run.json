@@ -1,0 +1,10 @@
+{
+  "timestamp": "2025-11-18T07:58:18.560Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "run",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n\n    return 0;\n}",
+  "stdout": "",
+  "stderr": ""
+}

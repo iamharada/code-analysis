@@ -1,0 +1,31 @@
+{
+  "timestamp": "2025-11-27T01:59:34.173Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数に入力/出力のメモ（/*入力:○○, 出力:△△*/）があるが内容は未記入で実装なし",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題の要件をもう一度確認しましょう：1つの整数を読み、パスカルの三角形を出力することと関数内で二次元配列と繰り返しを使う点に注意。"
+    },
+    {
+      "level": 2,
+      "text": "具体的な入出力例を考えてみてください。例えば入力4なら4行分のパスカルの三角形を出力し、各値は幅3で右揃えにします。"
+    },
+    {
+      "level": 3,
+      "text": "入力は1つの整数n(1〜10)、出力はn行のパスカルの三角形で各数は%3dで印字、各行末は改行し余計な空白や空行を出さないでください。"
+    }
+  ]
+}

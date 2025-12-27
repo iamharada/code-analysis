@@ -1,0 +1,36 @@
+{
+  "timestamp": "2025-12-17T07:13:47.146Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "課題の理解",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数の雛形がある（コメント /*入力:○○, 出力:△△*/ が残っている）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main内に return 0; がある（プログラム終了処理）",
+      "status": "done"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題文をもう一度読み、何を入力して何を出力するか明確に確認しましょう。"
+    },
+    {
+      "level": 2,
+      "text": "具体例（例えば入力5）で出力の各行と最後のCOUNTがどうなるかを書いてみてください。"
+    },
+    {
+      "level": 3,
+      "text": "入力は整数n(2〜20)。出力は1行目に'*'×1、2行目に'*'×2…n行目に'*'×nを出力し、最後に\"COUNT=合計\"（合計は1+...+n）を改行で出すだけにしてください。"
+    }
+  ]
+}

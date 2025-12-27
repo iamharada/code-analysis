@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-12-18T05:05:29.767Z",
+  "username": "user16",
+  "userId": "user_016",
+  "taskNumber": "32",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint checktri(float x,float y,float z){//関数の作成\n    int s;\n\nint main(void) {\n    /*入力:3つの実数, 出力:三角形の形状*/\n    scanf(\"%f %f %f\",&a,&b,&c);//入力する\n    \n    \n    //関数から判定\n    \n\n    return 0;\n}",
+  "estimated_stage": "コード化",
+  "next_stage": "コード化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "checktri関数の定義（引数は float x,y,z）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "関数内で判定変数 int s を宣言しているが判定処理・returnが未実装",
+      "status": "in_progress"
+    },
+    {
+      "level": 1,
+      "text": "main関数の定義（入力を受け取り、checktriを呼び出して結果を出力する）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "main内でscanfを使って3つの実数を読み取る処理（ただし変数宣言がない）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "checktriを呼び出して戻り値を受け取り、switch-caseで出力する処理",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まずコメントと未完成の部分を見て、何を実装すべきか確認しましょう。変数宣言や関数の閉じ忘れに注意してください。"
+    },
+    {
+      "level": 2,
+      "text": "mainで float a,b,c を宣言して scanf で読み取り、checktri の戻り値を受ける流れを作りましょう。checktriは x が最大であることを前提にします。"
+    },
+    {
+      "level": 3,
+      "text": "checktri内で三角形成立条件（x < y + z）を確認し成立しなければ0を返す。成立するなら x*x と y*y+z*z を比較して等しい→1、より小さい→2、より大きい→3を返す。mainではその戻り値で switch-case を書き対応する文字列を出力してください。"
+    }
+  ]
+}

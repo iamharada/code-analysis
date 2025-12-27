@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-12-18T04:38:33.009Z",
+  "username": "user16",
+  "userId": "user_016",
+  "taskNumber": "14",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    float a,b,c;/*入力:3つの実数, 出力:三角形の形状判定*/\n    scanf(\"%f %f %f\",&a,&b,&c);\n    if(a<b+c){//三角形の成立を判定\n        if(a*a==b*b+c*c){//成立なら三角形の種類を判定\n            printf(\"直角三角形\\n\");\n        }\n        else if(a*a>b*b+c*c){\n            printf(\"鈍角三角形\\n\");\n        }\n        else{\n            printf(\"鋭角三角形\\n\");\n        }\n    else{//不成立ならエラーを出力\n         printf(\"Error\\n\");\n    }\n}\n    return 0;\n}",
+  "estimated_stage": "コード化",
+  "next_stage": "コードの整合性確認",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：入力を受け取り判定して出力する全体構造",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "3つの実数をscanfで読み取る",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "三角形成立判定: if (a < b + c) を使う",
+      "status": "in_progress"
+    },
+    {
+      "level": 3,
+      "text": "成立時の角度判定: a*a == b*b + c*c などで直角/鋭角/鈍角を判定",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "不成立時に Error を出力する",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まずコンパイルして出るエラーメッセージを確認しよう。"
+    },
+    {
+      "level": 2,
+      "text": "波括弧の対応やif/elseの構造が正しいか見直し、実行例で挙動を確かめてください。"
+    },
+    {
+      "level": 3,
+      "text": "欠けている '}' を正しい位置に追加し、直角判定は浮動小数点の誤差を考えて fabs(a*a - (b*b + c*c)) < 1e-6 のように比較し、必要なら math.h を追加する。"
+    }
+  ]
+}

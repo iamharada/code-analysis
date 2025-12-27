@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-12-18T06:52:21.190Z",
+  "username": "user20",
+  "userId": "user_020",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n//関数を作る\n//\n\nint main(void) {\n    /*入力:一つの整数, 出力:パスカルの三角形*/\n    \n\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数のテンプレート（戻り値と基本構造がある）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力:一つの整数, 出力:パスカルの三角形（コメントとして記載済み）",
+      "status": "done"
+    },
+    {
+      "level": 1,
+      "text": "pascal関数の作成予定（//関数を作る とコメントのみで未作成）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題の要件をもう一度確認しよう：入力は1つの整数、出力はパスカルの三角形で%3dで整形する点を押さえて。"
+    },
+    {
+      "level": 2,
+      "text": "大まかな流れをコメントで書こう：入力を読む → pascal関数で配列を作る・埋める → 表示して改行する、の順序を明記して。"
+    },
+    {
+      "level": 3,
+      "text": "pascal関数の詳細コメントを書こう：引数はint n、二次元配列int a[10][10]、各行の端は1、内側はa[i][j]=a[i-1][j-1]+a[i-1][j]で計算しprintf(\"%3d\", a[i][j])で出力、行末は\\n。"
+    }
+  ]
+}

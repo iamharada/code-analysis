@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-12-18T06:22:42.541Z",
+  "username": "user21",
+  "userId": "user_021",
+  "taskNumber": "14",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:3つの実数値, 出力:三角形の種類またはError*/\n    //入力を受け取る\n    //3角形が成立するか確かめる\n        //入力1の長さが他の2辺の長さの和よりおおきい\n    //3角形の種類を確認する\n    int a,b,c;\n    scanf(\"%d %d %d\",&a,&b,&c);\n    if(a>b+c){\n        printf(\"Error\\n\");\n    }else{\n        if(a*a==b*b+c*c){\n            printf(\"直角三角形\\n\");\n        }else if(a*a<*b+c*c){\n            printf(\"鋭角三角形\\n\");\n        }else{\n            printf(\"鈍角三角形\\n\");\n        }\n    }\n    return 0;\n\n    return 0;\n}",
+  "estimated_stage": "コード化",
+  "next_stage": "コードの整合性確認",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数で全体の処理を行う",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力を受け取る（3つの実数、最初が最大であると仮定）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "三角形が成立するか判定（最大辺と他の2辺の和を比較）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "成立した場合に直角・鋭角・鈍角を判定して出力する",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "型や比較の向きに注意しよう。入力は実数で扱うべきか確認してね。"
+    },
+    {
+      "level": 2,
+      "text": "scanfの書式や変数の型を合わせ、三角不等式（最大辺 >= 他辺の和がError）を見直してみて。"
+    },
+    {
+      "level": 3,
+      "text": "変数をdoubleにしてscanfで実数を読み、条件は if (a >= b + c) をErrorにする。角の判定は a*a == b*b + c*c や a*a < b*b + c*c の形で比較（小数の誤差を考慮する）。"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-11-11T07:27:32.442Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "64",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\nint main(void) {\n    /*入力:1つの整数, 出力:入力値の約数の総和*/\n    //入力をする\n    //for文で約数を探索\n    //合計の出力\n}\n\n",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "入力をする（1つの整数を読み取る）",
+      "status": "in_progress"
+    },
+    {
+      "level": 1,
+      "text": "for文で約数を探索する",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "各ループで割り切れるかをチェックし、条件を満たせば合計に加える",
+      "status": "in_progress"
+    },
+    {
+      "level": 1,
+      "text": "合計の出力（指定の形式で表示）",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題の要件をもう一度確認しよう。入力は1〜1000の整数で、出力は余計な文字や空白を入れず最後に改行すること。"
+    },
+    {
+      "level": 2,
+      "text": "今のコメントは良い出発点。入力→探索→出力の順で、各ステップに必要な処理を書き出してみよう。"
+    },
+    {
+      "level": 3,
+      "text": "コメントを細かく分解して書こう：合計変数を初期化、forの範囲（1からnまで）、割り切れたら合計に加える、最後に出力して改行。これが整ったらコード化に進もう。"
+    }
+  ]
+}

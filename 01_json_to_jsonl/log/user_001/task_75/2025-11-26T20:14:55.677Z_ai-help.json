@@ -1,0 +1,31 @@
+{
+  "timestamp": "2025-11-26T20:14:55.677Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n\n    return 0;\n}",
+  "estimated_stage": "課題の理解",
+  "next_stage": "処理の大枠決定",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数に入力と出力の簡単なコメントのみ記述されている（入力・出力の要件を明記）",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題の条件をもう一度確認して、何を入力して何を出力するかを明確にしておきましょう。"
+    },
+    {
+      "level": 2,
+      "text": "全体の流れを考え、入力受け取り→パスカルの三角形生成→出力、の3つの大きな処理に分けてみましょう。"
+    },
+    {
+      "level": 3,
+      "text": "mainで入力を読み、pascal関数を作って二次元配列に計算を格納し、%3dで整形して出力する手順をコメントで3〜5行に書いてください。"
+    }
+  ]
+}

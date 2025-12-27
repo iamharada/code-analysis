@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-12-18T04:08:36.091Z",
+  "username": "user10",
+  "userId": "user_010",
+  "taskNumber": "32",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint checktri(double a, double b, double c){\n    //三角形の種類判定\n    if(a < b + c){\n        if(a * a == b * b + c * c){\n            return 1;\n        }else if(a * a < b * b + c * c){\n            return 2;\n        }else if(a * a > b * b + c * c){\n            return 3;\n        }else{\n            return 0;\n        }\n    }\n}\n\nint main(void) {\n    /*入力:3つの実数, 出力:三角形の種類*/\n    //入力の受付\n    double a,b,c;\n    scanf(\"%lf\", &a);\n    scanf(\"%lf\", &b);\n    scanf(\"%lf\", &c);\n    //三角形の種類判定と出力\n    switch(checktri(a,b,c)){\n        case 1:\n            printf(\"直角三角形\");\n            break;\n        case 2:\n            printf(\"鋭角三角形\");\n            break;\n        case 3:\n            printf(\"鈍角三角形\");\n            break;\n        case 0:\n            printf(\"Error\");\n            break;\n    }\n    return 0;\n}",
+  "estimated_stage": "コード化",
+  "next_stage": "コードの整合性確認",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "関数 checktri の定義：三角形の成立確認と角の種類判定を行う",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "三角形成立の判定 (a < b + c) を評価している",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "a*a と b*b + c*c を比較して直角/鋭角/鈍角を判定している",
+      "status": "in_progress"
+    },
+    {
+      "level": 1,
+      "text": "main 関数：入力の読み取りと checktri 呼び出し、結果を出力する",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "scanf で a, b, c を読み取っている",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "checktri の戻り値を switch で受け取り対応する文字列を出力している",
+      "status": "in_progress"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まず出力仕様を確認して、改行があるか全ての経路で値を返すかをチェックしてください。"
+    },
+    {
+      "level": 2,
+      "text": "浮動小数点の比較はそのまま==だと誤差で失敗するので、誤差を考慮した比較方法を検討してください。"
+    },
+    {
+      "level": 3,
+      "text": "checktri の最後に三角形が成立しない場合の return 0 を必ず追加し、出力文字列の末尾に '\\n' を付けてください。また a*a と b*b+c*c の比較は fabs(a*a - (b*b + c*c)) < 1e-9 のような許容誤差で行うと安全です。"
+    }
+  ]
+}

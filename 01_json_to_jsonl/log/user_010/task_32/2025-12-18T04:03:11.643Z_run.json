@@ -1,0 +1,10 @@
+{
+  "timestamp": "2025-12-18T04:03:11.643Z",
+  "username": "user10",
+  "userId": "user_010",
+  "taskNumber": "32",
+  "event": "run",
+  "code": "#include <stdio.h>\n\nint checktri(int a, int b, int c){\n    //三角形の種類判定\n    if(a < b + c){\n        if(a * a == b * b + c * c){\n            return 1;\n        }else if(a * a < b * b + c * c){\n            return 2;\n        }else if(a * a > b * b + c * c){\n            return 3;\n        }else{\n            return 0;\n        }\n    }\n}\n\nint main(void) {\n    /*入力:3つの実数, 出力:三角形の種類*/\n    //入力の受付\n    int a,b,c;\n    scanf(\"%d\", &a);\n    scanf(\"%d\", &b);\n    scanf(\"%d\", &c);\n    //三角形の種類判定と出力\n    switch(checktri(a,b,c)){\n            case 1;\n            printf(\"直角三角形\");\n            break:\n            case 2;\n            printf(\"鋭角三角形\");\n            break:\n            case 3;\n            printf(\"鈍角三角形\");\n            break:\n            case 0;\n            printf(\"Error\");\n            break:\n    }\n    return 0;\n}",
+  "stdout": "",
+  "stderr": "file0.code.c: In function 'main':\nfile0.code.c:27:19: error: expected ':' or '...' before ';' token\n   27 |             case 1;\n      |                   ^\nfile0.code.c:29:18: error: expected ';' before ':' token\n   29 |             break:\n      |                  ^\n      |                  ;\nfile0.code.c:32:18: error: expected ';' before ':' token\n   32 |             break:\n      |                  ^\n      |                  ;\nfile0.code.c:35:18: error: expected ';' before ':' token\n   35 |             break:\n      |                  ^\n      |                  ;\nfile0.code.c:38:18: error: expected ';' before ':' token\n   38 |             break:\n      |                  ^\n      |                  ;\nfile0.code.c:28:13: warning: statement will never be executed [-Wswitch-unreachable]\n   28 |             printf(\"直角三角形\");\n      |             ^~~~~~~~~~~~~~~~~~~~\nchmod: cannot access 'a.out': No such file or directory\n"
+}

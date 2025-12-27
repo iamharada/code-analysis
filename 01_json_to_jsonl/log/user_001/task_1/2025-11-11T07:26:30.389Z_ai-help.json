@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-11-11T07:26:30.389Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": 1,
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力：なし, 出力：Hello,world!*/\n    printf(\"Hello,world!\");\n    \n    return 0;\n}",
+  "estimated_stage": "コード化",
+  "next_stage": "コードの整合性確認",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "#include <stdio.h> を使っている（ヘッダの読み込み）",
+      "status": "done"
+    },
+    {
+      "level": 1,
+      "text": "int main(void) の定義（プログラム本体）",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "コメントで入力・出力を記述（入力：なし, 出力：Hello,world! と書かれている）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "printf(\"Hello,world!\"); による文字列出力の実装",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "return 0; による終了処理",
+      "status": "done"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題要件をもう一度確認しましょう：出力は Hello,world!ようこそ で、最後に改行が必要です。"
+    },
+    {
+      "level": 2,
+      "text": "今はprintfで出力していますが、出力内容が課題と一致していません。出力文字列を課題に合わせて見直しましょう。"
+    },
+    {
+      "level": 3,
+      "text": "まずはprintfの中身を修正して「ようこそ」を追加し、末尾に改行が入るようにしてから再コンパイル・実行して確認してください。"
+    }
+  ]
+}

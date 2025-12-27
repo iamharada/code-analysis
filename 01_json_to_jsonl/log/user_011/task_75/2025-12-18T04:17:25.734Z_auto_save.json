@@ -1,0 +1,1 @@
+{"timestamp":"2025-12-18T04:17:25.734Z","username":"user11","userId":"user_011","taskNumber":"75","event":"auto_save","code":"#include <stdio.h>\n\nint pascal(int n,int m){\n    \n}\n\nint main(void) {\n    /*入力:○○, 出力:△△*/\n\n    return 0;\n}"}

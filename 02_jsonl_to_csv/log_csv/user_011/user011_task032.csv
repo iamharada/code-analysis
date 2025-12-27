@@ -1,0 +1,2149 @@
+ts,user_id,username,task,event,code,stdout,stderr,estimated_stage,next_stage,processing_structure,advice
+2025-12-18T04:44:16.795Z,user_011,user11,32,auto_save,"#include <stdio.h>
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}",,,,,,
+2025-12-18T04:44:36.803Z,user_011,user11,32,auto_save,"#include <stdio.h>
+
+void 
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}",,,,,,
+2025-12-18T04:44:46.802Z,user_011,user11,32,auto_save,"#include <stdio.h>
+
+void checktri(
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}",,,,,,
+2025-12-18T04:44:56.801Z,user_011,user11,32,auto_save,"#include <stdio.h>
+
+void checktri(int a,int b,int c)
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}",,,,,,
+2025-12-18T04:45:06.794Z,user_011,user11,32,auto_save,"#include <stdio.h>
+
+void checktri(int a,int b,int c){
+    
+}
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+    return 0;
+}",,,,,,
+2025-12-18T04:45:26.794Z,user_011,user11,32,auto_save,"#include <stdio.h>
+
+void checktri(int a,int b,int c){
+    
+}
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:45:36.797Z,user_011,user11,32,auto_save,"#include <stdio.h>
+
+void checktri(int a,int b,int c){
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            printf(""直角三角形\n"");
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            printf(""鋭角三角形\n"");
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+}
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:45:46.798Z,user_011,user11,32,auto_save,"#include <stdio.h>
+
+void checktri(int a,int b,int c){
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            return 0;
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            return 1;
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            printf(""鈍角三角形\n"");
+        }
+    //成立しない場合
+    } else {
+        //error
+        printf(""Error\n"");
+    }
+}
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:45:56.806Z,user_011,user11,32,auto_save,"#include <stdio.h>
+
+void checktri(int a,int b,int c){
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            return 0;
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            return 1;
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            return 2;
+        }
+    //成立しない場合
+    } else {
+        //error
+        return 
+    }
+}
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:46:06.799Z,user_011,user11,32,auto_save,"#include <stdio.h>
+
+void checktri(int a,int b,int c){
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            return 1;
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            return 1;
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            return 2;
+        }
+    //成立しない場合
+    } else {
+        //error
+        return 0;
+    }
+}
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:46:16.806Z,user_011,user11,32,auto_save,"#include <stdio.h>
+
+void checktri(int a,int b,int c){
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            return 1;
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            return 2;
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            return 3;
+        }
+    //成立しない場合
+    } else {
+        //error
+        return 0;
+    }
+}
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:46:56.795Z,user_011,user11,32,auto_save,"#include <stdio.h>
+
+void checktri(int a,int b,int c){
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            return 1;
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            return 2;
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            return 3;
+        }
+    //成立しない場合
+    } else {
+        //error
+        return 0;
+    }
+}
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:47:36.794Z,user_011,user11,32,auto_save,"#include <stdio.h>
+
+void checktri(int a,int b,int c){
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            return 1;
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            return 2;
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            return 3;
+        }
+    //成立しない場合
+    } else {
+        //error
+        return 0;
+    }
+}
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    int r;
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:47:46.794Z,user_011,user11,32,auto_save,"#include <stdio.h>
+
+void checktri(int a,int b,int c){
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            return 1;
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            return 2;
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            return 3;
+        }
+    //成立しない場合
+    } else {
+        //error
+        return 0;
+    }
+}
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    int r; //戻り値代入用
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:47:56.796Z,user_011,user11,32,auto_save,"#include <stdio.h>
+
+void checktri(int a,int b,int c){
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            return 1;
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            return 2;
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            return 3;
+        }
+    //成立しない場合
+    } else {
+        //error
+        return 0;
+    }
+}
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    int r; //戻り値代入用
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    r = ret
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:48:06.801Z,user_011,user11,32,auto_save,"#include <stdio.h>
+
+void checktri(int a,int b,int c){
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            return 1;
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            return 2;
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            return 3;
+        }
+    //成立しない場合
+    } else {
+        //error
+        return 0;
+    }
+}
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    int r; //戻り値代入用
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    r = c
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:48:16.801Z,user_011,user11,32,auto_save,"#include <stdio.h>
+
+void checktri(int a,int b,int c){
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            return 1;
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            return 2;
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            return 3;
+        }
+    //成立しない場合
+    } else {
+        //error
+        return 0;
+    }
+}
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    int r; //戻り値代入用
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    r = checktri(a,b,c)
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:48:26.799Z,user_011,user11,32,auto_save,"#include <stdio.h>
+
+void checktri(int a,int b,int c){
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            return 1;
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            return 2;
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            return 3;
+        }
+    //成立しない場合
+    } else {
+        //error
+        return 0;
+    }
+}
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    int r; //戻り値代入用
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    r = checktri(a,b,c);
+    
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:49:25.222Z,user_011,user11,32,auto_save,"#include <stdio.h>
+
+void checktri(int a,int b,int c){
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            return 1;
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            return 2;
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            return 3;
+        }
+    //成立しない場合
+    } else {
+        //error
+        return 0;
+    }
+}
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    int r; //戻り値代入用
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    r = checktri(a,b,c);
+    switcch
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:49:35.217Z,user_011,user11,32,auto_save,"#include <stdio.h>
+
+void checktri(int a,int b,int c){
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            return 1;
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            return 2;
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            return 3;
+        }
+    //成立しない場合
+    } else {
+        //error
+        return 0;
+    }
+}
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    int r; //戻り値代入用
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    r = checktri(a,b,c);
+    switch(){
+            
+    }
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:49:55.214Z,user_011,user11,32,auto_save,"#include <stdio.h>
+
+void checktri(int a,int b,int c){
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            return 1;
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            return 2;
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            return 3;
+        }
+    //成立しない場合
+    } else {
+        //error
+        return 0;
+    }
+}
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    int r; //戻り値代入用
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    r = checktri(a,b,c);
+    switch(r){
+        case 1:
+            c
+    }
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:50:05.220Z,user_011,user11,32,auto_save,"#include <stdio.h>
+
+void checktri(int a,int b,int c){
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            return 1;
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            return 2;
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            return 3;
+        }
+    //成立しない場合
+    } else {
+        //error
+        return 0;
+    }
+}
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    int r; //戻り値代入用
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    r = checktri(a,b,c);
+    switch(r){
+        case 1:
+        case 2:
+        case 3:
+        default;
+    }
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:50:15.216Z,user_011,user11,32,auto_save,"#include <stdio.h>
+
+void checktri(int a,int b,int c){
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            return 1;
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            return 2;
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            return 3;
+        }
+    //成立しない場合
+    } else {
+        //error
+        return 0;
+    }
+}
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    int r; //戻り値代入用
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    r = checktri(a,b,c);
+    switch(r){
+        case 1:
+        case 2:
+        case 3:
+        default:
+    }
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:50:25.221Z,user_011,user11,32,auto_save,"#include <stdio.h>
+
+void checktri(int a,int b,int c){
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            return 1;
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            return 2;
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            return 3;
+        }
+    //成立しない場合
+    } else {
+        //error
+        return 0;
+    }
+}
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    int r; //戻り値代入用
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    r = checktri(a,b,c);
+    switch(r){
+        case 1:
+            printf(""
+        case 2:
+        case 3:
+        default:
+    }
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:50:35.212Z,user_011,user11,32,auto_save,"#include <stdio.h>
+
+void checktri(int a,int b,int c){
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            return 1;
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            return 2;
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            return 3;
+        }
+    //成立しない場合
+    } else {
+        //error
+        return 0;
+    }
+}
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    int r; //戻り値代入用
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    r = checktri(a,b,c);
+    switch(r){
+        case 1:
+            printf(""直角三角形
+        case 2:
+        case 3:
+        default:
+    }
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:50:45.222Z,user_011,user11,32,auto_save,"#include <stdio.h>
+
+void checktri(int a,int b,int c){
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            return 1;
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            return 2;
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            return 3;
+        }
+    //成立しない場合
+    } else {
+        //error
+        return 0;
+    }
+}
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    int r; //戻り値代入用
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    r = checktri(a,b,c);
+    switch(r){
+        case 1:
+            printf(""直角三角形""
+        case 2:
+        case 3:
+        default:
+    }
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:50:55.218Z,user_011,user11,32,auto_save,"#include <stdio.h>
+
+void checktri(int a,int b,int c){
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            return 1;
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            return 2;
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            return 3;
+        }
+    //成立しない場合
+    } else {
+        //error
+        return 0;
+    }
+}
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    int r; //戻り値代入用
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    r = checktri(a,b,c);
+    switch(r){
+        case 1:
+            printf(""直角三角形\n"");
+            break:
+        case 2:
+            printf(""直角三角形\n"");
+            break:
+        case 3:
+        default:
+    }
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:51:05.222Z,user_011,user11,32,auto_save,"#include <stdio.h>
+
+void checktri(int a,int b,int c){
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            return 1;
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            return 2;
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            return 3;
+        }
+    //成立しない場合
+    } else {
+        //error
+        return 0;
+    }
+}
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    int r; //戻り値代入用
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    r = checktri(a,b,c);
+    switch(r){
+        case 1:
+            printf(""直角三角形\n"");
+            break:
+        case 2:
+            printf(""鋭角三角形\n"");
+            break:
+        case 3:
+            printf(""にぶ角三角形\n"");
+            break:
+        default:
+    }
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:51:15.212Z,user_011,user11,32,auto_save,"#include <stdio.h>
+
+void checktri(int a,int b,int c){
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            return 1;
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            return 2;
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            return 3;
+        }
+    //成立しない場合
+    } else {
+        //error
+        return 0;
+    }
+}
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    int r; //戻り値代入用
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    r = checktri(a,b,c);
+    switch(r){
+        case 1:
+            printf(""直角三角形\n"");
+            break:
+        case 2:
+            printf(""鋭角三角形\n"");
+            break:
+        case 3:
+            printf(""鈍角三角形\n"");
+            break:
+        default:
+            printf(""直Error\n"");
+            break:
+    }
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:51:25.219Z,user_011,user11,32,auto_save,"#include <stdio.h>
+
+void checktri(int a,int b,int c){
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            return 1;
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            return 2;
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            return 3;
+        }
+    //成立しない場合
+    } else {
+        //error
+        return 0;
+    }
+}
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    int r; //戻り値代入用
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    r = checktri(a,b,c);
+    switch(r){
+        case 1:
+            printf(""直角三角形\n"");
+            break:
+        case 2:
+            printf(""鋭角三角形\n"");
+            break:
+        case 3:
+            printf(""鈍角三角形\n"");
+            break:
+        default:
+            printf(""Error\n"");
+            break:
+    }
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:51:25.873Z,user_011,user11,32,run,"#include <stdio.h>
+
+void checktri(int a,int b,int c){
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            return 1;
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            return 2;
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            return 3;
+        }
+    //成立しない場合
+    } else {
+        //error
+        return 0;
+    }
+}
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    int r; //戻り値代入用
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    r = checktri(a,b,c);
+    switch(r){
+        case 1:
+            printf(""直角三角形\n"");
+            break:
+        case 2:
+            printf(""鋭角三角形\n"");
+            break:
+        case 3:
+            printf(""鈍角三角形\n"");
+            break:
+        default:
+            printf(""Error\n"");
+            break:
+    }
+    
+    return 0;
+}",,"file0.code.c: In function 'checktri':
+file0.code.c:8:20: warning: 'return' with a value, in function returning void
+    8 |             return 1;
+      |                    ^
+file0.code.c:3:6: note: declared here
+    3 | void checktri(int a,int b,int c){
+      |      ^~~~~~~~
+file0.code.c:12:20: warning: 'return' with a value, in function returning void
+   12 |             return 2;
+      |                    ^
+file0.code.c:3:6: note: declared here
+    3 | void checktri(int a,int b,int c){
+      |      ^~~~~~~~
+file0.code.c:16:20: warning: 'return' with a value, in function returning void
+   16 |             return 3;
+      |                    ^
+file0.code.c:3:6: note: declared here
+    3 | void checktri(int a,int b,int c){
+      |      ^~~~~~~~
+file0.code.c:21:16: warning: 'return' with a value, in function returning void
+   21 |         return 0;
+      |                ^
+file0.code.c:3:6: note: declared here
+    3 | void checktri(int a,int b,int c){
+      |      ^~~~~~~~
+file0.code.c: In function 'main':
+",,,,
+2025-12-18T04:51:27.505Z,user_011,user11,32,run,"#include <stdio.h>
+
+void checktri(int a,int b,int c){
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            return 1;
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            return 2;
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            return 3;
+        }
+    //成立しない場合
+    } else {
+        //error
+        return 0;
+    }
+}
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    int r; //戻り値代入用
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    r = checktri(a,b,c);
+    switch(r){
+        case 1:
+            printf(""直角三角形\n"");
+            break:
+        case 2:
+            printf(""鋭角三角形\n"");
+            break:
+        case 3:
+            printf(""鈍角三角形\n"");
+            break:
+        default:
+            printf(""Error\n"");
+            break:
+    }
+    
+    return 0;
+}",,"file0.code.c: In function 'checktri':
+file0.code.c:8:20: warning: 'return' with a value, in function returning void
+    8 |             return 1;
+      |                    ^
+file0.code.c:3:6: note: declared here
+    3 | void checktri(int a,int b,int c){
+      |      ^~~~~~~~
+file0.code.c:12:20: warning: 'return' with a value, in function returning void
+   12 |             return 2;
+      |                    ^
+file0.code.c:3:6: note: declared here
+    3 | void checktri(int a,int b,int c){
+      |      ^~~~~~~~
+file0.code.c:16:20: warning: 'return' with a value, in function returning void
+   16 |             return 3;
+      |                    ^
+file0.code.c:3:6: note: declared here
+    3 | void checktri(int a,int b,int c){
+      |      ^~~~~~~~
+file0.code.c:21:16: warning: 'return' with a value, in function returning void
+   21 |         return 0;
+      |                ^
+file0.code.c:3:6: note: declared here
+    3 | void checktri(int a,int b,int c){
+      |      ^~~~~~~~
+",,,,
+2025-12-18T04:51:35.443Z,user_011,user11,32,run,"#include <stdio.h>
+
+void checktri(int a,int b,int c){
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            return 1;
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            return 2;
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            return 3;
+        }
+    //成立しない場合
+    } else {
+        //error
+        return 0;
+    }
+}
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    int r; //戻り値代入用
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    r = checktri(a,b,c);
+    switch(r){
+        case 1:
+            printf(""直角三角形\n"");
+            break:
+        case 2:
+            printf(""鋭角三角形\n"");
+            break:
+        case 3:
+            printf(""鈍角三角形\n"");
+            break:
+        default:
+            printf(""Error\n"");
+            break:
+    }
+    
+    return 0;
+}",,"file0.code.c: In function 'checktri':
+file0.code.c:8:20: warning: 'return' with a value, in function returning void
+    8 |             return 1;
+      |                    ^
+file0.code.c:3:6: note: declared here
+    3 | void checktri(int a,int b,int c){
+      |      ^~~~~~~~
+file0.code.c:12:20: warning: 'return' with a value, in function returning void
+   12 |             return 2;
+      |                    ^
+file0.code.c:3:6: note: declared here
+    3 | void checktri(int a,int b,int c){
+      |      ^~~~~~~~
+file0.code.c:16:20: warning: 'return' with a value, in function returning void
+   16 |             return 3;
+      |                    ^
+file0.code.c:3:6: note: declared here
+    3 | void checktri(int a,int b,int c){
+      |      ^~~~~~~~
+file0.code.c:21:16: warning: 'return' with a value, in function returning void
+   21 |         return 0;
+      |                ^
+file0.code.c:3:6: note: declared here
+    3 | void checktri(int a,int b,int c){
+      |      ^~~~~~~~
+",,,,
+2025-12-18T04:52:04.130Z,user_011,user11,32,ai-help,"#include <stdio.h>
+
+void checktri(int a,int b,int c){
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            return 1;
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            return 2;
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            return 3;
+        }
+    //成立しない場合
+    } else {
+        //error
+        return 0;
+    }
+}
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    int r; //戻り値代入用
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    r = checktri(a,b,c);
+    switch(r){
+        case 1:
+            printf(""直角三角形\n"");
+            break:
+        case 2:
+            printf(""鋭角三角形\n"");
+            break:
+        case 3:
+            printf(""鈍角三角形\n"");
+            break:
+        default:
+            printf(""Error\n"");
+            break:
+    }
+    
+    return 0;
+}",,,コード化,コードの整合性確認,"[{""level"": 1, ""text"": ""関数 checktri: 三角形成立判定と角の種類判定をして0〜3を返す役割"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""三角形成立判定: a < b + c の条件で成立を判定している"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""角判定: a*a == b*b + c*c などで直角/鋭角/鈍角を判定している"", ""status"": ""in_progress""}, {""level"": 1, ""text"": ""main関数: 入力を読み、checktriを呼び戻り値でswitchして出力する処理"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""入力処理: scanfでa,b,cを読み取っている"", ""status"": ""done""}, {""level"": 2, ""text"": ""checktri呼び出しとswitch: 戻り値を変数rに受けてcaseで表示する"", ""status"": ""in_progress""}]","[{""level"": 1, ""text"": ""今は実装中の段階です。まず関数の役割（何を返すか）をもう一度確認しましょう。""}, {""level"": 2, ""text"": ""型と戻り値の整合性、return文やswitchの文法ミス（例えば break の書き方）を点検してください。""}, {""level"": 3, ""text"": ""checktriはintを返すよう宣言し、引数はfloat/doubleにする。浮動小数の比較は直接==ではなく許容誤差（例: fabs(a*a - (b*b + c*c)) < 1e-6）で判定し、switch内の break は 'break;' と正しく書くよう修正して下さい。""}]"
+2025-12-18T04:52:25.212Z,user_011,user11,32,auto_save,"#include <stdio.h>
+
+void checktri(float a,float b,int c){
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            return 1;
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            return 2;
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            return 3;
+        }
+    //成立しない場合
+    } else {
+        //error
+        return 0;
+    }
+}
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    int r; //戻り値代入用
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    r = checktri(a,b,c);
+    switch(r){
+        case 1:
+            printf(""直角三角形\n"");
+            break:
+        case 2:
+            printf(""鋭角三角形\n"");
+            break:
+        case 3:
+            printf(""鈍角三角形\n"");
+            break:
+        default:
+            printf(""Error\n"");
+            break:
+    }
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:52:32.571Z,user_011,user11,32,run,"#include <stdio.h>
+
+void checktri(float a,float b,float c){
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            return 1;
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            return 2;
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            return 3;
+        }
+    //成立しない場合
+    } else {
+        //error
+        return 0;
+    }
+}
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    int r; //戻り値代入用
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    r = checktri(a,b,c);
+    switch(r){
+        case 1:
+            printf(""直角三角形\n"");
+            break:
+        case 2:
+            printf(""鋭角三角形\n"");
+            break:
+        case 3:
+            printf(""鈍角三角形\n"");
+            break:
+        default:
+            printf(""Error\n"");
+            break:
+    }
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:52:35.214Z,user_011,user11,32,auto_save,"#include <stdio.h>
+
+void checktri(float a,float b,float c){
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            return 1;
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            return 2;
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            return 3;
+        }
+    //成立しない場合
+    } else {
+        //error
+        return 0;
+    }
+}
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    int r; //戻り値代入用
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    r = checktri(a,b,c);
+    switch(r){
+        case 1:
+            printf(""直角三角形\n"");
+            break:
+        case 2:
+            printf(""鋭角三角形\n"");
+            break:
+        case 3:
+            printf(""鈍角三角形\n"");
+            break:
+        default:
+            printf(""Error\n"");
+            break:
+    }
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:52:44.161Z,user_011,user11,32,run,"#include <stdio.h>
+
+void checktri(float a,float b,float c){
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            return 1;
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            return 2;
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            return 3;
+        }
+    //成立しない場合
+    } else {
+        //error
+        return 0;
+    }
+}
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    int r; //戻り値代入用
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    r = checktri(a,b,c);
+    switch(r){
+        case 1:
+            printf(""直角三角形\n"");
+            break;
+        case 2:
+            printf(""鋭角三角形\n"");
+            break;
+        case 3:
+            printf(""鈍角三角形\n"");
+            breakl
+        default:
+            printf(""Error\n"");
+            break;
+    }
+    
+    return 0;
+}",,"file0.code.c: In function 'checktri':
+file0.code.c:8:20: warning: 'return' with a value, in function returning void
+    8 |             return 1;
+      |                    ^
+file0.code.c:3:6: note: declared here
+    3 | void checktri(float a,float b,float c){
+      |      ^~~~~~~~
+file0.code.c:12:20: warning: 'return' with a value, in function returning void
+   12 |             return 2;
+      |                    ^
+file0.code.c:3:6: note: declared here
+    3 | void checktri(float a,float b,float c){
+      |      ^~~~~~~~
+file0.code.c:16:20: warning: 'return' with a value, in function returning void
+   16 |             return 3;
+      |                    ^
+file0.code.c:3:6: note: declared here
+    3 | void checktri(float a,float b,float c){
+      |      ^~~~~~~~
+file0.code.c:21:16: warning: 'return' with a value, in function returning void
+   21 |         return 0;
+      |                ^
+file0.code.c:3:6: note: declared here
+    3 | void checktri(float a,float b,float c){
+      |      ^~~~~~~~
+",,,,
+2025-12-18T04:52:45.221Z,user_011,user11,32,auto_save,"#include <stdio.h>
+
+void checktri(float a,float b,float c){
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            return 1;
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            return 2;
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            return 3;
+        }
+    //成立しない場合
+    } else {
+        //error
+        return 0;
+    }
+}
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    int r; //戻り値代入用
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    r = checktri(a,b,c);
+    switch(r){
+        case 1:
+            printf(""直角三角形\n"");
+            break;
+        case 2:
+            printf(""鋭角三角形\n"");
+            break;
+        case 3:
+            printf(""鈍角三角形\n"");
+            breakl
+        default:
+            printf(""Error\n"");
+            break;
+    }
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:52:52.995Z,user_011,user11,32,run,"#include <stdio.h>
+
+void checktri(float a,float b,float c){
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            return 1;
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            return 2;
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            return 3;
+        }
+    //成立しない場合
+    } else {
+        //error
+        return 0;
+    }
+}
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    int r; //戻り値代入用
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    r = checktri(a,b,c);
+    switch(r){
+        case 1:
+            printf(""直角三角形\n"");
+            break;
+        case 2:
+            printf(""鋭角三角形\n"");
+            break;
+        case 3:
+            printf(""鈍角三角形\n"");
+            break;
+        default:
+            printf(""Error\n"");
+            break;
+    }
+    
+    return 0;
+}",,"file0.code.c: In function 'checktri':
+file0.code.c:8:20: warning: 'return' with a value, in function returning void
+    8 |             return 1;
+      |                    ^
+file0.code.c:3:6: note: declared here
+    3 | void checktri(float a,float b,float c){
+      |      ^~~~~~~~
+file0.code.c:12:20: warning: 'return' with a value, in function returning void
+   12 |             return 2;
+      |                    ^
+file0.code.c:3:6: note: declared here
+    3 | void checktri(float a,float b,float c){
+      |      ^~~~~~~~
+file0.code.c:16:20: warning: 'return' with a value, in function returning void
+   16 |             return 3;
+      |                    ^
+file0.code.c:3:6: note: declared here
+    3 | void checktri(float a,float b,float c){
+      |      ^~~~~~~~
+file0.code.c:21:16: warning: 'return' with a value, in function returning void
+   21 |         return 0;
+      |                ^
+file0.code.c:3:6: note: declared here
+    3 | void checktri(float a,float b,float c){
+      |      ^~~~~~~~
+",,,,
+2025-12-18T04:52:53.517Z,user_011,user11,32,run,"#include <stdio.h>
+
+void checktri(float a,float b,float c){
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            return 1;
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            return 2;
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            return 3;
+        }
+    //成立しない場合
+    } else {
+        //error
+        return 0;
+    }
+}
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    int r; //戻り値代入用
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    r = checktri(a,b,c);
+    switch(r){
+        case 1:
+            printf(""直角三角形\n"");
+            break;
+        case 2:
+            printf(""鋭角三角形\n"");
+            break;
+        case 3:
+            printf(""鈍角三角形\n"");
+            break;
+        default:
+            printf(""Error\n"");
+            break;
+    }
+    
+    return 0;
+}",,"file0.code.c: In function 'checktri':
+file0.code.c:8:20: warning: 'return' with a value, in function returning void
+    8 |             return 1;
+      |                    ^
+file0.code.c:3:6: note: declared here
+    3 | void checktri(float a,float b,float c){
+      |      ^~~~~~~~
+file0.code.c:12:20: warning: 'return' with a value, in function returning void
+   12 |             return 2;
+      |                    ^
+file0.code.c:3:6: note: declared here
+    3 | void checktri(float a,float b,float c){
+      |      ^~~~~~~~
+",,,,
+2025-12-18T04:52:55.211Z,user_011,user11,32,auto_save,"#include <stdio.h>
+
+void checktri(float a,float b,float c){
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            return 1;
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            return 2;
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            return 3;
+        }
+    //成立しない場合
+    } else {
+        //error
+        return 0;
+    }
+}
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    int r; //戻り値代入用
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    r = checktri(a,b,c);
+    switch(r){
+        case 1:
+            printf(""直角三角形\n"");
+            break;
+        case 2:
+            printf(""鋭角三角形\n"");
+            break;
+        case 3:
+            printf(""鈍角三角形\n"");
+            break;
+        default:
+            printf(""Error\n"");
+            break;
+    }
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:53:36.013Z,user_011,user11,32,ai-help,"#include <stdio.h>
+
+void checktri(float a,float b,float c){
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            return 1;
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            return 2;
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            return 3;
+        }
+    //成立しない場合
+    } else {
+        //error
+        return 0;
+    }
+}
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    int r; //戻り値代入用
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    r = checktri(a,b,c);
+    switch(r){
+        case 1:
+            printf(""直角三角形\n"");
+            break;
+        case 2:
+            printf(""鋭角三角形\n"");
+            break;
+        case 3:
+            printf(""鈍角三角形\n"");
+            break;
+        default:
+            printf(""Error\n"");
+            break;
+    }
+    
+    return 0;
+}",,,コード化,コードの整合性確認,"[{""level"": 1, ""text"": ""関数 checktri を定義して三角形判定を行う"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""三角形が成立するかを検査 (a < b + c)"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""直角・鋭角・鈍角の判定を a^2 と b^2+c^2 の比較で行う"", ""status"": ""in_progress""}, {""level"": 1, ""text"": ""main で入力を読み取り checktri を呼び出し結果を switch で出力"", ""status"": ""in_progress""}, {""level"": 2, ""text"": ""入力を scanf で受け取る (a,b,c)"", ""status"": ""done""}, {""level"": 2, ""text"": ""checktri の戻り値を受け取り switch-case で表示する"", ""status"": ""in_progress""}]","[{""level"": 1, ""text"": ""まずコンパイルエラーや警告が出ていないか確認しましょう。""}, {""level"": 2, ""text"": ""関数の戻り値の型と return を一致させ、浮動小数点の比較に注意してください。""}, {""level"": 3, ""text"": ""checktri を int 型で定義し、等号判定は fabs(a*a - (b*b + c*c)) < 1e-6 のように差の絶対値で行う。math.h を使って実装・再コンパイルして確認してください。""}]"
+2025-12-18T04:53:55.211Z,user_011,user11,32,auto_save,"#include <stdio.h>
+
+float checktri(float a,float b,float c){
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            return 1;
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            return 2;
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            return 3;
+        }
+    //成立しない場合
+    } else {
+        //error
+        return 0;
+    }
+}
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    int r; //戻り値代入用
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    r = checktri(a,b,c);
+    switch(r){
+        case 1:
+            printf(""直角三角形\n"");
+            break;
+        case 2:
+            printf(""鋭角三角形\n"");
+            break;
+        case 3:
+            printf(""鈍角三角形\n"");
+            break;
+        default:
+            printf(""Error\n"");
+            break;
+    }
+    
+    return 0;
+}",,,,,,
+2025-12-18T04:53:57.915Z,user_011,user11,32,run,"#include <stdio.h>
+
+float checktri(float a,float b,float c){
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            return 1;
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            return 2;
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            return 3;
+        }
+    //成立しない場合
+    } else {
+        //error
+        return 0;
+    }
+}
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    int r; //戻り値代入用
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    r = checktri(a,b,c);
+    switch(r){
+        case 1:
+            printf(""直角三角形\n"");
+            break;
+        case 2:
+            printf(""鋭角三角形\n"");
+            break;
+        case 3:
+            printf(""鈍角三角形\n"");
+            break;
+        default:
+            printf(""Error\n"");
+            break;
+    }
+    
+    return 0;
+}","Error
+",,,,,
+2025-12-18T04:54:09.562Z,user_011,user11,32,run,"#include <stdio.h>
+
+float checktri(float a,float b,float c){
+    //三角形が成立するかを検証する
+    if (a < b + c){
+        //直角三角形
+        if (a*a == b*b + c*c) {
+            return 1;
+        }
+        //鋭角三角形
+        else if (a*a < b*b + c*c) {
+            return 2;
+        }
+        //鈍角三角形
+        else if (a*a > b*b + c*c) {
+            return 3;
+        }
+    //成立しない場合
+    } else {
+        //error
+        return 0;
+    }
+}
+
+int main(void) {
+    //aを最大値として辺の長さを作成
+    float a,b,c;
+    int r; //戻り値代入用
+    
+    //入力
+    scanf(""%f"",&a);
+    scanf(""%f"",&b);
+    scanf(""%f"",&c);
+    
+    r = checktri(a,b,c);
+    switch(r){
+        case 1:
+            printf(""直角三角形\n"");
+            break;
+        case 2:
+            printf(""鋭角三角形\n"");
+            break;
+        case 3:
+            printf(""鈍角三角形\n"");
+            break;
+        default:
+            printf(""Error\n"");
+            break;
+    }
+    
+    return 0;
+}","直角三角形
+",,,,,

@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-12-24T14:10:24.355Z",
+  "username": "user01",
+  "userId": "user_001",
+  "taskNumber": "49",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\nint line3(int n);\nint tri3(int n);\n\nint main(void) {\n    /*入力:1つの整数, \n    出力:1行目に'*'、2行目に'**'…n行目に'*'をn個、最後に 'COUNT=' と合計*/\n    // 1. 入力を受け取る\n        // 段数を格納する変数（n）を定義する。\n        int n;\n        // scanfを用いて整数を入力し、nに代入する。\n        scanf(\"%d\", &n);\n    // 2. tri3を呼ぶ\n        // nを引数として tri3 関数を呼び出し、三角形の描画処理を開始する。\n        int count = tri3(n);\n        printf(\"\\nCOUNT=%d\\n\", count);\n    return 0;\n}\n\n// tri3関数を作成する\nint tri3(int n){\n    // 再帰の終了条件をチェックする（n > 0 のときだけ実行）。\n    printf(\"n=%d\\n\", n); \n    int count = 0;\n    if(n > 0){\n        // 【再帰呼び出し】自分より小さい三角形（n-1段）を先に描画させるため、tri3(n-1) を呼ぶ。\n        count += tri3(n - 1);\n        // 現在の行（n個の星）を描画するため、line3(n) を呼ぶ。\n        count += line3(n);\n    }\n    return count;\n}\n\n// line3関数を作成する\nint line3(int n){\n    // 再帰の条件分岐を行う。\n    int count = 0;\n    if(n > 0){\n        // もし n > 0 なら：\n            // 画面に '*' を1つ出力する。\n            printf(\"*\");\n            count = 1;\n            // 残りの星（n-1個）を描画するため、line3(n-1) を再帰的に呼ぶ。\n            count += line3(n - 1);\n    } else {\n        // もし n == 0 なら：\n            // 再帰を終了する。\n            printf(\"\\n\");\n    }\n    return count;\n}\n",
+  "estimated_stage": "コードの整合性確認",
+  "next_stage": "コードの整合性確認",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main: 整数を読み取り tri3 を呼び出し、最後に COUNT を出力する処理",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "tri3: 再帰で小さい段から呼び出し、各行の星数を集計して返す処理",
+      "status": "in_progress"
+    },
+    {
+      "level": 3,
+      "text": "line3: 再帰で '*' を出力し、行末で改行してその行の星数を返す処理",
+      "status": "done"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "出力結果を実際に確認して、余分な文字や空行が混ざっていないか見てください。"
+    },
+    {
+      "level": 2,
+      "text": "tri3→line3 の呼び出し順と return の合算が期待通りか、入力例（例えば n=5）で追跡して確かめてください。"
+    },
+    {
+      "level": 3,
+      "text": "デバッグ用の printf(\"n=%d\\n\", n); を削除し、main の printf(\"\\nCOUNT=%d\\n\", count); を printf(\"COUNT=%d\\n\", count); に変えると余分な行が消えます。"
+    }
+  ]
+}

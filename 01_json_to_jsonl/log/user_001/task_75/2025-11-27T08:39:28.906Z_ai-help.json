@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-11-27T08:39:28.906Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n    //入力を受け付ける。\n    //パスカルの三角形を計算する。\n    //出力する。\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の大枠決定",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数：入力・計算・出力をまとめて処理する場所",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力を受け付ける（整数nを読み取る）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "パスカルの三角形を計算する（2次元配列と繰り返しで値を埋める）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "計算結果を%3dで整形して出力する",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "課題の要件をもう一度確認し、入力は1つの整数、出力はその行数分のパスカルの三角形であることを意識してください。"
+    },
+    {
+      "level": 2,
+      "text": "処理の流れを決めて、どの部分を関数にするか考えてください（問題文にあるpascal関数が必要です）。"
+    },
+    {
+      "level": 3,
+      "text": "mainでnを読み取り、pascal関数を作って2次元配列を埋め、%3dで各行を出力する、という3〜4行のコメントを実際に書いてください。"
+    }
+  ]
+}

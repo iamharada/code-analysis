@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-12-18T04:06:10.166Z",
+  "username": "user2",
+  "userId": "user_002",
+  "taskNumber": "14",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:三つの実数, 出力:三角形の形状判定*/\n    //入力を受け付ける\n    //\n    //\n    //\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の大枠決定",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数: プログラム開始と全体の制御",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "課題の入出力の記述（/*入力:三つの実数, 出力:三角形の形状判定*/）",
+      "status": "done"
+    },
+    {
+      "level": 2,
+      "text": "入力を受け付ける（//入力を受け付ける がコメントのみ）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "プログラム終了（return 0; がある）",
+      "status": "done"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "まず全体の流れを固めよう：入力を読み、三角形の成立を確認し、種類を判定して出力する順序をイメージして下さい。"
+    },
+    {
+      "level": 2,
+      "text": "必要な処理を箇条書きにしてみて：入力読み取り、成立条件チェック、角度判定（平方で比較）、結果の表示の4つを明記すること。"
+    },
+    {
+      "level": 3,
+      "text": "具体的手順の例：1) scanfで3つのdoubleを読む（最初が最大と仮定） 2) 成立条件は a < b + c なら三角形 3) a*a と b*b+c*c を比較して直角/鋭角/鈍角を判定 4) 成立しないときは Error を出力（改行あり）"
+    }
+  ]
+}

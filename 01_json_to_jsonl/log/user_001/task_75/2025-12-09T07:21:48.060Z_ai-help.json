@@ -1,0 +1,36 @@
+{
+  "timestamp": "2025-12-09T07:21:48.060Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n    //入力をパスカルの三角形の段数として受け付ける。\n    //入力値（段数）をpascal関数に渡す。\n    return 0;\n}\n//入力された段数分のパスカルの三角形を出力するpascal関数を作る\n",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数: 入力を受け取り、pascal関数に渡す（コメントあり）",
+      "status": "in_progress"
+    },
+    {
+      "level": 1,
+      "text": "pascal関数: 入力された段数分のパスカルの三角形を出力する（未実装）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "どのコメントを詳細化するか決めよう：main側の入力処理とpascal関数内の処理を分けて考えて。"
+    },
+    {
+      "level": 2,
+      "text": "pascal関数内をさらに分解して、配列の準備・初期化・計算のループ・整形出力の順でサブコメントを書こう。"
+    },
+    {
+      "level": 3,
+      "text": "具体的にはn×nのint配列を使い、各行の両端を1にして中は上の2つの和で計算し、printf(\"%3d\")で各要素を出力、行の終わりで改行する、と書けるようにしよう。"
+    }
+  ]
+}

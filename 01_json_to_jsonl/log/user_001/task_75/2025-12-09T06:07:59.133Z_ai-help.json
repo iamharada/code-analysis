@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-12-09T06:07:59.133Z",
+  "username": "user1",
+  "userId": "user_001",
+  "taskNumber": "75",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:1つの整数, 出力:1つの整数の行数分のパスカルの三角形*/\n    //入力を受け付ける。\n    //計算する。\n    //出力する。\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "main関数の雛形（コメントで入力・計算・出力を分けている）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力を受け付ける（整数nを読む）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "計算する（パスカルの三角形を二次元配列で作る）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "出力する（%3dで整形して行ごとに表示）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "今のコメントを見て、どれを細かく書けば実装できそうかを決めましょう（入力・計算・出力）。"
+    },
+    {
+      "level": 2,
+      "text": "計算部分は二次元配列を使い、各要素は上の行の左右の和で決まることを意識して処理手順を考えてください。"
+    },
+    {
+      "level": 3,
+      "text": "関数pascalを作ることを決め、配列を初期化して a[i][0]=a[i][i]=1、その他は a[i][j]=a[i-1][j-1]+a[i-1][j] のループをコメント化してから実装し、出力は \"%3d\" を使い行末は改行だけにしてください。"
+    }
+  ]
+}

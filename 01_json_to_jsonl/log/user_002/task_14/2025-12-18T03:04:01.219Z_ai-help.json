@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-12-18T03:04:01.219Z",
+  "username": "user2",
+  "userId": "user_002",
+  "taskNumber": "14",
+  "event": "ai-help",
+  "code": "#include <stdio.h>\n\nint main(void) {\n    /*入力:3つの実数, 出力:三角形の判定結果または三角形にならない場合（Error）*/\n    //入力の受け付け\n    //成立判定\n    //形状判定\n    //出力\n    return 0;\n}",
+  "estimated_stage": "処理の大枠決定",
+  "next_stage": "処理の詳細化",
+  "processing_structure": [
+    {
+      "level": 1,
+      "text": "課題の要約コメント（入力:3つの実数、出力:判定またはError）",
+      "status": "done"
+    },
+    {
+      "level": 1,
+      "text": "main関数の処理フロー（高レベルのコメント）",
+      "status": "in_progress"
+    },
+    {
+      "level": 2,
+      "text": "入力の受け付け（3つの実数を読み取る）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "成立判定（三角形の成立条件を確認）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "形状判定（直角・鋭角・鈍角の判定）",
+      "status": "todo"
+    },
+    {
+      "level": 2,
+      "text": "出力（判定結果を表示し改行する）",
+      "status": "todo"
+    }
+  ],
+  "advice": [
+    {
+      "level": 1,
+      "text": "どのコメントを詳細化すべきか確認しよう：入力→成立判定→形状判定→出力の順で考えてみてください。"
+    },
+    {
+      "level": 2,
+      "text": "各コメントを具体化しよう：入力は3つのdoubleで読み、成立判定と角度判定の条件を書き出してみてください。"
+    },
+    {
+      "level": 3,
+      "text": "具体手順案：double a,b,cを読み（scanf）、まずa>=b+cなら\"Error\"を出力；それ以外はa*a と b*b+c*cを比較して等しい→\"直角三角形\"、小さい→\"鋭角三角形\"、大きい→\"鈍角三角形\"（最後に改行）。"
+    }
+  ]
+}
