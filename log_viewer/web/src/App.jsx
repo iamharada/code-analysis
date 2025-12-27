@@ -499,34 +499,62 @@ export default function App() {
             <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
               {timeline.map((ev, i) => {
                 const st = timelineStyleFor(ev.event);
+                const isSelected = i === selectedIdx;
+
                 return (
                   <button
                     key={ev.idx ?? i}
                     onClick={() => setSelectedIdx(i)}
                     style={{
                       textAlign: "left",
-                      padding: "10px 10px",
-                      borderRadius: 12,
+                      padding: "6px 8px",          // ←小さく
+                      borderRadius: 10,
                       border: `1px solid ${st.border}`,
-                      background: i === selectedIdx ? "#eef2ff" : st.bg,
+                      background: isSelected ? "#eef2ff" : st.bg,
                       cursor: "pointer",
                       position: "relative",
+                      lineHeight: 1.15,
                     }}
+                    title={`${fmtTs(ev.ts)} / idx:${ev.idx}`} // ←スクロール無しの代わりに hover で詳細
                   >
-                    <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+                    <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
                       <span
                         style={{
-                          width: 8,
-                          height: 8,
+                          width: 6,
+                          height: 6,
                           borderRadius: 999,
                           background: st.dot,
                           display: "inline-block",
+                          flex: "0 0 auto",
                         }}
                       />
-                      <div style={{ fontWeight: 800 }}>{ev.event ?? "(no event)"}</div>
+                      <div
+                        style={{
+                          fontWeight: 800,
+                          fontSize: 11.5,
+                          whiteSpace: "nowrap",
+                          overflow: "hidden",
+                          textOverflow: "ellipsis",
+                          flex: 1,
+                        }}
+                      >
+                        {String(ev.event ?? "(no event)")}
+                      </div>
+
+                      <div
+                        style={{
+                          fontSize: 10.5,
+                          color: "#94a3b8",
+                          flex: "0 0 auto",
+                        }}
+                      >
+                        {ev.idx ?? i}
+                      </div>
                     </div>
-                    <div style={{ fontSize: 12, color: "#666", marginTop: 4 }}>{fmtTs(ev.ts)}</div>
-                    <div style={{ fontSize: 12, color: "#888" }}>idx: {ev.idx}</div>
+
+                    {/* ts は “全体表示優先” で基本非表示にして title に寄せる */}
+                    {/* どうしても欲しければ次の行を復活させてOK */}
+                    {/* <div style={{ fontSize: 10.5, color: "#9ca3af", marginTop: 2 }}>{fmtTs(ev.ts)}</div> */}
                   </button>
                 );
               })}
