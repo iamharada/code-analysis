@@ -64,6 +64,7 @@ function toAdviceLevels(advice) {
   const res = { 1: [], 2: [], 3: [] };
   if (!advice) return res;
 
+  // 例: [{level:1,text:"..."}, ...]
   if (Array.isArray(advice)) {
     for (const a of advice) {
       const lv = Number(a?.level);
@@ -73,6 +74,7 @@ function toAdviceLevels(advice) {
     return res;
   }
 
+  // 例: { level1: "...", level2:"...", level3:"..." }
   if (typeof advice === "object") {
     const l1 = advice.level1 ?? advice.Level1 ?? advice["1"];
     const l2 = advice.level2 ?? advice.Level2 ?? advice["2"];
@@ -100,6 +102,77 @@ function normalizeProcessingStructure(ps) {
   }
   if (typeof ps === "string") return [{ level: 1, text: ps, status: "unknown" }];
   return [];
+}
+
+// ---------- TAB / INDENT FIX ----------
+const TAB_SIZE = 4;
+
+// ① \t（実タブ）も ② \\t（文字列の \t）も両方スペースに展開
+function expandTabsAny(s = "") {
+  return String(s)
+    .replace(/\\t/g, " ".repeat(TAB_SIZE)) // 文字列 "\t"
+    .replace(/\t/g, " ".repeat(TAB_SIZE)); // 実タブ
+}
+
+// highlight前の「生テキスト」で先頭スペースをNBSPにする（=必ず見える）
+function leadingSpacesToNbsp(text = "") {
+  const t = String(text);
+  const m = t.match(/^ +/);
+  if (!m) return t;
+  return "\u00A0".repeat(m[0].length) + t.slice(m[0].length);
+}
+
+// どんな値でも “コード文字列” を取り出す（ログ形式が違っても拾う）
+function extractCode(ev) {
+  if (!ev) return "";
+  // よくある候補を順に見る
+  const candidates = [
+    ev.code,
+    ev.current_code,
+    ev.curr_code,
+    ev.source,
+    ev.program,
+    ev.input?.code,
+    ev.payload?.code,
+    ev.data?.code,
+    ev.raw?.code,
+  ];
+  for (const c of candidates) {
+    if (typeof c === "string") return c;
+  }
+  // objectだったら JSONとして一応表示できるように（ただし基本は空でOK）
+  if (typeof ev.code === "object" && ev.code) return safeText(ev.code);
+  return "";
+}
+
+// stdout/stderr も形式違い吸収
+function extractStdout(ev) {
+  if (!ev) return "";
+  const candidates = [ev.stdout, ev.run_stdout, ev.output, ev.exec?.stdout, ev.result?.stdout, ev.raw?.stdout];
+  for (const c of candidates) {
+    if (typeof c === "string") return c;
+  }
+  return "";
+}
+function extractStderr(ev) {
+  if (!ev) return "";
+  const candidates = [ev.stderr, ev.run_stderr, ev.error, ev.exec?.stderr, ev.result?.stderr, ev.raw?.stderr];
+  for (const c of candidates) {
+    if (typeof c === "string") return c;
+  }
+  return "";
+}
+
+// timeline でイベント種別に色付け
+function timelineStyleFor(evName) {
+  const e = String(evName ?? "").toLowerCase();
+  if (e.includes("ai-help") || e.includes("ai_help") || e.includes("aihelp")) {
+    return { bg: "#f5f3ff", border: "#ddd6fe", dot: "#6d28d9" }; // purple
+  }
+  if (e === "run" || e.includes("run")) {
+    return { bg: "#eff6ff", border: "#bfdbfe", dot: "#1d4ed8" }; // blue
+  }
+  return { bg: "#fff", border: "#eee", dot: "#94a3b8" };
 }
 
 const monoFont =
@@ -196,20 +269,27 @@ export default function App() {
   }, [selectedUser, selectedTask]);
 
   const current = useMemo(() => timeline?.[selectedIdx] ?? null, [timeline, selectedIdx]);
-  const prev = useMemo(() => (selectedIdx > 0 ? timeline?.[selectedIdx - 1] : null), [timeline, selectedIdx]);
+  const prev = useMemo(
+    () => (selectedIdx > 0 ? timeline?.[selectedIdx - 1] : null),
+    [timeline, selectedIdx]
+  );
 
-  const mergedCodeRows = useMemo(() => {
-    const prevCode = prev?.code ?? "";
-    const currCode = current?.code ?? "";
-    return diffLinesLCS(prevCode, currCode);
-  }, [prev?.code, current?.code]);
+  // code: 形式違いに強く拾う
+  const currCodeText = useMemo(() => extractCode(current), [current]);
+  const prevCodeText = useMemo(() => extractCode(prev), [prev]);
+
+  const mergedCodeRows = useMemo(() => diffLinesLCS(prevCodeText, currCodeText), [prevCodeText, currCodeText]);
 
   const highlightedRows = useMemo(() => {
     const grammar = Prism.languages.c || Prism.languages.clike;
-    return mergedCodeRows.map((r) => ({
-      ...r,
-      html: Prism.highlight(r.line ?? "", grammar, "c"),
-    }));
+    return mergedCodeRows.map((r) => {
+      const raw = expandTabsAny(r.line ?? "");
+      const fixed = leadingSpacesToNbsp(raw);
+      return {
+        ...r,
+        html: Prism.highlight(fixed, grammar, "c"),
+      };
+    });
   }, [mergedCodeRows]);
 
   const adviceLevels = useMemo(() => toAdviceLevels(current?.advice), [current?.advice]);
@@ -217,6 +297,9 @@ export default function App() {
     () => normalizeProcessingStructure(current?.processing_structure),
     [current?.processing_structure]
   );
+
+  const stdoutText = useMemo(() => extractStdout(current), [current]);
+  const stderrText = useMemo(() => extractStderr(current), [current]);
 
   function clampIdx(i) {
     const max = Math.max(0, (timeline?.length ?? 0) - 1);
@@ -270,7 +353,7 @@ export default function App() {
   const side = {
     borderRight: "1px solid #eee",
     padding: 10,
-    overflow: "hidden", // ここは内部スクロールで対応
+    overflow: "hidden", // 内部スクロール
   };
 
   const sideList = {
@@ -285,11 +368,11 @@ export default function App() {
     padding: 14,
   };
 
-  // main を「上段ヘッダー + 残りを縦3段」で固定
+  // main を「上段ヘッダー + Event + Code + Bottom」で固定
   const mainLayout = {
     height: "100%",
     display: "grid",
-    gridTemplateRows: "44px 120px 1fr clamp(220px, 28vh, 360px)",
+    gridTemplateRows: "44px 120px 1fr 240px", // Header / Event / Code / Bottom
     gap: 10,
     overflow: "hidden",
   };
@@ -327,8 +410,8 @@ export default function App() {
 
   const monoBox = {
     fontFamily: monoFont,
-    fontSize: 12.5,
-    lineHeight: 1.55,
+    fontSize: 12.2,
+    lineHeight: 1.45,
   };
 
   const pill = {
@@ -341,6 +424,12 @@ export default function App() {
     background: "#fff",
     fontSize: 12,
     color: "#555",
+  };
+
+  // 下段は “スクロールしないで見える” を優先：文字小さめ＆折返し
+  const compactText = {
+    fontSize: 11.5,
+    lineHeight: 1.35,
   };
 
   // ---------- render ----------
@@ -409,33 +498,38 @@ export default function App() {
           <div style={sideList}>
             <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
               {timeline.map((ev, i) => {
-                  const kind = String(ev?.event ?? "").toLowerCase();
-                  const isAiHelp = kind === "ai-help" || kind === "ai_help";
-                  const isRun = kind === "run";
-
-                  const baseBg = i === selectedIdx ? "#eef2ff" : "#fff";
-                  const bg = isAiHelp ? "#f5f3ff" : isRun ? "#eff6ff" : baseBg;
-                  const border = isAiHelp ? "1px solid #ddd6fe" : isRun ? "1px solid #bfdbfe" : "1px solid #eee";
-
-                  return (
-                    <button
-                      key={ev.idx ?? i}
-                      onClick={() => setSelectedIdx(i)}
-                      style={{
-                        textAlign: "left",
-                        padding: "10px 10px",
-                        borderRadius: 12,
-                        border,
-                        background: bg,
-                        cursor: "pointer",
-                      }}
-                    >
+                const st = timelineStyleFor(ev.event);
+                return (
+                  <button
+                    key={ev.idx ?? i}
+                    onClick={() => setSelectedIdx(i)}
+                    style={{
+                      textAlign: "left",
+                      padding: "10px 10px",
+                      borderRadius: 12,
+                      border: `1px solid ${st.border}`,
+                      background: i === selectedIdx ? "#eef2ff" : st.bg,
+                      cursor: "pointer",
+                      position: "relative",
+                    }}
+                  >
+                    <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+                      <span
+                        style={{
+                          width: 8,
+                          height: 8,
+                          borderRadius: 999,
+                          background: st.dot,
+                          display: "inline-block",
+                        }}
+                      />
                       <div style={{ fontWeight: 800 }}>{ev.event ?? "(no event)"}</div>
-                      <div style={{ fontSize: 12, color: "#666" }}>{fmtTs(ev.ts)}</div>
-                      <div style={{ fontSize: 12, color: "#888" }}>idx: {ev.idx}</div>
-                    </button>
-                  );
-                })}
+                    </div>
+                    <div style={{ fontSize: 12, color: "#666", marginTop: 4 }}>{fmtTs(ev.ts)}</div>
+                    <div style={{ fontSize: 12, color: "#888" }}>idx: {ev.idx}</div>
+                  </button>
+                );
+              })}
             </div>
           </div>
         </div>
@@ -524,7 +618,9 @@ export default function App() {
                   <div style={{ color: "#666" }}>現在</div>
                   <div style={{ fontWeight: 800 }}>{current?.estimated_stage ?? "---"}</div>
                   <div style={{ color: "#666" }}>次</div>
-                  <div style={{ fontWeight: 800, color: "#4f46e5" }}>{current?.next_stage ?? "---"}</div>
+                  <div style={{ fontWeight: 800, color: "#4f46e5" }}>
+                    {current?.next_stage ?? "---"}
+                  </div>
                 </div>
               </div>
             )}
@@ -536,6 +632,7 @@ export default function App() {
                 <div style={{ fontSize: 12, color: "#777" }}>緑=追加 / 赤=削除（取り消し線）</div>
               </div>
 
+              {/* “TAB(ヘッダー行)” を復活：table header っぽい見た目 */}
               <div
                 style={{
                   marginTop: 8,
@@ -598,6 +695,8 @@ export default function App() {
                         >
                           {i + 1}
                         </div>
+
+                        {/* ここが “tab/インデント死ぬ” ことが多いので code 自体に強制 */}
                         <div
                           style={{
                             ...monoBox,
@@ -609,6 +708,12 @@ export default function App() {
                         >
                           <code
                             className="language-c"
+                            style={{
+                              whiteSpace: "pre",
+                              tabSize: TAB_SIZE,
+                              MozTabSize: TAB_SIZE,
+                              fontFamily: monoFont,
+                            }}
                             dangerouslySetInnerHTML={{ __html: r.html || "" }}
                           />
                         </div>
@@ -635,32 +740,46 @@ export default function App() {
                   <div style={{ fontSize: 12, color: "#6d28d9" }}>紫</div>
                 </div>
 
-                <div style={{ height: "calc(100% - 30px)", overflow: "auto" }}>
-                  <div style={{ display: "grid", gridTemplateColumns: "1fr", gap: 10 }}>
+                {/* スクロール無しを優先：小さめ＆折返し */}
+                <div style={{ height: "calc(100% - 30px)", overflow: "hidden" }}>
+                  <div style={{ display: "grid", gridTemplateRows: "1fr 1fr 1fr", gap: 8, height: "100%" }}>
                     {[1, 2, 3].map((lv) => (
                       <div
                         key={lv}
                         style={{
                           border: "1px solid #ddd6fe",
                           borderRadius: 12,
-                          padding: 10,
+                          padding: 8,
                           background: "#ffffff",
+                          overflow: "hidden",
+                          display: "grid",
+                          gridTemplateRows: "18px 1fr",
                         }}
                       >
-                        <div style={{ fontWeight: 800, marginBottom: 6, color: "#5b21b6" }}>
+                        <div style={{ fontWeight: 800, color: "#5b21b6", fontSize: 12 }}>
                           Level {lv}
                         </div>
-                        {adviceLevels[lv]?.length ? (
-                          <ul style={{ margin: 0, paddingLeft: 18 }}>
-                            {adviceLevels[lv].map((t, i) => (
-                              <li key={i} style={{ marginBottom: 6, whiteSpace: "pre-wrap" }}>
-                                {t}
-                              </li>
-                            ))}
-                          </ul>
-                        ) : (
-                          <div style={{ color: "#888" }}>(なし)</div>
-                        )}
+
+                        <div style={{ overflow: "hidden" }}>
+                          {adviceLevels[lv]?.length ? (
+                            <ul style={{ margin: 0, paddingLeft: 18, ...compactText }}>
+                              {adviceLevels[lv].slice(0, 8).map((t, i) => (
+                                <li
+                                  key={i}
+                                  style={{
+                                    marginBottom: 4,
+                                    whiteSpace: "pre-wrap",
+                                    wordBreak: "break-word",
+                                  }}
+                                >
+                                  {t}
+                                </li>
+                              ))}
+                            </ul>
+                          ) : (
+                            <div style={{ color: "#888", ...compactText }}>(なし)</div>
+                          )}
+                        </div>
                       </div>
                     ))}
                   </div>
@@ -674,47 +793,52 @@ export default function App() {
                   <div style={{ fontSize: 12, color: "#1d4ed8" }}>青</div>
                 </div>
 
+                {/* スクロール無し優先：preをやめて “折返し + 小さめ” */}
                 <div
                   style={{
                     display: "grid",
                     gridTemplateRows: "1fr 1fr",
-                    gap: 10,
+                    gap: 8,
                     height: "calc(100% - 30px)",
                     overflow: "hidden",
                   }}
                 >
                   <div style={{ overflow: "hidden", display: "grid", gridTemplateRows: "18px 1fr" }}>
-                    <div style={{ fontSize: 12, color: "#1f4ed8" }}>stdout</div>
-                    <pre
+                    <div style={{ fontSize: 12, color: "#1d4ed8" }}>stdout</div>
+                    <div
                       style={{
                         ...monoBox,
+                        ...compactText,
                         background: "#ffffff",
                         border: "1px solid #bfdbfe",
                         borderRadius: 12,
-                        padding: 10,
-                        overflow: "auto",
-                        margin: 0,
+                        padding: 8,
+                        overflow: "hidden",
+                        whiteSpace: "pre-wrap",
+                        wordBreak: "break-word",
                       }}
                     >
-{safeText(current?.stdout)}
-                    </pre>
+                      {stdoutText ? stdoutText : ""}
+                    </div>
                   </div>
 
                   <div style={{ overflow: "hidden", display: "grid", gridTemplateRows: "18px 1fr" }}>
-                    <div style={{ fontSize: 12, color: "#1f4ed8" }}>stderr</div>
-                    <pre
+                    <div style={{ fontSize: 12, color: "#1d4ed8" }}>stderr</div>
+                    <div
                       style={{
                         ...monoBox,
+                        ...compactText,
                         background: "#ffffff",
                         border: "1px solid #bfdbfe",
                         borderRadius: 12,
-                        padding: 10,
-                        overflow: "auto",
-                        margin: 0,
+                        padding: 8,
+                        overflow: "hidden",
+                        whiteSpace: "pre-wrap",
+                        wordBreak: "break-word",
                       }}
                     >
-{safeText(current?.stderr)}
-                    </pre>
+                      {stderrText ? stderrText : ""}
+                    </div>
                   </div>
                 </div>
               </div>
@@ -729,7 +853,7 @@ export default function App() {
                     overflow: "hidden",
                     display: "grid",
                     gridTemplateRows: "1fr 1fr",
-                    gap: 10,
+                    gap: 8,
                   }}
                 >
                   {/* Processing */}
@@ -740,27 +864,30 @@ export default function App() {
                         border: "1px solid #e5e7eb",
                         borderRadius: 12,
                         background: "#fafafa",
-                        padding: 10,
-                        overflow: "auto",
-                        fontSize: 12.5,
+                        padding: 8,
+                        overflow: "hidden",
+                        fontSize: 12,
                       }}
                     >
                       {processingStructure.length === 0 ? (
                         <div style={{ color: "#888" }}>構造を抽出できませんでした。</div>
                       ) : (
-                        processingStructure.map((it, i) => (
+                        processingStructure.slice(0, 14).map((it, i) => (
                           <div
                             key={i}
                             style={{
                               display: "flex",
                               gap: 8,
-                              padding: "3px 0",
-                              marginLeft: (Math.max(1, it.level) - 1) * 14,
+                              padding: "2px 0",
+                              marginLeft: (Math.max(1, it.level) - 1) * 12,
+                              fontSize: 11.5,
                             }}
                           >
                             <span style={{ width: 10, color: "#94a3b8" }}>•</span>
-                            <span style={{ color: "#111" }}>{it.text}</span>
-                            <span style={{ color: "#94a3b8", fontSize: 12 }}>({it.status})</span>
+                            <span style={{ color: "#111", overflow: "hidden", textOverflow: "ellipsis" }}>
+                              {it.text}
+                            </span>
+                            <span style={{ color: "#94a3b8", fontSize: 11 }}>({it.status})</span>
                           </div>
                         ))
                       )}
@@ -770,19 +897,21 @@ export default function App() {
                   {/* Raw */}
                   <div style={{ overflow: "hidden", display: "grid", gridTemplateRows: "18px 1fr" }}>
                     <div style={{ fontSize: 12, color: "#666" }}>Raw Event JSON</div>
-                    <pre
+                    <div
                       style={{
                         ...monoBox,
+                        ...compactText,
                         background: "#f8fafc",
                         border: "1px solid #e5e7eb",
                         borderRadius: 12,
-                        padding: 10,
-                        overflow: "auto",
-                        margin: 0,
+                        padding: 8,
+                        overflow: "hidden",
+                        whiteSpace: "pre-wrap",
+                        wordBreak: "break-word",
                       }}
                     >
-{safeText(current?.raw)}
-                    </pre>
+                      {safeText(current?.raw)}
+                    </div>
                   </div>
                 </div>
               </div>
